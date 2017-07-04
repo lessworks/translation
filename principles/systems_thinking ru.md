@@ -11,13 +11,13 @@ order: 40
 </p></div>
 
 
-“Что бы мы ни делали, количество дефектов в нашем бэклоге всегда примерно постоянно”, говорил наш менеджер; это был наш проект, состоящий из 15 миллионов строк кода, над которым работало несколько сотен разработчиков. Как это получилось? Нам может помочь разобраться системное мышление. В небольших группах правила игры неформальны и их легко понять, но при разработке крупного проекта --- или любой крупной системы --- это тяжело. Герри Вайнберг в этой ситуации выделяет два решающих фактора:
+“Что бы мы ни делали, количество дефектов в нашем бэклоге всегда примерно постоянно”, говорил наш менеджер; это был наш проект, состоящий из 15 миллионов строк кода, над которым работало несколько сотен разработчиков. Как так получается? Нам может помочь разобраться системное мышление. В небольших группах правила игры неформальны и их легко понять, но при разработке крупного проекта --- или любой крупной системы --- это тяжело. Джеральд Вайнберг в этой ситуации выделяет два решающих фактора:
 
-> **Weinberg-Brooks’ Law**{: style="color: #1997C0"}: More software projects have gone awry from management’s taking action based on ***incorrect system models*** than for all other causes combined.
+> **Закон Вайнберга-Брукса**{: style="color: #1997C0"}: От действий менеджеров, основанных на **неправильных моделях системы**, пострадало больше проектов, чем от всех остальных причин вместе взятых.
 >
-> **Causation Fallacy**{: style="color: #1997C0"}: Every effect has a cause... and we can tell which is which. [[Weinberg92]](http://www.amazon.com/Quality-Software-Management-Systems-Thinking/dp/0932633226/ref=sr_1_1?ie=UTF8&qid=1413527418&sr=8-1&keywords=Quality+Software+Management%3A+Systems+Thinking)
+> **Ловушка причинно-следственной связи**{: style="color: #1997C0"}: У каждого результата есть причина... и мы всегда можем разобраться, что есть причина, а что - следствие. [[Weinberg92]](http://www.amazon.com/Quality-Software-Management-Systems-Thinking/dp/0932633226/ref=sr_1_1?ie=UTF8&qid=1413527418&sr=8-1&keywords=Quality+Software+Management%3A+Systems+Thinking)
 
-These reflect the impact of our **mental models** on the system, a subject that will be revisited later in this section.
+Это - результат влияния нашей **ментальной модели** на систему, что будет предметом обсуждения ниже в этой секции.
 
 Problems stemming from mental models and assumptions are one issue. Another is that large-scale adoption of Scrum, lean thinking, and agile principles is not isolated to the development group. It bumps into product management, budgeting, beta-testing, launch, and governance and HR policies. Accordingly, in large-scale agile adoption it is useful to be able to get together with colleagues and *effectively reason* about the mental models, causal relations, feedback loops, and control mechanisms (or illusions of control) in a big system that is about to be seriously *perturbed.* Systems thinking is one of those reasoning tools.
 
