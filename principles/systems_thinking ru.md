@@ -17,62 +17,62 @@ order: 40
 >
 > **Ловушка причинно-следственной связи**{: style="color: #1997C0"}: У каждого результата есть причина... и мы всегда можем разобраться, что есть причина, а что - следствие. [[Weinberg92]](http://www.amazon.com/Quality-Software-Management-Systems-Thinking/dp/0932633226/ref=sr_1_1?ie=UTF8&qid=1413527418&sr=8-1&keywords=Quality+Software+Management%3A+Systems+Thinking)
 
-Это - результат влияния нашей **ментальной модели** на систему, что будет предметом обсуждения ниже в этой секции.
+Это - результат применения нашей **ментальной модели** к системе, о чем речь пойдет ниже в этой секции.
 
-Проблемы, возникающие из-за ментальных моделей и предположений - это половина дела. Вторая проблема - что внедрение Скрама в больших масштабах, бережливое мышление и принципы гибкой разработки не ограничиваются отделом разработки. Оно сталкивается с управлением продуктами, бюджетированием, бета-тестированием, выпуском, руководством и политиками найма. Следовательно, в случае масштабной трансформации полезно уметь собираться с коллегами и **эффективно рассуждать** о ментальных моделях, причинных связях, циклах обратной связи и механизмах управления (или иллюзии управления) большой системы, которую мы всерьёз собираемся *изменить*. Системное мышление - один из таких инструментов рассуждения.
+Проблемы, возникающие из-за ментальных моделей и предположений - это половина дела. Вторая проблема - что внедрение Скрама в больших масштабах, бережливое мышление и принципы гибкой разработки не ограничиваются только отделом разработки. Нам приходится сталкиваться с управлением продуктами, бюджетированием, бета-тестированием, выпуском, руководством и политиками найма. Следовательно, в случае масштабной трансформации полезно уметь собираться с коллегами и **эффективно рассуждать** о ментальных моделях, причинных связях, циклах обратной связи и механизмах управления (или иллюзии управления) большой системы, которую мы всерьёз собираемся *изменить*. Системное мышление - один из таких инструментов рассуждения.
 
 В 1958 году журнал *Harvard Business Review* опубликовал [“Industrial Dynamics: A Major Breakthrough for Decision Makers,”](http://www.lottepiil.dk/kandidat/Industrial%20Dynamics%20(Forrester%201958).pdf) прорывную статью Джея Форрестера (Jay Forrester), профессора MIT Sloan School. Эта статья дала толчок движению системного мышления в образовании, и Школа Менеджмента MIT Sloan вскоре получила известность благодаря обучению людей **системной динамике**. Системную динамику часто воспринимают как синоним **системного мышления**, хотя последнее - более общий термин.
 
 MIT привлек и других исследователей, ориентированных на динамику систем, таких как Питер Сендж (Peter Senge).<sup>[1](#footnote-1)</sup>
 
-Consistent with *Weinberg-Brook’s Law* , Forrester’s research showed that decision makers who were given dynamic models of a business system and asked to improve their output performance, *usually made them run worse* [[SKRRS94]](http://www.amazon.com/The-Fifth-Discipline-Fieldbook-Organization/dp/0385472560/ref=sr_1_fkmr0_3?ie=UTF8&qid=1413528034&sr=8-3-fkmr0&keywords=The+Fifth+Discipline+%EF%BF%BCFieldbook). The observation was that most people have weak judgement on how to fundamentally improve systems, usually applying incorrect “common sense” and quick-fix ‘solutions’ that do not create long-lasting systemic improvement.
+В соответствии с *законом Вайнберга-Брукса*, исследование Форрестера показало, что когда людям, принимающим решения, предлагали улучшить производительность системы на основании динамической модели бизнес системы, они *обычно делали её еще хуже* [[SKRRS94]](http://www.amazon.com/The-Fifth-Discipline-Fieldbook-Organization/dp/0385472560/ref=sr_1_fkmr0_3?ie=UTF8&qid=1413528034&sr=8-3-fkmr0&keywords=The+Fifth+Discipline+%EF%BF%BCFieldbook). Исследование показало, что большинство людей слабо способны фундаментально улучшать системы, обычно применяя неуместный "здравый смысл" и скороспелые 'решения', которые не приводят к долгосрочным систематическим улучшениям.
 
-Why is the behavior of a large development group (a system) not understood or guided skillfully? The answer lies, in part, in the behavior of stochastic systems with queues and variability, as explored in the [Queueing Theory](./queueing_theory.html) LeSS principle. And the same answer lies in *control theory* : Most systems of interest---such as a product development group---have complex positive and negative feedback loops and nonlinear behavior. The behavior of these systems defies our gut instinct. And then there is the minor issue of *people* .
+Почему же так сложно компетентно понять и управлять поведением большой группы разработки (или системы)? Ответ лежит, в частности, в поведении стохастических систем с очередями и изменчивостью, как показывает принцип [Теории Ограничений] LeSS(./queueing_theory.html). И тот же самый ответ лежит в *теории управления* : Большинство интересующих нас систем -- таких как группа разработки продукта -- имеют сложные позитивные и негативные циклы обратной связи и нелинейное поведение. Поведение таких систем не поддается нашей интуиции. А еще есть небольшая проблема, связанная с *людьми*.
 
-In summary, reasons for not being skillful in fathoming or guiding a big system include (but are not limited to):
+Подводя итог, причины, по котором большие системы не поддаются пониманию и управлению, включают (но не ограничиваются):
 
-* lack of knowledge about the system dynamics, feedback loops, nonlinear systems behavior, and unintended consequences in workplace systems
-* not understanding root causes of problems (and how to find)
-  * *causes,* not cause; in systems thinking one sees that there are multiple, indirect, and dynamic causes to problems
-* not knowing if or why quick-fix or local-department decisions degraded overall delivery performance.
+* недостаток знаний о динамике систем, циклах обратной связи, нелинейном поведении систем и неочевидных последствиях систем на рабочем месте
+* непонимание корневых причин проблем (и способов их нахождения)
+  * *причин* а не единственной причины; в системном мышлении видно, что у проблемы существует несколько непрямых и динамических причин
+* не понимание что и почему скороспелые решения или решения на уровне локального отдела со временем ухудшают общую производительность поставки.
 <br>
 <br>
 
-In short, not being systems thinkers.<sup>[2](#footnote-2)</sup> 
+Короче говоря, не уметь мыслить системно.<sup>[2](#footnote-2)</sup> 
 
-These reasons are consequential at the intersection of management and large-scale adoption of lean and agile principles. The leadership team is part of the system being perturbed; if they do not apply systems thinking, they could *really* perturb it---and not in a good way!
+Эти причины являются очень вескими на пересечении менеджмента и адаптации гибких и бережливых принципов в большой организации. Команда лидеров - это часть системы, подверженной изменениям; и если они не применяют системное мышление, они могут *реально* вывести систему из равновесия, в плохом смысле!
 
-As a summary of systems thinking insight, we like the [11 ‘laws’](https://en.wikipedia.org/wiki/The_Fifth_Discipline#The_11_Laws_of_the_Fifth_Discipline) described in [The Fifth Discipline](http://www.amazon.com/Fifth-Discipline-Practice-Learning-Organization-ebook/dp/B000SEIFKK/ref=sr_1_1?ie=UTF8&qid=1413531002&sr=8-1&keywords=the+fifth+discipline):
+В качестве сводки инсайтов системного мышления, нам нравится [11 ‘законов’](https://en.wikipedia.org/wiki/The_Fifth_Discipline#The_11_Laws_of_the_Fifth_Discipline), описанных в книге [The Fifth Discipline](http://www.amazon.com/Fifth-Discipline-Practice-Learning-Organization-ebook/dp/B000SEIFKK/ref=sr_1_1?ie=UTF8&qid=1413531002&sr=8-1&keywords=the+fifth+discipline) ([перевод на русский язык](https://www.ozon.ru/context/detail/id/950887/)):
 
-* Today’s problems come from yesterday’s ‘solutions.’
-* The harder you push, the harder the system pushes back.
-* Behavior will grow worse before it grows better.
-* The easy way out usually leads back in.
-* The cure can be worse than the disease.
-* Faster is slower.
-* Cause and effect are not closely related in time and space.
-* Small changes can produce big results...but the areas of highest leverage are often the least obvious.
-* You can have your cake and eat it too---but not all at once.
-* Dividing an elephant in half does not produce two small elephants.
-* There is no blame.
+* Сегодняшние проблемы – результаты вчерашних 'решений'.
+* Сила действия равна силе противодействия.
+* Перед долговременным ухудшением наступает легкое улучшение.
+* Обычно легкий выход – это путь назад.
+* Бывает, что лекарство горше болезни.
+* Тише едешь – дальше будешь.
+* Причины и следствия разнесены во времени и пространстве.
+* Результаты малых изменений бывают очень значительными, но трудно найти подходящий объект для воздействия.
+* Иметь пирог и есть его – не одно и то же.
+* Разделив слона пополам, не получишь двух слонят.
+* Винить некого.
 {: .two_columns .box_top_bottom}
 
 
-Toyota’s internal motto is [“Good **thinking**, good products.”](http://www.toyota-global.com/company/toyota_traditions/quality/may_jun_2005.html) Systems thinking is a set of *thinking* tools to help...
+Внутренняя мантра Тойоты - [“Хорошее **мышление**, хорошие продукты.”](http://www.toyota-global.com/company/toyota_traditions/quality/may_jun_2005.html) Системное мышление - это набор инструментов *мышления*, помогающих...
 
-* **see system dynamics**{: style="color: #1997C0"}---a development organization is a system of people and policies with subtle feedback loops and unintended consequences
-  * we can learn to see and thus improve the system with **causal loop diagrams** created in a workshop
-* **see mental models**{: style="color: #1997C0"}---one reason behind suboptimal decisions is mistaken assumptions and faulty reasoning
-  * causal loop diagramming and Five Whys expose these
-* **see local optimization**{: style="color: #1997C0"}---another source of suboptimal decisions is **local optimization** , making the ‘best’ decision from the viewpoint of a person or department, rather than **global optimization** for the lean systems-level goal of *deliver value fast with high quality and high morale* .
+* **увидеть системную динамику**{: style="color: #1997C0"} --- организация, занимающаяся разработкой - это система из людей и политик с неявными циклами обратной связи и непреднамеренными последствиями
+  * мы можем научиться видеть и, следовательно, улучшать систему при помощи **диаграмм причинного цикла** (casual loop diagrams, CLD), созданных во время совместной работы
+* **видеть ментальные модели**{: style="color: #1997C0"} --- одна из причин неоптимальных решений - это ложные предположения и ошибочные выводы
+  * это обнаруживается при составлении диаграмм причинного цикла и метода "Пять Почему"
+* **увидеть локальную оптимизацию**{: style="color: #1997C0"} --- еще один источник неоптимальных решений - *локальная оптимизация*, когда принимается 'лучшее' с точки зрения отдельного человека или отдела решение, вместо **глобальной оптимизации**, исходящей из принципа бережливого производства цели *приносить пользу быстро, с высоким качеством и сильным боевым духом*.
 <br>
 <br>
 
-This introduction is organized around the following areas in systems thinking: Learning to see (1) *system dynamics* , (2) *mental models* , (3) *root causes* , and (4) *local optimization* .
+Это введение построено вокруг следующих областей системного мышления: Учимся видеть (1) *системную динамику* , (2) *ментальные модели* , (3) *корневые причины*, и (4) *локальную оптимизацию* .
 
-## Seeing System Dynamics: Introduction
+## Видеть Системную Динамику : Введение
 
-### Static versus Dynamic Complexity
+### Статическая Сложность против Динамической Сложности
 
 Many of us, especially in engineering and finance, are educated to master **complexity of static details**---learning to analyze and manage information (requirements, financial analysis, ...), decompose complex structures into simpler ones, and so forth. That is, complexity of a static, information, or structural nature.
 
