@@ -6,7 +6,6 @@ order: 5
 (это глава 2 из [книги "Large-Scale Scrum: More with LeSS" ISBN 9780321985712](http://www.amazon.com/Large-Scale-Scrum-More-Craig-Larman/dp/0321985710))
 
 <div class="chapter_quote"><p>
-There are two ways of constructing a [design]:
 Есть два пути проектирования [конструирования]:
 <br/>
 Один путь - сделать все настолько просто, что очевидно не будет недостатков.
@@ -239,17 +238,17 @@ LeSS и LeSS Huge имеют следующие общие элементы:
 
 В ходе обсуждения участники приходят к пониманию, что необходимо проведения глубокой межкомандной  Сессии по Проектированию Решения (Design Workshop). Они договариваются провести её в тот же день, но чуть позже.
 
-#### Multi-Team Design Workshop
+#### Многокомандная сессия по Проектированию Решения
 
-After Sprint Planning and another break, Mira and Mark from Team Trade, and a few people from Team Margin and Team NotDerivative hold a timeboxed one-hour multi-team Design Workshop for a deeper dive into a common and consistent design for their work. Around a large whiteboard they sketch and talk together towards some clarity and agreement on a design approach and common technical tasks. Fortunately, the conclusions don’t seriously impact their existing Sprint plans, but they feel uncomfortable with their process, recognizing they could have predicted the need to resolve these big design questions earlier.
+После Планирования Спринта и ещё одного перерыва, Мира и Марк из команды Trade, и ещё несколько человек из команд Margin и NotDerivative проводят ограниченную по времени часовую сессию по Проектированию Решения, чтобы глубже погрузиться в общую архитектуру решения, которое им предстоит разрабатывать. Они делают наброски на большой доске и идет совместное обсуждение, чтобы добиться понимания и согласия в отношении подхода к дизайну решения и общих технических задач. В ходе обсуждения возникают сложности и вопросы, и команды приходят к выводу, что есть проблемы с процессом, так как  стоило бы поднять и обсудить вопросы архитектуры раньше. Но, к счастью, результаты, к которым они в итоге приходят, серьезно не влияют на существующие планы Спринтов.
 
-#### Development Activities Supporting Coordination and Continuous Delivery
+#### Активности разработки для Поддержки Координации и Непрерывной Поставки (Continuous Delivery)
 
-After Sprint Planning, the teams dive into developing items, with an emphasis on communicating in code. All the teams are integrating continuously. The continuous integration of all code across all teams creates the opportunity to cooperate by checking who else made changes in the component being worked on. That’s useful, because the group uses *integration as a way to inform and support their coordination*.
+После Планирования Спринта команды погружаются в разработку выбранных элементов Бэклога, с фокусом на коммуникации через программный код. Все команды постоянно интегрируют изменения. Непрерывная интеграция (continuous integration) кода между всеми командами поддерживает их взаимодействие, позволяя разработчику увидеть, кто из коллег сделал изменения в конкретном компоненте. Это полезно, так как группа использует *интеграцию, как средство информирования и обеспечения общей координации*.
 
-For example, early during the second day of the Sprint, Mark, a developer on Team Trade, pulls the latest version locally and quickly checks the latest changes related to the component they are working on now. He discovers changes related to code added by Maximilian from Team Margin. He knows that team is working on a strongly related item, so he is not especially surprised. Since the code has communicated that now there’s a need to coordinate and who he needs to talk with, he immediately visits Team Margin down the hall. They just talk about how to work together to benefit from one another’s work. (RULE: Prefer decentralized and informal coordination over centralized coordination.)
+Например, на второй день Спринта Марк, разработчик из команды Trade, забирает утром из репозитория последнюю версию кода и быстро проверяет последние изменения. Он обнаруживает связанные изменения, сделанные Максимилианом из команды Margin. Он не сильно удивлен, так как знает, что задачи, над которыми они работают, тесно связаны. Он решает немедленно обсудить изменения с Максимиллианом, так как по сути изменения в коде послужили сигналом о необходимости коммуникации, и  указали на конкретного человека, с которым требуется поговорить. В результате простого разговора, они договорились каким образом необходимо организовать совместную работу, чтобы каждый из них мог извлечь пользу. (ПРАВИЛО: Предпочтительнее децентрализованная и неформальная координация вместо централизованной).
 
-For the item that Team Trade is developing, and in fact for every item in every team, they have written the automated acceptance tests before starting to develop the solution code. Thus, in addition to integrating the code continuously, they’re also integrating the automated tests. These acceptance tests are run frequently by team members, and so when any of them fails, the teams are immediately signaled to coordinate. The code is telling them, “Hey! There’s a problem! You need to talk and work it out.”
+Для функционала, которые разрабатывает команда Trade, а, в действительности, для каждой задачи каждой из команд, до старта написания кода создаются автоматизированные приемочные тесты. В дополнение к непрерывной интеграции кода, они интегрируют автотесты. Эти приемочные тесты запускаются регулярно, и, если какие-либо из них не проходят, команды получают сигнал скоординироваться. Код говорит им: "Эй! У нас проблема! Вы должны поговорить и разобраться с ней.”
 
 Naturally, another major benefit of the group’s practice of integrating continuously, automated testing, and stopping-and-fixing whenever the build breaks, is that their product is more or less continuously ready to deliver into production. There’s no separate integration team or testing team that would add delay, handoff, and complexity. (RULE: The perfection goal is to improve the Definition of Done so that it results in a shippable product each Sprint, or even more frequently.)
 
