@@ -3,8 +3,8 @@ Area Product Backlog - Бэклог Области Продукта
 Cross-team - кросскомандная
 Empirical process control - Эмпирический контроль процесса
 Feature-team - продуктовая команда
-Framework - каркас
 Guides - Руководства
+Framework - каркас
 Inspect and Adapt - Инспекция и Адаптация
 Large-Scale Scrum - Масштабный Скрам
 Multi-team - многокомандный
