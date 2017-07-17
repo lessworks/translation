@@ -1,14 +1,23 @@
+Agile principles - принципы гибкой разработки
 Area Product Owner - Владелец Области Продукта
 Area Product Backlog - Бэклог Области Продукта
+Causal relation - причинно-следственная связь
 Cross-team - кросскомандная
 Empirical process control - Эмпирический контроль процесса
 Feature-team - продуктовая команда
-Guides - Руководства
+Feedback loop - цикл обратной связи
 Framework - каркас
+Guides - Руководства
 Inspect and Adapt - Инспекция и Адаптация
 Large-Scale Scrum - Масштабный Скрам
+Large-scale adoption of Scrum - внедрение Скрама в больших масштабах
+Large-scale agile adoption - масштабная Agile-трансформация
+Lean thinking - бережливое мышление
+Mental model - ментальная модель
 Multi-team - многокомандный
 Overall Retrospective - Общая Ретроспектива
 Requirement Area - Область Требований
 Sprint Planning One - Первая Часть Планирования Спринта
 Sprint Planning Two - Вторая Часть Планирования Спринта
+System dynamics - системная динамика
+Systems thinking - системное мышление
