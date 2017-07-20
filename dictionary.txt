@@ -3,11 +3,17 @@ Area Product Owner - Владелец Области Продукта
 Area Product Backlog - Бэклог Области Продукта
 Causal loop diagrams - диаграммы причинно-следственных связей
 Causal relation - причинно-следственная связь
+Complexity of static [details] - статическая сложность
+Complexity of dynamics - динамическая сложность
 Control theory - теория управления
 Cross-team - кросскомандная
+Diagram of effect - диаграмма воздействия
+Dynamic system models - динамические модели систем
 Empirical process control - Эмпирический контроль процесса
 Feature-team - продуктовая команда
+Feature velocity - скорость разработки фичи
 Feedback loop - цикл обратной связи
+Flow diagrams - диаграммы потока
 Framework - каркас
 Guides - Руководства
 Inspect and Adapt - Инспекция и Адаптация
@@ -15,6 +21,7 @@ Large-Scale Scrum - Масштабный Скрам
 Large-scale adoption of *smth* - внедрение *smth* в больших масштабах
 Large-scale *smth* adoption -внедрение *smth* в больших масштабах
 Lean thinking - бережливое мышление
+LeSS Overall Retrospective - всеобщая ретроспектива LeSS
 Mental model - ментальная модель
 Morale - боевой дух
 Multi-team - многокомандный
