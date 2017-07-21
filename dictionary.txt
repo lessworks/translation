@@ -27,6 +27,7 @@ Morale - боевой дух
 Multi-team - многокомандный
 Overall Retrospective - Общая Ретроспектива
 Queueing Theory - Теория массового обслуживания
+Rate of delivery - стоимость доставки
 Requirement Area - Область Требований
 Sprint Planning One - Первая Часть Планирования Спринта
 Sprint Planning Two - Вторая Часть Планирования Спринта
