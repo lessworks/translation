@@ -109,44 +109,44 @@ MIT привлек и других исследователей, ориенти�
 
 ###### Нотации и примеры
 
-Causal loop diagrams contain many elements; the following common useful subset is explored through a scenario.
+Диаграммы причинно-следственных связей содержат много элементов; приведённые ниже общие полезные элементы будут использоваться дальше в сценарии.
 
-* variables
-* causal links
-* opposite effects
-* constraints
-* goals
-* reactions; quick-fix reactions
-* interaction effects
-* extreme effects
-* delays
-* positive feedback loops
+* переменные
+* причинно-следственные связи
+* обратные эффекты
+* ограничения
+* цели
+* реакции; скороспелые реакции
+* эффекты взаимодействия
+* экстремальные воздействия
+* отложенные эффекты
+* петли положительной обратной связи
 {: .two_columns .box_top_bottom}
 
 
-*The following simplified scenario is for a particular organization. It is not a generalization.*
+*Ниже приведён упрощённый сценарий для конкретной организации. Это не обобщение.*
 
-**Variables**{: style="color: #1997C0"}---Causal loop diagrams include *variables* (or stocks) such as the *velocity (rate of delivery) of software features* and *number of defects* . Variables have a measurable quantity.
+**Переменные**{: style="color: #1997C0"}---Диаграммы причинно-следственных связей включают *переменные* (или метрики) такие как *скорость разработчки (стоимость доставки) фич* и *количество дефектов*. Переменные имеют измеримую величину.
 
 ![systems thinking-4.png](/img/systems_thinking/systems%20thinking-4.png)
 
-**Causal links**{: style="color: #1997C0"}---An element can have an effect on another, such as if feature velocity increases, then the number of defects increase; that is, more new code, more defects.
+**Причинно-следственные связи**{: style="color: #1997C0"}---Один элемент может влиять на другой, например, если скорость разработки фич увеличивается, количество дефектов также увеличивается; то есть, чем больше нового кода, тем больше дефектов.
 
 ![systems thinking-5.png](/img/systems_thinking/systems%20thinking-5.png)
 
-Now it is time to bump into *Weinberg-Brook’s Law* and the *Causation Fallacy* . It is easy to sketch a diagram; it is something else to model with insight. For example, consider the relationship between the *number of developers* and *feature velocity.*
+Теперь пришло время нам встретиться с *Законом Вайнберга-Брукса* и *Ловушкой причинной-следственной связи*. Легко нарисовать диаграмму; но совсем другое - построить её с пониманием. Например, рассмотрим связь между *количеством разработчиков* и *скоростью разработки фич*.
 
-The nature of any cause-effect relationship is actually not obvious, though it is common for people to jump to conclusions such as more developers means better velocity. Adding people late in development may *reduce* velocity (a sub-element of “Brooks’ Law” [Brooks95]). Or, *more* bad programmers could really slow you down. An argument can be made that *removing* terrible developers can *improve* velocity.
+Природа любой причинно-следственной связи на самом деле не очевидна, хотя это очень свойственно людям - прийти к заключению, что увеличение количества разработчиков приводит к увеличению скорости разработки фич. Но добавление людей на поздних стадиях разработки может *уменьшить* скорость (один из элементов “Закона Брукса” [Brooks95]). Или: *больше* плохих разработчиков могут реально замедлить вас. Можно сделать вывод, что *устранение* ужасных разработчиков может *улучшить* скорость.
 
 ![systems thinking-6.png](/img/systems_thinking/systems%20thinking-6.png)
 
-**Opposite effects**{: style="color: #1997C0"}---A causal link effect may be the same or opposite direction; if A goes up then B goes up, or vice versa. Opposite effect is shown with an ‘O’ on the line. Suppose defects going up puts a drag on the system, lowering the velocity of new features because people spend more time fixing or working around bugs.
+**Обратные эффекты**{: style="color: #1997C0"}---Эффект от причинно-следственной связи может быть прямым или обратным; если А растёт, то растёт и В, или наоборот. Обратный эффект показан символом ‘O’ рядом с линией. Предположим, рост количества дефектов в системе приводит к замедлению скорости разработки новых фич, потому что люди тратят больше времени на исправление дефектов иил поиск обходных путей.
 
 ![systems thinking-7.png](/img/systems_thinking/systems%20thinking-7.png)
 
-**Constraints**{: style="color: #1997C0"}---Unless you can find people to work for free, there is a constraint on the number of developers, based upon cash supply.
+**Ограничения**{: style="color: #1997C0"}---Хотя вы можете найти людей, работающих бесплатно, есть ограничение на количество разработчиков, работающих за определённую зарплату.
 
-Constraints are *not* causal links. As cash supply goes up, it is not the case that the number of developers goes up.
+Ограничения - это *не* причинно-следственные связи. Если поднимать зарплату, количество разработчиков не вырастет.
 
 ![systems thinking-8.png](/img/systems_thinking/systems%20thinking-8.png)
 
