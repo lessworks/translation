@@ -194,19 +194,19 @@ Delay has an intriguing influence on the *educational* or corrective power in a 
 
 Therefore, one does not learn from or correct mistakes---in policy, management actions, tools, and so forth. Likewise, gradual improvement through the lean thinking practice of *kaizen* can take a long time; patience and insight are needed to see if and how things improve.
 
-**Positive feedback loops**{: style="color: #1997C0"}---Negative or positive feedback loops<sup>[5](#footnote-5)</sup> and delays are where things start to get more subtle in a system---and in understanding a system. For example, how does one become a better programmer? In part, by mentoring from great programmers and seeing lots of examples of great code. But an office with a lot of low-skill developers does not generate a lot of great code examples, nor does it attract or retain the small pool of great programmers who could act as mentors. They would rather work somewhere else.
+**Петли положительной обратной связи**{: style="color: #1997C0"}---Петли отрицательной или положительной обратной связи<sup>[5](#footnote-5)</sup> и задержки---это те вещи, которые делают систему и её понимание более сложными. Например, как можно стать более квалифицированным разработчиком? В частности, путём наставничества у лучших программистов и изучения большого количества качественного кода. Но, если в команде работает много низкоквалифицированных разработчиков, неоткуда взяться качественному коду, и вряд ли в такой команде будут работать крутые разработчики, у которых можно учиться. Они предпочтут работать где-то в других местах.
 
-Now the development group starts to enter a self-reinforcing downward spiral---a set of *positive feedback loops* . Fortunately, the downward trend is constrained by the supply of cash.
+Такая команда попадает в самоусиливающуюся нисходящую спираль---из-за набора *петель положительной обратной связи*. К счастью, нисходящий тренд ограничен фондом заработной платы.
 
-More great programmers---who could craft great code and mentor others---leave. So there is less and less quality code to look at and to learn from. The percentage of weak programmers grows even larger and feature velocity drops further. Code becomes more messy, awkward, and duplication-riddled, so the capacity to swiftly implement features declines. Since feature velocity is dropping further, there is more pressure to hire yet more very cheap programmers. All this leads to multiple positive reinforcement loops in the system, for example:
+Крутые разработчики, которые пишут качественный код и могут быть наставниками для остальных, уходят из команды. Это приводит к тому, что качественного кода, на который можно смотреть и учиться, становится всё меньше и меньше. Слабых разработчиков становится ещё больше и скорость разработки фич продолжает падать. Код становится менее понятным и поддерживаемым, в нём увеличивается количество повторений, что ухудшает возможность быстрой реализации фич. Дальнейшее падение скорости производства фич вынуждает нанимать всё больше дешёвых разработчиков. Всё это приводит к появлению множества петель положительной обратной связи в системе, например:
 
 ![systems thinking-16.png](/img/systems_thinking/systems%20thinking-16.png)
 
-*Tip* : You can find positive feedback loops by finding cycles with an *even number* of ‘Opposite’ effect relationships. There are several examples in the model above.
+*Совет* : Найти петли положительной обратной связи можно, найдя циклы с *чётным количеством* обратных эффектов. В модели выше есть несколько таких примеров.
 
-##### Conclusion
+##### Заключение
 
-The example scenario is only that---an example. A causal loop diagram can visualize rich dynamics in a workplace system. These are best created by a group at a whiteboard.
+Приведённый пример---это только пример. Диаграмма причинного цикла может наглядно показать богатую динамику на рабочем месте. Лучше всего создавать диаграмму вместе у доски.
 
 ## Seeing Mental Models
 
