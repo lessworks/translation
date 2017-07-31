@@ -19,25 +19,16 @@ order: 100
 
 Интересное несоответствие: теория массового обслуживания --- математический анализ того как *вещи* двигаются сквозь систему с очередями --- была разработана чтобы понимать и улучшать пропускную способность в телекоммуникационных системах --- системах со многими переменными и хаотичностью близкой к продуктовой разработке. Как следствие, телеком инженеры понимают основные идеи. И все еще, люди, занимающиеся развитием телеком инфраструктуры (инфраструктура - это часть больших продуктов) редко видят, что *это применимо к их системам* чтобы сократить среднее время цикла в их производственном процессе.
 
-Люди из Тойота изучают статистические вероятности и последствия теории массового обслуживания; это отражается в нехватке *выравнивавающего* принципа, который уменьшает изменчивость и в более общем плане отражается в нехватке фокусировки на меньших партиях и времени цикла, чтобы двигаться навстречу *потоку*.
+Люди из Тойота изучают статистические вероятности и последствия теории массового обслуживания; это отражается в *выравнивавающем* принципе бережливого производства, который уменьшает изменчивость и в целом в фокусе бережливого производства на уменьшении размера партии и времени цикла прохождения *потока*.
 
-Toyota people learn about statistical variation and the implications of queueing theory; this is reflected in the lean *leveling* principle to reduce variability and more generally in the lean focus on smaller batches and cycle times to move toward *flow*.
+Прежде чем погружаться в тему, отметим, что бережливое производство иногда объясняется через фокусировку на *меньших размерах партии*, *более коротких очередях*, и *ускорении времени цикла*. Быстрая доставка ценности. Бережливое производство существенно больше чем это--его столбы: *уважение к людям* и *постоянное улучшение* опираясь на фундамент из *руководителей-учителей в бережливом мышлении*. **Управление очередями (Ограничение взятой работы, ...) полезно, но это иструмент далекий от сущности бережливого мышления.**
 
-Before diving directly into the subject, note that lean is sometimes described as focusing on *smaller batch (work package) size* , *shorter queues* , and *faster cycle time* . Delivering value quickly. Lean is much more than this---the pillars are *respect for people* and *continuous improvement* resting on a foundation of *manager-teachers in lean thinking*. **Queue management (WIP limits, ...) is useful but is a mere tool far from the essence of lean thinking.**
+Как станет очевидно, LeSS поддерживает управленческие последствия теории массового обслуживания.
 
-As will become evident, LeSS supports the management implications of queueing theory.
+## Миф закона Литтла
 
+Прежде чем погружаться глубже в теорию массового обслуживания, существует миф, относяшийся к теории массового обслуживания, обнародованный в бережливом производстве и сообщество гибкой разработки (даже в нескольких подходах к масштабированию), который следует разъяснить. [Закон Литтла](http://web.mit.edu/sgraves/www/papers/Little's%20Law-Published.pdf) доказывает, что *уменьшение одновременно взятой работы уменьшает время цикла*. О, но было так! К сожалению, доказательство Литтла зависит от набора условий/заключений которые должны быть истинны для того, чтобы динамика сохранялась. И, к сожалению, эти условия никак не гарантируются или даже не являются наиболее вероятными в областях с высокой степенью изменчивости как разработка программного обеспечения. Наивное продвижение или обоснование Закона Литтла в рзаработке программного обеспеения хорошо разобрано в анализе от Даниэля Ваканти (Daniel Vacanti) [Ошибка Литтла] ([Little's Flaw]) (http://vimeo.com/52683659)
 
-
-
-
-
-
-
-
-## Little's Law Myth Alert
-
-Before getting deeper into queueing theory, there's a widespread queueing-theory-related myth promulgated in the lean and agile development community (even in some scaling approaches), that should be cleared up quickly. You can find a gazillion article's claiming that [Little's Law](http://web.mit.edu/sgraves/www/papers/Little's%20Law-Published.pdf) proves that *reducing WIP levels will reduce average cycle time*. Oh but were it so! Unfortunately, Little's proof is dependent on a set of conditions/assumptions which must be true for the dynamic to hold true. And unfortunately, those conditions are in no way guaranteed to be or even commonly true in high-variability domains such as software development. The naive promotion or justification of Little Law's in software development is well deconstructed in Daniel Vacanti's analysis called [Little's Flaw](http://vimeo.com/52683659).
 
 
 **Reducing WIP levels is a worthy goal and important in LeSS. WIP is one of the wastes in lean thinking, because it delays a return on investment, hides defects, reduces transparency, among other problems. And reducing WIP levels exposes weaknesses. But, unfortunately, there is no guarantee in software development that reducing WIP will automatically reduce average cycle time.**
