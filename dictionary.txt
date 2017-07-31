@@ -16,6 +16,7 @@ Feedback loop - цикл обратной связи
 Flow diagrams - диаграммы потока
 Framework - каркас
 Guides - Руководства
+Framework - каркас
 Inspect and Adapt - Инспекция и Адаптация
 Large-Scale Scrum - Масштабный Скрам
 Large-scale adoption of *smth* - внедрение *smth* в больших масштабах
