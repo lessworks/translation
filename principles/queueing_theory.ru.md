@@ -29,36 +29,30 @@ order: 100
 
 Прежде чем погружаться глубже в теорию массового обслуживания, существует миф, относяшийся к теории массового обслуживания, обнародованный в бережливом производстве и сообществе гибкой разработки (даже в нескольких подходах к масштабированию), который следует разъяснить. [Закон Литтла](http://web.mit.edu/sgraves/www/papers/Little's%20Law-Published.pdf) доказывает, что *уменьшение одновременно взятой работы уменьшает время цикла*. О, если бы это было так! К сожалению, доказательство Литтла зависит от набора условий/предположений которые, для того чтобы быть справедливыми, должны сохраняться в динамике. И, к сожалению, эти условия никак не гарантируются или даже не являются наиболее вероятными в областях с высокой степенью изменчивости, таких как как разработка программного обеспечения. Наивность продвижения или обоснования Закона Литтла в рзаработке программного обеспеения хорошо разобрана в анализе от Даниэля Ваканти (Daniel Vacanti) [Ошибка Литтла] ([Little's Flaw]) (http://vimeo.com/52683659)
 
-**Reducing WIP levels is a worthy goal and important in LeSS. WIP is one of the wastes in lean thinking, because it delays a return on investment, hides defects, reduces transparency, among other problems. And reducing WIP levels exposes weaknesses. But, unfortunately, there is no guarantee in software development that reducing WIP will automatically reduce average cycle time.**
+
+**Уменьшение одноврменно взятой работы - это достойная цель и важно в LeSS. Одноременно взятая работа - это одна из потерь в бережливом мышлении, потому что это откладывает возврат на инвестиции, скрытые дефекты, уменьшает прозрачность среди с других проблем. И уменьшение уменьшение одновременно взятой работы выявляет недостатки. Но, к сожалению, нет гарантии того, что в разработке программного оебспечения уменьшение одновременно взятой работы автоматически уменьшит среднее время цикла.**
 {: .box_top_bottom }
 
+## Конкурировать в более коротких циклах
 
+Организация, которая использует принципы бережливого производства при развитии продукта сосредоточена на *производстве ценности в кратчайшее возможное и устойчивое время цикла* , ориентированной на *пропускную способность*, а не на занятость людей. Люди из Тойота, прародители беежливого мышления - мастера в ускорении времени цикла (укорачивании) **без перегрузки людей**.
 
+Какие есть некоторые процессные циклы или что есть время цикла в продуктовой разработке?
 
-
-
-
-
-## Compete on Shorter Cycle Times
-
-A lean product development organization is focused on *value throughput in the shortest possible sustainable cycle times* , focused on the system *throughput* rather than the busyness of people. Toyota people, the progenitors of lean thinking, are masters of faster and faster (shorter) cycle times **without overburdening people**.
-
-What are some process cycles or cycle times in product development?
-
-
-* “concept to cash” for one release
-* “concept to done” for one feature
-* potentially shippable time; how frequently could you ship?
-* compile time (of all the software)
-* “ready to pilot” to delivery time
-* deployment time for testing (into embedded hardware)
-* analysis and design times
+* "от концепции до наличных" за один релиз
+* "от концепта до сделанного" за одну фичу
+* время до потенциально готового к поставке; как часто вы можете поставлять?
+* время компиляции (для всего программного обеспечения)
+* время до доставки "готового к пилоту"
+* время развертывания для тестирования (во встроенное оборудование)
+* время на анализ и проектирование
 {: .two_columns .box_top_bottom}
 
+Ключевые показатели эффектиности (КПЭ) в бережливом производстве *не* сосредоточены на утилизации или занятости рабочих, выполняющих эти процессы. Скорее, *КПЭ в бережливом производстве фокусируются больше на времени цикла*.
 
-Key performance indicators (KPIs) in lean are *not* focused on the utilization or busyness of workers doing these processes. Rather, *lean KPIs focus more on throughput cycle times*.
+Тем не менее, предупреждение: Измерение обычно приводит к дисфункции или 'обыгрыванию' системы путем локальной оптимизации для того чтобы казалось, что достигается хороший результат. [[Austin96]](http://www.amazon.com/Measuring-Managing-Performance-Organizations-Dorset-ebook/dp/B00DY3KQX6/ref=sr_1_1?ie=UTF8&qid=1413596674&sr=8-1&keywords=measuring+and+managing+performance+in+organizations). Это особенно верно в 'глубоких' процессных циклах. Наиболее важны времена цикла более высокого уровня, такие как время цикла до потенциально готового к поставке и "от заказа до наличных" или "от заказа до доставки" (квинтэссенция цикла).
 
-That said, a caution: Measurement usually generates dysfunction or ‘gaming’ of the system by sub-optimizing to appear to achieve a good score [[Austin96]](http://www.amazon.com/Measuring-Managing-Performance-Organizations-Dorset-ebook/dp/B00DY3KQX6/ref=sr_1_1?ie=UTF8&qid=1413596674&sr=8-1&keywords=measuring+and+managing+performance+in+organizations). This is especially true on ‘lower’ process cycles. Higher-level cycle times such as potentially shippable cycle time and “order to cash” or “order to delivery” (the quintessential cycle times) are most relevant.
+
 
 What would it mean if you could deliver in *half or a quarter of the time* at a *sustainable pace* without overburdening people? And on the other hand, what is the cost of delay?
 
