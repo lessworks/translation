@@ -1,7 +1,7 @@
 Agile principles - принципы гибкой разработки
 Area Product Owner - Владелец Области Продукта
 Area Product Backlog - Бэклог Области Продукта
-Causal loop diagrams - диаграммы причинно-следственных связей
+Causal loop diagrams - Диаграммы причинного цикла
 Causal relation - причинно-следственная связь
 Complexity of static [details] - статическая сложность
 Complexity of dynamics - динамическая сложность
@@ -27,6 +27,7 @@ Morale - боевой дух
 Multi-team - многокомандный
 Overall Retrospective - Общая Ретроспектива
 Queueing Theory - Теория массового обслуживания
+Perfection goal - Цель совершенства
 Rate of delivery - стоимость доставки
 Requirement Area - Область Требований
 Sprint Planning One - Первая Часть Планирования Спринта
