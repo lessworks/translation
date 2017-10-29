@@ -272,130 +272,129 @@ LeSS и LeSS Huge имеют следующие общие элементы:
 
 Комьюнити (Community) по тстированию, состоящее из представителей большинства команд, собирается на получасовую встречу для того, чтобы выслушать и обсудить предложение Мэри по использованию новой утилиты для автоматизированного приемочного тестирования. Предложение многих заинтересовало, и они договариваются, что в следующем Спринте Мэри вместе со своей командой Margin, как самые заинтересованные в изучении, проведут эксперимент по ее использованию. 
 
-Мира состоит в группе, отвечающей за Дизайн/Архитектуру решения. В текущем Спринте нет необходимости проводить встречу по обсуждению архитектуры, но в следующем она хочет выделить полдня для проведения технологического спайка. Она делает пост об этом в соответствующем сообществе и предлагает организовать его вместе с коллегами из mob-программирования, чтобы расширить их общие знания. 
+Мира состоит в группе, отвечающей за Дизайн/Архитектуру решения. В текущем Спринте нет необходимости проводить встречу по обсуждению архитектуры, но в следующем она хочет выделить полдня для проведения технологического спайка. Она делает пост об этой идее в соответствующем инструменте для колоборации сообщества, и предлагает сообществу реализовать этот спайк всем вместе в режиме mob-программирования, чтобы расширить их общие знания. 
 
-Mira is a member of the Design/Architecture community. There’s no design workshop needed this Sprint related to overall architecture, but she wants to hold a half-day spike in the next Sprint for a new technology. She posts her idea on the community collaboration tool, and suggests the community do the spike together with mob programming to increase their shared learning.
+Система сборки похоже имеет странный баг. Время *остановиться и исправить* его! В этом Спринте за это отвечает команда Trade, и Марк, специализирующийся на данной теме, вызывается добровольцем, позвав себе в пару коллегу из другой команды, чтобы поделиться знаниями с ним.
 
-The build system seems to have a weird bug. Time to *stop and fix*! This Sprint, Team Trade is responsible for it, and it’s one of Mark’s secondary specialties, so he volunteers to fix it and asks another team member to pair up with him to help his colleague learn more about it.
+Позже Мира вместе с коллегами из других команд навещает службу поддержки и группу обучения, которые напрямую работают с пользователями их Продукта. Ее команда недавно завершила работу над первой фичей для них, и теперь они хотят получить ранюю обратную связь от людей, находящихся в непосредственном контакте с клиентами. У одного из сотрудников есть время, и он пробует новую функциональность, после чего Команда Trade уходит с несколькими идеями по ее улучшению.
 
-Later, Mira and a few other team members visit the customer support and training group, who work closely with hands-on users. Her team has finished their first item and they want to get early feedback from people closer to customers. One of the trainers is free and he plays with the new feature. Team Trade leaves with a few ideas to make it better.
+Далее Марк и остальные участники Trade приступают к разработке второй задачи. Марк только что закончил десятиминутный цикл TDD (test-driven development) и получил стабильную версию кода после внесения небольшого изменения. Еще раз: каждые десять минут он заносит свои правки в общий репозиторий (в основную ветку, “head of trunk”), чтобы непрерывно интегрироваться с командой и остальными. После этого переводит взгляд на большой красно-зеленый экран на стене, и видит, что система сборки один за другим прогоняет тесты для всей группы.
 
-Later in the day Mark and the rest of Team Trade are doing tasks for their second item. Mark has just completed a 10-minute TDD cycle and has clean stable code after a micro-change. Once again—about every 10 minutes—he pushes the tiny change to the central shared repository (to “head of trunk”), to integrate continuously with his team and all others. He glances over to their big visible red-green screen on the wall and sees that the build system is passing all the tests for the entire group.
+#### Общая сессия по Уточнению Бэклога Продукта
 
-#### Overall Product Backlog Refinement
+<small>(RULE: Проводите межкомандное и всекомандное уточнение бэклога для усиления общего понимания и обнаружения необходимости в координации в случаях связанных элементов бэклога, либо при необходимости получения более широкой обратной связи от команд или в целях обучения.) </small>
 
-<small>(RULE: Do multi-team and/or overall PBR to increase shared understanding and exploiting coordination opportunities when having closely related items or a need for broader input/learning.) </small>
+На пятый день Марк и Мира вместе с представителями других команд и Паоло, Владельцем Продукта, участвуют в общей сессии по уточнению бэклога. Паоло открывает встречу рассказом о своем текущем понимании направления развития продукта, а также - в каком направлении двигаться в ближайшем будущем и, что немаловажно, зачем. Чтобы группа лучше понимала его мотивы, он демонстрирует используемую им модель приоритизации, которая учитывает влияние на прибыль, клиентов, риски с точки зрения бизнеса, технические риски, стоимость задержек и многое другое.
 
-On the fifth day, Mark and Mira join an overall PBR workshop, with representatives from each team, and Paolo, the Product Owner. Paolo starts by sharing his current thinking on product direction and where to go next in the short term and, most importantly, why. To help them understand his reasoning, he reviews his prioritization model with the group, that factors in profit impact, customer impact, business risk, technical risk, cost of delay, and more.
+Паоло просит участников дать обратную связь относительно ближайших планов, и завязывается обсуждение о том, какие элементы бэклога прорабатывать следующими. И хотя он знает, что его мнение является решающим, Паоло старается вовлечь команды, чтобы, с одной стороны, они лучше поняли его позицию, и с другой - взглянуть на все их глазами и чему-то научиться. Он хочет, чтобы команды были вовлечены во владение продуктом.
 
-Paolo asks for feedback and ideas from the group for upcoming direction, and the group discusses what items to refine next. Although he knows that he’ll make the final priority calls, Paolo works hard to engage the teams in understanding his thinking, and also to learn from their thinking. He wants the teams to also be involved in owning the product.
+Затем группа совместно декомпозирует несколько новых крупных задач, проводит их первичное уточнение (об этом будет рассказано далее), и проводит сессию оценки с помощью покера планирования, имеющий своей целью скорее погрузить всех в новые задачи и узнать что-то новое о них, чем понять их реальные оценки.
 
-The group then splits a few big new items, doing lightweight clarification (more will follow later), and planning poker estimation as a way to learn more about the items—rather than to create estimates.
+Представители трех команд, включая Trade и Margin, решают провести совместные сессии по уточнению бэклога по некоторым из задач, чтобы расширить их общее понимание, так как эти задачи сильно связаны друг с другом. В свою очередь, представители двух оставшихся команд отбирают задачи, на которых следует сфокусироваться в рамках отдельных, командных сессий по уточнению бэклога. 
 
-The representatives from three teams (including Trade and Margin) decide to later do multi-team PBR together for some items to increase their shared understanding and because they are strongly related. And representatives from two other teams choose items to focus on separately in team PBR sessions.
+#### Командные и многокомандные сессии по уточнению бэклога (PBR)
 
-#### Multi-Team PBR and Team PBR
+<small>(RULE: Вся приоритезация происходит через Владельца продукта, но прояснение элементов бэклога как можно более напрямую между командами и заказчиками/пользователями, а также другими заинтересованными лицами.)</small>
 
-<small>(RULE: All prioritization goes through the Product Owner, but clarification is as much as possible directly between the Teams and customer/users and other stakeholders.)</small>
+На шестой день все участники от трех команд собираются на общую PBR сессию в большой переговорной. 
 
-On the sixth day, everyone in three of the teams gets together for a multi-team PBR workshop in the big room.
+Несмотря на то, что основным бизнесом является разработка и продажа их решения для торгов, в компании работает небольшая группа трейдеров, работающих со сравнительно небольшими портфелями, позволяющими им работать с невысокими рисками. Таким образом компания получает лучшее представление о тенденциях рынка, а также это позволяет иметь группу экспертов-пользователей, находящихся в непосредственном контакте с командами разработки.
 
-Although their main business is creating and selling their trading solution, the company has a small group of bond traders that use it, with relatively small positions that keep them engaged but without high risk. This way the company has better insight into market trends as well as some expert users that can easily talk with the development teams.
+Таня и Тед из группы трейдеров были теми, кто рассказал Паоло о тренде, который привел к изменению приоритетов, озвученному в ходе общей PBR сессии. Поэтому они оба присоединяются и к текущему обсуждению с целью помочь командам разобраться с новыми элементами бэклога.
 
-Tanya and Ted are the traders who told Paolo about a trend that led to the items being refined in the multi-team PBR session. So they both join, as experts to help the teams learn and clarify the new items.
+Две оставшиеся команды, проводят отдельные PBR сессии, на которых участвуют несколько других трейдеров, чтобы завершить уточнение по задачам, уже находящимся в работе, а также начать прорабатывать несколько новых пунктов. Также один из трех юристов компании, специализирующийся на финансовом регулировании, учствует в сессии уточнения бэклога одной из команд.
 
-The other two teams, in discussion with some other traders, hold separate PBR workshops to complete clarification of some items already under refinement and to start on some new ones. Also, one of the company’s three lawyers specializing in financial regulations and compliance joins one of these teams to help them in clarification.
+В качестве последнего шага PBR сессий участники делают снимки результатов обсуждений, оставленных на стенах и досках. Они добавляют их в wiki-статьи, относящиеся к каждой из задач. Дополнительно они обновляют и приводят в порядок текст и таблицы, на ходу добавленные в этих статьи непосредственно в процессе обсуждений.
 
-As a last step in the PBR meetings, people take photos of everything on the walls and whiteboards. They add those to the wiki pages that are used to record everything for each item. Plus they update and clean up the text and tables in the wiki pages that were quickly added during discussions.
+#### Беседа о Бэклогах Команд и Владельцах Продукта
 
-#### A Chat About Team-Level Backlogs and Product Owners
+После многокомандной PBR сессии, Майк, недавно пришедший в компанию, видит Сэма, стоящего у кофемашины, и подходит к нему для того, чтобы начать разговор.
 
-After the multi-team PBR workshop, Mike (who just joined the company) sees Sam by the coffee machine and walks over to talk. Mike says, “Hey Sam. I’m interested in your opinion on something. In the refinement workshop we just finished, of course I noticed that we were working directly with some of the traders to clarify together. But isn’t that inefficient? In my last company, every team had its own Product Owner who did the story writing, wireframes, and specifications, and then gave them to us to implement. Then we could just focus on the programming. And each team had its own Product Backlog that the team’s Product Owner prioritized. But I don’t see that here. Why is it different?”
+- Привет, Сэм, можно узнать твое мнение по одному вопросу? Я обратил внимание, что на сессии по уточнению бэклога, на которой мы только что присутствовали, мы работали напрямую с трейдерами и обсуждали требования вместе с ними. Тебе не кажется это излишним? На моем предыдущем месте работы у каждой команды был свой Владелец Продукта, который описывал пользовательские истории, задавал общие рамки, готовил спецификации и отдавал все это нам, после чего мы могли спокойно фокусироваться только на программировании. При этом у каждой команды был свой Бэклог Продукта и отдельный Владелец Продукта, отвечающий за его приоритизацию. Но здесь все по-другому. Почему вы делаете это иначе?
+ 
+ Сэм отвечает: 
+- Интересный вопрос. Не возражаешь, если я задам тебе пару встречных вопросов, чтобы разобраться?
 
-Sam says, “Interesting questions. Do you mind if I ask you a few questions to explore this?”
+- Конечно, продолжай.
 
-“Sure, go ahead.”
+- Давай сначала посмотрим разницу между одним Бэклогом Продукта и отдельными бэклогами для каждой команды. Предположим, у каждой команды свой бэклог - насколько легко будет основному Владельцу Продукта понять картину целиком? И насколько глубоко участники одной команды будут понимать требования и дизайн решения по функционалу, находящемуся в бэклоге другой команды?
 
-“Let’s first consider one Product Backlog versus many team-level backlogs. Suppose each team had its own backlog. How easy and effective is it for one truly overall Product Owner to have an overview? And how much knowledge will a team have of the requirements and designs of items in a different team’s backlog?”
+- По опыту моей предыдущей компании - будет тяжело, - отвечает Майк.
 
-Mike replies, “I can answer that pretty clearly from my last company. Not much.”
+- Теперь предположим у нас восемь команд и восемь бэклогов. - продолжает Сэм. - Что если по каким-то причинам, например, вследствие изменений на рынке, ключевыми с точки зрения основного продукта или компании в целом становятся задачи только двух бэклогов из восьми? И вот тебе вопрос: смогут ли шесть команд, работающих над задачами, оказавшимися низкоприоритетными, легко переключиться на задачи из двух ключевых бэклогов? И какова вероятность, что группа вообще это заметит, если каждая команда сосредоточена только на своих задачах и локальных приоритетах?
 
-Sam continues. “Now suppose there are eight teams and eight team backlogs. What if, from the higher company or product perspective, for some reason, the items in two of the eight team backlogs are actually by far the most important or highest priority. Maybe there’s some change in the market so that this situation comes up. So some questions for you: Can the six teams working in the lower-priority backlogs easily shift to start working on the high-priority items in the other two backlogs? And is it likely that the group will even see this problem, given that they are locked in to each team having their own backlog and local priorities?”
+- На моем предыдущем месте работы, - отвечает Майк, - команды всегда работали над своими задачами в рамках отдельных бэклогов, и, конечно, не могли переключаться на чужие. Да и с чего им это делать - это ведь неэффективно?
 
-Mike answers, “Our teams at my old place only worked on their own team item backlog. They couldn’t shift to others. But why would they want to? Isn’t that inefficient?”
+- Ну, с точки зрения компании получается, что эти команды “эффективно” работают над низкоприоритетными задачами, и происходит это вследствие того, что фокус каждой из них ограничен собственным бэклогом и они не видят общей картины. Разреши задать тебе вопрос: является ли такой подход действительно гибким? И каким образом, с точки зрения компании, он направлен на то, чтобы делать только самые важные для бизнеса задачи?
 
-Sam responds, “Well, from a company perspective, the teams are only working ‘efficiently’ on low-priority stuff because of their narrow knowledge created by each focusing in a different team backlog and because the overall priority and overview isn’t visible. Let me ask you some questions: Does that seem inflexible or flexible—agile? And does that optimize people working on the highest-impact stuff from the company perspective?”
+- Кажется, я начинаю понимать... - после небольшой паузы продолжает Майк. - То, что мы делали, на самом деле не было Agile, в то время как группа позиционировала это как Agile. Мы не были нацелены на самые важные для компании задачи, и Владелец Продукта в моей команде всегда говорила, что она выставляет приоритеты только в рамках нашего бэклога. Но сейчас я вижу, что моя команда эффективно работала над задачами, которые вообще-то могли быть далеко не самыми важными, если взглянуть на них с уровня выше. (ПРАВИЛО: Для всего поставляемого продукта есть только один Владелец Продукта и один Продуктовый Бэклог.)
 
-Mike pauses, “Oh! I think I get it. It’s actually not being agile, even though our group said they were doing agile. We weren’t responsive to the highest-value changes overall. And my old team Product Owner said she was prioritizing for highest value in our team backlog. But now I see that my team was just busy efficiently working on what could be low-value stuff when you look at it from a higher level.” (RULE: There is one Product Owner and one Product Backlog for the complete shippable product.)
+Сэм отвечает:
+- Именно так. И это одна из нескольких причин, почему у нас один Бэклог Продукта и нет командных бэклогов, даже несмотря на большое число команд. В двух словах - это поддерживает фокус на всем продукте, системную оптимизацию и гибкость. И, конечно, с точки зрения группы становится гораздо проще понять общую картину.
 
-Sam says, “Exactly. So that’s one of several reasons why we have one Product Backlog here, and no team backlogs, even though there are many teams. In short, it supports whole-product focus, system optimization, and agility. And of course it’s simpler, and it’s easy to see what’s going on across the group.”
+- Еще я заметил, - добавляет Майк, - что в моей предыдущей компании командам было гораздо сложнее работать вместе, так как у нас были не синхронизированные Спринты с разными целями. Здесь же я чувствую, что у всех команд есть общий фокус в рамках единого Спринта.
 
-“Also,” Mike comments, “I noticed it was much harder in my prior company for all the teams to really work together at the same time, since we were working on very different goals in asynchronous Sprints. Here it feels like all the teams have more of a common focus and direction in one Sprint together.”
+- Так оно и есть! - отвечает Сэм, а затем продолжает. - И здесь напрашивается еще один вопрос: Если у нас есть только один Бэклог и один истинный Владелец Продукта, отвечающий за его приоритизацию, но при этом в каждой команде есть свой так называемый Владелец Продукта, который по определению не приоритезирует командный бэклог, так как его просто не существует, - так чем же он целыми днями занимается?
 
-“Exactly!” Sam replies, then continues.
+- Ну, - отвечает Майк, - в моей предыдущей компании задачей командных Владельцев Продукта было общаться с пользователями и писать истории, чтобы команда могла сфокусироваться непосредственно на программировании, в то время как Владелец Продукта собирал и описывал требования.
 
-“Here’s another question: If there’s only one Product Backlog and one real Product Owner who prioritizes it, but each team still had its own so-called Product Owner who per definition is not prioritizing a team backlog—since there isn’t one—then what do they do all day long? “
+- Майк, а до того как ты вообще узнал про Скрам и про термин ‘Владелец Продукта’ - как ты называл людей, находящихся между разработчиками и реальными клиентами - тех, что собирали требования и передавали их разработчикам?
 
-Mike replies, “Well, in my last company it was the job of the team-level Product Owner to talk to the users and write the stories for the team, so they could focus on efficiently programming while the team Product Owner worked on gathering and writing requirements.”
+- Я пришел в компанию еще до того как мы начали внедрять Скрам, - отвечает Майк, - и в то время этим занималась группа бизнес-аналитиков. После внедрения Скрам нас попросили называть их Владельцами Продукта.
 
-Sam asks, “Mike, before you learned about Scrum terms such as ‘Product Owner’, what would you have called middlemen in between the developers and real customers—the ones collecting requirements and then giving them to developers?”
+- Сегодня на PBR сессии, - задает еще один вопрос Сэм, - разговаривал ли ты с трейдерами, которые были там?
 
-“I joined my last company before we adopted Scrum there.” Mike answers, “And back in the day, there was a group of business analysts who did that. After we adopted Scrum, we were asked to call them the Product Owners.”
+- Дай мне вспомнить… Да, я общался с Таней, мы обсуждали ее идею проанализировать рынок корпоративных облигаций в России, и она выглядела немного озадаченной. Когда я спросил у нее, почему, то она поделилась своими опасениями относительно возможного отмывания денег на оффшорных счетах. Но она не знала, что мы уже некоторое время работаем над интеграцией с европейскими и американскими нормативными базами, регулирующими, в том числе, и эти вопросы, поэтому, когда я предложил ей альтернативный подход, который, с моей точки зрения, лучше решит проблему, она согласилась. 
 
-“Today in your PBR workshop,” Sam asks, “Did you talk with the traders who were there?”
+- Сейчас я думаю, - продолжает он, - что такого, пожалуй, никогда бы не произошло в моей предыдущей компании, потому что мы никогда напрямую не говорили с нашими пользователями.
 
-“Let me think back.” Mike replies, “Yeah, I was talking with Tanya about her idea to analyze trading Russian corporate bonds. It seemed a little confusing so I asked her, why? She explained it was because of concerns around money laundering in offshore accounts. Now, she didn’t know that we’ve been recently working on some other features that integrate with new EU and USA regulatory databases to assess this. So I proposed to her a different approach, which I think—and she agrees—will better solve the problem.
+(ПРАВИЛО: Владелец Продукта не должен работать один над Уточнением Продуктового Бэклога; он поддерживается множеством команд, которые работают непосредственно с заказчиками/пользователями и другими заинтересованными лицами.)
 
-“Now that I think about it,” he reflects, “that probably wouldn’t have happened in my last company, since we rarely talked directly with users.”
+(ПРАВИЛО: Вся приоритезация происходит через Владельца продукта, но прояснение элементов бэклога должно проходить как можно более напрямую между командами и заказчиками/пользователями, а также другими заинтересованными лицами.)
 
-(RULE: The Product Owner shouldn’t work alone on Product Backlog refinement; she is supported by the multiple Teams working directly with customers/users and other stakeholders.)
+#### Больше Разработки
 
-(RULE: All prioritization goes through the Product Owner, but clarification is as much as possible directly between the Teams and customer/users and other stakeholders.)
+Минута за минутой и день за днем команды пишут код и проводят непрерывную интеграцию, совмещенную с автоматизацией тестирования. Когда сборка завершается с ошибками, они останавливаются, чтобы тут же их исправить, и таким образом работают над получением продукта, непрерывно готового к поставке клиентам. Поэтому, когда Спринт близится к завершению и команды готовятся к Обзору Спринта, им не нужно в панике собирать и тестировать большой объем кода - практически все их изменения уже прошли интеграцию и совместное тестирование.
 
-#### More Development
+#### Обзор спринта
 
-Minute by minute and day by day the teams develop code, integrating continuously combined with full test automation. They stop and fix when the build breaks, working towards their perfection goal of having a done shippable product they can continuously deliver to customers. Therefore, when the Sprint is nearly over and the teams are preparing to join the Sprint Review, there’s no late mad rush of effort to integrate and test a big batch of code—it’s been integrated and tested all along.
+<small>(ПРАВИЛО: Есть только один Обзор Спринта и он общий для всех команд.)</small>
 
-#### Sprint Review
-
-<small>(RULE: There is one product Sprint Review; it is common for all teams.)</small>
-
-Finally it’s the last day and time for an all-together Sprint Review. Who’s there? Paolo (the Product Owner, lead product manager), all the internal bond traders, a few trainers and customer service representatives, a few people from Sales, and four users from external clients who pay lower annual rates in exchange for participating regularly in these reviews. Also, there’s all the team members.
-
+Наконец, наступает последний день и время для общего Обзора Спринта. Кто в нем участвует? Паоло (Владелец Продукта и ведущий продукт-менеджер), все трейдеры компании, несколько тренеров, отвечающих за обучение по продукту, представители отдела клиентской поддержки, отдела Продаж, и еще четыре пользователя, представляющие внешних клиентов, для которых компания снижает годовые взносы в обмен на участие их сотрудников в подобных сессиях. Также присутствуют все представители команд.
 
 <div>
   {% figure "img/framework/sprint-review-retrospective", "Sprint Review and Retrospective " %}
 </div>
 
-Because there are many items to explore, the group starts with a one-hour bazaar—something like a science fair—with many devices set up in the room, each available for exploring different sets of items. Some team members stay at fixed areas to collect feedback while everyone else uses and discusses the new features.
+Так как исследования и ревью ожидает большой объем новой функциональности, группа начинает с часовой “ярмарочной” сессии (bazaar): это что-то вроде “научного выставки”, когда в комнате расставляются устройства и гаджеты, каждый из которых предоставляет возможность изучить свой набор фич. Некоторые представители команд остаются у своих “стендов”, чтобы послушать и собрать отзывы, в то время как остальные, перемещаясь от одного к другому, пробуют и обсуждают новые фичи.
 
 <div>
   {% figure "img/framework/sprint-review-bazaar-sketch", "Sprint Review Bazaar - Story Sketch" %}
 </div>
 
-After an hour, the group comes together to discuss the questions and feedback, in a session led by Paolo. After that, they discuss future direction. Paolo shares what’s going on in the market and with competitors, and his thoughts on where to go next, and asks for advice.
+По прошествии часа группа собирается вместе, чтобы обсудить вопросы и впечатления (сессию ведет Паоло), после чего они совместно обсуждают дальнейшие направления развития. Паоло рассказывает о ситуации на рынке, о том, что происходит у конкурентов, а также делится своими мыслями относительно перспектив и просит совета.
 
-#### Team Retrospectives
+#### Командные Ретроспективы
 
-<small>(RULE: Each Team has its own Sprint Retrospective.)</small>
+<small>(ПРАВИЛО: Каждая команда проводит свою Ретроспективу Спринта.)</small>
 
-After a break, Team Trade (and all other teams) hold separate team-level Sprint Retrospectives. They decide that holding a multi-team Design Workshop with Team Margin after Sprint Planning (rather than earlier) was far from ideal in this case, because major issues were left unexplored until the last minute—issues which could have seriously blocked or complicated development. So for the next Sprint they decide that during their PBR sessions they will strive to identify items that have major design issues worth discussing with other teams. And if so, hold a multi-team Design Workshop as soon as possible.
+После перерыва Команда Trade (как и все остальные) проводит свою командную Ретроспективу Спринта. Они соглашаются, что проведение совместной Сессии по Проектированию решения с Командой Margin, состоявшееся не до, а после Планирования Спринта, было далеко от идеального, поскольку критичные вопросы, обнаруженные в ходе нее в самый последний момент, могли серьезно усложнить или даже остановить разработку на какое-то время. Поэтому они решают, что, начиная со следующего Спринта, в ходе PBR сессий они будут стремиться заранее определить сложные с точки зрения проектирования задачи, которые имеет смысл обсудить с другими командами, и при необходимости проводить совместные сессии по Проработке Дизайна как можно раньше.
 
-#### The End
+#### Конец
 
-Sprint done! Sam invites Team Trade to join Mira and him at the Belgian-beer pub down the street—Mira’s favorite—to celebrate her birthday. (RULE: Beer is Belgian Tripel Karmeliet.)
+Спринт завершен! Сэм приглашает Команду Trade присоединиться к ним с Мирой в бельгийском пабе неподалеку, чтобы отметить ее день рождения. (ПРАВИЛО: Если пиво, то Belgian Tripel Karmeliet.)
 
-#### Summary
+#### Резюме
 
-Some key points from the story:
+Несколько ключевых моментов в этой истории:
 
-* it emphasized flow of people and teams through a Sprint in LeSS
-* it connected story elements to specific LeSS guides and rules
-* for a reader who knows Scrum, the events should be familiar
-* the story shows whole-product focus, even with many teams
-* the activities emphasized team-based learning and coordination
-* develop items by integrating continuously so that communicating in code supports decentralized coordination and just talking, in addition to continuous delivery
-* teams clarify directly with users and customers, to reduce handoff and increase understanding, empathy, and ownership
+* она делает акцент на взаимодействии людей и команд в течение Спринта в LeSS
+* она связывает эпизоды из жизни с Руководствами и Правилами LeSS
+* для читателя, знающего Скрам, события должны быть знакомы
+* история показывает фокус на всем продукте, даже при наличии множества команд 
+* мероприятия делают акцент на командном обучении и координации
+* разработка с непрерывной интеграцией и коммуникацией через общий исходный код способствует децентрализации и простому общению, в дополнение к непрерывным поставкам
+* команды проводят уточнения напрямую с пользователями и клиентами, и тем самым упрощают передачу знаний, улучшают понимание, эмпатию и вовлеченность.
 
 ### • LeSS Story: Flow of Items •
 
