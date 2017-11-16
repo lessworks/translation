@@ -52,36 +52,34 @@ order: 100
 
 Тем не менее, предупреждение: Измерение обычно приводит к дисфункции или 'обыгрыванию' системы путем локальной оптимизации для того чтобы казалось, что достигается хороший результат. [[Austin96]](http://www.amazon.com/Measuring-Managing-Performance-Organizations-Dorset-ebook/dp/B00DY3KQX6/ref=sr_1_1?ie=UTF8&qid=1413596674&sr=8-1&keywords=measuring+and+managing+performance+in+organizations). Это особенно верно в 'глубоких' процессных циклах. Наиболее важны времена цикла более высокого уровня, такие как время цикла до потенциально готового к поставке и "от заказа до наличных" или "от заказа до доставки" (квинтэссенция цикла).
 
+Чтобы это значило если бы Вы могли доставлять в *два или четыре раза быстрее* в *устойчивом темпе* без перегрузки людей? А с другой стороны, какая стоимость задержки?
 
+Рассмотрите преимущества быстрой доставки с точки зрения жизненного цикла, полученных возможностей, реакции на конкуренцию и инноваций. Для большинства компаний---не для всех---это будет *выдающееся* преимущество.
 
-What would it mean if you could deliver in *half or a quarter of the time* at a *sustainable pace* without overburdening people? And on the other hand, what is the cost of delay?
+**В два раза быстрее не в два раза дешевле**{: style="color: #1997C0"}---Когда люди слышат "в два раза быстрее" они возможно думают "В два раза больше продуктов, функциональностей или релизов---вдвое больше эффективности." Но там могут быть **транзакционные расходы**, накладные расходы для каждого цикла. Как правило, поставка чаще может увеличить расходы на тестирование или внедрение---или нет.
 
-Consider the benefits of delivering fast in terms of life cycle profits, opportunities gained, response to competition, and innovation. For most companies---not all---it would be an *extraordinary* advantage.
+**В два раза быстрее не в два раза дешевле**{: style="color: #1997C0"}---Прежде чем Вы уберете свои таблицы для анализа на транзакционные расходы, подождите. Существует тонкая связь между временем цикла, стоимостью транзакции и эффективностью, которая вскоре будет изучена - секрет, стоящий за впечатляющей эффективностью Toyota и других предприятий, занимающихся бережливое мышлением ...
 
-**Half the time is not half the cost**{: style="color: #1997C0"}---When people hear “half the time” they may think, “Twice as many products, features, or releases---twice the old efficiency.” But there could be more **transaction cost**, the overhead for each cycle. Shipping more frequently might increase testing or deployment costs---or not, as will be seen.
+**Управление очередями**{: style="color: #1997C0"}---существует множество стратегий, нацеленных на уменьшение времени цикла; и приверженцы бережливого производства и практики гибкой разработки предлагают рог изобилия умелых средств. Один из инструментов является предметом этого раздела - управление очередями.
 
-**Half the time is not twice the cost**{: style="color: #1997C0"}---Before you put away your spreadsheet on the transaction cost analysis, hold on. There is a subtle connection between cycle time, transaction cost, and efficiency that will soon be explored---a secret behind the impressive efficiency of Toyota and other lean thinking enterprises...
+##Управление очередями для уменьшения времени цикла
 
-**Queue management**{: style="color: #1997C0"}---There are plenty of strategies to reduce cycle time; both lean and agile practices offer a cornucopia of skillful means. One tool is the subject of this section---queue management.
+"*Очереди существуют только в производстве, так что теория массового обслуживания и управление очередями неприменима к продуктовой разработке*." Это распространенное заблуждение. Как упоминалось ранее, теория массового обслуживания не возникало в производстве, а в исследованиях операций для повышения пропускной способности в телекоммуникационных системах с высокой изменчивостью. Тем не менее, многие разработческие группы---особенно те, которые принимают практики гибкой разработки или практики бережливого производства---приняли управление очередью, основанное на понимании теории массового обслуживания как для *разработки продукта*, так и для *управления портфелем*. В одном исследовании от MIT и Stanford исследователи пришли к выводу:
 
-## Queue Management to Reduce Cycle Time
+> Бизнес подразделения которые приняли этот подход [управление очередями для потфолио и прдуктового менеджмента] уменьшило их среднее время разработки на 30-50% [[AMNS96]](http://www-bcf.usc.edu/~padler/research/HBR_prod_dev_proc.pdf)
 
-“*Queues only exist in manufacturing, so queueing theory and queue management don’t apply to product development* .” This is a common misconception. As mentioned, queueing theory did not arise in manufacturing but in operations research to improve throughput in telecom systems with high variability. Furthermore, many development groups---especially those adopting lean or agile practices---have adopted queue management based on queueing theory insight for both *product development* and *portfolio management* . One study from MIT and Stanford researchers concluded:
+### Очереди в продуктовой разработке и управлении портфелем
 
-> Business units that embraced this approach [queue management for portfolio and product management] reduced their average development times by 30% to 50%. [[AMNS96]](http://www-bcf.usc.edu/~padler/research/HBR_prod_dev_proc.pdf)
+Примеры очередей в разработке и управлении портфелем?
 
-### Queues in Product Development and Portfolio Management
-
-Example queues in development and portfolio management?
-
-* products or projects in a portfolio
-* new features for one product
-* detailed requirements specifications waiting for design
-* design documents waiting to be coded
-* code waiting to be tested
-* the code of a single developer waiting to be integrated with other developers
-* large components waiting to be integrated
-* large components and systems waiting to be tested
+* продукты или проекты в портфолио
+* новые функциональности для одного продукта
+* подробные спецификации требований, ожидающих проектирования
+* проектные документы, ожидающие разработки
+* код, который ожидает тестирование
+* код одного разработчика, который ждет интеграции с другими разработчиками
+* большие компоненты, ожидающие интеграции
+* большие компоненты и системы ожидающие тестирования
 {: .two_columns .box_top_bottom}
 
 
