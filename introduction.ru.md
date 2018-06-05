@@ -3,6 +3,8 @@ layout: mechanics
 title: Знакомство с LeSS
 order: 5
 ---
+Переведено [Алексей Воронин](https://facebook.com/agileinjection) при поддержке [ScrumTrek](http://scrumtrek.ru/)
+
 (это глава 2 из [книги "Large-Scale Scrum: More with LeSS" ISBN 9780321985712](http://www.amazon.com/Large-Scale-Scrum-More-Craig-Larman/dp/0321985710))
 
 <div class="chapter_quote"><p>
@@ -396,97 +398,107 @@ LeSS и LeSS Huge имеют следующие общие элементы:
 * разработка с непрерывной интеграцией и коммуникацией через общий исходный код способствует децентрализации и простому общению, в дополнение к непрерывным поставкам
 * команды проводят уточнения напрямую с пользователями и клиентами, и тем самым упрощают передачу знаний, улучшают понимание, эмпатию и вовлеченность.
 
-### • LeSS Story: Flow of Items •
+### • LeSS История: Поток работ •
 
-This story focuses more on the flow of items (features) through part of a Sprint, primarily during refinement and development.
+Эта история о том, как происходит работа над элементами бэклога в течении спринта, в основном в течение Уточнения Бэклога и разработки.
 
-Portia wraps up her meeting with the government regulator and heads to the airport, and home. She’s another product manager; she helps Paolo, and specializes in regulatory and audit trends.
-
-<div>
-  {% figure "img/framework/product-managers-discuss-sketch", "Product Managers Discuss - Story Sketch", class:"half-sized-figure pull-right" %}
-</div>
-
-Later, Portia meets with Paolo. Writing on cards, she summarizes the new rules that are going to impact their product, and what clients she thinks are going to want certain features first. Paolo points to the five cards and asks, “So this covers all the work, as far as you know?” Portia smiles and says, “This is regulatory. It’s never finished or clear.”
-
-Paolo asks, “Can you put these in the Product Backlog for me, unordered at the bottom for now?”
-
-“Sure.”
-
-A week later Paolo tells Portia, “Soon, I want to start delivering some parts of the big regulatory requirement for bond derivatives. In the next Sprint’s Product Backlog refinement workshops, I’m going to ask for some teams to focus on that. You know the most about it, so please be at the overall PBR and at whatever team refinement workshops where they want you. Also, can you set up a wiki page with links to the new regulatory docs, to share with the teams?”
-
-“Already done,” answers Portia.
-
-#### Overall PBR
-
-Paolo kicks off a quick overall PBR workshop, “We’ve got lots of work around new regulations. Soon we need to deliver related items because of a legal deadline end of fiscal year. We’ll know better after some splitting and estimation, but I wouldn’t be surprised if it ultimately involves three or more of the teams for implementation, and lots of time.”
-
-The group splits the new giant item into only a few large parts, to learn major elements. More splitting will happen later in a single-team or multi-team PBR session. Portia heads to the whiteboard; on the left side she writes “regulations for bond derivatives.” Then in conversation with the group, they sketch a tree diagram with four arms representing a splitting into four major sub-items. But they don’t go any deeper—they’re avoiding over-analysis.
-
-Next, the group creates four cards for the new items, and everyone together estimates them with planning poker and relative-size points, baselining the points against existing well-known items in the Product Backlog. Their main goal is not to create estimates but to surface questions and drive more discussion, which they do with Portia.
-
-Next, Paolo asks, “So Portia, of these four big ones, which one first?”
-
-She points to the second card. “Over-the-counter exotic bond derivatives.”
-
-Paolo says, “We need to start delivering some of that as soon as possible. It’s moving way up the Product Backlog. So I’d like one team to take a bite into this, next Sprint. Who’s interested?”
-
-Team Trade volunteers.
-
-Finally, team members from three other teams decide to hold a multi-team PBR workshop for related items.
-
-#### Team PBR: Biting In
-
-The next day Team Trade holds a team PBR workshop with Portia. They have only one of the four giant items to focus on: New regulations for over-the-counter (OTC) exotic bond derivatives. Sam (their Scrum Master) is also there. Portia says, “This is a gigantic complex item, in an area that frankly nobody is really clear about. It’s going to take us a long time to split this up, really understand it, and specify it well.”
-
-Sam asks, “Do we really need to understand all of it? And will all that analysis teach us more, or could it actually delay our learning?”
-
-He reviews with them the idea of Take a Bite: to just split off one tiny fragment, really understand that, and implement it quickly. Sam concludes, “You know, diagrams don’t crash and documents don’t run.”
-
-With Portia, the team splits off one tiny bite of a thin customer-centric end-to-end item.
-
-From now on they will focus on that tiny bite, clarifying and implementing it. Only after implementation and feedback will they return much later to more splitting and refinement. Using specification by example Portia and Team Trade spend the rest of the day chewing on their bite.
-
-#### Multi-Team PBR: Rotation Refinement
-
-One outcome of overall PBR was the decision to take a bite with Team Trade. Another was the decision for three teams to hold a multi-team PBR workshop for related items, to increase learning and the agility of multiple teams knowing and thinking about the same items.
-
-In addition to everyone from the three teams, the internal traders Tanya, Ted, and Travis join to help the teams start clarifying about a dozen new items. (RULE: All prioritization goes through the Product Owner, but clarification is as much as possible directly between the Teams and customer/users and other stakeholders.)
-
-To start, they form three temporary mixed groups with people from each team. The mixed groups start clarifying different items in separate areas in the room, each with a whiteboard, big wall space, laptop, and projector. Tanya is with one group, Ted another, and Travis, the third.
-
-Then they do rotation refinement: After 30 minutes, a timer goes ding! One group walks over to the other’s area, and vice versa, but Tanya, Ted, and Travis don’t move. The timer is restarted, the traders explain the current results to the incoming groups, and they continue clarifying.
+Порша (Portia) завершила ее встречу с представителями госудаственного регулятора и направилась в аэропорт, чтобы добраться домой. Она второй менеджер продукта, помощник Паоло (Paolo), и специализируется на регуляторных и аудиторских трендах.
 
 <div>
-  {% figure "img/framework/multi-team-product-backlog-refinement-sketch", "Multi-Team Product Backlog Refinement - Story Sketch" %}
+  {% figure "img/framework/product-managers-discuss-sketch", "Обсуждение Менеджерами Продукта - Story Sketch", class:"half-sized-figure pull-right" %}
 </div>
 
-Throughout the day, as different items become relatively clear—or are left with hanging questions that will have to be explored later—new items are introduced at a work area. Some of the bigger items are split into two or three new smaller ones.
+Позже Порша встретилась с Паоло. Она выписывает на карточках и обобщает новые правила, которые потенциально затронут их продукт, а также формирует список клиентов, которые по ее мнению, захотят получить данную функциональность в первую очередь. Паоло указывает на пять карточек и спрашивает: 
+- Ну что, ты думаешь, вот эти покроют всю работу? 
+Порша, улыбнувшись, отвечает:
+- Это ведь регуляторка. Она никогда не бывает полной и понятной.
+- Можешь поместить вот эти в Бэклог Продукта для меня, пока что внизу списка без приоритетов? - спрашивает Паоло.
+- Конечно.
 
-A few times during the day, the groups stop their clarification and do some estimation, mostly to learn and to prompt conversation. They’re using relative (story) points; to remain synchronized against a common baseline, they calibrate against some already completed and well-known items in the Product Backlog.
+Неделю спустя Паоло рассказывает Порше:
+- Мы скоро собираемся приступить к поставке части требований из большого набора регуляторных требований по долговым деривативам. Поэтому в следующем Спринте, в рамках сессий по Уточнению Бэклога, я планирую попросить часть команд сфокусироваться на этом. Ты лучше всех разбираешься в этой теме, поэтому, пожалуйста, поучаствуй в Общей сессии PBR, а также в командных сессиях, если потребуется. И еще - можно тебя попросить создать wiki-страницу со ссылками на новые нормативные документы, чтобы поделиться ими с командами?
+- Уже сделано, - отвечает Порша.
 
-#### Updating the Product Backlog and Product Owner
+#### Общая сессия PBR
 
-The day after the PBR workshops, Portia and a few team members
+Паоло открывает Общую сессию PBR:
+- Нам предстоит немало работы, связанной с новыми регуляторными требованиями. Нам нужно поставить соответствующий функционал довольно быстро, так как новые требования имеют формальный дедлайн - конец финансового года. После их разбиения на задачи и проведения оценки мы, конечно, узнаем это наверняка, но я не удивлюсь, если их реализация в конечном счете потребует вовлечения трех или даже больше команд, и немало времени.
 
-* update the Product Backlog with the new split items derived from the original ones, and delete the originals
-* add links to the new wiki pages of item details, created in the PBR workshops
-* record new estimates, and items ready for implementation
+Группа берет одну очень большую задачу и делит на несколько крупных частей, чтобы понять ее основные составляющие. Дальнейшее разделение будет проведено в ходе одно- или многокомандных PBR-сессий. Порша подходит к доске и пишет в левой ее части “регуляторные требования по долговым деривативам”. Затем, в процессе обсуждения с группой они рисуют древовидную диаграмму с четырьмя ветвями, представляющими четыре основные подзадачи. На этом они останавливаются, избегая на данном этапе чересчур глубокого анализа.
 
-Later, Portia and those team members meet with Paolo to review the Product Backlog changes and to answer his questions.
+Далее группа создает четыре карточки для нового функционала и совместно проводит их оценку в относительных единицах объема работ, используя покер планирования и взяв за основу существующие и хорошо известные задачи из Бэклога Продукта. Сейчас их цель - не добиться точных оценок, а стимулировать обсуждение и появление новых вопросов, что они и делают вместе с Поршей.
 
-#### The End
+Далее, Паоло спрашивает:
+- Ну что, Порша, из этих четырех больших задач - какая должна идти первой?
 
-Some key points from the story:
+Она указывает на вторую карточку:
+- Внебиржевые экзотические деривативы.
 
-* Take a Bite on a giant item to learn from delivery of something small and to avoid premature and excessive analysis.
-* Do multi-team PBR for items, for shared knowledge across teams, which increases organizational agility, broadens whole-product knowledge, and fosters self-organized coordination.
-* Strive for whole-product focus, even with many teams.
+Паоло говорит:
+- Нам нужно начать поставлять функционал по этой задаче как можно раньше. Поднимаем ее приоритет в Бэклоге Продукта, и я бы хотел, чтобы в следующем Спринте одна из команд "попробовала бы ее на зуб" (начала бы с ней разбираться). Кто хочет этим заняться?
 
-**Next**—The next section shifts to the *LeSS Huge* framework, used for large groups of many teams.
+Вызвалась команда Trade.
+
+Затем, по итогам встречи, участники из трех других команд решают провести Многокомандную сессию PBR для обсуждения связанных задач.
+
+#### Командный PBR: Пробуем истории на зуб
+
+На следующий день Команда Trade проводит командную сессию PBR с Поршей. Им предстоит разобраться с одной крупной задачей из четырех: “Новые регуляторные требования по внебиржевым (over-the-counter, OTC) нестандартным долговым деривативам”. Сэм (их Скрам-мастер) также присутствует на встрече. Порша говорит:
+- Это действительно гигантская и комплексная задача, причем в той области, в которой, признаться, никто из нас достаточно хорошо не разбирается. Нам потребуется немало времени, чтобы ее разделить, понять и хорошо описать.
+
+Сэм спрашивает: 
+- Действительно ли нам нужно понимать ее целиком? И действительно ли этот анализ поможет нам разобраться, или в действительности только задержит наше изучение этой темы?
+
+Он обсуждает с ними идею “Отломить кусок” (Take a Bite): выделить один небольшой фрагмент, действительно в нем разобраться, после чего быстро реализовать. 
+
+Сэм заключает: 
+- Вы же знаете, диаграммы не могут сломаться и документы невозможно запустить. 
+
+Вместе с Поршей команда выделяет кусочек клиент-ориентированной сквозной функциональности.
+
+С этого момента они концентрируются только на этом маленьком фрагменте, уточняя и реализуя его. Только после его реализации и получения обратной связи, намного позже, они вернутся к дальнейшему разделению и уточнению. Используя подход "спецификация через примеры", Порша и Команда Trade проводят остаток дня, "пережевывая откушенный кусок". 
+
+#### Многокомандная сессия PBR: Уточнение с ротацией
+
+Одним из результатов Общей сессии PBR было решение о взятии в работу Командой Trade маленького фрагмента функциональности. Еще одним - решение трех команд провести совместную PBR-сессию по связанным задачам с целью усилить их обучение и гибкость в понимании и взглядах на одни и те же задачи.
+
+Помимо всех участников всех трех команд, на встрече присутствуют внутренние трейдеры: Таня, Тед и Тревис, чтобы помочь командам разобраться с дюжиной новых требований. (ПРАВИЛО: Вся приоритезация происходит через Владельца Продукта, но прояснение элементов бэклога должно проходить максимально напрямую между командами и заказчиками/пользователями, а также другими заинтересованными лицами).
+
+Для начала они формируют три временные смешанные группы, включающие участников из каждой команды. Разойдясь по углам комнаты, группы начинают проводить уточнения по разным задачам. У каждой из них есть маркерная доска, большое пространство на стене, ноутбук и проектор. Таня присоединяется к одной группе, Тед - ко второй, Тревис - к третьей. 
+
+Затем они делают уточнение с ротацией (rotation refinement): после 30 минут звенит таймер. Динь! Одна группа переходит в зону, которую только что занимала другая, и наоборот, но Таня, Тед и Тревис остаются на своих местах. Снова запускается таймер, и трейдеры разъясняют текущие результаты новой группе, и вместе они продолжают уточнение.
+
+<div>
+  {% figure "img/framework/multi-team-product-backlog-refinement-sketch", "Многокомандное Уточнение Бэклога - Story Sketch" %}
+</div>
+
+В течение дня, по мере того как различные требования проясняются и становятся более понятными, или остаются с открытыми вопросами, которые надо будет прояснять позже, в рабочую зону добавляются новые элементы, требующие уточнения. Некоторые объемные задачи разделяются на две или три меньшие части.
+
+Несколько раз в течение дня группы останавливают процесс уточнения с целью проведения оценок по части задач, в основном - чтобы глубже понять задачи и подстегнуть дальнейшее обсуждение. Они используют относительные оценки (историй), и используют в качестве мерила некоторые уже завершенные и хорошо известные задачи из Бэклога Продукта, чтобы новые оценки согласовывались со старыми.
+
+#### Владелец Продукта и обновление Бэклога Продукта
+
+На следующий день после проведения PBR Порша вместе с несколькими участниками команд:
+
+* обновляет Бэклог Продукта, добавляя новые элементы, полученные после разделения исходных, и удаляет оригиналы. 
+* добавляет ссылки на новые wiki-статьи, содержащие детали, полученные в ходе PBR-сессий. 
+* фиксируют новые оценки и элементы бэклога, готовые к реализации. 
+
+Затем в том же составе они встречаются с Паоло, чтобы просмотреть изменения в Бэклоге Продукта и ответить на его вопросы. 
+
+#### Конец
+
+Некоторые ключевые моменты истории: 
+
+* ‘Отломите Кусочек’ гигантской задачи, чтобы научиться на поставке чего-то небольшого и избежать преждевременного и чересчур глубокого анализа.
+* Проводите многокомандные сессии PBR для элементов бэклога, чтобы усилить распространение знаний между командами, что в свою очередь увеличивает организационную гибкость, общепродуктовые зания и усиливает самоорганизацию координации команд.
+* Стремитесь к фокусу всем продукте, даже при наличии большого количества команд.
+
+**Далее**—Следующая секция переключает внимание на фреймворк *LeSS Huge*, использующийся для крупных групп и большого числа команд.
 
 ## LeSS Huge Framework
 
-### • Requirement Areas •
+### • Области Требований •
 
 With 1000 or even just 100 people on one product, divide-and-conquer seems unavoidable because of the complexity of so many requirements and people. Traditional large-scale development divides these ways:
 
