@@ -1,12 +1,14 @@
-Agile principles - принципы гибкой разработки
+﻿Agile principles - принципы гибкой разработки
 Area Product Owner - Владелец Области Продукта
 Area Product Backlog - Бэклог Области Продукта
+Backlog - Бэклог
 Causal loop diagrams - Диаграммы причинного цикла
 Causal relation - причинно-следственная связь
 Complexity of static [details] - статическая сложность
 Complexity of dynamics - динамическая сложность
 Control theory - теория управления
 Cross-team - кросскомандная
+Development Team - Команда Разработки
 Diagram of effect - диаграмма воздействия
 Dynamic system models - динамические модели систем
 Empirical process control - Эмпирический контроль процесса
@@ -26,18 +28,23 @@ LeSS Overall Retrospective - всеобщая ретроспектива LeSS
 Mental model - ментальная модель
 Measurement dysfunction - дисфункция измерения
 Morale - боевой дух
-Multi-team - многокомандный
+Multi-team - Многокомандный
 Multi-team Product Backlog Refinement - Многокомандное Уточнение Бэклога Продукта
 Overall Retrospective - Общая Ретроспектива
-Overall Product Backlog Refinement - Общее Уточнение Бэклога Продукта
+Overall Product Backlog Refinement - Общее Уточнение Бэклога Продукта 
 Queueing Theory - Теория массового обслуживания
 Perfection goal - Цель совершенства
+Product Backlog - Бэклог Продукта
+Product Backlog item - Элемент Бэклога Продукта
 Rate of delivery - стоимость доставки
 Requirement Area - Область Требований
+Scrum - Скрам
+Scrum Master - Скрам-мастер
+Scrum Team - Скрам-команда
 Sprint Planning One - Первая Часть Планирования Спринта
 Sprint Planning Two - Вторая Часть Планирования Спринта
 System dynamics - системная динамика
 Systems thinking - системное мышление
-Team-level Product Backlog Refinement - Командное Уточнение Бэклога Продукта
+Team-level Product Backlog Refinement - Командное Уточнение Бэклога продукта
 Value - ценность
 Wokrshop - сессия совместной работы
