@@ -14,7 +14,7 @@ order: 2
 
 Десять принципов LeSS направляли нас при создании LeSS, и точно также они должны направлять вас при имплементации LeSS. Есть и другие принципы, которые могут вам пригодиться, и которые стоит изучить:
 
-* [Agile-манифест](http://www.agilemanifesto.org/)
+* [Agile-манифест](http://agilemanifesto.org/iso/ru/manifesto.html)
 * Избегая ложных дихотомий (раскрыто в  [Масштабируем Agile и Lean разработку](http://www.amazon.com/Scaling-Lean-Agile-Development-Organizational/dp/0321480961))
 * Быть Agile вместо делать Agile (раскрыто в [Масштабируем Agile и Lean разработку](http://www.amazon.com/Scaling-Lean-Agile-Development-Organizational/dp/0321480961))
 * Всеобщее управление/контроль качества (одна из ранних и отличных книг на эту тему [Что такое всеобщий контроль качества: Японский путь](http://www.amazon.com/What-Total-Quality-Control-Japanese/dp/0139524339))
