@@ -20,4 +20,4 @@ order: 2
 * Всеобщее управление/контроль качества (одна из ранних и отличных книг на эту тему [Что такое всеобщий контроль качества: Японский путь](http://www.amazon.com/What-Total-Quality-Control-Japanese/dp/0139524339))
 * 14 принципов Деминга (из книги [Выход из кризиса ФФ](http://www.amazon.com/Out-Crisis-W-Edwards-Deming/dp/0262541157))
 
-Переведено [Алексей Воронин](https://scrumtrek.ru/trainer/4595/aleksey-voronin/)
+Переведено [Алексей Воронин](https://scrumtrek.ru/trainer/4595/aleksey-voronin/) и [Сергей Господчиков](https://less.works/ru/profiles/sergey-gospodchikov)
