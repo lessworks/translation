@@ -11,3 +11,4 @@ order: 45
 * [Обзор Спринта](sprint-review.html) и [Ретроспектива Спринта](retrospective.html) в одно время.
 * Командное [Уточнение Бэклога Продукта](product-backlog-refinement.html) нет необходимости делать одновременно!
 
+Перевод статьи осуществлен [Сергеем Господчиковым](https://less.works/ru/profiles/sergey-gospodchikov) и [Алексеем Ворониным](https://facebook.com/agileinjection)
