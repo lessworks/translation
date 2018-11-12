@@ -1,50 +1,64 @@
-﻿Agile principles - принципы гибкой разработки
-Area Product Owner - Владелец Области Продукта
+﻿Acceptance criteria - Критерии приемки
+Agile principles - принципы гибкой разработки
 Area Product Backlog - Бэклог Области Продукта
+Area Product Owner - Владелец Области Продукта
 Backlog - Бэклог
 Causal loop diagrams - Диаграммы причинного цикла
 Causal relation - причинно-следственная связь
-Complexity of static [details] - статическая сложность
 Complexity of dynamics - динамическая сложность
+Complexity of static [details] - статическая сложность
 Control theory - теория управления
 Cross-team - кросскомандная
+Definition of Done - Критерии Готовности
 Development Team - Команда Разработки
 Diagram of effect - диаграмма воздействия
 Dynamic system models - динамические модели систем
 Empirical process control - Эмпирический контроль процесса
-Feature-team - продуктовая команда
 Feature velocity - скорость разработки фичи
+Feature-team - продуктовая команда
 Feedback loop - цикл обратной связи
 Flow diagrams - диаграммы потока
-Framework - каркас
+Framework - каркас, фреймворк
 Guides - Руководства
-Framework - каркас
+Initial Product Backlog Refinement - Первое Уточнение Бэклога Продукта
 Inspect and Adapt - Инспекция и Адаптация
-Large-Scale Scrum - Масштабный Скрам
+Large-scale *smth* adoption - внедрение *smth* в больших масштабах
 Large-scale adoption of *smth* - внедрение *smth* в больших масштабах
-Large-scale *smth* adoption -внедрение *smth* в больших масштабах
+Large-Scale Scrum - Масштабный Скрам
 Lean thinking - бережливое мышление
 LeSS Overall Retrospective - всеобщая ретроспектива LeSS
-Mental model - ментальная модель
 Measurement dysfunction - дисфункция измерения
+Mental model - ментальная модель
 Morale - боевой дух
 Multi-team - Многокомандный
 Multi-team Product Backlog Refinement - Многокомандное Уточнение Бэклога Продукта
+Overall Product Backlog Refinement - Общее Уточнение Бэклога Продукта
 Overall Retrospective - Общая Ретроспектива
-Overall Product Backlog Refinement - Общее Уточнение Бэклога Продукта 
-Queueing Theory - Теория массового обслуживания
 Perfection goal - Цель совершенства
+Potentially Shippable - Потенциально готовый к поставке
+Potentially Shippable Product - Потенциально готовый к поставке продукт
+Potentially Shippable Product Increment - Потенциально готовый к поставке Инкремент Продукта
 Product Backlog - Бэклог Продукта
 Product Backlog item - Элемент Бэклога Продукта
+Product Backlog Refinement - Уточнение Беклога Продукта
+Product Owner - Владелец Продукта
+Queueing Theory - Теория массового обслуживания
 Rate of delivery - стоимость доставки
 Requirement Area - Область Требований
 Scrum - Скрам
 Scrum Master - Скрам-мастер
+Scrum of Scrums - Скрам над Скрамом
 Scrum Team - Скрам-команда
+Sprint - Спринт
 Sprint Planning One - Первая Часть Планирования Спринта
 Sprint Planning Two - Вторая Часть Планирования Спринта
 System dynamics - системная динамика
 Systems thinking - системное мышление
 Team-level Product Backlog Refinement - Командное Уточнение Бэклога продукта
+Transparency - Прозрачность
+Undone Work - Неготовая Работа
 Value - ценность
+Whole Product Focus - Фокус на Всем Продукте
 Wokrshop - сессия совместной работы
+Work in Iteration - Работа в Итерации
+work in progress - работа в процессе, проводимая работы в момент времени
