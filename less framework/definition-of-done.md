@@ -1,5 +1,4 @@
 ---
-layout: mechanics
 title: Definition of Done
 order: 87
 ---
@@ -40,7 +39,7 @@ The teams discuss their context and select the subset of the activities that all
 The difference between the Definition of Done and Potentially Shippable is referred to as Undone Work. The Sprint is planned according to the Definition of Done and thus the Undone Work is excluded—it is planned to be left undone
 
 <div>
-  {% figure_with_caption "/img/framework/dod", "Figure 1. Potentially Shippable and Definition of Done." %}
+  {% figure_with_caption "/img/framework/definition-of-done", "Potentially Shippable and Definition of Done." %}
 </div>
 
 ## Definition of Done terms
@@ -68,6 +67,10 @@ Work in Iteration = Product Backlog Item * Definition of Done
 Let’s first explore the effects of Undone Work by running through a scenario.
 
 The teams completed—according to the Definition of Done—twenty Product Backlog Items in the first Sprint. They have no unfinished work but there is a lot of Undone Work due to their weak Definition of Done. After the teams completed—according to the weak Definition of Done—forty Product Backlog Items in three Sprints. The amount of Undone Work has grown enormously causing a false sense of progress.
+
+<div>
+  {% figure_with_caption "/img/framework/undone-work/causing-risk-and-delay", "Undone Work Causing Risk and Delay" %}
+</div>
 
 But they can’t ship. They have ‘done’ the features but their weak Definition of Done caused a vast amount of Undone Work to accumulate. This Undone Work causes delay and hidden risk.
 
