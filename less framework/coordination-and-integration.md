@@ -1,5 +1,4 @@
 ---
-layout: mechanics
 title: Coordination & Integration
 order: 80
 ---
@@ -18,7 +17,7 @@ So, when you update, spend two minutes going over the changes that were made by 
 
 ## Send Observers to the Daily Scrum
 
-A simple coordination method for teams is to send a representative —not the ScrumMaster—as a silent observer to the Daily Scrum of other teams doing related work. The observers then report back to their teams so they can take further action.
+A simple coordination method for teams is to send a representative —not the Scrum Master—as a silent observer to the Daily Scrum of other teams doing related work. The observers then report back to their teams so they can take further action.
 
 ## Component communities and mentors
 
