@@ -6,7 +6,7 @@ layout: static_content_less
 ---
 
 <div>
-  {% figure "img/framework/why-less-framework", "Large Scale Scrum (Less) Framwork" %}
+  {% figure "img/framework/why-less-framework", "Фреймворк Large Scale Scrum (LeSS)" %}
   {% include framework.map %}
 </div>
 
