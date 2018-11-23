@@ -1,11 +1,12 @@
 ---
-layout: mechanics
-title: Фреймворк LeSS
+title: LeSS Framework
+menu_title: Фреймворк LeSS
 order: 1
+layout: static_content_less
 ---
 
 <div>
-  {% figure "resources/less-framework", "Фреймворк Large Scale Scrum (LeSS)" %}
+  {% figure "img/framework/why-less-framework", "Large Scale Scrum (Less) Framwork" %}
   {% include framework.map %}
 </div>
 
