@@ -1,11 +1,12 @@
 ---
-layout: mechanics
 title: LeSS Framework
+menu_title: Large-Scale Scrum
 order: 1
+layout: static_content_less
 ---
 
 <div>
-  {% figure "resources/less-framework", "Large Scale Scrum (Less) Framwork" %}
+  {% figure "img/framework/why-less-framework", "Large Scale Scrum (Less) Framwork" %}
   {% include framework.map %}
 </div>
 
@@ -39,11 +40,9 @@ In LeSS all Teams are in a common Sprint to deliver a common shippable product, 
 * **Sprint Planning Part 1**: In addition to the one Product Owner, it includes people from all teams. Let team members self-manage to decide their division of Product Backlog Items. Team members also discuss opportunities to find shared work and cooperate, especially for related items.
 * **Sprint Planning Part 2**: This is held independently (and usually in parallel) by each Team, though sometimes for simple coordination and learning two or more Teams may hold it in the same room (in different areas).
 * **Daily Scrum**: This is also held independently by each Team, though a member of Team A may observe Team B’s Daily Scrum, to increase information sharing.
-* **Coordination**: Teams or rotating representatives from each may hold an Open Space, Town Hall Meeting, or Scrum of Scrums regularly to increase information sharing and coordination.
+
+* **Coordination**: Just Talk, Communicate in Code, Travelers, Open Space, and Communities.
 * **Overall PBR**: There may be an optional and short overall Product Backlog Refinement (PBR) meeting that includes the one Product Owner and people from all teams. The key purpose is to decide which teams are likely to implement which items and therefore select those items for later in-depth single-team PBR. It is also a chance to increase alignment with the Product Owner and all teams.
 * **Product Backlog Refinement**: The only requirement in LeSS is single-team PBR, the same as in one-team Scrum. But a common and useful variation is multi-team PBR, where two or more Teams are in the same room together, to increase learning and coordination.
 * **Sprint Review**: In addition to the one Product Owner, it includes people from all teams, and relevant customers/users and other stakeholders. For the phase of inspecting the product increment and new items, consider a “bazaar” or “science fair” style: a large room with multiple areas, each staffed by team members, where the items developed by teams are shown and discussed.
-* **Overall Retrospective**: This is a new meeting not found in one-team Scrum, and its purpose is to explore improving the overall system, rather than focusing on one Team. The maximum duration is 45 minutes per week of Sprint. It includes the Product Owner, ScrumMasters, and  rotating representatives from each Team.
-
-
-
+* **Overall Retrospective**: This is a new meeting not found in one-team Scrum, and its purpose is to explore improving the overall system, rather than focusing on one Team. The maximum duration is 45 minutes per week of Sprint. It includes the Product Owner, Scrum Masters, and  rotating representatives from each Team.
