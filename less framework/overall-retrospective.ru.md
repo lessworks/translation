@@ -43,4 +43,5 @@ order: 105
 Очень важный инструмент для Общей Ретроспективы - это использование [причинно-следственных диаграмм](../principles/systems-thinking.html).
 Общий выбор проблем и совместное их исследование, стоя у доски, приводит к лучшему пониманию ситуации и реальным, полезным изменениям. 
 
-Перевод статьи осуществлен [Сергеем Господчиковым](https://less.works/ru/profiles/sergey-gospodchikov) и [Евгением Пешковым](https://www.facebook.com/epeshkov)
+Перевод статьи осуществлен [Сергеем Господчиковым](https://less.works/ru/profiles/sergey-gospodchikov),[Евгением Пешковым](https://www.facebook.com/epeshkov) и [Алексеем Ворониным](https://facebook.com/agileinjection)
+
