@@ -43,6 +43,7 @@ Rate of delivery - стоимость доставки
 Requirement Area - Область Требований
 Scrum - Скрам
 Scrum Master - Скрам-мастер
+Scrum of Scrums - Скрам над Скрамом
 Scrum Team - Скрам-команда
 Sprint Planning One - Первая Часть Планирования Спринта
 Sprint Planning Two - Вторая Часть Планирования Спринта
