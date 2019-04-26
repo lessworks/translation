@@ -41,28 +41,28 @@ order: 40
 
 Toyota далека от совершенства и существуют уникальные идеи из других систем, о которых следует знать и которые нельзя найти в бережливом мышлении. Мы не настаиваем на том, что Toyota или бережливое мышление — это единственные модели, из которых следует извлечь уроки или просто последовать их примеру. Тем не менее, это совершенствуемая на протяжении длительного времени, эффективная система, созданная довольно надёжной и устойчивой компанией. 
 
+ <!-- можно ли использовать английский термин Lean вместо длинного "бережливого производства" -->
+
 
 
 
 
 ###Основы Бережливого Мышления  - Это *Не* Инструменты и *Не* Уменьшение Потерь
 
-### The Pillars of Lean Are *Not* Tools and Waste Reduction
+Есть несколько ошибочных представлений относительно бережливого мышления. Этот раздел начинается с того, чтобы развеять их. Что является основой и силой бережливого мышления и Toyota?
 
-There are some common misconceptions about lean. This section starts with clearing these away. What is the essence and power of lean thinking and Toyota?
+> Когда я впервые начатл изучать Производственную Систему Toyota (TPS), я был очаровад силой [потока в одну задачу, канбаном и другими инструментами бережливого мышления]. Но по ходу дела, опытные лидеры внутри Toyota не переставали объяснять мне что эти инструменты и техники не были ключевыми. Скорее сила, стоящая за плечами TPS - это *стремление менеджмента компании постояннно инвестировать в своих людей и проповедовать культуру непрерывного улучшения*. После обучение в течение почти 20 лет…...я наконец-то полностью это осознал. (курсив добавлен) [[Liker04]](http://www.amazon.com/Toyota-Way-Management-Principles-Manufacturer-ebook/dp/B000SEGIVS/ref=sr_1_1?ie=UTF8&qid=1414352313&sr=8-1&keywords=the+toyota+way)
 
-> When I first began learning about the Toyota Production System, I was enamoured by the power of [one-piece flow, kanban, and other lean tools]. But along the way, experienced leaders within Toyota kept telling me that these tools and techniques were not the key. Rather the power behind TPS is a company’s *management commitment to continuously invest in its people and promote a culture of continuous improvement.* After studying for almost 20 years…..this is finally sinking in. (emphasis added) [[Liker04]](http://www.amazon.com/Toyota-Way-Management-Principles-Manufacturer-ebook/dp/B000SEGIVS/ref=sr_1_1?ie=UTF8&qid=1414352313&sr=8-1&keywords=the+toyota+way)
+Вакамацу и Кондо, эксперты Toyota, выражают это кратко:
 
-Wakamatsu and Kondo, Toyota experts, put it succinctly:
-
-> The essence of [the Toyota system] is that each individual employee is given the opportunity to find problems in his own way of working, to solve them, and to make improvements.
+> Суть [системы Toyota] в том, что каждому отдельному сотруднику предоставлена возможность находить и решать проблемы по-своему и вносить улучшения.
 
 
 
 
 
 
-### Management Tools Are *Not* a Pillar of Lean
+### Инструменты управления - *Не являются* Основой Lean
 
 The above quotes underscore a vital point because over the years there have been some ostensibly ‘lean’ promoters that reduced lean thinking to a mechanistic, superficial level of management tools such as kanban and queue management. These derivative descriptions ignore the central message of the Toyota experts who stress that the essence of successful lean thinking is “building people, then building products” and a culture of “challenge the status quo” via continuous improvement.
 
@@ -97,7 +97,7 @@ Although useful, waste reduction is not a pillar of lean. It is only mentioned s
 
 #### Два Столпа Бережливого Мышления
 
-Что же *тогда* основы бережливого мышления? Президент Toyota Гари Конвис:
+Что же *тогда* является основами бережливого мышления? Президент Toyota Гари Конвис:
 
 > The Toyota Way can be briefly summarized through the two pillars that support it: **Continuous Improvement** and **Respect for People**. Continuous improvement, often called **kaizen**, defines Toyota’s basic approach to doing business. **Challenge everything** . More important than the actual improvements that individuals contribute, the true value of continuous improvement is in creating an atmosphere of continuous learning and an environment that not only accepts, but actually **embraces change** . Such an environment can only be created where there is respect for people---hence the second pillar of the Toyota Way. (emphasis added)
 
