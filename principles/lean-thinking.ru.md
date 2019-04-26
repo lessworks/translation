@@ -51,7 +51,7 @@ Toyota далека от совершенства и существуют уни
 
 Есть несколько ошибочных представлений относительно бережливого мышления. Этот раздел начинается с того, чтобы развеять их. Что является основой и силой бережливого мышления и Toyota?
 
-> Когда я впервые начатл изучать Производственную Систему Toyota (TPS), я был очаровад силой [потока в одну задачу, канбаном и другими инструментами бережливого мышления]. Но по ходу дела, опытные лидеры внутри Toyota не переставали объяснять мне что эти инструменты и техники не были ключевыми. Скорее сила, стоящая за плечами TPS - это *стремление менеджмента компании постояннно инвестировать в своих людей и проповедовать культуру непрерывного улучшения*. После обучение в течение почти 20 лет…...я наконец-то полностью это осознал. (курсив добавлен) [[Liker04]](http://www.amazon.com/Toyota-Way-Management-Principles-Manufacturer-ebook/dp/B000SEGIVS/ref=sr_1_1?ie=UTF8&qid=1414352313&sr=8-1&keywords=the+toyota+way)
+> Когда я впервые начатл изучать Производственную Систему Toyota (TPS), я был очаровад силой [потока в одну задачу, канбаном и другими инструментами бережливого мышления]. Но по ходу дела, опытные лидеры внутри Toyota не переставали объяснять мне что эти инструменты и техники не были ключевыми. Скорее сила, стоящая за плечами TPS - это *стремление менеджмента компании постояннно инвестировать в своих людей и проповедовать культуру непрерывного улучшения*. В процессе обучения, спустя почти 20 лет…...я наконец-то полностью это осознал. (курсив добавлен) [[Liker04]](http://www.amazon.com/Toyota-Way-Management-Principles-Manufacturer-ebook/dp/B000SEGIVS/ref=sr_1_1?ie=UTF8&qid=1414352313&sr=8-1&keywords=the+toyota+way)
 
 Вакамацу и Кондо, эксперты Toyota, выражают это кратко:
 
@@ -70,8 +70,9 @@ Reducing lean thinking to kanban, queue management and other tools is like reduc
 
 <figure>
   <img class="rounded shadowed" src="/img/lean-thinking/good_thinking.jpg" alt="good_thinking.jpg">
-  <figcaption>Internal motto at Toyota facility.</figcaption>
+  <figcaption>Внутренний девиз на заводе Toyota.</figcaption>
 </figure>
+
 
 
 To simplify lean thinking to tools is to fall into a trap repeated many times before by companies superficially and unsuccessfully attempting to adopt what they thought was lean.
