@@ -35,15 +35,17 @@ order: 40
 
 
 
-### Background
+### Предыстория
 
-**Lean** (or **lean thinking** ) is the English name given by a [Toyota engineer](http://www.leanblog.org/2010/08/who-coined-the-term-lean-and-where-is-he-today/) doing graduate work at MIT to the system now known as the Toyota Way. Toyota is a strong, resilient company that seems to improve over time. For example, in 2014 [Forbes](http://www.forbes.com/pictures/eimi45eilh/no-1-toyota-motor/) ranked Toyota both the largest and most valuable automotive company in the world. *Extreme Toyota* dedicates a chapter comparing their sustainable performance compared to others in their industry. 
+**Бережливое мышление** (**lean thinking, lean**)  это английское название данное [инженером Toyota](http://www.leanblog.org/2010/08/who-coined-the-term-lean-and-where-is-he-today/), выполняющим дипломную работу в рамках Международной автомобильной программы (MIT), системе известной сейчас как Путь Toyota. Toyota —  сильная, стабильная компания которая, как можно видеть, совершенствуется на протяжении длительного времени. Так, например,  в 2014 году [журнал Forbes](http://www.forbes.com/pictures/eimi45eilh/no-1-toyota-motor/) оценил Toyota как крупнейшую и самую дорогую автомобильную компанию в мире. Книга "*Экстремальная Toyota*" посвящает главу, сравнивающую их устойчивые показатели с другими в своей отрасли.
 
-Toyota is far from perfect and there are unique things to learn from other systems that are not found in lean thinking. We are not suggesting that Toyota or lean thinking are the only models to learn from or to simply emulate. Nevertheless, it is a long-refined, effective system that comes from a relatively robust and sustainable company.
-
-
+Toyota далека от совершенства и существуют уникальные идеи из других систем, о которых следует знать и которые нельзя найти в бережливом мышлении. Мы не настаиваем на том, что Toyota или бережливое мышление — это единственные модели, из которых следует извлечь уроки или просто последовать их примеру. Тем не менее, это совершенствуемая на протяжении длительного времени, эффективная система, созданная довольно надёжной и устойчивой компанией. 
 
 
+
+
+
+###Основы Бережливого Мышления  - Это *Не* Инструменты и *Не* Уменьшение Потерь
 
 ### The Pillars of Lean Are *Not* Tools and Waste Reduction
 
@@ -93,9 +95,9 @@ Although useful, waste reduction is not a pillar of lean. It is only mentioned s
 
 
 
-#### The Two Pillars of Lean
+#### Два Столпа Бережливого Мышления
 
-What *are* the pillars of lean? Toyota president Gary Convis:
+Что же *тогда* основы бережливого мышления? Президент Toyota Гари Конвис:
 
 > The Toyota Way can be briefly summarized through the two pillars that support it: **Continuous Improvement** and **Respect for People**. Continuous improvement, often called **kaizen**, defines Toyota’s basic approach to doing business. **Challenge everything** . More important than the actual improvements that individuals contribute, the true value of continuous improvement is in creating an atmosphere of continuous learning and an environment that not only accepts, but actually **embraces change** . Such an environment can only be created where there is respect for people---hence the second pillar of the Toyota Way. (emphasis added)
 
@@ -799,3 +801,5 @@ Lean thinking is much more than *tools* such as kanban, visual management or que
 * *Workplace Management* by Taiichi Ohno is a short book by the creator of the Toyota Production System. It was out-of-print but has been recently re-translated by Jon Miller and is now available. The book does not talk much about TPS but it contains a series of short chapters that show well how Taiichi Ohno thought about management and lean systems.
 
 * Mary and Tom Poppendieck’s books *Lean Software Development* and *Implementing Lean Software Development* are well-written books that make important connections between lean thinking, systems thinking, and agile development.
+
+Перевод статьи осуществлен [Романом Лапаевым](https://www.linkedin.com/in/romanlapaev) и <!-- кем-то ещё -->
