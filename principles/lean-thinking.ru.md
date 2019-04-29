@@ -3,19 +3,21 @@ title: Бережливое Мышление
 order: 40
 ---
 <div class="chapter_quote"><p>
-У меня достаточно денег, чтобы продержаться до конца моей жизни, если я не куплю что-нибудь.
+У меня достаточно денег, чтобы хватило на всю оставшуюся жизнь, если я не куплю что-нибудь.
 <br/>
   —<a href="https://ru.wikipedia.org/wiki/Джеки_Мейсон" title="Джеки Мейсон - американский стендап-комик, актёр телевидения и озвучивания">Джеки Мейсон</a>
 </p></div>
+
 
 Бережливое мышление — это проверенная система, масштабируемая до уровня крупного производства, что подтверждается корпорацией Toyota и другими. Не смотря на то, что этот термин чаще применим к промышленному производству, он также используется в сфере обслуживания — как внутри Toyota так и в таких областях как, например, здравоохранение.
 
 Метафора (от Дона Рейнертсена, сторонника бережливого мышления), которую мы используем, чтобы донести ключевую ошибку в понимании (и вместе с ней основную идею)  — это эстафетный бег.
 
 <figure>
-  <img class="rounded shadowed" src="/img/lean-thinking/baton.jpg" alt="baton.jpg">
+  <img class="rounded shadowed" src="/img/lean-thinking/baton.jpg" alt="Watch the baton, not the runners.">
   <figcaption>Следи за эстафетной палочкой, а не за бегунами.</figcaption>
 </figure>
+
 
 Вообразите себе эстафету. Бегуны *стоят повсюду* в ожидании эстафетной палочки от членов своей команды. Бухгалтер финансового департамента был бы в ужасе от таких кошмарных 'потерь' из-за недостаточной загрузки и вероятно потребовал бы установить политику "95% утилизация ресурсов", чтобы удостовериться, что все бегуны загружены и "продуктивны". Может быть, посоветовал бы он, бегуны могли бы бежать три эстафеты в одно и то же время, чтобы увеличить "утилизацию ресурсов", или они могли бы подниматься в гору, в процессе ожидания эстафетной палочки.
 
@@ -64,24 +66,26 @@ Toyota далека от совершенства и существуют уни
 
 ### Инструменты управления - *Не являются* Основой Lean
 
-The above quotes underscore a vital point because over the years there have been some ostensibly ‘lean’ promoters that reduced lean thinking to a mechanistic, superficial level of management tools such as kanban and queue management. These derivative descriptions ignore the central message of the Toyota experts who stress that the essence of successful lean thinking is “building people, then building products” and a culture of “challenge the status quo” via continuous improvement.
+Приведенные выше цитаты подчеркивают жизненно важный момент, потому что на протяжении многих лет существовали некие якобы «бережливые» сторонники, которые опустили бережливое мышление до механического, поверхностного уровня инструментов управления, таких как канбан и управление очередями. Эти вторичные, производные описания игнорируют основное послание экспертов Toyota, которые подчеркивают, что суть успешного бережливого мышления заключается в том, чтобы «в первую очередь создавать людей и только потом создавать продукты» и в культуре «бросающей вызов статус-кво», путем непрерывного совершенствования.
 
-Reducing lean thinking to kanban, queue management and other tools is like reducing a working democracy to voting. Voting is good, but democracy is far more subtle and difficult. Consider the internal Toyota motto shown in a photo we took when visiting Toyota in Japan some years ago. It captures the heart of lean, summarizing the focus on educating people to become skillful systems thinkers:
+Сокращение бережливого мышления до уровня канбана, управления очередями и других инструментов, подобно сокращению подлинной демократии до обычного голосования. Голосование — это хорошо, но демократия намного более изощрённая и сложная. Посмотрите на внутренний девиз Toyota, изображённый на фотографии, которую мы сделали во время посещения Toyota в Японии несколько лет назад. Он захватывает самую суть бережливого мышления,  устанавливая акцент на образовании людей, чтобы они стали мастерами системного мышления:
 
 <figure>
-  <img class="rounded shadowed" src="/img/lean-thinking/good_thinking.jpg" alt="good_thinking.jpg">
+  <img class="rounded shadowed" src="/img/lean-thinking/good_thinking.jpg" alt="Good Thinking, Good Products">
   <figcaption>Внутренний девиз на заводе Toyota.</figcaption>
 </figure>
 
 
 
-To simplify lean thinking to tools is to fall into a trap repeated many times before by companies superficially and unsuccessfully attempting to adopt what they thought was lean.
+Упрощение бережливого мышления до инструментов — это хождение по тем же граблям, по которым до вас уже много раз прошли другие компании, поверхностно и безуспешно пытаясь внедрить то, что они считали бережливым мышлением.
 
-> ... it was only after American carmakers had exhausted every other explanation for Toyota’s success---an undervalued yen, a docile workforce, Japanese culture, superior automation---that they were finally able to admit that ***Toyota’s real advantage was its ability to harness the intellect of ‘ordinary’ employees***. [[Hamel06]](http://hbr.org/2006/02/the-why-what-and-how-of-management-innovation/ar/1)
+> … это случилосто только после того, как Американские автопроизводители исчерпали все все возможные объяснения успеха Toyota (заниженный курс иены, послушная рабочая сила, японская культура, превосходная автоматизация), тогда они наконец-то смогли признать, что ***настоящее преимущество Toyota в способности задействовать интеллектуальный потенциал ‘обычных’ сотрудников***. [[Hamel06]](http://hbr.org/2006/02/the-why-what-and-how-of-management-innovation/ar/1)
 
-Consequently, *Lean Six Sigma* is viewed by Toyota people to represent Six Sigma tools but not to represent real lean thinking. A former Toyota plant and HR manager explains:
+Следовательно, *Концепция Шести Сигм* видится людьми в Toyota как просто инструменты Шести Сигм, но не как реальное бережливое мышление. Бывший управляющий завода Toyota и менеджер по персоналу объясняет:
 
-> Lean six sigma is a compilation of tools and training focused on isolated projects to drive down unit cost... The Toyota approach [...] is far broader and far deeper. The starting point is the Toyota Way philosophy of respect for people and continuous improvement. The principle is developing quality people who continually improve processes. The responsibility lies not with black belt specialists but with the leadership hierarchy that runs the operation, and they are teachers and coaches. [[LH08]](http://www.amazon.com/Toyota-Culture-Heart-Soul-Way-ebook/dp/B0062Y5VGQ/ref=sr_1_1?ie=UTF8&qid=1414350917&sr=8-1&keywords=The+Heart+and+Soul+of+the+Toyota+Way)
+<!-- Lean Six Sigma - есть какой-то распространённый перевод термина? -->
+
+> Шесть Сигм бережливого производства это подборка инструментов и тренингов, ориентированных на отдельные проекты по снижению стоимости единицы продукции… Подход Toyota […] гораздо более всеобъемлющий и глубокий.  Отправной точкой является философия Пути Toyota: уважение к людям и непрерывное совершенствование. Этот принцип заключается в выращивании квалифицированых людей, которые постояннно улучшают процессы. При этом, ответственность лежит не на специалистах с "черными поясами", но на руководстве, которое запускает весь процесс и является коучами и наставниками. [[LH08]](http://www.amazon.com/Toyota-Culture-Heart-Soul-Way-ebook/dp/B0062Y5VGQ/ref=sr_1_1?ie=UTF8&qid=1414350917&sr=8-1&keywords=The+Heart+and+Soul+of+the+Toyota+Way)
 
 
 
