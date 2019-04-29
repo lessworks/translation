@@ -119,15 +119,15 @@ Toyota далека от совершенства и существуют уни
 
 
 
-## Why "Lean"? Lean & the Toyota Way
+## Почему "Бережливое Мышление"? Бережливое Мышление и Путь Toyota
 
-The English term ‘lean’ was coined for the Toyota system to contrast *mass* production with Toyota's *not-mass* production---*lean* production. The implication was a dramatic reduction in batch size, and no longer competing on economies of scale but rather competing on the ability to adapt, avoid inventory, and work in very small units---themes also found in LeSS. 
+Английский термин ‘бережливый’ был придуман для системы Toyota чтобы противопоставить *массовое* производство *не-массовому* производству в Toyota — *бережливому* производству. Это означало радикальное сокращение объёма партии продукции и прекращение экономии за счёт масштаба, но скорее экономии за счёт возможности адаптироваться, избегать инвентарных запасов и работать с очень малыми поставками — вопросы также поднимаемые в LeSS.
 
-Two of the authors of the *The Machine That Changed the World* went on to write *Lean Thinking*, a popular introduction that summarized five principles.
+Двое из авторов *"Машины, Которая Изменила Мир"* предложили писать *Бережливое Мышление - популярное представление, в котором резюмируются пять принципов.
 
-In their excellent books on *lean software development*, Mary Poppendieck---who applied lean thinking at 3M---and Tom Poppendieck raised awareness of the correspondence and complementary qualities of lean to agile software development methods. And Jeff Sutherland and Ken Schwaber, co-creators of Scrum, have studied Toyota and lean thinking.
+В своей замечательной книге *"Бережливая разработка программного обеспечения"*, Мэри Поппендик, которая применила бережливое мышление в 3М, и Том Поппендик, обратили внимание на взаимодополняющие качества и сходства бережливого мышления с принципами гибкой разработки ПО. А Джефф Сазерленд и Кен Швабер, соавторы Скрам, изучали Путь Toyota и бережливое мышление.
 
-Relatively broad descriptions of the lean system are *The Toyota Way*, *The Toyota Product Development System, Inside the Mind of Toyota* , *Extreme Toyota*, and *Lean Product and Process Development.* All are based on long study of Toyota. *The Toyota Way* text is used by Toyota for education, in addition to their internal *Toyota Way 2001*. This introduction to lean is similar to these descriptions.
+Довольно подробными описаниями бережливого мышления являются: *"Дао Toyota"*, *"Система Разработки Продукции в Toyota. Люди, Процессы, Технология"* , *"Экстремальная Toyota"*, и *"Lean Product and Process Development".*<!-- последнее, похоже, на русском не издано. не понятно как перевести (Allen Ward, Аллен Уорд) --> Вcе они основаны на изучении опыта Toyota. Текст *"Дао Toyota"* используется в Toyota для обучения, в дополнении к их внутреннему *"Путь Toyota 2001"*. Настоящее введение в бережливое производство сходно со всеми этими описаниями.
 
 
 
