@@ -19,6 +19,7 @@ Feedback loop - цикл обратной связи
 Flow diagrams - диаграммы потока
 Framework - каркас
 Guides - Руководства
+Gemba - гэмба
 Framework - каркас
 Inspect and Adapt - Инспекция и Адаптация
 Kaizen - кайдзен
