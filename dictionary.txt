@@ -8,6 +8,7 @@ Complexity of static [details] - статическая сложность
 Complexity of dynamics - динамическая сложность
 Control theory - теория управления
 Cross-team - кросскомандная
+Definition of Done - Критерии Готовности
 Development Team - Команда Разработки
 Diagram of effect - диаграмма воздействия
 Dynamic system models - динамические модели систем
@@ -19,6 +20,7 @@ Flow diagrams - диаграммы потока
 Framework - каркас
 Guides - Руководства
 Framework - каркас
+Initial Product Backlog Refinement - Первичное Уточнение Бэклога Продукта
 Inspect and Adapt - Инспекция и Адаптация
 Large-Scale Scrum - Масштабный Скрам
 Large-scale adoption of *smth* - внедрение *smth* в больших масштабах
@@ -36,10 +38,12 @@ Queueing Theory - Теория массового обслуживания
 Perfection goal - Цель совершенства
 Product Backlog - Бэклог Продукта
 Product Backlog item - Элемент Бэклога Продукта
+Product Backlog Refinement - Уточнение Бэклога Продукта
 Rate of delivery - стоимость доставки
 Requirement Area - Область Требований
 Scrum - Скрам
 Scrum Master - Скрам-мастер
+Scrum of Scrums - Скрам над Скрамом
 Scrum Team - Скрам-команда
 Sprint Planning One - Первая Часть Планирования Спринта
 Sprint Planning Two - Вторая Часть Планирования Спринта
