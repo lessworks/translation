@@ -52,9 +52,9 @@ Toyota далека от совершенства и существуют уни
 
 ###Основы Бережливого Подхода  - Это *Не* Инструменты и *Не* Уменьшение Потерь
 
-Есть несколько ошибочных представлений относительно бережливого подхода. Этот раздел начинается с того, чтобы развеять их. Что является основой и силой бережливого мышления и Toyota?
+Есть несколько ошибочных представлений относительно бережливого подхода. Этот раздел начинается с того, чтобы развеять их. Что является сутью и силой бережливого мышления и Toyota?
 
-> Когда я впервые начатл изучать Производственную Систему Toyota (TPS), я был очарован силой [потока в одну задачу, канбаном и другими инструментами бережливого подхода]. Но по ходу дела, опытные лидеры внутри Toyota не переставали объяснять мне что эти инструменты и техники не были ключевыми. Скорее сила, стоящая за плечами TPS - это *стремление менеджмента компании постояннно инвестировать в своих людей и проповедовать культуру непрерывного улучшения*. В процессе обучения, спустя почти 20 лет…...я наконец-то полностью это осознал. (курсив добавлен) [[Liker04]](http://www.amazon.com/Toyota-Way-Management-Principles-Manufacturer-ebook/dp/B000SEGIVS/ref=sr_1_1?ie=UTF8&qid=1414352313&sr=8-1&keywords=the+toyota+way)
+> Когда я впервые начал изучать Производственную Систему Toyota (TPS), я был очарован силой [потока в одну задачу, канбаном и другими инструментами бережливого подхода]. Но по ходу дела, опытные лидеры внутри Toyota не переставали объяснять мне что эти инструменты и техники не были ключевыми. Скорее сила, стоящая за плечами TPS - это *стремление менеджмента компании постояннно инвестировать в своих людей и проповедовать культуру непрерывного улучшения*. В процессе обучения, спустя почти 20 лет…...я наконец-то полностью это осознал. (курсив добавлен) [[Liker04]](http://www.amazon.com/Toyota-Way-Management-Principles-Manufacturer-ebook/dp/B000SEGIVS/ref=sr_1_1?ie=UTF8&qid=1414352313&sr=8-1&keywords=the+toyota+way)
 
 Вакамацу (Wakamatsu) и Кондо (Kondo), эксперты Toyota, выражают это кратко:
 
@@ -103,7 +103,7 @@ Toyota далека от совершенства и существуют уни
 
 #### Два Столпа Бережливого Подхода
 
-Что же *тогда* является основами бережливого подхода? Президент Toyota Гари Конвис (Gary Convis):
+Что же *тогда* является основными приципами бережливого подхода? Президент Toyota Гари Конвис (Gary Convis):
 
 > Путь Toyota  можно кратко изложить в двух столпах, на которых он основывается: **Непрерывное Совершенствование** и **Уважение к Людям**. Непрерывное совершенствование, часто называемое **кайдзен**, определяет основной подход Toyota к бизнесу. **Спорно всё**<!-- Бросай вызов всему -->. Более значимая, чем фактические улучшения, которые вносят отдельные лица, истинная ценность непрерывных улучшений заключается в создании атмосферы непрерывного обучения и среды, которая не просто принимает, но и фактически **приветсвует изменения**. Такая среда может быть создана только там, где есть уважение к людям — этим объясняется второй столп Пути Toyota. (выделение добавлено)
 
@@ -122,7 +122,7 @@ Toyota далека от совершенства и существуют уни
 
 ## Почему "Бережливый Подход"? Бережливый Подход и Путь Toyota
 
-Английский термин ‘бережливый’ был придуман для системы Toyota чтобы противопоставить *массовое* производство *не-массовому* производству в Toyota — *бережливому* производству. Это означало радикальное сокращение объёма партии продукции и прекращение экономии за счёт масштаба, но скорее экономии за счёт возможности адаптироваться, избегать инвентарных запасов и работать с очень малыми поставками — вопросы также поднимаемые в LeSS.
+Английский термин ‘бережливый’ был придуман для системы Toyota чтобы противопоставить *массовое* производство *не-массовому* производству в Toyota — *бережливому* производству. Это означало радикальное сокращение объёма партии продукции и прекращение экономии за счёт масштаба, но скорее экономии за счёт возможности адаптироваться, избегать инвентарных запасов и работать с очень малыми партиями — вопросы также поднимаемые в LeSS.
 
 Двое из авторов *"Машина, Которая Изменила Мир"* предложили писать *"Бережливое Мышление"* — популярное представление, в котором резюмируются пять принципов.
 
@@ -202,7 +202,7 @@ Toyota (и их марки Lexus и Scion) не толко производят 
 
 
 
-## Основы Бережливого Подхода: Бережливо-Мыслящие Менеджеры-Учителя
+## Фундамент Бережливого Подхода: Бережливо-Мыслящие Менеджеры-Учителя
 
 <table >
 <tr >
@@ -241,7 +241,7 @@ Toyota (и их марки Lexus и Scion) не толко производят 
 * Долгосрочная философия — практически весь менеджмент, включая управляющий уровень, должен иметь четкое понимание принципов бережливого подхода, жить этим годами и учить этому других.
 * Долгосрочная философия — менеджеры-учителя развили навыки системного мышления и улучшения процессов, решения проблем, и они учат этому других. Вся культура пропитана менталитетом и отношением: “Давайте остановимся и поймём конрневые причины проблем.”
 
-**Менеджеры-учителя** и внутренний девиз Toyota: *Правильное Мышление, Хорошие Продукты*. Как они достигают этого “хорошего мышления”, которое лежит в основе их успеха? А достигается это через *культуру наставничесва.* Ожидается, что менеджеры должны быть практическими экспертами в своей области работы (как говорится, “мой начальник может сделать мою работу лучше чем я”), ожидается что они должны понимать бережливое мышление и ожидается что они *тратят время на обучение и коучинг остальных*. Мы узнали во время опросов в  Японии, что  политика управления персоналом в Toyota включает анализ того, сколько времени менеджер тратит времени на обучение. Короче говоря, менеджеры в меньшей степени управляющие и в большей степени учителя принципов бережливого мышления, “остановить и исправь сразу,”  менталитета *кайдзен*. Таким способом распространяется  *ДНК Toyota *.
+**Менеджеры-учителя** и внутренний девиз Toyota: *Правильное Мышление, Хорошие Продукты*. Как они достигают этого “хорошего мышления”, которое лежит в основе их успеха? А достигается это через *культуру наставничесва.* Ожидается, что менеджеры должны быть практическими экспертами в своей области работы (как говорится, “мой начальник может выполнить мою работу лучше меня”), ожидается что они должны понимать бережливое мышление и ожидается что они *тратят время на обучение и коучинг остальных*. Мы узнали во время опросов в  Японии, что  политика управления персоналом в Toyota включает анализ того, сколько времени менеджер тратит времени на обучение. Короче говоря, менеджеры в меньшей степени управляющие и в большей степени учителя принципов бережливого мышления, “остановить и исправь сразу,”  менталитета *кайдзен*. Таким способом распространяется  *ДНК Toyota*.
 
 <figure>
   <img class="rounded shadowed" src="/img/lean-thinking/good_thinking.jpg" alt="Internal motto at Toyota">
@@ -263,7 +263,7 @@ Toyota (и их марки Lexus и Scion) не толко производят 
 
 
 
-## Pillar One: Respect for People
+## Столп Первый: Уважение к Людям
 
 <table >
 <tr >
@@ -272,12 +272,13 @@ Toyota (и их марки Lexus и Scion) не толко производят 
 </td>
 <td style="vertical-align:middle;">
 <p style="margin-top:0em; padding-top:0em;">
-This pillar of lean thinking is described in the <a href="./continuous-improvement-towards-perfection.html#RespectforPeople">Respect for People</a> section of the separate LeSS principle of Continuous Improvement.
+Этот столп бережливого мышления описан в разделе <a href="./continuous-improvement-towards-perfection.html#RespectforPeople">Уважение к Людям</a>,   относящемуся к другому приципу LeSS &mdash; Непрерывному Совершенствованию.
 </p>
 <br>
 </td>
 </tr>
 </table>
+
 <br>
 
 
@@ -287,7 +288,7 @@ This pillar of lean thinking is described in the <a href="./continuous-improveme
 
 
 
-## Pillar Two: Continuous Improvement
+## Столп Второй: Непрерывное Совершенствование
 
 <table >
 <tr >
@@ -296,12 +297,13 @@ This pillar of lean thinking is described in the <a href="./continuous-improveme
 </td>
 <td style="vertical-align:middle;">
 <p style="margin-top:0em; padding-top:0em;">
-This pillar of lean thinking is described in the separate LeSS principle of <a href="./continuous-improvement-towards-perfection.html">Continuous Improvement Towards Perfection.</a>
+Этот столп бережливого производства изложен в виде отдельного принципа LeSS <a href="./continuous-improvement-towards-perfection.html">Непрепрывное Улучшение на Пути к Совершенству.</a>
 </p>
 <br>
 </td>
 </tr>
 </table>
+
 <br>
 
 
@@ -311,7 +313,7 @@ This pillar of lean thinking is described in the separate LeSS principle of <a h
 
 
 
-## 14 Principles
+## 14 Принципов
 
 <table >
 <tr >
@@ -320,20 +322,21 @@ This pillar of lean thinking is described in the separate LeSS principle of <a h
 </td>
 <td style="vertical-align:middle;">
 <p style="margin-top:0em; padding-top:0em;">
-The 14 principles describe the details of the Toyota Way (lean thinking) system.
+14 принципов описывают детали системы Путь Toyota (бережливого мышления).
 </p>
 <br>
 </td>
 </tr>
 </table>
+
 <br>
 
 
-To quote Fujio Cho, a chairman of Toyota:
+По словам Фудзио Чо (Fujio Cho), председатель правления Toyota:
 
-> Many good American companies have respect for individuals, and practice kaizen and other [Toyota] tools. But what is important is having all the elements together as ***a system*** . It must be practiced every day in a very consistent manner.
+> Многие хорошие американские компании уважают людей и практикуют кайдзен и другие инструменты [Toyota]. Но что важно, так это объединить все элементы вместе как **систему**. Это должно практиковаться постоянно, весьма последовательным образом.
 
-Part of this broader *system* is covered in the 14 principles described in the *Toyota Way* book that comes out of decades of direct observation and interviews with Toyota people. 
+Часть этой более обширной  *системы* покрывается 14 принципами, описанными в книге *Путь Toyota*, которая основана на десятилетиях непосредственного наблюдения и беседах с людьми Toyota. 
 
 
 <table class="table">
@@ -345,16 +348,18 @@ Part of this broader *system* is covered in the 14 principles described in the *
 <tr>
 <td>
 <p>
-1. Base management decisions on a <em>long term philosophy</em>, even at the expense of short-term financial goals.
+1. Основывайте управленческие решения на <em>долговременной философии</em>, даже ценой краткосрочных финансовых целей.
 </p>
+
 </td>
 <td>
 <p>
-<a href="./systems-thinking.html#Seeing(andHearing)LocalOptimization">Seeing (and Hearing) Local Optimization</a>
+<a href="./systems-thinking.html#Seeing(andHearing)LocalOptimization">
+Наблюдая (и Слушая) Локальную Оптимизацию</a>
 </p>
+
 </td>
 </tr>
-
 
 
 
@@ -364,47 +369,18 @@ Part of this broader *system* is covered in the 14 principles described in the *
 
 <tr>
 <td>
+
 <p>
-2. Move toward <em>flow</em>; move to ever-smaller batch sizes and cycle times to deliver value fast &amp; and to <em>expose weakness and hidden problems</em>.
+2. Двигайтесь в направлении <em>потока</em>; переходите на более мелкие поставляемые партии и продолжительности циклов производства, чтобы доставлять ценность быстрее И чтобы <em>раскрывать слабые места и скрытые проблемы</em>.
 </p>
+
 </td>
 <td>
+
 <p>
-see <a href="./continuous-improvement-towards-perfection.html#WorkTowardFlow">Work Toward Flow</a> and <a href="./queueing_theory.html#IndirectBenefitsofReducingBatchSizeandCycleTime">Indirect Benefits of Reducing Batch Size and Cycle Time</a>
+смотрите <a href="./continuous-improvement-towards-perfection.html#WorkTowardFlow">Работа в Направлении Потока</a> и <a href="./queueing_theory.html#IndirectBenefitsofReducingBatchSizeandCycleTime">Косвенные Преимущества Уменьшения Объёмов Партий и Продолжительности Цикла</a>
 </p>
-</td>
-</tr>
 
-
-
-
-<tr>
-<td>
-<p>
-3. Use <em>pull systems</em> to avoid overproduction of WIP or inventory; <em>decide as late as possible.</em>
-</p>
-</td>
-<td>
-<p>
-see <em>Pull Systems</em> within <a href="./continuous-improvement-towards-perfection.html#WorkTowardFlow">Work Toward Flow</a>.
-</p>
-</td>
-</tr>
-
-
-
-
-
-<tr>
-<td>
-<p>
-4. <em>Level the work</em>---reduce variability and overburden to remove unevenness.
-</p>
-</td>
-<td>
-<p>
-see <em>Pull Systems</em> within <a href="./continuous-improvement-towards-perfection.html#WorkTowardFlow">Work Toward Flow</a> and <a href="./queueing_theory.html#ApplyingQueueManagementinLeSS">Applying Queue Management in LeSS</a>.
-</p>
 </td>
 </tr>
 
@@ -414,51 +390,16 @@ see <em>Pull Systems</em> within <a href="./continuous-improvement-towards-perfe
 <tr>
 <td>
 <p>
-5. Build a culture of <em>stopping and fixing problems</em> to ultimately <em>build quality in</em>; teach everyone to methodically study problems.
+3. Используйте <em>систему вытягивания</em>, чтобы избежать перепроизводства  НЗР (WIP) или запчастей; <em>принимайте решения как можно позднее.</em>
 </p>
+
 </td>
 <td>
+
 <p>
-<em>Stop and Fix</em> is a deep and repeating theme in lean thinking. And not a <em>quick fix</em>, but understanding root causes and introducing deep countermeasures.
+смотрите <em>Вытягивающие Системы</em> в <a href="./continuous-improvement-towards-perfection.html#WorkTowardFlow">Работа в Направлении Потока</a>.
 </p>
-<p>
-Here are some discussions of Stop and Fix in different processes and domains: <a href="http://www.dontpanicitsolutions.com.au/lean-thinking/32-build-quality-in-stop-the-line">software development</a> and <a href="http://leanbuilds.wordpress.com/2009/05/09/stop-the-line-manufacturing-and-continuous-integration">software integration</a> and <a href="http://www.healthleadersmedia.com/page-1/NRS-277350/Nursing-Borrows-a-Trick-from-Manufacturing">healthcare</a>.
-</p>
-</td>
-</tr>
 
-
-
-
-<tr>
-<td>
-<p>
-6. Standardized tasks are the foundation for continuous improvement and employee empowerment.
-</p>
-</td>
-<td>
-<p>
-This is discussed in more detail in the <a href="./continuous-improvement-towards-perfection.html#Kaizen">Kaizen</a> section of the <em>Continuous Improvement Towards Perfection</em> LeSS principle. As explained there, in lean thinking a standardized task does <em>not</em> mean a centrally-defined standard; it is some very temporary standard that a team or person has defined or acquired for themselves as step one in kaizen.
-</p>
-</td>
-</tr>
-
-
-
-
-<tr>
-<td>
-<p>
-7. Use <em>visual controls</em> (visual management) to reveal problems—and to coordinate.
-</p>
-</td>
-<td>
-<p>
-A key theme of <a href="https://en.wikipedia.org/wiki/Visual_control">visual control</a> and visual management in Toyota is to use <em>tangible, physical tokens</em>, not software, for visualization of what's going on and to coordinate. Computers are only used relatively simply, to create a gigantic display of color (a signol), to display a single gigantic number, etc. 
-</p>
-<p>
-The physical tokens may be pieces of paper, colored wood blocks, and so on. Physical visual management is widely used now in agile software development; here are some examples: <a href="http://xprogramming.com/articles/bigvisiblecharts/">Big Visible Charts in XP</a> and <a href="http://www.xqa.com.ar/visualmanagement/tag/scrum/">visual management in agile development</a>
-</p>
 </td>
 </tr>
 
@@ -469,13 +410,79 @@ The physical tokens may be pieces of paper, colored wood blocks, and so on. Phys
 <tr>
 <td>
 <p>
-8. Use only <em>reliable thoroughly-tested technology</em> that serves your people and process.
+4. <em>Выравнивайте работу</em> &mdash; уменьшайте вариативность и перегруженность чтобы устранить неравномерность.
 </p>
+
 </td>
 <td>
+
 <p>
-This principle is not so applicable in the context of leading-edge software development with rapidly changing technologies. That said, most software developers know all-too-well the pain of new and buggy tools, and can appreciate the motivation behind this principle. Where applicable, <em>open-source</em> software tools, libraries, and frameworks often help.
+смотрите <em>Вытягивающие Системы</em> в <a href="./continuous-improvement-towards-perfection.html#WorkTowardFlow">Работа в Направлении Потока</a> и <a href="./queueing_theory.html#ApplyingQueueManagementinLeSS">Применение Теории Массового Обслуживания в LeSS</a>.
 </p>
+
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+
+<p>
+5. Постройте культуру <em>остановки и исправления проблемы</em>, чтобы в конечном итоге <em>добиться высокого качества</em>; научите всех и каждого методичному изучению проблем.
+</p>
+
+</td>
+<td>
+
+<p>
+<em>Остановиться и Исправить</em> это глубокая повторяющаяся тема в бережливом мышлении. И это не <em>быстрое исправление</em>, а изучение корневых причин и внедрение глубоких контрмер.
+</p>
+<p>
+Вот некоторые обсуждения принципа "Остановиться и Исправить" в различных процессах и областях: <a href="http://www.dontpanicitsolutions.com.au/lean-thinking/32-build-quality-in-stop-the-line">разработка программного обеспечения</a> и <a href="http://leanbuilds.wordpress.com/2009/05/09/stop-the-line-manufacturing-and-continuous-integration">интеграция программного обеспечения</a> и <a href="http://www.healthleadersmedia.com/page-1/NRS-277350/Nursing-Borrows-a-Trick-from-Manufacturing">здравоохранение</a>.
+</p>
+
+</td>
+</tr>
+
+
+
+
+<tr>
+<td>
+<p>
+6. Стандартизированные задачи являются основой непрерывного улучшения и  расширения возможностей сотрудников.
+</p>
+
+</td>
+<td>
+
+<p>
+Это обсуждается более детально в разделе <a href="./continuous-improvement-towards-perfection.html#Kaizen">Кайдзен</a> LeSS принципа <em>Непрепрывное Улучшение на Пути к Совершенству</em>. Как там объясняется, в бережливом мышлении стандартизированная задача <em>не</em> означает централизированно-определённый стандарт; это некий очень временный стандарт, который команда или человек определили или получили для себя как первый шаг в кайдзен.
+</p>
+
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+
+<p>
+7. Используйте <em>визуальные инструменты</em> (визуальное управление), чтобы выявлять проблемы и взаимодействовать.
+</p>
+
+</td>
+<td>
+
+<p>
+Ключевая тема <a href="https://en.wikipedia.org/wiki/Visual_control">визауальных инструментов</a> и визуальноего управления в Toyota в использовании <em>осязаемых, физических меток</em>, не программных, для визуализации того, что происходит и для взаимодействия. Компьютеры используются лишь относительно просто, чтобы сделать гигантский цветной дисплей (для подачи сигнала), чтобы отобразить единственный огромный номер и т.п.
+</p>
+<p>
+Физические метки могут быть кусочками бумаги, разноцветными деревянными брусками, и т.п. Физическое визуальное управление сейчас широко используется гибкой разработке программного обеспечения; вот несколько примеров: <a href="http://xprogramming.com/articles/bigvisiblecharts/">Большие Визуальные Диаграммы в XP</a> и <a href="http://www.xqa.com.ar/visualmanagement/tag/scrum/">визуальное управление в гибкой разработке</a>
+</p>
+
 </td>
 </tr>
 
@@ -486,34 +493,16 @@ This principle is not so applicable in the context of leading-edge software deve
 <tr>
 <td>
 <p>
-9. Grow <em>leaders from within</em> who thoroughly understand the work, live the philosophy, and <em>teach it to others</em>.
+8. Используйте только <em>надёжные, тщательно проверенные технологии</em>,  служащие вашим людям и процессам.
 </p>
+
 </td>
 <td>
+
 <p>
-Note first that lean leaders are expected to <em>thoroughly understand the work.</em> A saying in Toyota is that "my manager can do my job better than me." In software development, that means a lean leader thoroughly understands modern development practices. And lean leaders don't delegate teaching lean thinking to the "lean coaches"; <em>they</em> are the lean experts and they teach it. 
+Этот приницип не настолько применим в контексте передовых разработок программного обеспечения с постоянно меняющимися технологиями. Тем не меннее, большинство разработчиков программного обеспечения слишком хорошо знают всю боль работы с новыми инструментами, содержащими большое количество ошибок и могут понять мотивацию стоящую за этим принципом. Там, где это применимо, программые инструменты <em>с открытым кодом</em>, библиотеки, и фреймворки часто могут быть полезными.
 </p>
-<p>
-Lean <em>leaders from within</em> is a good idea if your existing culture is already lean (e.g., the Toyota context). Otherwise, introducing external lean experts is probably necessary. See <a href="./lean-thinking.html#LeanFoundation:Lean-ThinkingManager-Teachers">Lean-Thinking Manager-Teachers</a>
-</p>
-</td>
-</tr>
 
-
-
-
-
-
-<tr>
-<td>
-<p>
-10. Develop <em>exceptional people and teams</em> who follow your company’s philosophy</em>.
-</p>
-</td>
-<td>
-<p>
-This reflects the Toyota “build people, then products” message. It includes the lean-product-development principle of “towering technical competence.”
-</p>
 </td>
 </tr>
 
@@ -523,30 +512,21 @@ This reflects the Toyota “build people, then products” message. It includes 
 
 <tr>
 <td>
-<p>11. Respect your extended network of <em>partners</em> by challenging them to grow and <em>helping them improve</em>.
+
+<p>
+9. Выращивайте <em>лидеров изнутри</em>, которые досконально понимают работу, живут философией и <em>обучают этому остальных</em>.
 </p>
+
 </td>
 <td>
+
 <p>
-Bring partners (suppliers) into lean thinking as well. There is an  emphasis on <em>helping</em> them improve and growing together for mutual long-term benefit.
+Обратите внимание, что в первую очередь от лидера ожидается <em>доскональное понимание работы.</em> В Toyota есть такое выражение: "мой начальник может выполнить мою работу лучше меня." В разработке программного обеспечения это означает, что лидер бережливого подхода в совершенстве понимает современные практики разработки. А также лидеры бережливого подхода не делегируют обучение бережливому мышлению "коучам"; <em>они</em> и являются экспертами в бережливом подходе и они же сами и обучают этому. 
 </p>
-</td>
-</tr>
-
-
-
-
-
-<tr>
-<td>
 <p>
-12. <em>Go see for yourself at the real place work</em> to thoroughly understand the situation and help.
+В бережливом подходе <em>лидеры изнутри</em> &mdash; это хорошая идея, если ваш существующая культура уже основана на бережливом подходе (например как в Toyota). Иначе, привлечение внешних экспертов, возможно, всё же может потребоваться. Смотрите <a href="./lean-thinking.html#LeanFoundation:Lean-ThinkingManager-Teachers">Бережливо-Мыслящие Менеджеры-Учителя</a>
 </p>
-</td>
-<td>
-<p>
-<a href="./continuous-improvement-towards-perfection.html#GoSee">Genchi Genbutsu: Go and See for Yourself</a>
-</p>
+
 </td>
 </tr>
 
@@ -558,16 +538,36 @@ Bring partners (suppliers) into lean thinking as well. There is an  emphasis on 
 <tr>
 <td>
 <p>
-13. Make <em>decisions slowly by consensus</em>, thoroughly considering all options; <em>implement decisions rapidly</em>.
+10. Развивайте <em>выдающихся людей и команды</em>, которые следуют философии вашей компании</em>.
 </p>
+
 </td>
 <td>
+
 <p>
-Consensus building and considering all options are well-known concepts, but how many people have strong skill in these areas, and how many groups do this effectively? Falling into the habits of command and control or going along with the crowd are common reactions when this path is slow and difficult.
+Это отражает призыв Toyota “создавайте людей, и только потом продукты”. 
+Что также включает в себя принцип бережливой разработки продуктов “высокая техническая компетентность.”
 </p>
+
+</td>
+</tr>
+
+
+
+
+
+<tr>
+<td>
+<p>11. Уважайте вашу расширенную сеть <em>партнёров</em> призывая их расти  и <em>помогая им улучшаться</em>.
+</p>
+
+</td>
+<td>
+
 <p>
-Once a decision is made, execute fast!
+Приведите также и своих партнёров (поставщиков) к бережливому мышлению. Особое внимание уделяется тому чтобы <em>помогать</em> им улучшаться и расти вместе ради долгосрочной взаимной выгоды.
 </p>
+
 </td>
 </tr>
 
@@ -578,13 +578,60 @@ Once a decision is made, execute fast!
 <tr>
 <td>
 <p>
-14. Become and sustain a learning organization through relentless reflection and kaizen.
+12. <em>Пойдите и сами посмотрите, где непосредсвенно выполняется работа</em> чтобы досконально разобраться в ситуации и помочь.
 </p>
+
 </td>
 <td>
+
 <p>
-See <a href="https://en.wikipedia.org/wiki/Learning_organization">learning organizations</a> and <a href="./continuous-improvement-towards-perfection.html#Kaizen">kaizen</a>. In LeSS, the system-level reflection happens every Sprint at the <a href="/less/framework/overall-retrospective.html">Overall Retrospective</a>.
+<a href="./continuous-improvement-towards-perfection.html#GoSee">Гэнти Гэмбуцу (Гэмба): Пойди и Посмотри Сам</a>
 </p>
+
+</td>
+</tr>
+
+
+
+
+
+
+<tr>
+<td>
+<p>
+13. Принимайте <em>решения не торопясь, путём консенсуса</em>, принимая во внимание все варианты; <em>применяйте принятые решения незамедлительно</em>.
+</p>
+
+</td>
+<td>
+
+<p>
+Достижение консенсуса и тщательное взвешивание всех обстоятельств &mdash; общеизвестные концепции, но сколько людей обладают сильными навыками в этих областях, и сколько групп делают это эффективно? Попадаться под влияние привычки командовать и контролировать или поддаваться стадному чувству &mdash; обычные реакции, когда этот путь сложный и медленный.
+</p>
+<p>
+Как только решение принято, выполняйте его быстро!
+</p>
+
+</td>
+</tr>
+
+
+
+
+
+<tr>
+<td>
+<p>
+14. Станьте обучающейся организацией и поддерживайте это через неустанное  переосмысление и кайдзен.
+</p>
+
+</td>
+<td>
+
+<p>
+Смотрите <a href="https://en.wikipedia.org/wiki/Learning_organization">обучающиеся организации</a> и <a href="./continuous-improvement-towards-perfection.html#Kaizen">кайдзен</a>. В LeSS, системный уровень рефлексии и переосмысления происходит каждый спринт на <a href="/less/framework/overall-retrospective.html">Общей Ретроспективе</a>.
+</p>
+
 </td>
 </tr>
 
@@ -599,7 +646,7 @@ See <a href="https://en.wikipedia.org/wiki/Learning_organization">learning organ
 
 
 
-## Lean Product Development
+## Бережливая Разработка Продуктов
 
 <table >
 <tr >
@@ -608,12 +655,13 @@ See <a href="https://en.wikipedia.org/wiki/Learning_organization">learning organ
 </td>
 <td style="vertical-align:middle;">
 <p style="margin-top:0em; padding-top:0em;">
-In addition to the 14 principles, what are the principles and practices to "outlearn the competition" specific to lean product development?
+В дополнение к 14 принципам, каковы принципы и методы позволяющие "больше изучить конкуренцию", специфичные для бережливой разработки продуктов?
 </p>
 <br>
 </td>
 </tr>
 </table>
+
 <br>
 
 

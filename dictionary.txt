@@ -52,4 +52,5 @@ System dynamics - системная динамика
 Systems thinking - системное мышление
 Team-level Product Backlog Refinement - Командное Уточнение Бэклога продукта
 Value - ценность
+WIP - НЗР (Незавершенная Работа)
 Wokrshop - сессия совместной работы
