@@ -2,6 +2,7 @@
 Area Product Owner - Владелец Области Продукта
 Area Product Backlog - Бэклог Области Продукта
 Backlog - Бэклог
+Cadence - Каденс (регулярный ритм, последовательность, цикличность)
 Causal loop diagrams - Диаграммы причинного цикла
 Causal relation - причинно-следственная связь
 Complexity of static [details] - статическая сложность

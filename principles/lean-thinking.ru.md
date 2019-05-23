@@ -719,39 +719,39 @@ Toyota (и их марки Lexus и Scion) не толко производят 
 
 
 
-#### Cadence
+#### Каденс (Цикличность, Ритм, Последовательность)
 
-Working in regular rhythms or **cadence** is a lean principle, both in production and development [[Ward14]](http://www.amazon.com/Lean-Product-Process-Development-2nd-ebook/dp/B00IPNN1Z0/ref=tmm_kin_title_0?_encoding=UTF8&sr=8-1&qid=1414715387). A steady heart beat. In lean production, it is called *takt* time. In development, it is called cadence. The Scrum practice of delivering (and holding predictable meetings) in a regular-duration timebox illustrates cadence. Cadence is a powerful principle in lean product development, so the subject is examined in some detail...
+Работа в регулярном ритме или **каденс** является принципом бережливого подхода, как в разработке ПО так и в производстве [[Ward14]](http://www.amazon.com/Lean-Product-Process-Development-2nd-ebook/dp/B00IPNN1Z0/ref=tmm_kin_title_0?_encoding=UTF8&sr=8-1&qid=1414715387). Устойчивое, стабильное сердцебиение. В бережливом производстве это зовётся временем *такта*. В разработке это называется каденс. В Скрам практика поставки (проведение регулярных, предсказуемых митингов) с заданной, регулярной периодичностью иллюстрирует собой каденс. Каденс — мощный принцип в бережливой разработке продуктов, поэтому этот предмет рассматривается более детально...
 
-There is something basic and very human about cadence: People appreciate or want *rhythms* in their lives and work---and appreciate or want *rituals* within these rhythms [Kerth01]. Most of us work in a cadence of seven-day weeks. There is the Tuesday-morning weekly meeting ritual. And so on. Simply, cadence at work improves predictability, planning, and coordinating. At a deeper level, it reflects the rhythms by which we live our lives.
+Есть что-то основополагающее и очень человечное в каденсе: Людям ценят или нуждаются в определённых *ритмах* в своей жизни и работе — и ценят или нуждаются в неких *ритуалах* в рамках этих ритмов [Kerth01]. Многие из нас работают в состоянии каденс семь дней в неделю. Так, например, существует ритуал еженедельного собрания во вторник утром и другие ему подобные. Проще говоря, каденс в работе улучшает предсказуемость, планирование и взаимодействие. На более глубоком уровне, это отражает ритмы нашей жизни.
 
-In large groups adopting LeSS---groups that previously had little or no total-system cadence and long unbounded work---it is common to hear people say, “A common short Sprint was the most beneficial things we’ve adopted.” This reflects how much people appreciate cadence.
+В больших группах, применяющих LeSS (группы которые ранее имели небольшой или не тотально-системный каденс и продолжительные неограниченные рабочие циклы) зачастую можно услышать от людей: “Обыкновенный короткий Спринт оказался наиболее эффективной вещью, которую мы внедрили.” Это отражает то, насколько высоко люди ценят каденс.
 
-Suppose a group were not working in a timebox, but they can potentially deliver a running tested system any hour of any day (which is a great place to be). Suppose they want to hold coordination planning meetings (because several teams are involved) and they want to hold overall retrospectives. Their two options are (1) to hold these events semi-randomly over time, or (2) to hold them at regular intervals. This lean principle suggests the latter choice.
-
-
+Представьте группу, которая не работает в заданных временных рамках, но потенциально они могут поставлять работающую, протестированную систему в любой час или в любой день (что было бы очень здорово). Представьте, что они хотят проводить встречи по планированию взаимодействия (поскольку вовлечено несколько команд) и они хотят проводить общую ретроспективу. У них есть два варианта: (1) организовывать эти события наполовину случайно, или  (2) проводить их через регулярные промежутки времени. Этот принцип бережливого подхода рекомендует последний вариант.
 
 
-##### Cadence and Timeboxing
 
 
-One popular approach to improve cadence is timeboxing (which is used in LeSS), a fixed—and usually short—cycle time of development work, such as a two-week timebox. Teams are expected to deliver or demonstrate something at the end of the fixed duration---something small and well-done rather than large and partially done. The duration may not change, but the scope of work can vary to fit the timebox. 
+##### Каденс и Временные Интервалы
 
-Timeboxing is not a panacea for all knowledge-work problems, but it has advantages:
 
-* Timeboxing enforces cadence.
+Один из популярных подходов для улучшения каденс — это временные интервалы (что используется в LeSS), фиксированные (и обычно короткие) временные циклы разработки, например, двухнедельные промежутки. От команд ожидается поставка и демонстрация чего-либо в по завершению заданного временного промежутка — чего-то небольшого, но сделанного хорошо, вместо большого, но недоделанного. Длительность может быть постоянной, но объём работ может меняться, чтобы уместиться в заданный временной интервал.
 
-* Development work is often fuzzy unbounded (or weakly bounded) work. When the team knows that the timebox ends on March 15, it bounds the fuzzy work and increases focus. So, timeboxing limits *scope creep*, limits *gold-plating*, and increases *focus*.
+Временные интервалы — это не панацея для всех проблем в работе, но они имеют определённые преимущества:
 
-* Timeboxing reduces *analysis paralysis*.
+* Временные интервалы способствуют соблюдению принципа каденс.
 
-* Suppose you are in university and have an assignment due on Monday. When do you start? For many, the answer is, “Close to Monday.” This is called *Student Syndrome* [Goldratt97] and timeboxing is a counterbalance.
+* Работа по разработке ПО - это часто неограниченная (или плохо ограниченная) работа. Когда команда знает, что интервал времени заканчивается 15 марта, это ограничивает нечеткие объёмы работы и увеличивает фокус. Таким образом, временные интервалы ограничивают *расползание объёма работ*, ограничивают *дополнительное совершенствование* (выходящее за границы требований [прим. переводчика]), и увеличивают *фокус*.
 
-* If teams must deliver something well done in exactly two weeks, the waste and ineffectiveness in current ways of working become painfully clear. Timeboxing creates a change-force to improve. This is the “lake and rocks” improvement effect covered in [Indirect Benefits of Reducing Batch Size and Cycle Time](./queueing_theory.html#IndirectBenefitsofReducingBatchSizeandCycleTime).
+* Ограничение по времени сокращает *аналитический паралич* (чрезмерный анализ или чрезмерное обдумывание, приводящее к "ступору" и затягиванию с принятием решения [прим. переводчика]).
 
-* Timeboxing simplifies scheduling.
+* Представьте вы в университете и у вас назначена задание со сроком до понедельника. Когда вы приступите? Для многих ответ: “Ближе к понедельнику.” Это называется *Студенческий Синдром* [Goldratt97] временные интервалы являются противовесом.
 
-* Humans are probably more sensitive to time variation than to scope variation---“It was late” is remembered more strongly than, “It had less than I wanted.” Timeboxing avoids the *erosion of confidence* that happens for business stakeholders when product development people say, yet again, “... maybe in *one* more week it will *all* be done.”
+* Если команды должны поставлять нечто сделанное хорошо точно в каждые две недели, потери и неэффективность текущих, обычных способов работы становятся до боли очевидными. Ограничение по времени создаёт движущую силу для улучшений. Это улучшающий эффект “камни в озере”, который рассматривается в [Косвенные Преимущества Уменьшения Объёмов Партий и Продолжительности Цикла](./queueing_theory.html#IndirectBenefitsofReducingBatchSizeandCycleTime).
+
+* Ограничение по времени упрощает планирование графика работ.
+
+* Люди скорее более чувствительны к изменениям времени нежели чем к изменениям объёма работ — “Это было поздно” запомнится сильнее чем, “Это было меньше чем я ожидал.” Заданные временные интервалы позволяют избежать *потери доверия* которая случается у заинтересованных сторон когда разработчики говорят, в очередной раз: “… может быть через ещё *одну* неделю всё будет *полностью* готово.”
 
 
 
