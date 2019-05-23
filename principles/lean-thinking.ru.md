@@ -655,7 +655,7 @@ Toyota (и их марки Lexus и Scion) не толко производят 
 </td>
 <td style="vertical-align:middle;">
 <p style="margin-top:0em; padding-top:0em;">
-В дополнение к 14 принципам, каковы принципы и методы позволяющие "больше изучить конкуренцию", специфичные для бережливой разработки продуктов?
+В дополнение к 14 принципам, каковы принципы и практики позволяющие "больше изучить конкурентов", специфичные для бережливой разработки продуктов?
 </p>
 <br>
 </td>
@@ -664,59 +664,58 @@ Toyota (и их марки Lexus и Scion) не толко производят 
 
 <br>
 
+Люди в Toyota хорошо выполняют два ключевых процесса: (1) разработка новых продуктов и (2) производство. Исследователи из Мичиганского Университета провели трёхлетнее изучение эффективности разработки продуктов в Toyota и в североамериканских компаниях [[LM06]](http://www.amazon.com/The-Toyota-Product-Development-System/dp/1563272822/ref=sr_1_1?ie=UTF8&qid=1414351716&sr=8-1&keywords=The+Toyota+Product+Development+System). Каковы же результаты? ...
 
-Toyota people execute two key processes well, (1) product development and (2) production. University of Michigan researchers did a three-year study of Toyota and North American companies product development effectiveness [[LM06]](http://www.amazon.com/The-Toyota-Product-Development-System/dp/1563272822/ref=sr_1_1?ie=UTF8&qid=1414351716&sr=8-1&keywords=The+Toyota+Product+Development+System). Results? ...
+Например, средняя длительность проекта "от идеи до завершения" составляла пять месяцев для инженеров Toyota и двенадцать месяцев для конкурентов. Всё это при сохранении самого низкого показателя "НИОКР к продажам" среди всех крупнейших автомобильных компаний в мире, благодаря эффективности их производственных практик.
 
-For example, the average die design-to-complete duration was five months for Toyota engineers and twelve months for the competition. All this, while maintaining the lowest R&D-to-sales ratio of any major automotive company in the world, due to the effectiveness of their development practices.
+Как они это делают? В чём фокус бережливого производства?
 
-How do they do it? What is a focus of lean product development?
-
-Outlearn the competition
+Тщательное изучение конкурентной среды
 {: .box_top_bottom .text_centered_bold }
 
-For example, when Toyota developed the hybrid Prius, what did they create?
+Например, когда Toyota разработала гибридный Prius, что они создали?
 
-* the *design* of the car (and implementation of embedded software); in development they have a *knowledge* value stream to create a profitable *production* value stream
-* *knowledge* or*information*---about customers, alternatives, experiments
+* *дизайн* автомобиля (и реализацию встроенного программного обеспечения); в разработке у них есть поток ценных *знаний* для создания потока ценностей прибыльной *продукции*
+* *знания* или *информация* — о клиентах, экспериментах, альтернативах
 <br>
 
-Lean product development (LPD) focuses on creating *more* *useful* *knowledge* and *learning better* than the competition. Also, leveraging that knowledge and not wasting the fruits of the effort by forgetting what has been learned.
+Бережливое производство продуктов (LPD) фокусируется на на создании *более* *полезных* *знаний* и на том, чтобы *обучаться лучше* по сравнению с конкурентами. А также, на использовании этих знаний и на сохранении плодов своих усилий, запоминая и не теряя то, чему научились.
 
-Not all new knowledge or information is valuable; the ideal is to create economically useful new information [[Reinertsen97]](http://www.amazon.com/Managing-Design-Factory-Donald-Reinertsen/dp/0684839911/ref=sr_1_1?ie=UTF8&qid=1414352607&sr=8-1&keywords=managing+the+design+factory). This is challenging because it is a discovery process---you win some, you lose some. A general lean strategy, based on a simple insight from information theory, is to *increase the value of information* *created* and *lower the cost of creating knowledge* .
+Не все новые знания или информация являются ценными; идеал заключается в получении экономически эффективной новой информации [[Reinertsen97]](http://www.amazon.com/Managing-Design-Factory-Donald-Reinertsen/dp/0684839911/ref=sr_1_1?ie=UTF8&qid=1414352607&sr=8-1&keywords=managing+the+design+factory). Это довольно сложно, потому, что это исследовательский процесс: иногда вы где-то выигрываете, иногда где-то проигрываете. Основная стратегия бережливого подхода базируется на простом принципе из теории информации: *увеличивайте ценность создаваемой информации* и *уменьшайте стоимость создания знаний* .
 
 <figure>
   <img class="rounded shadowed" src="/img/lean-thinking/outlearn_competition.png" alt="outlearn_competition.png">
-  <figcaption>How to outlearn the competition.</figcaption>
+  <figcaption>Как изучать конкурентную среду.</figcaption>
 </figure>
 
 
 
-**Higher-value information**---Several ideas in lean and agile development help. For example:
+**Большая-ценность информации** — Несколько идей из бережливого подхода и гибкой разработки помогут разобраться. Например:
 
-* *Focus on uncertain things*---In Scrum, one prioritization guideline is to choose to implement and test *unclear* or*risky* things early. The value of the feedback is high precisely because the outcomes are less predictable---predictable things do not teach us much.
+* *Сосредотачивайтесь на неясных вещах* — В Скраме, один из принципов приоритизации — выбирать, реализовывать и тестировать *непонятные* или *рискованные* элементы раньше. Ценность отдачи от этого высока как раз потому, что результаты слабо предсказуемы, ведь предсказуемые вещи мало чему могут нас научить.
 
-* *Focus on early testing and feedback*---Information has a real *cost of delay*, which is one reason why testing only once at the end of a long sequential cycle---motivated by the misguided local optimization of believing that it will lower testing costs---is almost always unskillful. It can be very costly to discover during stress performance testing, after 18 months of development, that a key architectural decision was flawed. In lean (and in Scrum), short cycles with early feedback loops are critical; by implementing less predictable things early and in short cycles that include testing, the cost of delay is reduced.
-
-
-
-**Lower-cost information**---The [Indirect Benefits of Reducing Batch Size and Cycle Time](./queueing_theory.html#IndirectBenefitsofReducingBatchSizeandCycleTime) examines how adopting lean and agile principles ends up reducing the overhead cost of processes. In fact, one can broadly look at these methods as succeeding by *lowering the cost of change* ---competing on agility. And that includes lowering the cost of learning. For example:
-
-* *Focus on large-scale test automation*---to learn about defects and behavior. The setup costs are non-trivial (if you are currently doing manual testing) but the re-execution costs are almost zero.
-
-* *Focus on continuous integration*---to learn about defects and lack of synchronization. By integrating frequently in small batches, teams reduce the average overhead cost due to the nonlinear effort-impact of integrating larger sets of code.
-
-* *Focus on mentoring from experts and spreading knowledge*---to reduce the cost of rediscovery.
+* *Фокусируйтесь на раннем тестировании и обратной связи* — Информация имеет реальную *стоимость задержки*, что является одной из причин, по которой тестирование лишь однажды в конце длинного последовательного цикла (по заблуждению мотивированное локальной оптимизацией, основанной на том, что это уменьшит затраты на тестирование) почти всегда является некомпетентностью. Это может быть очень затратным, обнаружить во время стресс-тестирования производительности, после 18 месяцев разработки, что ключевое архитектурное решение оказалось ненадёжным. В бережливом подходе (и в Скраме), короткие циклы с ранней обратной связью крайне важны; благодаря реализации менее предсказуемых элементов на ранних этапах и в коротких циклах, включающих тестирование, снижается стоимость задержки.
 
 
 
+**Низкая-стоимость информации** — В главе [Косвенные Преимущества Уменьшения Объёмов Партий и Продолжительности Цикла](./queueing_theory.html#IndirectBenefitsofReducingBatchSizeandCycleTime) рассматривается как  внедрение бережливого подхода и гибких методологий приводит к уменьшению накладных расходов в процессах. Фактически, можно широко рассматривать эти методы как успешные за счёт *уменьшения стоимости изменений* — конкурентоспособность за счёт гибкости. А это включает в себя уменьшение стоимости обучения. Примеры:
 
-### Lean-Product-Development Practices
+* *Сосредоточтесь на крупномасштабной автоматизации тестирования* — чтобы узнавать о дефектах и реакциях ПО на различные события. Первоначальные затраты могут быть значительными (если сейчас вы тестируете вручную), но затраты на повторное использование практически равны нулю.
 
+* *Сделайте акцент на непрерывной интеграции* — чтобы узнавать о дефектах и недостаточной синхронизации. За счёт частой интеграции небольшими объёмами изменений, команды уменьшают средние накладные расходы благодаря нелинейной зависимости результата от усилий при интеграции бóльших объёмов кода.
+
+* *Фокусируйтесь на наставничестве от экспертов и распространении знаний* — чтобы уменьшить стоимость повторных разработок.
+
+
+
+
+### Практики Бережливой-Разработки-Продуктов
 
 <figure>
   <img class="rounded shadowed" src="/img/lean-thinking/lpd_practices.png" alt="lpd_practices.png">
-  <figcaption>Practices of lean product development.</figcaption>
+  <figcaption>Практики бережливой разработки продуктов.</figcaption>
 </figure>
+
 
 
 
