@@ -664,6 +664,8 @@ Toyota (и их марки Lexus и Scion) не толко производят 
 
 <br>
 
+<!-- *outlearn the competition* - исследовать конкуретов (конкуретную среду), альтернативные варианты или м.б. рынок? -->
+
 Люди в Toyota хорошо выполняют два ключевых процесса: (1) разработка новых продуктов и (2) производство. Исследователи из Мичиганского Университета провели трёхлетнее изучение эффективности разработки продуктов в Toyota и в североамериканских компаниях [[LM06]](http://www.amazon.com/The-Toyota-Product-Development-System/dp/1563272822/ref=sr_1_1?ie=UTF8&qid=1414351716&sr=8-1&keywords=The+Toyota+Product+Development+System). Каковы же результаты? ...
 
 Например, средняя длительность проекта "от идеи до завершения" составляла пять месяцев для инженеров Toyota и двенадцать месяцев для конкурентов. Всё это при сохранении самого низкого показателя "НИОКР к продажам" среди всех крупнейших автомобильных компаний в мире, благодаря эффективности их производственных практик.
@@ -751,75 +753,79 @@ Toyota (и их марки Lexus и Scion) не толко производят 
 
 * Ограничение по времени упрощает планирование графика работ.
 
-* Люди скорее более чувствительны к изменениям времени нежели чем к изменениям объёма работ — “Это было поздно” запомнится сильнее чем, “Это было меньше чем я ожидал.” Заданные временные интервалы позволяют избежать *потери доверия* которая случается у заинтересованных сторон когда разработчики говорят, в очередной раз: “… может быть через ещё *одну* неделю всё будет *полностью* готово.”
+* Люди скорее более чувствительны к изменениям времени нежели чем к изменениям объёма работ — “Это было поздно” запомнится сильнее чем, “Это было меньше чем я ожидал.” Заданные временные интервалы позволяют избежать *потери доверия* которая случается у заинтересованных сторон когда разработчики говорят, в очередной раз: “… может быть, через ещё *одну* неделю всё будет *полностью* готово.”
 
 
 
 
-#### Re-use Information or Knowledge
+#### Повторное использование Информации или Знаний
 
-How?
+Как?
 
-* A culture of *mentoring* by master engineers and manager-teachers to re-use information.
+* Культура *наставничества* by наставниками инженерами и менеджерами-учителями для повторного использования инфомации.
 
-* [Communities of Practice](/less/structure/communities.html) (CoPs) that spread knowledge laterally. CoPs are a LeSS organizational element.
+* [Сообщества практик](/less/structure/communities.html) (Communities of Practice, CoPs) которые распространяют знания горизонтально. CoPs являются организационным элементом LeSS.
 
-* Modern Web-centric tools such as wikis. 
+* Современные веб-ориентированные инструменты, такие как Wiki. 
 
-* Learning and communicating *design patterns* in both hardware and software. These leverage the use of existing design insight.
+* Изучение и распространение *паттернов проектирования* как в аппаратном так и в программном обеспечении. Это распространяет использование существующих идей в архитектуре.
 
 
 
-#### Obeya: Dedicated Room with Visual Management
+#### Обея: Выделенная Комната с Визуальным Управлением
 
-Lean product development encourages a **team room** (or “big room”---big enough for a team) without internal partitions or walls, where a cross-functional team works and meets, and the entrepreneurial chief engineer sits. Walls are covered with large physical displays of project and engineering information, to support visual management. The team room is in contrast to people working in separate offices or cubicles with communication barriers such as partitions between the team members. Obeya is *not* the same as a large open-space configuration. It implies there *is* a dedicated room for a cross-functional team, whose walls are used for visual management. 
+<!-- Обея (Obeya) В переводе с японского языка означает «большое помещение», «комната». Термин используется в Toyota. (прим. переводчика) -->
 
-A variation to traditional fixed walls is rolling whiteboards, as in this photo...
+Бережливая разработка продуктов рекомендует **командные комнаты** (или “большая комната” — достаточно большая для команды) без внутренних перегородок или стен, где кросс-функциональная команда работает и встречается и где сидит предприимчивый главный инженер. Стены покрыты большими физическими дисплеями (досками, флипчартами) с информацией о проекте и разработке, для поддержки визуального менеджмента. Эти командные комнаты являются противоположностью тому, когда люди работают в отдельных офисах или кабинетах с коммуникационными барьерами, такими как перегородки между членами команды. Обея — это *не* то же самое, что обустройство большого открытого пространства. Она подразумевает *существование* выделенной комнаты для кросс-функциональной команды, стены которой используются для визуального управления. 
+
+В качестве альтернативы традиционным стационарным стенам могут быть раздвигающиеся доски, как на этом фото...
 
 <figure>
   <img class="rounded shadowed" src="/img/lean-thinking/office_after_obeya.JPG" alt="office_after_obeya.JPG">
-  <figcaption>Dedicated room with rolling whiteboards for walls to support visual management.</figcaption>
+  <figcaption>Выделенная комната с раздвигающимися досками на стенах для обеспечения визуального менеджмента.</figcaption>
 </figure>
 
 
 
-#### Entrepreneurial Chief Engineer with Business Control
 
-In many (perhaps, most) product organizations, a *product management* group is responsible for the business goals and feature selection, and the members are not master engineers with up-to-date and profound technical depth. Toyota does things differently. Their product development is led by one great chief engineer with “towering technical excellence” who is also attuned to and responsible for the business success of the new product. In Toyota, product and engineering leadership is combined in one entrepreneurial chief engineer who understands the market, product management, the profit, and the engineering.
+#### Главный Инженер Предприятия с Бизнес Контролем
+
+Во многох (возможно, в большинстве) продуктовых организациях, группа *управления продуктами* отвечает за достижение бизнес-целей и выбор функционала, а участники не являются главными инженерами с современными и глубокими техническими познаниями. Toyota делает иначе. Их разработка продукта ведётся одним из ведущих главных инженеров с “высоким техническим technical превосходством”, который также нацелен и ответственнен за бизнес успешность нового продукта. В Toyota, лидерство над продуктом и разработкой комбинировано в одном главном инженере с навыками предпринимательства, который разбирается в рынке, в управлении продуктами, в прибыли и, собственно, в разработке и производстве.
 
 
 
-#### Set-Based Concurrent Engineering
+#### Множественное Параллельное Проектирование
 
-Have you seen development as follows? ... Pick or prototype *one* solution or design (one user interface, one architecture, ...)
+Встречали ли вы подобную разработку: … Выбирать или моделировать *одно* единственное решение или дизайн (один вариант пользовательского интерфейса, одна архитектура, ...)
 
-**Set-based concurrent engineering** is also called **set-based design**, and it's different. For example, rather than one engineer or team creating one cooling system design, several alternatives may be explored at Toyota in parallel by different teams---and so too for other components. These sets of alternatives are explored and combined, and gradually filtered in cycles, converging on a solution from what was at first a large set of alternatives, then a smaller set, and so on. They *outlearn the competition* by *increasing alternatives and combinations*.
+**Множественное параллельное проектирование** также называют **множественной архитектурой**, и это совсем другое. Например, вместо того чтобы один инженер или одна команда проектировала систему охлаждения, в Toyota может одновременно исследоваться несколько альтернатив параллельно, несколькими разными командами — и то же самое для других компонентов. Эти множества альтернатив исследуются и комбинируются, и постепенно отфильтровываются в течение множества этапов, сводя всё к решению, которое в начале было большим множеством альтернатив, затем превратилось меньшее множество, и так далее. Они *исследуют конкурентную среду* путём *увеличения числа альтернатив и вариаций*.
 
-In software, a step in this direction is to explore at least *two* alternative for non-trivial design elements. For example, we worked with a team that had to build a handler for a printing protocol called JDF. Rather than all getting around one wall of whiteboards and doing one design as one team, we split into two groups and worked at two giant whiteboards (agile modeling) at opposite ends of the team room. Every 45 minutes or so we visited each other’s wall designs and did “show and tell”---collecting ideas from each other. Toward the end of the day, we got together, looked at the two design ideas (that covered large whiteboards), and decided which of the two was more appealing. Then the team implemented it, taking inspiration from this design idea sketched on the wall.
+В разработке программного обеспечения, шагом в этом направлении является исследование как минимум *двух* альтернатив для нетривиальных элементов архитектуры. Например, мы работали с командой, которая должна была разработать обработчик для протокола печати, называемого JDF. Вместо того, чтобы  всё крутилось вокруг одной стены с досками и разработки одной архитектуры как одна команда, мы разбились на две группы и работали с двумя огромными досками (по принципу гибкого моделирования) на противоположных сторонах командной комнаты. Каждые 45 минут или около того мы приходили к доскам друг друга и делали “демонстрацию и обсуждение”, собирая идеи друг у друга. К концу дня мы собирались вместе, смотрели на идеи обеих архитектур (которые покрывали огромные доски), и решали какие из двух были более привлекательны. Затем команда претворяла это в жизнь, черпая вдохновение из  архитектурных идей, набросанных на доске.
 
 <figure>
   <img class="rounded shadowed" src="/img/lean-thinking/jdf_workshop.JPG" alt="jdf_workshop.JPG">
-  <figcaption>Set-based design: Design workshop that explored competing designs, with agile modeling.</figcaption>
+  <figcaption>Множественная архитектура: Сессия совместной работы по проектированию архитектуры, на которой исследовались конкурирующие решения, с гибким моделированием.</figcaption>
 </figure>
 
 
-The spirit of set-based design, if not as elaborate as at Toyota, can be applied to many design problems. You can prototype, in parallel:
 
-* two or three user interface alternatives
-* two alternatives for a performance-critical component, ...
+Дух множественной архитектуры, пусть и не такой сложных как в Toyota, может быть применён ко множеству проблем архитектуры. Вы можете параллельно разрабатывать прототипы:
+
+* двух или трёх вариантов интерфейса пользователя
+* двух вариантов компонента для которого критична производительность, ...
 
 
 
 
-#### Can Lean *Production* Lessons Help *Development*?
+#### Могут ли Уроки Бережливого *Производства* Помочь в *Разработке* Новых Продуктов?
 
-New product development (NPD) or research and development (R&D) is not predictable repetitive production (manufacturing), and the assumption they are similar is one cause of the misuse of early-1900s manufacturing “economies of scale” management practices in R&D; for example, sequential development and big batch transfers of requirements.
+Разработка новых продуктов (NPD) или исследовательские работы (R&D, НИОКР) не являются предсказуемой повторяющейся работой, и предположение, что они похожи является в ранних-1900х одной из причин неправильного использования промышленностью методов управления “экономия на масштабе” в НИИОКР; например таких как: последовательная разработка и передача больших объёмов требований.
 
-Yet, some of the principles and ideas applied in lean production---including short cycles, small batches, stop-and-fix, visual management, and queueing theory---*are* successfully applied in lean development. Why? Modern lean production is different, the small batches, queues, and cycle times in part reflect *queueing theory* insight (among other sources of insight)---a discipline that was created for the variable behavior in networks that is much more like development than traditional manufacturing.
+Тем не менее, некоторые принципы и идеи применяемые в бережливом производстве  (включая короткие циклы, мелкие размеры партий, остановитьсь и исправь, визуальный менеджмент и теория массового обслуживания) *являются* успешно применимыми в бережливой разработке продуктов. Почему? Современное бережливое производство другое, мелкие партии, очереди, ограниченное время цикла частично отражает идей *теории массового обслуживания* (помимо других источников идей) — дисциплины, которая была создана для описания изменчивого поведения в системах, которые скорее напоминают разработку чего-то нового, чем традиционное производство повторяющейся продукции.
 
-An irony in some product organizations is that the *manufacturing* engineers have revolutionized and adopted lean production, moving away from “economies of scale” toward flow and flexibility in small batches without waste. But these lessons---which fit well to NPD---remain unused by R&D management, who continue to apply practices found in older economies-of-scale manufacturing management.
+Ирония в некоторых организациях, занимающихся производством продукции, заключается в том, что *производственные* инженеры произвели революцию и внедрили бережливое производство, переходя от «экономии на масштабе» к плавности и гибкости в небольших партиях без потерь. Но эти уроки (которые хорошо подходят к NPD) остаются неиспользованными руководством НИОКР, где продолжают применять методы, взятые из устаревших методов управления "экономии на масштабе".
 
-All that said, a caution: NPD is not manufacturing, and analogies between these two domains are fragile. Unlike production, NPD is (and must be) filled with discovery, change, and uncertainty. Some variability is both normal and desirable in new product development; otherwise, nothing *new* is done. So naturally, lean thinking includes unique practices for development.
+Всё вышесказанное — предостережение: NPD — это не производство, и любые аналогии между этими двумя областями очень слабые. В отличии от производства, NPD является (и должно быть) наполненным исследованиями, изменениями и неопределённостью. Некоторая изменчивость является не только нормальной но и ожидаемой в разработке новых продуктов; в противном случае, ничего *нового* не было бы создано. Поэтому, естественно, бережливое мышление включает в себя уникальные практики для разработки.
 
 
 
