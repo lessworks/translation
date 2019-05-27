@@ -10,7 +10,7 @@ order: 40
 
 
 
-Бережливое мышление — это проверенная система, масштабируемая до уровня крупного производства, что подтверждается корпорацией  и другими. Не смотря на то, что этот термин чаще применим к промышленному производству, он также используется в сфере обслуживания — как внутри Toyota так и в таких областях как, например, здравоохранение.
+Бережливое мышление — это проверенная система, масштабируемая до уровня крупного производства, что подтверждается корпорацией Toyota и другими. Не смотря на то, что этот термин чаще применим к промышленному производству, он также используется в сфере обслуживания — как внутри Toyota так и в таких областях как, например, здравоохранение.
 
 Метафора (от Дона Рейнертсена [Don Reinertsen], сторонника бережливого подхода), которую мы используем, чтобы донести ключевую ошибку в понимании (и вместе с ней основную идею)  — это эстафетный бег.
 
@@ -40,11 +40,11 @@ order: 40
 
 ### Предыстория
 
-**Бережливый подход или Бережливое мышление** (**lean thinking, lean**)  — это английское название данное [инженером ](http://www.leanblog.org/2010/08/who-coined-the-term-lean-and-where-is-he-today/), выполняющим дипломную работу в рамках Международной автомобильной программы (MIT), системе известной сейчас как Путь Toyota. Toyota —  сильная, стабильная компания которая, как можно видеть, совершенствуется на протяжении длительного времени. Так, например,  в 2014 году [журнал Forbes](http://www.forbes.com/pictures/eimi45eilh/no-1-toyota-motor/) оценил Toyota как крупнейшую и самую дорогую автомобильную компанию в мире. Книга "*Экстремальная Toyota*" посвящает главу, сравнивающую их устойчивые показатели с другими в своей отрасли.
+**Бережливый подход или Бережливое мышление** (**lean thinking, lean**)  — это английское название данное [инженером](http://www.leanblog.org/2010/08/who-coined-the-term-lean-and-where-is-he-today/), выполняющим дипломную работу в Массачусетском технологическом институте (MIT), системе известной сейчас как Путь Toyota. Toyota —  сильная, стабильная компания которая, как можно видеть, совершенствуется на протяжении длительного времени. Так, например,  в 2014 году [журнал Forbes](http://www.forbes.com/pictures/eimi45eilh/no-1-toyota-motor/) оценил Toyota как крупнейшую и самую дорогую автомобильную компанию в мире. Книга "*Экстремальная Toyota*" посвящает главу, сравнивающую их устойчивые показатели с другими в своей отрасли.
 
 Toyota далека от совершенства и существуют уникальные идеи из других систем, о которых следует знать и которые нельзя найти в бережливом мышлении. Мы не настаиваем на том, что Toyota или бережливое мышление — это единственные модели, из которых следует извлечь уроки или просто последовать их примеру. Тем не менее, это совершенствуемая на протяжении длительного времени, эффективная система, созданная довольно надёжной и устойчивой компанией. 
 
- <!-- можно ли использовать английский термин Lean вместо длинного "бережливого производства" -->
+ <!-- можно ли использовать английский термин Lean вместо длинного "бережливого подхода" -->
 
 
 
@@ -92,7 +92,7 @@ Toyota далека от совершенства и существуют уни
 
 ###### Уменьшение Потерь Не является Основой Бережливого Подхода
 
-Книга *"Бережливое Мышление"* была по праву популярной и представила некоторые идеи Toyota гораздо более широкой аудитории. Мы рекомендуем её с замечанием, что она представляет *сжаmую* форму cистемы Toyota. *"Бережливое Мышление" опирается* в значительной степени на исследования 1980-х и начала 1990х годов, которые фокусируются на производственной системе Toyota, и были опубликованы до *"Пути Toyota 2001"*, представленого самой Toyota, которая резюмирует,  что более глобальные принципы приоритетнее с их внутренней точки зрения. Подзаголовок в книге *"Бережливое Мышление"* звучит как *Избавляйтесь от* ***Потерь*** *и Создавайте Ценность в Вашей Организации,* поэтому не удивительно, что те, кто прочитал одну только эту книгу, зачастую ассоциируют бережливый подход в первую очередь с "устранением потерь".
+Книга *"Бережливое Производство"* (Lean Thinking) была по праву популярной и представила некоторые идеи Toyota гораздо более широкой аудитории. Мы рекомендуем её с замечанием, что она представляет *сжаmую* форму cистемы Toyota. *"Бережливое Производство" опирается* в значительной степени на исследования 1980-х и начала 1990х годов, которые фокусируются на производственной системе Toyota, и были опубликованы до *"Пути Toyota 2001"*, представленого самой Toyota, которая резюмирует,  что более глобальные принципы приоритетнее с их внутренней точки зрения. Подзаголовок в книге *"Бережливое Производство"* звучит как *Избавляйтесь от* ***Потерь*** *и Создавайте Ценность в Вашей Организации,* поэтому не удивительно, что те, кто прочитал одну только эту книгу, зачастую ассоциируют бережливый подход в первую очередь с "устранением потерь".
 
 Не смотря на свою полезность, уменьшение потерь не является основой бережливого подхода.  Оно упоминается только на седьмом уровне глубины в *"Путь Toyota 2001"* . Кроме того, в *"Бережливом Мышлении"* некоторые выдающиеся принципы, такие как *Пойди и Посмотри* (особо выделяемые в Toyota) рассматриваются в занимательной, но лишь в шутливой или эпизодической форме, что позволяет упустить относительную важность некоторых принципов бережливого подхода в Toyota. Поэтому, изучайте *"Бережливое Мышление"*, но также изучайте и остальное в *Рекомендованная Литература*.
 
@@ -842,22 +842,15 @@ Toyota (и их марки Lexus и Scion) не толко производят 
 
 ## Рекомендованная Литература
 
-* Dr. Jeffrey Liker’s *The Toyota Way* is a thorough cogent summary from a researcher who has spent decades studying Toyota and their principles and practices.
+* Др. Джеффри Лайкер (Jeffrey Liker) *Дао Toyota (The Toyota Way)* — это доскональное основательное резюме от исследователя, который десятилетиями изучал Toyota и их методы и подходы.
+* *Inside the Mind of Toyota* Профессора Сатоши Хино (Satoshi Hino). Хино провёл много лет в работе над разработкой продуктов, за которой последовала академическая карьера. Хино “потратил более 20 лет, исследуя тему, обозначенную в названии книги.” Этак книга, основанная на фактических данных, рассматривает эволюцию и принципы оригинальной системы бережливого мышления. <!-- переводить ли названия книг, которые не изданы на русском? -->
+* *Экстремальная Toyota (Extreme Toyota)* Эми Осоно (Osono), Норихико Симидзу (Norihiko Shimizu) и Хиротака Такеути (Hirotaka Takeuchi) — это тщательно проработанный анализ ценностей, противоречий и культуры Пути Toyota, основанный на шести годах исследований и 220 интервью. Он включает в себя грубокий анализ прочной эффективности бизнеса Toyota. Хиротака Такеути также был соавтором знаменитой статьи в "Harvard Business Review" 1986  “Разработка нового продукта. Новые правила игры.” в которой были представлены основные идеи Скрам.
 
-* *Inside the Mind of Toyota* by Professor Satoshi Hino. Hino spent many years working in product development, followed by an academic career. Hino has “spent more than 20 years researching the subject of this book.” This is a data-driven book that looks at the evolution and principles of the original lean thinking management system.
-
-* *Extreme Toyota* by Osono, Shimizu, and Takeuchi is a well-researched analysis of the Toyota Way values, contradictions, and culture, based on six years of research and 220 interviews. It includes an in-depth analysis of Toyota’s strong business performance. Hirotaka Takeuchi was also co-author of the famous 1986 Harvard Business Review article “The New New Product Development Game” that introduced key ideas of Scrum.
-
-* *Lean Product and Process Development* by Allen Ward and *The Toyota Product Development System* by Liker and Morgan are useful for insights into development from a lean perspective.
-
-* *Toyota Culture* by Liker and Michael Hoseus. Hoseus has worked both as a plant manager and HR manager at Toyota, bringing an insider’s in-depth understanding to this book on the heart of what makes a lean enterprise work.
-
-* *Lean Thinking* by Drs. Womack and Jones is an entertaining and well-written summary of some lean principles by authors who know their subject well. As cautioned earlier in this chapter it presents an anecdotal and condensed view that may give the casual reader the wrong impression that the essential key of lean is waste reduction rather than a culture of manager-teachers who understand lean thinking and help build the pillars of respect for people and continuous improvement with Go See and other behaviors.
-
-* *The Machine That Changed the World: The Story of Lean Production* by Womack, Jones, and Roos was based on a five-year study at MIT into lean and the Toyota system.
-
-* *Workplace Management* by Taiichi Ohno is a short book by the creator of the Toyota Production System. It was out-of-print but has been recently re-translated by Jon Miller and is now available. The book does not talk much about TPS but it contains a series of short chapters that show well how Taiichi Ohno thought about management and lean systems.
-
-* Mary and Tom Poppendieck’s books *Lean Software Development* and *Implementing Lean Software Development* are well-written books that make important connections between lean thinking, systems thinking, and agile development.
+* *Lean Product and Process Development* Аллена Уорда (Allen Ward) и *Система разработки продукции в Toyota (The Toyota Product Development System)* Джеффри Лайкера и Джеймса Моргана (James Morgan) полезны для понимания разработки продуктов с точки зрения бережливого подхода.
+* *Корпоративная культура Toyota (Toyota Culture)* Джеффри Лайкера и Майкла Хосеуса (Michael Hoseus). Хосеус работал и как управляющий завода и как менеджер по персоналу на заводе Toyota в Кентукки, привносит в эту книгу глубокое понимание инсайдера самой сути того, что заставляет бережливое производство работать.
+* *Бережливое Производство (Lean Thinking)* Д-ра Джеймса Вумека (James Womack) и Дэниэла Джонса (Daniel Jones) — это занимательный и хорошо написанный обзор некоторых принципов бережливого подхода авторами, которые хорошо знают свой предмет. Как обращалось внимание выше в этом разделе,  книга предлагает шутливый и сжатый взгляд, что может дать обычному читателю ложное представление о том, что основными ключевыми особенностями бережливого подхода является уменьшение потерь нежели чем культура менеджеров-учителей, которые понимают бережливое мышление помогаю выстроить столпы уважения к людям и непрерывного улучшения с "Пойди и Посмотри" и прочими поведенческими моделями.
+* *Машина, которая изменила мир (The Machine That Changed the World: The Story of Lean Production)* Джеймса Вумека, Дэниэла Джонса и Дениэла Руса (Daniel Roos), которая основана на пятилетнем исследовании в Массачусетском технологическом институте в области Lean и системы Toyota.
+* *Workplace Management* Тайити Оно (Taiichi Ohno) это небольшая книга от создателя Производственной Системы Toyota (TPS). Она вышла из печати, но недавно была повторно переведена Джоном Миллером (Jon Miller) и сейчас доступна. Книга не много рассказывает от TPS но она содержит серию коротких разделов, которые хорошо демонстрируют, что думает Тайити Оно о системах управления и бережливого производства.
+* Книги Мэри и Тома Поппендика *Lean Software Development* и *Бережливое производство программного обеспечения (Implementing Lean Software Development)* — это хорошо написанные книги, которые проводят важную параллель между бережливым производством, системным мышлением и гибкими методологиями.
 
 Перевод статьи осуществлен [Романом Лапаевым](https://www.linkedin.com/in/romanlapaev) и <!-- кем-то ещё -->
