@@ -2,7 +2,7 @@
 Area Product Owner - Владелец Области Продукта
 Area Product Backlog - Бэклог Области Продукта
 Backlog - Бэклог
-Cadence - Каденс (регулярный ритм, последовательность, цикличность)
+Cadence - Каденция
 Causal loop diagrams - Диаграммы причинного цикла
 Causal relation - причинно-следственная связь
 Communities of Practice (CoPs) - Сообщества практик
@@ -21,7 +21,7 @@ Feedback loop - цикл обратной связи
 Flow diagrams - диаграммы потока
 Framework - каркас
 Guides - Руководства
-Gemba - гэмба
+Gemba - гемба
 Framework - каркас
 Inspect and Adapt - Инспекция и Адаптация
 Kaizen - кайдзен
