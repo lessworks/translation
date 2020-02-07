@@ -255,6 +255,7 @@ The prior suggestions related to *multi-team design workshops* could give the im
 “Member of the team” does not mean a ‘fake’ team member--a person who receives work requests from one or more teams, does ‘their’ tasks separately, and gives ‘their’ completed work back.
 {: .box_top_bottom  .text_centered_bold }
 
+
 ### Question all early architectural decisions as final
 
 So, you do some early architectural analysis and decide that the programming language should be chosen early, suppose C++. Encourage everyone to question and challenge all these assumptions and decisions, and to find ways to apply the lean thinking principle of *decide as late as possible* or *defer commitment* . For example, do fast prototyping in Ruby to first learn more. We know of one product that started with C++ for four iterations, and then switched to Java with relatively little effort.
