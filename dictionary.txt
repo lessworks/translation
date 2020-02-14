@@ -39,6 +39,7 @@ Perfection goal - Цель совершенства
 Product Backlog - Бэклог Продукта
 Product Backlog item - Элемент Бэклога Продукта
 Product Backlog Refinement - Уточнение Бэклога Продукта
+Product Owner - Владелец Продукта
 Rate of delivery - стоимость доставки
 Requirement Area - Область Требований
 Scrum - Скрам
