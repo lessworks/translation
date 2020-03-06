@@ -11,6 +11,7 @@ Complexity of dynamics - динамическая сложность
 Сontinuous improvement - непрерывное совершенствование (улучшение)
 Control theory - теория управления
 Cross-team - кросскомандная
+Definition of Done - Критерии Готовности
 Development Team - Команда Разработки
 Diagram of effect - диаграмма воздействия
 Dynamic system models - динамические модели систем
@@ -23,6 +24,7 @@ Framework - каркас
 Guides - Руководства
 Gemba - гемба
 Framework - каркас
+Initial Product Backlog Refinement - Первичное Уточнение Бэклога Продукта
 Inspect and Adapt - Инспекция и Адаптация
 Kaizen - кайдзен
 Kanban - канбан
@@ -44,10 +46,13 @@ Queueing Theory - Теория массового обслуживания
 Perfection goal - Цель совершенства
 Product Backlog - Бэклог Продукта
 Product Backlog item - Элемент Бэклога Продукта
+Product Backlog Refinement - Уточнение Бэклога Продукта
+Product Owner - Владелец Продукта
 Rate of delivery - стоимость доставки
 Requirement Area - Область Требований
 Scrum - Скрам
 Scrum Master - Скрам-мастер
+Scrum of Scrums - Скрам над Скрамом
 Scrum Team - Скрам-команда
 Sprint Planning One - Первая Часть Планирования Спринта
 Sprint Planning Two - Вторая Часть Планирования Спринта
