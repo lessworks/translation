@@ -2,10 +2,13 @@
 Area Product Owner - Владелец Области Продукта
 Area Product Backlog - Бэклог Области Продукта
 Backlog - Бэклог
+Cadence - Каденция
 Causal loop diagrams - Диаграммы причинного цикла
 Causal relation - причинно-следственная связь
+Communities of Practice (CoPs) - Сообщества практик
 Complexity of static [details] - статическая сложность
 Complexity of dynamics - динамическая сложность
+Сontinuous improvement - непрерывное совершенствование (улучшение)
 Control theory - теория управления
 Cross-team - кросскомандная
 Definition of Done - Критерии Готовности
@@ -19,12 +22,16 @@ Feedback loop - цикл обратной связи
 Flow diagrams - диаграммы потока
 Framework - каркас
 Guides - Руководства
+Gemba - гемба
 Framework - каркас
 Initial Product Backlog Refinement - Первичное Уточнение Бэклога Продукта
 Inspect and Adapt - Инспекция и Адаптация
+Kaizen - кайдзен
+Kanban - канбан
 Large-Scale Scrum - Масштабный Скрам
 Large-scale adoption of *smth* - внедрение *smth* в больших масштабах
 Large-scale *smth* adoption -внедрение *smth* в больших масштабах
+Lean - бережливый подход
 Lean thinking - бережливое мышление
 LeSS Overall Retrospective - всеобщая ретроспектива LeSS
 Mental model - ментальная модель
@@ -32,6 +39,7 @@ Measurement dysfunction - дисфункция измерения
 Morale - боевой дух
 Multi-team - Многокомандный
 Multi-team Product Backlog Refinement - Многокомандное Уточнение Бэклога Продукта
+One-piece flow - поток в одну задачу (изделие)
 Overall Retrospective - Общая Ретроспектива
 Overall Product Backlog Refinement - Общее Уточнение Бэклога Продукта 
 Queueing Theory - Теория массового обслуживания
@@ -39,6 +47,7 @@ Perfection goal - Цель совершенства
 Product Backlog - Бэклог Продукта
 Product Backlog item - Элемент Бэклога Продукта
 Product Backlog Refinement - Уточнение Бэклога Продукта
+Product Owner - Владелец Продукта
 Rate of delivery - стоимость доставки
 Requirement Area - Область Требований
 Scrum - Скрам
@@ -51,4 +60,5 @@ System dynamics - системная динамика
 Systems thinking - системное мышление
 Team-level Product Backlog Refinement - Командное Уточнение Бэклога продукта
 Value - ценность
+WIP - НЗР (Незавершенная Работа)
 Wokrshop - сессия совместной работы
