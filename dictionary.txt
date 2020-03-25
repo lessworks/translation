@@ -15,7 +15,7 @@ Definition of Done - Критерии Готовности
 Development Team - Команда Разработки
 Diagram of effect - диаграмма воздействия
 Dynamic system models - динамические модели систем
-Empirical process control - процесс эмпирического управления
+Empirical process control - Эмпирический контроль процесса
 Feature-team - продуктовая команда
 Feature velocity - скорость разработки фичи
 Feedback loop - цикл обратной связи
