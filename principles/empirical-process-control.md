@@ -1,3 +1,8 @@
+---
+title: Empirical process control
+order: 50
+---
+
 *Empirical process control* is a core Scrum principle, and distinguishes it from other agile frameworks. The *Scrum Guide* puts it well:
 
 > Scrum is not a process or a technique for building products; rather, it is a framework within which you can employ various processes and techniques. Scrum makes clear the relative efficacy of your product management and development practices so that you can improve.
