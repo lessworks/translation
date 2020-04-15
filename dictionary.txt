@@ -13,6 +13,7 @@ Control theory - теория управления
 Cross-team - кросскомандная
 Definition of Done - Критерии Готовности
 Development Team - Команда Разработки
+Design Workshop - Воркшоп по проектированию
 Diagram of effect - диаграмма воздействия
 Dynamic system models - динамические модели систем
 Empirical process control - Эмпирический контроль процесса
@@ -20,10 +21,9 @@ Feature-team - продуктовая команда
 Feature velocity - скорость разработки фичи
 Feedback loop - цикл обратной связи
 Flow diagrams - диаграммы потока
-Framework - каркас
+Framework - фреймворк
 Guides - Руководства
 Gemba - гемба
-Framework - каркас
 Initial Product Backlog Refinement - Первичное Уточнение Бэклога Продукта
 Inspect and Adapt - Инспекция и Адаптация
 Kaizen - кайдзен
