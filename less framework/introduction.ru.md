@@ -20,7 +20,7 @@ C.A.R. Hoare
 
 Эмпирический контроль процесса требует *прозрачности*, которая достигается путем разработки и ревью готового к поставке инкремента продукта короткими циклами. В нем делается акцент на непрерывное обучение, инспекцию и адаптацию подхода к созданию продукта. В его основе лежит понимание того, что в разработке все настолько комплексно (запутанно) и быстро меняется, что использование детализированного и шаблонного процесса препятствует вовлечению и постоянным улучшениям.
 
-В [Руководстве по Скраму (Scrum Guide)](http://www.scrumguides.org/) и [Азбуке Скрам (Scrum Primer)](http://scrumprimer.org/) делается акцент на работу одной команды, а не на совместную работу нескольких команд. Это естественным образом ведет к размышлениям о реализации Скрама в *больших масштабах*.
+В [Руководстве по Скраму (Scrum Guide)](http://www.scrumguides.org/) и [Scrum Primer](http://scrumprimer.org/) делается акцент на работу одной команды, а не на совместную работу нескольких команд. Это естественным образом ведет к размышлениям о реализации Скрама в *больших масштабах*.
 
 ## LeSS
 
@@ -603,7 +603,7 @@ As with LeSS, there are [rules](https://less.works/less/rules/index.html) and op
 
 ### • LeSS Huge Story: A New Requirement Area •
 
-Priti welcomes Portia to her first day in her new job. As a mid-level Operations manager in the Securities division of the large trading company as well as Product Owner for their internal Securities system, Priti is also responsible for finding and retaining talent for her Product Owner Team of Area Product Owners. And she thinks Portia is a fantastic find, as her expertise is exactly what is required for dealing with some new huge requirements.
+Прити welcomes Portia to her first day in her new job. As a mid-level Operations manager in the Securities division of the large trading company as well as Product Owner for their internal Securities system, Priti is also responsible for finding and retaining talent for her Product Owner Team of Area Product Owners. And she thinks Portia is a fantastic find, as her expertise is exactly what is required for dealing with some new huge requirements.
 
 During the recent job interview—when Portia was still a product manager specializing in regulatory issues at a company that made a system for trading bonds—Priti had laid out the situation. “Portia, after the last crash, the regulators are coming down hard and they require us to be compliant with Dodd-Frank. Right now, we don’t know what it exactly means or how it will impact our system. You’ve got incredible knowledge of this space, and a great professional network with the regulators. I would love it if you would join our group and help us figure out how to deal with this.”
 
@@ -755,29 +755,29 @@ Some key points from the story in LeSS Huge:
 
 ### • LeSS Huge История: Распределённые команды •
 
-Portia is Владелец Области Продукта в новой Области требований в Системе торговли ценными бумагами. The new area started with just one team for focus and simplicity. A few Sprints later Portia’s area adds a third team. Her first two teams are based in London with her. But her third new team, HouseDraculesti, is based in Cluj Romania at a major development site for the company.
+Порша - Владелец Области Продукта в новой Области Требований в системе торговли ценными бумагами. Новая область запущена только с двух команд для фокуса и простоты. Несколько спринтов позднее к области, за которую отвечает Порша, присоединяется третья команда. Две её первые команды находятся в Лондоне (Англия) вместе с ней. А третья команда HouseDraculesti - в городе Клуж-Напока (Румыния), основном центре разработки компании.
 
-Why not add a third team from the London site? That would have avoided the many aggravations and efficiency penalties that can come from multi-site development within one area—costs potentially so high that adding a team can effectively result in deleting a team.
+Почему бы не добавить третью команду в Лондонском офисе? Это позволило бы избежать многих губительных факторов и снижения эффективности, которые могут возникнуть в результате распределения команды по разным офисам - но расходы могут быть настолько высокими на ещё одну команду в Лондоне, что её добавление не будет иметь смысла.
 
-But on the positive side in this case, Cluj is only two time zones from London, and everyone there speaks English well. And they are all strong developers with Computer Science degrees, in a city that values long-term and hands-on engineering mastery. Also, this is a dedicated internal development site for the company, so these are experienced internal teams that have in-depth knowledge of the product and domain.
+Если смотреть с позитивной стороны на эту ситуацию, Клуж-Напока всего в двух временных зонах от Лондона, и все сотрудники хорошо разговаривают по-английски. Также все они имеют образование в сфере информационных технологий и обладают хорошими инженерными навыками, а сам город ценит долгосрочное и практическое инженерное мастерство. Также, это внутренний центр разработки одной компании, поэтому в нём работают другие команды, которые обладают глубокой экспертизой в продукте и домене.
 
-And bottom line, Priti (the Product Owner) didn’t want any of the other London teams to shift from their current areas.
+И в завершении, Прити (Владелец Продукта) не хотела, чтобы кто-либо из членов Лондонских команд переезжал в другое место.
 
-Priti knows that multi-site teams are a new situation for Portia, and so at their next meeting, she says, “Please ask your Scrum Master to talk with Sita, and also ask Sita to coach some of your events. She’s a Scrum Master in asset servicing, and she’s observed their multi-site situation for a few years. She knows the importance of Scrum Masters co-located with their teams, and she’s helped facilitate many multi-site meetings.”
+Прити знает, что Порша раньше не работал с распределёнными командами, и поэтому на их следующей встрече сказал: “Пожалуйста, попроси вашего скрам-мастера поговорить с Ситой, а также попроси Ситу обучить проводить ваши события. Она мастер скрам-мастер в команде обслуживания активов, и она следила за их ситуацией с распределёнными командами в течение нескольких лет. Она знает, как важно скрам-мастерам быть рядом с их командами, и она помогла провести много встреч в распределённом формате.” 
 
-Priti continued, “Also, we’ve had a super profitable year, so I’m providing funding for you and the Zombies team—at least those that can travel—to spend a Sprint in Cluj as soon as possible. Work closely with them, all in one room. The Cluj team could come here to London, but you want to send a strong signal that they are important, at their site. Try to avoid making them feel that London is more important than Cluj. Oh—and you’ll want to regularly visit every few months.”
+Прити продолжила: “так как у нас был сверхприбыльный год, поэтому я обеспечу финансирование для тебя и команды Zombies - по крайней мере для тех, кто может путешествовать - провести один спринт в Клуж-Напока как можно скорее. Работайте как можно ближе, в одной комнате. Команда из Клуж-Напока могла бы приехать в Лондон, но ты должна дать им понять важность нахождения на их текущем рабочем месте. Попробуй избежать ситуации, в которой они будут чувствовать, что команды в Лондоне важнее, чем в Клуж-Напока. О, и ты должна приезжать к ним каждые несколько месяцев.“ 
 
 #### Первая Часть Планирования Спринта в распределённых командах
 
-A few Sprints later, Portia walks into the room. There’s a computer projector attached to a laptop, displaying via video a room in Cluj. The whole team in Cluj are sitting and waiting. Sita suggested it would improve learning and engagement if the entire Cluj team participated in multi-site meetings for the first few months of their addition to the area.
+Несколько спринтов спустя. Порша заходит в комнату, где проектор, подключенный к компьютеру, транслирует изображение из в Клуж-Напока. Вся команда из Румынии сидит в ожидании. Сита предположила, что это улучшило бы обучение и вовлечение, если бы вся команда Клуж участвовала во распределённых встречах в течение первых нескольких месяцев после их присоединения.
 
-All the team representatives have tablets or laptops with them.
+У каждого представителя команды есть планшет или ноутбук.
 
-Portia begins. “Welcome and let’s get started. My offer of items this Sprint are highlighted in the shared spreadsheet. Can you all see it? I think you all understand why these are the themes and priorities, since we’ve been discussing this in PBR and it reflects your input and mine. But please ask again if you’d like clarification. Other than that, you’re invited to enter your team names beside the items you want.”
+Порша начинает: “Добро пожаловать и давайте начнём. Предложенные мной на этот спринт элементы подсвечены в нашем общей таблице. Вам всем их видно? Я думаю, что вы понимаете, почему именно так выгдядит Бэклог. Мы обсуждали это во время Уточнения Бэклога, и это отражает ваше и мое мнение. Пожалуйста, скажите, если вам нужно что-то прояснить. После этого, предлагаю вам записать названия вашей команды рядом с элементами, которые вы хотите взять. “
 
 That done, the group enters a Q&A phase to wrap up lingering questions about the items. The London representatives tape up some flip-chart papers and start writing questions. The Cluj team members enter their questions in separate sheets of a shared spreadsheet. Portia spends some time at the different paper flip charts, discussing answers and sketching on the paper. And she spends some time at the spreadsheet, typing in answers for the Cluj team, while also talking with them face-to-face via the video session.
 
-After about 30 minutes the separate questions have been resolved, and Portia asks everyone to come back together. She says, “Any issues or questions that you want to discuss together, before we wrap up?”
+После примерно 30 минут отдельные вопросы были разрешены, и Порша просить всех собраться вместе. Она говорит: “Если вопросы или проблемы, которые нам нужно обсудить вместе, прежде чем мы разойдёмся?“
 
 #### Общее Уточнение Бэклога Продукта в распределённых командах
 
