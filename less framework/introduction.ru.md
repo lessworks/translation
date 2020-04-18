@@ -486,57 +486,57 @@ LeSS и LeSS Huge имеют следующие общие элементы:
 
 ### • Области Требований •
 
-With 1000 or even just 100 people on one product, divide-and-conquer seems unavoidable because of the complexity of so many requirements and people. Traditional large-scale development divides these ways:
+Когда в один продукт вовлечено 1000 или даже 100 человек, стратегия "разделяй и влавствуй" кажется неизбежной из-да сложности, связанной с таким большим количеством людей и требований. В традиционной крупномасштабной разработке принято разделять следующими способами:
 
-* single-function groups (analysis group, test group, …)
-* architectural-component groups (UI-layer group, server-side group, data-access component group, …)
+* одно-функциональные группы (группа аналитики, группа тестирования, …)
+* группы по архитектурным компонентам (группа пользовательского интерфейса, группа серверной разработки, группа компонента для доступа к данным, …)
 
-This organizational design yields slow inflexible development with (1) high levels of waste (inventory, work-in-progress, handoff, information scatter, …), (2) long-delayed ROI, (3) complex planning and coordination, (4) more overhead management, and (5) weak feedback and learning. And it is organized *inward* around single-skills, architecture, and management, rather than outward around customer value.
+Такая организационная структура приводит к медленной негибкой разработке с (1) высоким уровнем потерь (инвентарные, незавершенная работа, передача между группами, рассеивание информации, …), (2) длительными задержками возврата инвестиций (ROI), (3) усложнением планирования и координации, (4) большим уровнем накладных расходов в управлении и (5) слабой обратной связью и обучением. И эта организационная структура нацелена *внутрь* на развитии отдельных навыков, архитектуре и управлении, вместо того чтобы быть нацеленной наружу, на ценность для клиента.
 
-But in the **LeSS Huge** framework when above about [восьми](#магическое-число-восемь) командах, division is around *major areas of customer concerns* called Requirement Areas. This reflects the *customer-centric* [LeSS principle](#принципы-less).
+Но во фреймворке **LeSS Huge**, когда количество команд около [восьми](#магическое-число-восемь) и более, разделение осуществляется по *основным областям потребностей заказчика* называемым Областями Требований. Такое разделение отражает [LeSS принцип](#принципы-less) *Ориентация на клиента*.
 
-**Size**—A Requirement Area is *big*, usually with between *four and eight teams*, not one or two. The following Area Feature Teams section explains why.
+**Размер**—каждая Область Требований довольно *большая*, обычно связанная с *четырьмя-восьмью командами*, не с одной или двумя. Последующий раздел "Команда Области Продукта" объясняет почему это так.
 
-**Dynamic**—Requirement Areas are dynamic. Over time an area will change in importance, and then it grows or shrinks with teams joining or departing—most likely to or from another existing area.
+**Динамика**—Области Требований динамичны. Со временем важность области изменится и вслед за этим она будет расти или уменьшаться, что повлечёт присоединение или, что более вероятно, уход команд в другую область.
 
-**Example**—For example, in a Securities product (to trade stocks), these could be some major areas of customer interest—Requirement Areas:
+**Пример**—Например, в продукте, связанном с Ценными бумагами (для торговли акциями), могут быть следующие области интересов заказчика — Области Требований:
 
-* trade processing (from pricing to capture to settlement)
-* asset servicing (e.g. handling a stock split, dividends)
-* new market onboarding (e.g. Nigeria)
+* обработка сделок (от установки цены до закрытия сделки и расчёта)
+* обслуживание активов (например, обработка разделения акций, дивиденды)
+* регистрация новых рынков (например, Нигерия)
 
-Conceptually in the one Product Backlog, a Requirement Area attribute is added, and each item is classified into one and only one area:
+Концептуально в едином Бэклоге Продукта, добавляется атрибут "Область Требований", и каждый элемент бэклога классифицируется в одну и только в одну область:
 
-| Item   | Requirement Area      |
+| Элемент| Область требований    |
 |:------:|:---------------------:|
-| B      | market onboarding     |
-| C      | trade processing      |
-| D      | asset servicing       |
-| F      | market onboarding     |
+| B      | присоединение рынков  |
+| C      | обработка сделок      |
+| D      | обслуживание активов  |
+| F      | присоединение рынков  |
 | ...      |
 {: .grid_table_with_header}
 
-Then people can focus on one Area Product Backlog (conceptually, a view onto one Product Backlog), such as the *market onboarding* area:
+Это позволяет людям фокусироваться на одном Бэклоге Области Продукта (концептуально, являющимся представлением единого Бэклога Продукта, отфильтрованного по области), например на такой области как *присоединение рынков*:
 
-| Item   | Requirement Area     |
+| Элемент| Область требований   |
 |:------:|:--------------------:|
-| B      | market onboarding     |
-| F      | market onboarding     |
+| B      | присоединение рынков  |
+| F      | присоединение рынков  |
 {: .grid_table_with_header}
 
-**Common Sprint**—Does each Requirement Area work separately in its own Sprint, with delayed integration until a far-future date? No.
+**Общий Спринт**—Функционирует ли каждая Область Требований отдельно, в рамках собственного, отдельного Спринта, с интеграцией, отложенной на далёкое будущее? Нет.
 
-*In LeSS Huge, Integrate Continuously in One Common Sprint*
-There is one product-level Sprint, not a different Sprint for each Requirement Area. It ends in one integrated whole product, and all the teams across all the Requirement Areas are striving to integrate continuously across the entire product.
+*В LeSS Huge следует Непрерывно Интегрироваться в рамках Единого Общего Спринта*
+Существует только один Спринт для всего продукта, а не отдельные Спринты для каждой Области Требований. Он завершается одним цельным интегрированным продуктом, и все команды, по всем Областям Требований стремятся непрерывно интегрироваться по всему продукту целиком.
 {: .box_top_bottom .text_centered_bold }
 
-### • Area Product Owners •
+### • Владелец Области Продукта •
 
 In LeSS Huge one new role is introduced. Each Requirement Area has an Area Product Owner who specializes in that area and focuses on its Area Product Backlog.
 
 Large product groups usually have several supporting product managers specializing in different customer areas, and some of these are likely to serve as the Area Product Owners. Sometimes the Product Owner also serves double duty as an Area Product Owner for one area; that’s more likely in small *less huge* LeSS Huge groups!
 
-### • Area Feature Teams •
+### • Команды Области Продукта •
 
 Area feature teams work within one Requirement Area (e.g. asset servicing), with one Area Product Owner focusing on the items in one Area Product Backlog. From a team’s perspective, *working in the area is like working in the smaller LeSS framework*—they interact with their Area Product Owner as though she were the Product Owner, and so on.
 
