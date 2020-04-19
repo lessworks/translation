@@ -1,5 +1,5 @@
 ﻿Agile principles - принципы гибкой разработки
-Area Feature Team - Команда Области Продукта (TODO ?Требований?)
+Area Feature Team - Команда Области Продукта
 Area Product Owner - Владелец Области Продукта
 Area Product Backlog - Бэклог Области Продукта
 Backlog - Бэклог
