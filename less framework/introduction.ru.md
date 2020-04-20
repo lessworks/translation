@@ -773,7 +773,7 @@ Some key points from the story in LeSS Huge:
 
 У каждого представителя команды есть планшет или ноутбук.
 
-Порша начинает: “Добро пожаловать и давайте начнём. Предложенные мной на этот спринт элементы подсвечены в нашем общей таблице. Вам всем их видно? Я думаю, что вы понимаете, почему именно так выгдядит Бэклог. Мы обсуждали это во время Уточнения Бэклога, и это отражает ваше и мое мнение. Пожалуйста, скажите, если вам нужно что-то прояснить. После этого, предлагаю вам записать названия вашей команды рядом с элементами, которые вы хотите взять. “
+Порша начинает: “Добро пожаловать и давайте начнём. Предложенные мной на этот спринт элементы подсвечены в нашем общей таблице. Вам всем их видно? Я думаю, что вы понимаете, почему именно так выглядит Бэклог. Мы обсуждали это во время Уточнения Бэклога, и это отражает ваше и мое мнение. Пожалуйста, скажите, если вам нужно что-то прояснить. После этого, предлагаю вам записать названия вашей команды рядом с элементами, которые вы хотите взять. “
 
 That done, the group enters a Q&A phase to wrap up lingering questions about the items. The London representatives tape up some flip-chart papers and start writing questions. The Cluj team members enter their questions in separate sheets of a shared spreadsheet. Portia spends some time at the different paper flip charts, discussing answers and sketching on the paper. And she spends some time at the spreadsheet, typing in answers for the Cluj team, while also talking with them face-to-face via the video session.
 
@@ -781,11 +781,11 @@ That done, the group enters a Q&A phase to wrap up lingering questions about the
 
 #### Общее Уточнение Бэклога Продукта в распределённых командах
 
-People enter the workshop room in London for multi-site PBR. Two projectors are set up. One shows a video session of the workshop room in Cluj. The other displays a browser on Portia’s computer.
+Люди заходят в переговорную комнату в Лондонском офисе для проведения распределённого Уточнения Бэклога Продукта. В комнате два проектора. Один из них транслирует изображение из переговорной комнаты в Клуж-Напока. Другой - браузер на компьютере Порши.
 
-Portia says, “Let’s get started. I want to focus on splitting some items. I’ve invited Zak to join us because he knows quite a lot about this.”
+Порша говорит: “Предлагаю начинать. Я хочу сфокусировать вас на декомпозиции нескольких элементов. Я пригласила Зака, потом что он знает о них достаточно.”
 
-Using a mind-mapping, browser-based graphics tool, Zak starts to create some branches, while discussing with the group.
+Используя онлайн-инструмент для построения интеллект-карт, Зак создаёт веток во время обсуждения с группой.
 
 <div>
   {% figure "img/framework/multi-site-estimation-with-planning-poker-sketch", "Multi-site Estimation with Planning Poker",class:"half-sized-figure pull-right" %}
