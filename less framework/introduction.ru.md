@@ -599,7 +599,7 @@ As with LeSS, there are [rules](https://less.works/less/rules/index.html) and op
 **Two topics**—Following are two stories with distinct topics:
 
 1. [Creating and growing a new Requirement Area to deal with a new gigantic requirement.](#less-huge-story-a-new-requirement-area-)
-2. [Working with multi-site teams. (This happens in the smaller LeSS framework too, but is especially common in LeSS Huge.)](#less-huge-story-multi-site-teams-)
+2. [Working with multi-site teams. (This happens in the smaller LeSS framework too, but is especially common in LeSS Huge.)](#less-huge-история-распределённые-команды)
 
 ### • LeSS Huge Story: A New Requirement Area •
 
@@ -775,7 +775,7 @@ Some key points from the story in LeSS Huge:
 
 Порша начинает: “Добро пожаловать и давайте начнём. Предложенные мной на этот спринт элементы подсвечены в нашем общей таблице. Вам всем их видно? Я думаю, что вы понимаете, почему именно так выглядит Бэклог. Мы обсуждали это во время Уточнения Бэклога, и это отражает ваше и мое мнение. Пожалуйста, скажите, если вам нужно что-то прояснить. После этого, предлагаю вам записать названия вашей команды рядом с элементами, которые вы хотите взять. “
 
-That done, the group enters a Q&A phase to wrap up lingering questions about the items. The London representatives tape up some flip-chart papers and start writing questions. The Cluj team members enter their questions in separate sheets of a shared spreadsheet. Portia spends some time at the different paper flip charts, discussing answers and sketching on the paper. And she spends some time at the spreadsheet, typing in answers for the Cluj team, while also talking with them face-to-face via the video session.
+После этого группа вступает в фазу вопросов и ответов, чтобы завершить затянувшиеся вопросы об элементах. Представители Лондонского офиса раскручивают немного бумаги для флипчарта и начинают писать вопросы. Члены команды Клуж-Напока фиксируют свои вопросы на отдельных листах общей электронной таблицы. Порша проводит некоторое время за различными бумажными флипчартами, обсуждая ответы и делая зарисовки на бумаге. Она также проводит некоторое время в электронной таблице, набирая ответы для румынской команды, а также беседует с ними лицом к лицу по видеосвязи.
 
 После примерно 30 минут отдельные вопросы были разрешены, и Порша просить всех собраться вместе. Она говорит: “Если вопросы или проблемы, которые нам нужно обсудить вместе, прежде чем мы разойдёмся?“
 
@@ -791,19 +791,19 @@ That done, the group enters a Q&A phase to wrap up lingering questions about the
   {% figure "img/framework/multi-site-estimation-with-planning-poker-sketch", "Multi-site Estimation with Planning Poker",class:"half-sized-figure pull-right" %}
 </div>
 
-Afterwards, they use a shared spreadsheet to discuss and write a single example for each of the new split items, so that the people at both sites gain a lightweight but concrete understanding of the details. Later, the group does estimation of the new items, using especially big planning poker cards that can be easily seen by the cameras and video when held up.
+После этого они пользуются общей электронной таблицей для обсуждения и написания одного примера для каждого из новых декомпозированных элементов, чтобы люди в обоих офисах получили поверхностное, но конкретное понимание деталей. Позже группа проводит оценку этих элементов, используя особенно большие покерные карты для планирования, которые можно легко увидеть на видео при их поднятии.
 
 #### Конец
 
-Some key points from the multi-site story in LeSS Huge:
+Некоторые ключевые моменты из LeSS Huge истории в распределённых командах:
 
-* Multi-site teams frequently create both obvious and subtle frictions and costs that are surprisingly large in their negative impact.
-* Qualities that reduce the friction of another site include similar time zone, internal dedicated site (not outsourced), developers that are fluent in the same spoken language, a location and culture that highly values long-term hands-on developer excellence.
-* A Scrum Master must be co-located with their teams.
-* Each site must feel like a peer, not a second-class citizen.
-* Sites must be visited regularly and cross-pollinated.
-* In meetings, strive for face-to-face with video tools.
-* The use of shared-document tools make it easy for everyone to modify artifacts together and at the same time.
+* В распределённых командах часто возникают как очевидные, так и не очень, разногласия и затраты, которые на удивление велики по своим негативным последствиям.
+* Следующие аспекты уменьшают разногласия с другим офисам: такой же часовой пояс, выделенный собственный офис (а не компания-подрядчик); разработчики, свободно владеющие одним и тем же разговорным языком; место и культура, в которых высоко ценят многолетние практики технического совершенства.
+* Скрам-мастер должен находиться рядом со своими командами.
+* Каждый офис должен чувствовать себя равным, а не гражданином второго сорта.
+* Распределённые команды должны посещать друг друга  и перекрестно опыляться.
+* С помощью видео инструментов встречаться "лицом к лицу".
+* Использование общих документов позволяет легко и просто изменять артефакты одновременно.
 
 ### Что дальше
 
