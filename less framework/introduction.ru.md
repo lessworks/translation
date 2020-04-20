@@ -476,7 +476,7 @@ LeSS и LeSS Huge имеют следующие общие элементы:
 
 Некоторые ключевые моменты истории: 
 
-* ‘Отломите Кусочек’ гигантской задачи, чтобы научиться на поставке чего-то небольшого и избежать преждевременного и чересчур глубокого анализа.
+* "Отломите Кусочек" гигантской задачи, чтобы научиться на поставке чего-то небольшого и избежать преждевременного и чересчур глубокого анализа.
 * Проводите многокомандные сессии PBR для элементов бэклога, чтобы усилить распространение знаний между командами, что в свою очередь увеличивает организационную гибкость, общепродуктовые знания и усиливает самоорганизацию координации команд.
 * Стремитесь к фокусу всем продукте, даже при наличии большого количества команд.
 
@@ -598,10 +598,10 @@ As with LeSS, there are [rules](https://less.works/less/rules/index.html) and op
 
 **Two topics**—Following are two stories with distinct topics:
 
-1. [Creating and growing a new Requirement Area to deal with a new gigantic requirement.](#less-huge-story-a-new-requirement-area-)
+1. [Creating and growing a new Requirement Area to deal with a new gigantic requirement.](#less-huge-история-новая-область-требований)
 2. [Working with multi-site teams. (This happens in the smaller LeSS framework too, but is especially common in LeSS Huge.)](#less-huge-история-распределённые-команды)
 
-### • LeSS Huge Story: A New Requirement Area •
+### • LeSS Huge История: Новая Область Требований •
 
 Прити welcomes Portia to her first day in her new job. As a mid-level Operations manager in the Securities division of the large trading company as well as Product Owner for their internal Securities system, Priti is also responsible for finding and retaining talent for her Product Owner Team of Area Product Owners. And she thinks Portia is a fantastic find, as her expertise is exactly what is required for dealing with some new huge requirements.
 
@@ -733,12 +733,12 @@ Two Sprints later… At the Product Owner Team coordination meeting, Priti says,
 
 #### Конец
 
-Some key points from the story in LeSS Huge:
+Некоторые ключевые моменты из LeSS Huge истории:
 
-* The Product Owner is responsible for finding Area Product Owners and developing their talents.
-* The Product Owner is responsible for deciding to start, grow, or wind down Requirement Areas.
-* Requirement Areas are large, normally requiring four to eight teams, but during initial startup they may be smaller, especially if initiated with one team using a Take a Bite approach.
-* A Leading Team works solo to tackle a gigantic item until they understand the domain and development, and then they coach more incoming teams to help with the vast work.
+* Владелец Продукта отвечает за поиск Владельцев Областей Продукта и развитие их навыков.
+* Владелец Продукта несет ответственность за принятие решения о запуске, расширении или сокращении Областей Требований.
+* Большие Области Требований обычно требуют от четырех до восьми команд, но во время первоначального запуска они могут быть меньше, особенно если они инициированы одной командой, которая "откусывает понемногу".
+* Ведущая команда работает одна, чтобы заняться гигантским вопросом понимания домена и технологий разработки, а затем обучит большее количество новых команд, чтобы они вместе справились с большим объёмом работы.
 
 ### • Распределённые команды: Терминология & Советы •  
 
