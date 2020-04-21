@@ -651,27 +651,27 @@ Michelle, a veteran in the team, says, “We’d better start on some real devel
 
 Susan, their Scrum Master, says, “Reminds me… Tom DeMarco once said that the reason for every failed project is that it started too late.” Everyone laughs. She continues, “So here’s a suggestion: take a bite.”
 
-#### Creating a New Requirement Area
+#### Создание Новой Области Требований
 
-The next day, Portia, Priti, and rest of the Product Owner Team meet. Portia shares a summary of the scope as she understands it now.
+На следующий день Порша, Прити и остальные члены команды Владельца Продукта встречаются. Порша делится кратким описанием горизонта работ, поскольку она понимает это сейчас.
 
-Priti says, “This is even bigger than I expected, and we need to show some tangible progress to the regulators within a few months, and major progress before fiscal year end—seven months from now. To state the obvious, they’re now authorized to require more from us, and with the power to shut us down. As you know, just last month the CEO made it crystal clear that new regulatory requests take priority over any other concern. It’s my experience that our goodwill and flexibility with the regulators goes up if we can give them something early, and be transparent and responsive. So that’s what we’re going to do.”
+Прити говорит: “Это даже больше, чем я ожидала, и мы должны продемонстрировать ощутимый прогресс регулирующим органам в течение нескольких месяцев, а также значительный прогресс до конца финансового года - через семь месяцев. Очевидно, они теперь уполномочены требовать от нас больше, а также могут нас закрыть. Как вы знаете, только в прошлом месяце генеральный директор дал понять, что новые нормативные требования имеют приоритет над любыми другими. По моему опыту, наша доброжелательность и гибкость в работе с регулирующими органами возрастут, если мы можем как можно раньше им что-то предоставить, а также быть прозрачными и отзывчивыми. Вот что мы собираемся сделать“.
 
-Priti continues, “It seems to me that we’ll need a new area for this big surprise. And of course that’s probably going to impact some of our existing high-priority goals, since we’ll have to shift some teams. Let’s prepare for a deeper discussion of overall prioritization impact in a couple of days. But for now, I’d like your input about spinning up a new area.”
+Прити продолжает: “Кажется, нам понадобится создать новую Область Требований для такого большого сюрприза. И, конечно, это, вероятно, повлияет на некоторые из наших существующих приоритетных целей, поскольку нам придется переместить некоторые команды. Давайте подготовимся к более глубокому обсуждению общего воздействия приоритизации через пару дней. Но сейчас мне бы хотелось, чтобы вы внесли свой вклад в развитие новой Области Требований“.
 
-After a short discussion, it’s clear that everyone recognizes the importance of creating a new area.
+После непродолжительного обсуждения становится ясно, что все понимают важность создания новой Области Требований.
 
-Priti then says, “Portia, I know you are new to us, but do you think you would be able to handle the Area Product Owner responsibility for this?”
+Затем Прити говорит: “Порша, я знаю, что ты новенькая, поэтому, как ты считаешь, сможешь ли ты справиться с обязанностью Владельца Области Продукта“
 
-Portia nods.
+Порша кивает.
 
-Priti continues, “Peter, do you think the Zombies could start work on this? And we’ll need them to learn more Dodd-Frank and figure out the impact on our system before we can add more teams to this.”
+Прити продолжает: “Питер, ты думаешь, команда “Зомби“ могла бы начать работать над этим? Нам нужно, чтобы они узнали больше о требованиях закона Додда-Франка и выяснили влияние на нашу систему, прежде чем мы сможем добавить ещё команд“.
 
-Peter says, “I don’t think we’ve got any choice.”
+Питер говорит: “Я не думаю, что у нас есть какой-либо выбор“.
 
-Priti says, “OK Portia, so currently we’ve got a few items in Peter’s Area Backlog, the one huge item I think you called “remainder of Dodd-Frank” and the tiny item which the Zombies and you split off of it. Please ask Peter to show you how to set up a new area in the Product Backlog and move the items over to it.”
+Прити говорит: “Хорошо, Порша, в настоящее время у нас есть несколько элементов в Бэклоге Области Продукта, которую возглавляет Питера. Там есть огромный элемент, который, думаю, вы назвали “всё остальные требования закона Додда-Франка“. И небольшой элемент, который команда “Зомби“ вместе с тобой отделили от него. Пожалуйста, попросите Питера показать вам, как настроить Новую Область в Бэклоге Продукта и перенести эти элементы в неё“.
 
-Priti continues addressing the group, “The next Sprint starts in three days. Let’s move the Zombies into your area and get started on this monster. Probably in a couple of Sprints we’ll be ready to—and need to—grow your area by moving in another team. Folks, please think about two major concerns: First, preparing for a serious prioritization impact meeting in a few days. And second, what other teams will be good candidates for the new area.”
+Прити продолжает, обращаясь к группе: ”Следующий спринт начинается через три дня. Давайте переместим команду “Зомби“ в вашу Область и начнем работу над этим монстром. Вероятно, через пару Спринтов мы будем готовы - и должны будем - расширить вашу Область, добавив другую команду. Пожалуйста, подумайте о двух основных проблемах: во-первых, подготовка к важной встрече по вопросам определения приоритетов в течение нескольких дней. А во-вторых, какие еще команды будут хорошими кандидатами для перемещения в новую Область”.
 
 #### Планирование Спринта в Новой Области Требований
 
