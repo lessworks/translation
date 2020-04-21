@@ -49,6 +49,7 @@ Product Backlog - Бэклог Продукта
 Product Backlog item - Элемент Бэклога Продукта
 Product Backlog Refinement - Уточнение Бэклога Продукта
 Product Owner - Владелец Продукта
+Product Owner Team - Команда Владельца Продукта
 Rate of delivery - стоимость доставки
 Requirement Area - Область Требований
 Scrum - Скрам
