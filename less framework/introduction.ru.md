@@ -727,9 +727,9 @@ Pablo, the Area Product Owner of asset servicing, comments on some close item re
 
 Priti asks, “Portia, about our upcoming Sprint. What are your goals?”
 
-#### Adding a Third Team
+#### Добавление третьей команды
 
-Two Sprints later… At the Product Owner Team coordination meeting, Priti says, “As you know, Portia’s area still has only two teams. I know that Pablo would like to keep his six teams in asset servicing, but Dodd-Frank is just too important to me this year. So we’re going to move one team from Pablo’s area into Portia’s. Pablo, please ask for a volunteer team from your group and let me and Portia know.”
+Два спринта спустя... На координационном совещании Владельца Продуктов Прити говорит: “Как вы знаете, в Области Требований Порши по-прежнему всего две команды. Я знаю, что Пабло хотел бы сохранить свои шесть команд в обслуживании активов, но закон Додда-Франка слишком важен для меня в этом году. Итак, мы собираемся перевести одну команду от Пабло к Порше. Пабло, пожалуйста, спроси, кто хотел бы стать волонтером из твоей группы и дай знать мне и Порши.“
 
 #### Конец
 
