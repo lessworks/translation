@@ -811,4 +811,4 @@ Mario laughs, “No. I’m done with that. We’re still a normal feature team, 
 
 Далее следуют разделы, посвященные более ориентированному на клиента продукту и Спринтам в более простой LeSS-организации.
 
-Перевод статьи осуществлён [Алексеем Ворониным](https://facebook.com/agileinjection) при поддержке [ScrumTrek](http://scrumtrek.ru/), [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov) и [Романом Лапаевым](https://www.linkedin.com/in/romanlapaev).
+Перевод статьи осуществлён [Алексеем Ворониным](https://facebook.com/agileinjection) при поддержке [ScrumTrek](http://scrumtrek.ru/), [Романом Лапаевым](https://www.linkedin.com/in/romanlapaev) и [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov).
