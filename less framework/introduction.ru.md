@@ -673,27 +673,27 @@ Priti says, “OK Portia, so currently we’ve got a few items in Peter’s Area
 
 Priti continues addressing the group, “The next Sprint starts in three days. Let’s move the Zombies into your area and get started on this monster. Probably in a couple of Sprints we’ll be ready to—and need to—grow your area by moving in another team. Folks, please think about two major concerns: First, preparing for a serious prioritization impact meeting in a few days. And second, what other teams will be good candidates for the new area.”
 
-#### Sprint Planning in the New Requirement Area
+#### Планирование Спринта в Новой Области Требований
 
-Each Requirement Area holds its own Sprint Planning meetings, all more or less in parallel. In Portia’s new area, she starts her Sprint Planning by introducing two unfamiliar faces to the Zombies.
+У каждой Области Требований своё собственное Планирование Спринта, во всех Областях они более или менее идут параллельно. В новой Области Порши она начинает Планирование Спринта, представляя двух человек, незнакомых с командой “Зомби“.
 
-She says, “Gillian and Zak have been in contact with the regulators regularly and will help us flesh this thing out. They’ve agreed to help us now in Planning, during our PBR sessions, and as much as they can spare daily during upcoming Sprints.”
+Она говорит: “Джиллиан и Зак регулярно общались с регуляторами и помогут нам в этом разобраться. Они согласились помочь нам сейчас на планировании, во время наших сессий Уточнения Бэклога, и столько, сколько они могут выделить ежедневно во время предстоящих спринтов“.
 
-She continues, “Here’s my tentative plan of attack for the next two Sprints. First, together we need to learn more about Dodd-Frank, and also split it into some major and manageable pieces so we can start to clear the fog and get a better sense of priorities.
+Она продолжает: “Вот мой предварительный план атаки на следующие два спринта. Во-первых, нам вместе нужно больше узнать о законе Додда-Франка, а также разбить эти требования на несколько основных и понятных частей, чтобы туман стал рассеиваться, и мы лучше стали понимать приоритеты.“
 
-“Second, we implement the smaller bite we’ve taken, starting this Sprint. That’ll give us better information about the real work and the impact on our product. And we’ll have some concrete visible progress.
+“Во-вторых, мы разрабатываем минимальный кусок требований, который мы взяли, в начале этого спринта. Это даст нам уточненную информацию о реальной работе и влиянии на наш продукт. И у нас будет конкретный видимый прогресс.“
 
-“Third, we prepare for more teams to join our area. What do you think of this approach? Other suggestions?”
+“В-третьих, мы готовимся к тому, чтобы к нашей Области присоединилось больше команд. Что вы думаете об этом подходе? Другие предложения?”
 
-During the short discussion, Mario says to his team, “Let me give a bit more context, because I represented our team in the recent Product Owner Team meeting with all the Area Product Owners and Priti. To start with, it’s just us to start. We’re going to take the lead on early implementation, and getting the big picture of the item, and understanding the overall impact on our architecture.”
+“Во время короткого обсуждения Марио говорит своей команде: “Позвольте мне дать немного больше контекста, потому что я представлял нашу команду на недавней встрече команды Владельца Продукта со всеми Владельцами Областей Продукта и Прити. В начале будем только мы. Мы собираемся взять на себя инициативу по скорейшему внедрению, получить общее представление об элементе и понять общее влияние на нашу архитектуру“.
 
-Michelle interrupts, “Like a tiger team working on a new product?”
+Мишель прерывает: “Как команда “тигров“, работающая над новым продуктом?“
 
-“Yes, like that,” says Mario. “Think of Dodd-Frank support as a new product that needs to be continuously integrated into the rest of the product. But we’re in a hurry and it’s a ton of work, so in a few Sprints one more team will join us and shortly after, probably two more teams. We keep developing too, but we’ll be the leading team, which means we’ll need to bring the other teams up to speed and make sure we keep the overall product in mind.”
+“Да, так же.“ - говорит Марио. “Думайте о новом функционале, поддерживающем закон Додда-Франка, как о новом продукте, который необходимо постоянно интегрировать в остальную часть продукта. Но мы спешим, и это тонна работы, поэтому через несколько спринтов к нам присоединится еще одна команда, а вскоре и, вероятно, еще две. Мы продолжаем развиваться, но будем ведущей командой. Это значит, что нам нужно будет ускорить работу других команд и убедиться, что мы держим весь продукт в голове“.
+л
+Мишель говорит: “Кажется, что мы собираемся стать командой по архитектуре и управлению проектами!“
 
-Michelle says, “It’s starting to sound to me like we’re going to become the architecture and project management team!”
-
-Mario laughs, “No. I’m done with that. We’re still a normal feature team, but besides development we’ll focus on mentoring and bringing the new teams up to speed as fast as possible. But let’s be clear: team coordination and management is still the responsibility of each team.”
+Марио смеется: “Нет. Я с этим покончил. Мы все еще нормальная команда разработчиков, но помимо разработки мы сосредоточимся на наставничестве и максимально быстром наборе новых команд. Но давайте проясним: координация и управление командой по-прежнему является обязанностью каждой такой команды“.
 
 #### Первый Спринт в Новой Области Требований
 
