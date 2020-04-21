@@ -695,13 +695,13 @@ Michelle says, “It’s starting to sound to me like we’re going to become th
 
 Mario laughs, “No. I’m done with that. We’re still a normal feature team, but besides development we’ll focus on mentoring and bringing the new teams up to speed as fast as possible. But let’s be clear: team coordination and management is still the responsibility of each team.”
 
-#### The First Sprint in the New Requirement Area
+#### Первый Спринт в Новой Области Требований
 
-Their first Sprint is an unusual balance of clarification versus development, but nevertheless quite useful in this extreme situation. They spend almost half the Sprint in clarification with Portia, Gillian, and Zak. That’s because even for this extremely small bite, trying to understand what is wanted in the obscure realm of new government regulations—with no direct access to the politicians and policy writers—required a lot of investigation, reading, discussion, and communicating with outsiders. They expect that in future Sprints, the amount of time needed for clarification will soon drop down to a more common 10% or 15% of their Sprint.
+Их первый Спринт является необычным балансом между уточнением требований и непосредственно разработкой, тем не менее весьма полезный в этой экстремальной ситуации. Они проводят почти половину Спринта в разъяснениях с Поршей, Джиллиан и Заком. Потому, что даже для этой небольшой части требований попытка понять, чего хотят в неясной сфере новых правительственных постановлений - без прямого доступа к политикам и политическим деятелям - требовала большого объёма исследований, чтения, обсуждения и общения с внешним миром. Они ожидают, что в будущих Спринтах количество времени, необходимого для прояснения, сократится до 10% или 15% от общей ёмкости команды в Спринте.
 
-And so they also only spend about half the Sprint developing one small item. But the discussion and the learning from coding pays off. Slowly but surely they start to split Dodd-Frank apart—at least the parts that any of them can understand.
+И поэтому они тратят только половину Спринта на разработку одного небольшого элемента. Но обсуждение и обучение во время разработки окупаются. Медленно, но верно они начинают декомпозировать требования закона Додда-Франка - по крайней мере, на части, которые любой из них может понять.
 
-While implementing the small item they had bitten off first, they spend much of the time together at whiteboards to discuss the overall design implications on the system. The team moves frequently back and forth between the code and the wall.
+Реализуя маленький элемент, который они сначала откусили, они проводят большую часть времени вместе на досках, чтобы обсудить общий подход к дизайну системы. Команда часто перемещается туда-сюда: между кодом и стеной.
 
 #### Обзор Спринта в Новой Области Требований
 
