@@ -703,29 +703,29 @@ And so they also only spend about half the Sprint developing one small item. But
 
 While implementing the small item they had bitten off first, they spend much of the time together at whiteboards to discuss the overall design implications on the system. The team moves frequently back and forth between the code and the wall.
 
-#### Sprint Review in the New Requirement Area
+#### Обзор Спринта в Новой Области Требований
 
-The overall Securities product group works together in one Sprint, with one final shippable product increment. But each Requirement Area holds its own Sprint Review, all more or less in parallel.
+Вся продуктовая группа “Ценные бумаги“ работает вместе в одном спринте, ради  готового к поставке общего инкремента продукта. Но каждая Область Требований имеет свой собственный Обзор Спринта, все они более или менее происходят параллельно.
 
-In Portia’s area, during their Review, she, Gillian, and Zak explore the one “done” item that the Zombies have managed to complete and integrate into the overall product. They had originally forecast two items, but Portia is impressed that they got even one done, given how fast this new work was thrown at them.
+На Обзоре Спринта в Области Порши, она,  Джиллиан и Зак инспектируют один элемент, соответствующий Критериям Готовности, который команде “Зомби“ удалось завершить и интегрировать в общий продукт. Изначально они прогнозировали завершение двух элементов, но Порша удивлена тем, что они выполнили хотя бы один, учитывая, как быстро эта новая работа была брошена на них.
 
-#### The Second Sprint
+### Второй Спринт
 
-In the second Sprint they’re able to make slightly better progress on items, though they once again spend a lot of time clarifying together with Portia, Gillian, and Zak.
+Во втором Спринте у них есть возможность показать прогресс в работе над элементами, хотя они снова проводят много времени в уточнении вместе с Поршей, Джиллиан и Заком.
 
-In the middle of the Sprint they hold a multi-team PBR session with the second team that is planned to soon join the area, teaching them about Dodd-Frank. They hold a current-architecture learning workshop to introduce the team to the major design elements already in place.
+В середине Спринта они проводят многокомандное Уточнение Бэклога вместе со второй командой, которую планируется вскоре присоединить к Области, рассказывая им о всем, что связано с законом Додда-Франка. Они проводят воркшоп по изучению текущей архитектуры, чтобы познакомить команду с основными блоками дизайна, которые уже существуют.
 
-The Zombies know how big the work is and look forward to more help.
+Команда “Зомби“ знает, насколько много работы, и с нетерпением ждёт помощи.
 
-#### Product Owner Team Meeting
+#### Встреча команды Владельца Продукта
 
-A few Sprints later… It’s time once more for the per-Sprint Product Owner Team meeting. They use it to align and coordinate between the different Area Product Owners, and for Priti to give guidance.
+Несколько спринтов спустя... Настало время встречи команды Владельца Продукта, которая происходит каждый спринт. Владельцы Областей продукта используют эту встречу, чтобы выровнять своё понимание и координировать свои действия, а Прити - чтобы дать общее направление.
 
-The Area Product Owners each share in turn their situation and upcoming goals. When it’s her turn, Portia says, “To none of our surprise, the progress is little and the surprises are big. But the fog is clearing and the teams and I are getting our heads around the work. Gillian and Zak have been tremendous help.”
+Владельцы Областей Продукта по очереди делятся своей ситуацией и предстоящими целями. Когда наступает очередь Порши, Она говорит: “К нашему удивлению, прогресс невелик, в отличие от сюрпризов, с которыми мы столкнулись. Но туман рассеивается, и мы с командами начинаем работать. Джиллиан и Зак оказали огромную помощь.“
 
-Pablo, the Area Product Owner of asset servicing, comments on some close item relationships he now sees between their areas. Portia agrees to meet with Pablo and some team representatives later.
+Пабло, Владелец Области Продукта обслуживания активов, комментирует некоторые элементы Бэклога, которые, на его взгляд, связаны с элементами в Бэклоге Порши. Она соглашается встретиться с Пабло и некоторыми представителями команды позже.
 
-Priti asks, “Portia, about our upcoming Sprint. What are your goals?”
+Прити спрашивает: “Порша, какие цели ты хотела бы достичь в ближайших спринтах?”
 
 #### Добавление третьей команды
 
@@ -755,7 +755,7 @@ Priti asks, “Portia, about our upcoming Sprint. What are your goals?”
 
 ### • LeSS Huge История: Распределённые команды •
 
-Порша - Владелец Области Продукта в новой Области Требований в системе торговли ценными бумагами. Новая область запущена только с двух команд для фокуса и простоты. Несколько спринтов позднее к области, за которую отвечает Порша, присоединяется третья команда. Две её первые команды находятся в Лондоне (Англия) вместе с ней. А третья команда HouseDraculesti - в городе Клуж-Напока (Румыния), основном центре разработки компании.
+Порша - Владелец Области Продукта в новой Области Требований в “Ценных бумагах“. Новая область запущена только с двух команд для фокуса и простоты. Несколько спринтов позднее к области, за которую отвечает Порша, присоединяется третья команда. Две её первые команды находятся в Лондоне (Англия) вместе с ней. А третья команда HouseDraculesti (“Дракулешти“, средневековая династия [прим. переводчика]) - в городе Клуж-Напока (Румыния), основном центре разработки компании.
 
 Почему бы не добавить третью команду в Лондонском офисе? Это позволило бы избежать многих губительных факторов и снижения эффективности, которые могут возникнуть в результате распределения команды по разным офисам - но расходы могут быть настолько высокими на ещё одну команду в Лондоне, что её добавление не будет иметь смысла.
 
