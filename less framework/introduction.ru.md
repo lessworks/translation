@@ -598,8 +598,8 @@ As with LeSS, there are [rules](https://less.works/less/rules/index.html) and op
 
 **Two topics**—Following are two stories with distinct topics:
 
-1. [Creating and growing a new Requirement Area to deal with a new gigantic requirement.](#less-huge-история-новая-область-требований-)
-2. [Working with multi-site teams. (This happens in the smaller LeSS framework too, but is especially common in LeSS Huge.)](#less-huge-история-распределённые-команды-)
+1. [Creating and growing a new Requirement Area to deal with a new gigantic requirement.](#-less-huge-история-новая-область-требований-)
+2. [Working with multi-site teams. (This happens in the smaller LeSS framework too, but is especially common in LeSS Huge.)](#-less-huge-история-распределённые-команды-)
 
 ### • LeSS Huge История: Новая Область Требований •
 
