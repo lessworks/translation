@@ -611,7 +611,7 @@ During the recent job interview—when Portia was still a product manager specia
 
 A few days later… Priti welcomes Portia, Peter, and Susan into her office. Peter is Area Product Owner for market onboarding, and Susan is a Scrum Master from the trade processing area.
 
-Priti says, “As you know, Dodd-Frank ([Закон о реформировании Уолл-стрит и защите потребителей](https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD_%D0%94%D0%BE%D0%B4%D0%B4%D0%B0_%E2%80%94_%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D0%B0), [прим. переводчика]) is coming, and it’s huge. What you don’t know is that this morning the regulators called us and they want us to take action now. I’d been working under the assumption we could start next year. So we’re going to have to adapt, big time.
+Priti says, “As you know, Dodd-Frank is coming, and it’s huge. What you don’t know is that this morning the regulators called us and they want us to take action now. I’d been working under the assumption we could start next year. So we’re going to have to adapt, big time.
 
 “I don’t think anyone is clear what it means in detail—even the regulators. And we don’t know how it will impact our system and how much work this is going to take, other than, a lot! But now Portia’s joined us and she has a better understanding of this than anyone, although she’s totally new to our systems. So, how can we help her start tackling this mountain of work?”
 

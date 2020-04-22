@@ -603,15 +603,15 @@ As with LeSS, there are [rules](https://less.works/less/rules/index.html) and op
 
 ### • LeSS Huge История: Новая Область Требований •
 
-Прити welcomes Portia to her first day in her new job. As a mid-level Operations manager in the Securities division of the large trading company as well as Product Owner for their internal Securities system, Priti is also responsible for finding and retaining talent for her Product Owner Team of Area Product Owners. And she thinks Portia is a fantastic find, as her expertise is exactly what is required for dealing with some new huge requirements.
+Прити приветствует Поршу в ее первый день на новом месте. Будучи операционном менеджером среднего звена в отделе ценных бумаг крупной торговой компании, а также Владельцем Продукта "Ценные Бумаги", Прити также отвечает за поиск и удержание талантов в своей команде Владельца Продукта, состоящей из Владельцев Областей Продукта. И она считает, что Порша - фантастическая находка, поскольку ее опыт - именно то, что требуется для реализации новых огромных инициатив.
 
-During the recent job interview—when Portia was still a product manager specializing in regulatory issues at a company that made a system for trading bonds—Priti had laid out the situation. “Portia, after the last crash, the regulators are coming down hard and they require us to be compliant with Dodd-Frank. Right now, we don’t know what it exactly means or how it will impact our system. You’ve got incredible knowledge of this space, and a great professional network with the regulators. I would love it if you would join our group and help us figure out how to deal with this.”
+До работы в команде Прити Порша была менеджером по продукту, специализирующемуся на вопросах регулирования в компании, которая создала систему для торговли облигациями. Во время её собеседования Прити изложила ситуацию. ”Порша, после минувшей аварии, регуляторы сильно сокрушаются и требуют от нас соблюдения закона Додд-Франка ([Закон о реформировании Уолл-стрит и защите потребителей](https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD_%D0%94%D0%BE%D0%B4%D0%B4%D0%B0_%E2%80%94_%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D0%B0) [прим. переводчика]). Сейчас мы не знаем, что именно это означает или как это повлияет на нашу систему. У вас есть превосходный опыт в этой отрасли и отличные профессиональные связи с регуляторами. Я была бы рада, если бы Вы присоединились к нашей продуктовой группе и помогли нам разобраться, как с этим справиться”.
 
-#### A Big Surprise
+#### “Большой сюрприз“
 
-A few days later… Priti welcomes Portia, Peter, and Susan into her office. Peter is Area Product Owner for market onboarding, and Susan is a Scrum Master from the trade processing area.
+Несколько дней спустя... Прити приветствует Поршу, Питера и Сьюзен в своем кабинете. Питер является Владельцем Области адаптация новых пользователей на рынке, а Сьюзен - Скрам-мастером в Области обработки торговых операций.
 
-Priti says, “As you know, Dodd-Frank is coming, and it’s huge. What you don’t know is that this morning the regulators called us and they want us to take action now. I’d been working under the assumption we could start next year. So we’re going to have to adapt, big time.
+Прити говорит: “Как вы знаете, требования закона Додда-Франка окажут на нас существенное влияние. Вы скорее всего не знаете, что сегодня утром регуляторы позвонили нам. Они хотят, чтобы мы приняли меры уже сейчас. До этого у меня были ожидания, что мы можем начать только в следующем году. Но нам придется адаптироваться уже сегодня.“
 
 “I don’t think anyone is clear what it means in detail—even the regulators. And we don’t know how it will impact our system and how much work this is going to take, other than, a lot! But now Portia’s joined us and she has a better understanding of this than anyone, although she’s totally new to our systems. So, how can we help her start tackling this mountain of work?”
 
@@ -624,7 +624,7 @@ Peter and Priti nod. Everyone knows about them—and it isn’t just their name.
 </figure>
 Susan continues, “If any team can quickly help Portia get a better understanding of the size and impact of Dodd-Frank, it’ll be the Zombies. And they led the work on Sarbanes-Oxley a few years ago. Tomorrow is their PBR session. They are just about wrapped up on a new feature. Why don’t we re-direct the meeting to include them in a discussion on Dodd-Frank, and soon after, ask them to focus full-time on it?”
 
-#### Уточнение с командой “Зомби“ 
+#### Уточнение с командой “Зомби“
 
 На следующий день на встрече по уточнению с командой “Зомби“ Порша объясняет ситуацию: ”Вы, наверное, все слышали о законе Додда-Франка. Но вот сюрприз: регуляторы только что сказали нам, что они хотят, чтобы мы предприняли первые шаги ‘прямо сейчас‘, а к концу года поддержали основные меры. В противном случае они могут ограничить нашу торговлю”.
 
