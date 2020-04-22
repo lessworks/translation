@@ -5,7 +5,7 @@ order: 5
 (это глава 2 из [книги "Large-Scale Scrum: More with LeSS"](http://www.amazon.com/Large-Scale-Scrum-More-Craig-Larman/dp/0321985710))
 
 <div class="chapter_quote"><p>
-Есть два пути проектирования [конструирования]:
+Есть два пути конструирования [проектирования]:
 <br/>
 Один путь - сделать все настолько просто, что очевидно не будет недостатков.
 <br/>
@@ -598,8 +598,8 @@ As with LeSS, there are [rules](https://less.works/less/rules/index.html) and op
 
 **Two topics**—Following are two stories with distinct topics:
 
-1. [Creating and growing a new Requirement Area to deal with a new gigantic requirement.](#less-huge-история-новая-область-требований)
-2. [Working with multi-site teams. (This happens in the smaller LeSS framework too, but is especially common in LeSS Huge.)](#less-huge-история-распределённые-команды)
+1. [Creating and growing a new Requirement Area to deal with a new gigantic requirement.](#less-huge-история-новая-область-требований-)
+2. [Working with multi-site teams. (This happens in the smaller LeSS framework too, but is especially common in LeSS Huge.)](#less-huge-история-распределённые-команды-)
 
 ### • LeSS Huge История: Новая Область Требований •
 
@@ -690,7 +690,7 @@ As with LeSS, there are [rules](https://less.works/less/rules/index.html) and op
 Мишель прерывает: “Как команда “тигров“, работающая над новым продуктом?“
 
 “Да, так же.“ - говорит Марио. “Думайте о новом функционале, поддерживающем закон Додда-Франка, как о новом продукте, который необходимо постоянно интегрировать в остальную часть продукта. Но мы спешим, и это тонна работы, поэтому через несколько спринтов к нам присоединится еще одна команда, а вскоре и, вероятно, еще две. Мы продолжаем развиваться, но будем ведущей командой. Это значит, что нам нужно будет ускорить работу других команд и убедиться, что мы держим весь продукт в голове“.
-л
+
 Мишель говорит: “Кажется, что мы собираемся стать командой по архитектуре и управлению проектами!“
 
 Марио смеется: “Нет. Я с этим покончил. Мы все еще нормальная команда разработчиков, но помимо разработки мы сосредоточимся на наставничестве и максимально быстром наборе новых команд. Но давайте проясним: координация и управление командой по-прежнему является обязанностью каждой такой команды“.
