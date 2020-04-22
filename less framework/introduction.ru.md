@@ -647,9 +647,9 @@ Susan continues, “If any team can quickly help Portia get a better understandi
 
 Порша просит: ”Подожди, пожалуйста, секунду. Я запущу запись видео, чтобы помочь мне запомнить это”.
 
-Michelle, a veteran in the team, says, “We’d better start on some real development soon and learn more as we go because otherwise we’ll end up analyzing forever. I’ve seen this story before.”
+Мишель, ветеран команды, говорит: ”Лучше начать с реального написания кода в ближайшее время и узнать больше по ходу дела, потому что в противном случае мы никогда не закончим анализ. Я видел эту историю раньше”.
 
-Susan, their Scrum Master, says, “Reminds me… Tom DeMarco once said that the reason for every failed project is that it started too late.” Everyone laughs. She continues, “So here’s a suggestion: take a bite.”
+Сьюзен (их Скрам-мастер), говорит: ”Это напоминает мне… Том ДеМарко однажды сказал, что причина каждого провального проекта в том, что он начался слишком поздно”. Все смеются. Она продолжает: ”Есть предложение - давайте перекусим”.
 
 #### Создание Новой Области Требований
 
