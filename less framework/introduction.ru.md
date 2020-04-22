@@ -624,28 +624,28 @@ Peter and Priti nod. Everyone knows about them—and it isn’t just their name.
 </figure>
 Susan continues, “If any team can quickly help Portia get a better understanding of the size and impact of Dodd-Frank, it’ll be the Zombies. And they led the work on Sarbanes-Oxley a few years ago. Tomorrow is their PBR session. They are just about wrapped up on a new feature. Why don’t we re-direct the meeting to include them in a discussion on Dodd-Frank, and soon after, ask them to focus full-time on it?”
 
-#### Refining with Zombies
+#### Уточнение с командой “Зомби“ 
 
-Next day at the refinement meeting with the Zombies, Portia explains the situation, “You’ve probably all heard about the Dodd-Frank legislation. But here’s the surprise: We’ve just been told by the regulators that they want us to take action ‘now’ and demonstrate significant compliance by the end of the year. Otherwise they might restrict our trading.”
+На следующий день на встрече по уточнению с командой “Зомби“ Порша объясняет ситуацию: ”Вы, наверное, все слышали о законе Додда-Франка. Но вот сюрприз: регуляторы только что сказали нам, что они хотят, чтобы мы предприняли первые шаги ‘прямо сейчас‘, а к концу года поддержали основные меры. В противном случае они могут ограничить нашу торговлю”.
 
-The Zombies are visibly surprised. They had heard rumors but didn’t expect such a rush!
+Командой “Зомби“ заметно удивлена. Ходили слухи, но команда не ожидала такой спешки!
 
-Mario says, “OK Portia, give us a quick summary of what this means. And how is it different from Sarbanes-Oxley?”
+Марио говорит: “Хорошо, Порша, кратко объясни, что это значит. И чем он отличается от закона Сарбейнза—Оксли ([изменение законодательства США по ценным бумагам от 2002 года](https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD_%D0%A1%D0%B0%D1%80%D0%B1%D0%B5%D0%B9%D0%BD%D0%B7%D0%B0_%E2%80%94_%D0%9E%D0%BA%D1%81%D0%BB%D0%B8) [прим. переводчика])?“
 
 <div>
   {% figure "img/framework/splitting-at-whiteboard-sketch", "Splitting at Whiteboard - Story Sketch",
   class:"half-sized-figure pull-right" %}
 </div>
 
-Portia picks up a pen and starts sketching on a whiteboard. After about 45 minutes, she is finished with the overview and the Zombies looked a little stunned.
+Порша берет ручку и начинает рисовать на доске. Примерно через 45 минут она закончила рассказ, члены команды “Зомби“ выглядят слегка ошеломленными.
 
-“End of the year, they said?” says Mario. “If the whole group started today, it wouldn’t get finished. This is huge!”
+”Они говорили про конец года?” - спрашивает Марио. ”Если бы вся продуктовая группа приступила сегодня, то мы бы не успели. Эта огромная задача!”
 
-He takes a pen and at the whiteboard starts a rough sketch of their system, talking with the other Zombies about the impact it might have.
+Он берет ручку и у доски начинает зарисовку дизайна, разговаривая с другими членами команды о том, какое влияние это может оказать.
 
-He says, “Portia, let’s also use this as a chance to help you understand the system better. Ask away.”
+Марио говорит: ”Порша, давай также воспользуемся этим шансом, чтобы помочь тебе лучше понять систему. Спрашивай."
 
-Portia says, “Can you hold on for a second? Let me start a video recording to help me remember this.”
+Порша просит: ”Подожди, пожалуйста, секунду. Я запущу запись видео, чтобы помочь мне запомнить это”.
 
 Michelle, a veteran in the team, says, “We’d better start on some real development soon and learn more as we go because otherwise we’ll end up analyzing forever. I’ve seen this story before.”
 
