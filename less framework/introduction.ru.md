@@ -570,7 +570,7 @@ LeSS и LeSS Huge имеют следующие общие элементы:
 * шесть команд в области присоединения рынков
 * шесть команд в области обслуживания активов
 
-### • LeSS Huge Framework Summary •
+### • LeSS Huge Фреймворк, Резюме•
 
 <div>
   {% figure "img/less-huge/less-huge-framework", "LeSS Huge Framework" %}
