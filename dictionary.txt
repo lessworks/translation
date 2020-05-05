@@ -1,10 +1,12 @@
 ﻿Agile principles - принципы гибкой разработки
+Area Feature Team - Команда Области Продукта
 Area Product Owner - Владелец Области Продукта
 Area Product Backlog - Бэклог Области Продукта
 Backlog - Бэклог
 Cadence - Каденция
 Causal loop diagrams - Диаграммы причинного цикла
 Causal relation - причинно-следственная связь
+Co-located team - Колоцированная команда
 Communities of Practice (CoPs) - Сообщества практик
 Complexity of static [details] - статическая сложность
 Complexity of dynamics - динамическая сложность
@@ -13,17 +15,18 @@ Control theory - теория управления
 Cross-team - кросскомандная
 Definition of Done - Критерии Готовности
 Development Team - Команда Разработки
+Design Workshop - Сессия по Проектированию Решения
 Diagram of effect - диаграмма воздействия
+Dispersed team - Рассредоточенная команда
 Dynamic system models - динамические модели систем
 Empirical process control - Эмпирический контроль процесса
 Feature-team - продуктовая команда
 Feature velocity - скорость разработки фичи
 Feedback loop - цикл обратной связи
 Flow diagrams - диаграммы потока
-Framework - каркас
+Framework - каркас, фреймворк
 Guides - Руководства
 Gemba - гемба
-Framework - каркас
 Initial Product Backlog Refinement - Первичное Уточнение Бэклога Продукта
 Inspect and Adapt - Инспекция и Адаптация
 Kaizen - кайдзен
@@ -37,6 +40,8 @@ LeSS Overall Retrospective - всеобщая ретроспектива LeSS
 Mental model - ментальная модель
 Measurement dysfunction - дисфункция измерения
 Morale - боевой дух
+Multi-site - распределённый
+Multi-site teams - распределённые команды
 Multi-team - Многокомандный
 Multi-team Product Backlog Refinement - Многокомандное Уточнение Бэклога Продукта
 One-piece flow - поток в одну задачу (изделие)
@@ -48,6 +53,7 @@ Product Backlog - Бэклог Продукта
 Product Backlog item - Элемент Бэклога Продукта
 Product Backlog Refinement - Уточнение Бэклога Продукта
 Product Owner - Владелец Продукта
+Product Owner Team - Команда Владельца Продукта
 Rate of delivery - стоимость доставки
 Requirement Area - Область Требований
 Scrum - Скрам
