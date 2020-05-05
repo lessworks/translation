@@ -15,7 +15,7 @@ Control theory - теория управления
 Cross-team - кросскомандная
 Definition of Done - Критерии Готовности
 Development Team - Команда Разработки
-Design Workshop - Воркшоп по проектированию
+Design Workshop - Сессия по Проектированию Решения
 Diagram of effect - диаграмма воздействия
 Dispersed team - Рассредоточенная команда
 Dynamic system models - динамические модели систем
@@ -24,7 +24,7 @@ Feature-team - продуктовая команда
 Feature velocity - скорость разработки фичи
 Feedback loop - цикл обратной связи
 Flow diagrams - диаграммы потока
-Framework - фреймворк
+Framework - каркас, фреймворк
 Guides - Руководства
 Gemba - гемба
 Initial Product Backlog Refinement - Первичное Уточнение Бэклога Продукта
