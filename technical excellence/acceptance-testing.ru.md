@@ -1,5 +1,5 @@
 ---
-title: Приёмочное Тестирование
+title: Acceptance Testing
 order: 65
 ---
 
