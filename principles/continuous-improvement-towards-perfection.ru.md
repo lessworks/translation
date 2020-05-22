@@ -71,19 +71,19 @@ order: ??
 
 
 
-## Kaizen
+## Кайдзен
 
-[Kaizen](https://en.wikipedia.org/wiki/Kaizen) is sometimes translated as simply “continuous improvement” but that confuses it with the broader lean pillar of “continuous improvement” and does not capture the full flavor. So, we will stick with the Japanese term.
+[Кайдзен](https://ru.wikipedia.org/wiki/Кайдзен) иногда переводится просто как “непрерывное улучшение”, но такой термин можно спутать с “непрерывным улучшением”, являющимся одним из столпов бережливого подхода (lean), и потом он не отражает в полной мере всю суть. Поэтому, мы будем придерживаться японского термина.
 
-Kaizen is both a personal mindset and a practice. As a mindset, it suggests *“My work is to do my work and to improve my work”* and *“continuously improve for its own sake.”* More formally as a practice, kaizen implies:
+Кайдзен это одновременно и образ мышления, и практика.  Как образ мышления, он говорит вот о чём: *“Моя работа заключается в том, чтобы делать мою работу и улучшать мою работу”* и *“непрерывное улучшение ради самого непрерывного улучшения.”* Более формально, как практика, кайдзен подразумевает следующее:
 
-1. choose and practice techniques/processes "by the book" that the team and/or product group has agreed to try, until they are well understood and mastered
-2. experiment until you find a better way, then make that the new temporary 'standard'
-3. repeat forever
+1. выберите техники/процессы, которые команда и/или продуктовая группа решили совместно попробовать, и практикуйте их "строго по правилам", до тех пор пока вы не освоите и не изучите их достаточно хорошо
+2. начните экспериментировать пока не найдёте лучший способ и затем сделайте его новым, временным 'стандартом'
+3. затем снова вернитесь к п.1 и повторяйте бесконечно
 
-**Step 1---Choose and practice techniques the team and/or product group has agreed to try, until they are well understood (master standardized work.)** The idea is for a group to first find (hopefully) skillful baseline practices and learn to do them well. A novice team follows the Scrum description with good coaching. The group’s working agreements, such as coding standards and “definition of done” are followed. People learn to do test-driven development with plenty of practice, coaching, and good education. Step one in kaizen implies having patience through the awkward learning phase and not abandoning new techniques quickly. People need a valid baseline to improve against. And in Deming’s terminology, they need to be able to distinguish between common-cause and special-cause variability.
+**Шаг 1---Выберете и практикуйте техники, которые команда и/или продуктовая группа решили совместно попробовать, пока не усвоите их достаточно хорошо (сначала научитесь работать по правилам).** Идея заключается в том, чтобы группа сначала нашла некие полезные (будем надеяться) базовые практики и упражнялась в них до тех пор, пока не научится выполнять их правильно. Начинающая команда следует описанию Скрама с помощью хорошего наставничества. Рабочие соглашения группы, такие как стандарты кодирования и  “критерии готовности” соблюдаются. Люди учатся разработке через тестирование (TDD) благодаря обильной практике, наставничеству и хорошему образованию. Первый шаг кайдзен подразумевает сохранять терпение на протяжении трудной фазы обучения и не отказываться слишком быстро от новых методов. Людям нужно сначала сформировать действенное основание для дальнейшего улучшения. Или в терминологии Эдварда Деминга , они должны научиться различать вариативность общего и особого характера.
 
-This step-one point of kaizen is that a person or team cannot accurately see if they need to improve or change a practice unless they have first mastered the basics, understood its subtle points, and can do it well. Have you ever seen, “Oh, <X> doesn’t work” comments that were based on insufficient skill, practice, or education? There is no point in ‘improving’ or rejecting based on misunderstanding.
+Смысл первого шага в кайдзен заключается в том, что человек или команда не могут точно определить нужно ли им улучшить или изменить практику до тех пор, пока они сначала не усвоят основы, вникнут в их тонкие моменты и смогут применять эту практику правильно. Встречали ли вы когда-либо комментарии типа: “Ох, <X> не работает”, которые были следствием недостатка навыков, практики или образования? Нет никакого смысла в  ‘улучшении’ или в отказе от какой-то практики, основанном на непонимании.
 
 **In lean thinking, standardized work *does not* mean conforming to centralized standards**---A gross misunderstanding of lean thinking is the notion that “standardized work” means conformance to centrally-defined standards. This is such a profound mistake from the lean perspective, yet so easily misunderstood, that this point deserves special emphasis. Rather, the idea is for a team to master a baseline against which improvement experiments can be compared. This baseline—the standard—is created by the team themselves (not by a centralized group) and is ever-evolving. As Ohno said:
 
