@@ -112,25 +112,25 @@ order: ??
 
 
 
-## Value and Waste
+## Ценности и Потери
 
-What to improve during kaizen? In lean thinking the answer requires an understanding of value and waste.
+Что улучшать в процессе кайдзен? Чтобы ответить на этот вопрос в соответсвии с бережливым мышлением, требуется понимание того, что такое ценности и потери.
 
-**Value**---The moments of action or thought creating the product that the customer is willing to pay for. In other words, value is defined in the eyes of the external customer. Imagine a customer was observing the work in your office. At what moments would they be willing to reach into their pocket, pull out money, and give it to you?
+**Ценности**---Моменты действий или возникновения идей в результате которых создаётся продукт, за которой клиент готов платить. Другими словами, ценно то, что является таковым в глазах внешнего заказчика. Представьте как будто бы клиенты наблюдают за работой в вашем офисе. В какие моменты они пожелали бы залезть себе в карман, вытащить деньги и отдать их вам?
 
-**Waste**---All other moments or actions that do not add value but consume resources. Wastes come from overburdened workers, bottlenecks, waiting, handoff, wishful thinking, and information scatter, among many others.
+**Потери**---Все остальные моменты или действия, которые не добавляют ценности, но при этом потребляют ресурсы. Потери возникают из-за перегруженных сотрудников, узких мест (bottleneck), ожиданий, передачи, принятия желаемого за действительное, рассеивания информации и многого другого.
 
-**Improvement by Banishing Waste**--After having defined value and waste, we come to a noteworthy difference in lean improvement. Other systems focus on refining existing value actions; for example, improving skill in software design. A worthy goal no doubt.
+**Улучшения путём Избавления от Потерь**--После того как мы определили ценности и потери, перейдём к заслуживающему внимания различию в понимании улучшений бережливого подхода. Другие системы фокусируются на совершенствовании существующих активностей, приносящих ценность; например на улучшении навыков проектирования ПО. Достойная цель, без сомнения.
 
-However, since there are typically few value-adding moments in the time line—maybe 5 percent—then improving those does not amount to much. But with a mountain of waste time in the process, there are big opportunities to improve the value ratio by eliminating waste.
+Однако, поскольку как правило существуют лишь немного моментов производства ценности на протяжении временной линии—может быть 5 процентов—то их улучшением многого не достигнуть. Но с горой времени, приходящегося на протяжении всего процесса на потери, существуют большие возможности улучшить общую долю ценности уменьшая потери.
 
-For example, a common waste in development is the waste of work-in-progres (WIP)s, such as half-done work or intermediate work artifacts (requirement and design documents, ...). There is no return-on-investment from WIP, and it can hide defects. And---key point---traditional organizations have a MOUNTAIN of WIP. So it makes little sense to focus on measuring and improving (for example) programmer efficiency by 2 percent if there is a mountain of WIP in your process.
+Например, распространённая потеря в разработке ПО - это потеря от незавершенной работы (НЗР (work-in-progres, WIP)), такой как наполовину сделанная работа или  промежуточные рабочие артефакты (документация с требованиями или архитектурой, ...). От НЗР нет возврата инвестиций, и она может скрывать ошибки. И, ключевой момент, традиционные организации имеют ГОРЫ НЗР. Поэтому имеет лишь небольшой смысл фокусироваться на измерении и улучшении  (например) эффективности разработчиков на 2 процента, тогда как существует горы НЗР в вашем процессе.
 
-As another example, one of the wastes is waiting or delay—customers do not pay for that. Have you ever seen the waste of waiting…
+Другим примером распространённого вида потерь являются ожидания или задержки—клиенты не платят за это. Наблюдали ли вы когда либо потери от ожидания…
 
-* for requirements or designs or clarification?
-* for approval?
-* for another development team to finish their part?
+* требований или архитектуры или прояснений?
+* подтверждения?
+* пока другая команда разработки не завершит свою часть работы?
 
 
 ### Waste Categories with Examples and Comments
