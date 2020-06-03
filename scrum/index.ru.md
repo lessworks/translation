@@ -14,9 +14,9 @@ Other formats: [PDF](http://scrumprimer.org/scrumprimer20_small.pdf)
 {: .table .table-borderless .center-all-cells}
 
 <p/>
-Примечание для читателей: В сети много лаконичных описания Скрама, и это пособие для начинающих помогает достичь следующего уровня в понимании практики. Оно не является конечным шагом в изучении Скрама; командам, которые рассматривают возможность перехода на Scrum, рекомендуется вооружится книгами [Agile Project Management with Scrum](https://www.amazon.com/Agile-Project-Management-Scrum-first/dp/B004PRXV28/) Кена Швабера или [Succeeding with Agile](http://www.amazon.com/Succeeding-Agile-Software-Development-Using/dp/0321579364) Майка Кона, также воспользоваться многими превосходными вариантами обучения и коучинга по Скрама, которые доступны; больше информации на сайте scrumalliance.org. Выражаем благодарность Кену Шваберу, Джеффу Сазерленду и Майку Кону за их щедрый вклад.
+Примечание для читателей: В сети много лаконичных описаний Скрама, а это руководство для начинающих помогает достичь следующего уровня в понимании практики. Оно не является конечным шагом в изучении Скрама; командам, которые рассматривают возможность перехода на Scrum, рекомендуется вооружится книгами [Agile Project Management with Scrum](https://www.amazon.com/Agile-Project-Management-Scrum-first/dp/B004PRXV28/) Кена Швабера или [Succeeding with Agile](http://www.amazon.com/Succeeding-Agile-Software-Development-Using/dp/0321579364) Майка Кона, также воспользоваться многими превосходными вариантами обучения и коучинга по Скрама, которые доступны; больше информации на сайте scrumalliance.org. Выражаем благодарность Кену Шваберу, Джеффу Сазерленду и Майку Кону за их щедрый вклад.
 
-Последняя версия Scrum Primer расположена по адресу: [http://www.infoq.com/minibooks/Scrum_Primer](http://www.infoq.com/minibooks/Scrum_Primer) Переводы можно найти по адресу: [http://www.scrumprimer.org/](http://www.scrumprimer.org)
+Последняя версия Азбуки Скрама расположена по адресу: [http://www.infoq.com/minibooks/Scrum_Primer](http://www.infoq.com/minibooks/Scrum_Primer) Переводы можно найти по адресу: [http://www.scrumprimer.org/](http://www.scrumprimer.org)
 
 <center><b> © 2016 Пит Димер, Габриель Бенефилд, Крейг Ларман, Бас Водди</b></center>
 
