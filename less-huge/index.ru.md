@@ -1,3 +1,9 @@
+---
+title: LeSS Huge
+order: 7
+layout: static_content_less
+---
+
 <div>
   {% figure "/img/less-huge/less-huge-framework", "Large Scale Scrum (Less) LeSS Huge" %}
   {% include less_huge_framework.map %}

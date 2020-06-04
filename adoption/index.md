@@ -1,3 +1,9 @@
+---
+title: Adoption
+order: 6
+layout: static_content_less
+---
+
 <div>
   {% figure "/img/adoption/adoption-overview", "Large Scale Scrum (Less) Adoption" %}
   {% include adoption.map %}

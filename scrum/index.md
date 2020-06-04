@@ -1,3 +1,9 @@
+---
+title: One Team Scrum
+order: 9
+layout: static_content_less
+---
+
 Other formats: [PDF](http://scrumprimer.org/scrumprimer20_small.pdf)
 
 <div>

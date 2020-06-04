@@ -1,3 +1,9 @@
+---
+title: LeSS Test
+order: 10
+layout: static_content_less
+---
+
 How well is your Scrum and LeSS understanding?
 
 These tests are provided so you can test your knowledge of Scrum and

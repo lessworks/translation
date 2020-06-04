@@ -45,6 +45,7 @@ Multi-site teams - распределённые команды
 Multi-team - Многокомандный
 Multi-team Product Backlog Refinement - Многокомандное Уточнение Бэклога Продукта
 One-piece flow - поток в одну задачу (изделие)
+Оne-team Scrum - однокомандный Скрам
 Overall Retrospective - Общая Ретроспектива
 Overall Product Backlog Refinement - Общее Уточнение Бэклога Продукта 
 Queueing Theory - Теория массового обслуживания
