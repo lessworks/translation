@@ -133,58 +133,58 @@ order: ??
 * пока другая команда разработки не завершит свою часть работы?
 
 
-### Waste Categories with Examples and Comments
+### Категории Потерь с Примерами и Комментариями
 
-Within Toyota people are educated to develop “eyes for waste.” As a learning aid, lists of non-value-adding (NVA) waste actions have been created. There is not one correct list---the point is not the categories, but to learn to see and banish waste from the customer perspective. The following product-development NVA action categories are drawn from *The Toyota Way*, *Implementing Lean Software Development*, and *Lean Product and Process Development*.
+Внутри Toyota люди обучены развивать “нюх на потери.” В качестве первой помощи для обучения, был создан список не-добавляющих-ценности (НДЦ [non-value-adding, NVA]) бесполезных действий. Не существует единого правильного списка---суть не в категориях, а в том, чтобы научиться видеть и устранять потери с точки зрения клиента. Следующие НДЦ-категории действий в разработке продуктов позаимствованы из книг *"ДАО Toyota"*, *"Бережливое производство программного обеспечения. От идеи до прибыли"*, и *"Lean Product and Process Development"*.
 
-1. **Overproduction of features, or of elements ahead of the next step; duplication**
-  * features the customer doesn’t really want
-  * features created and deployable, but not deployed
-  * duplication of data or code
-2. **Waiting, delay**---for clarification, documents, approval, components, other groups to finish something
-3. **Handoff, conveyance, moving**---giving a specification from an analyst to a developer giving code from a developer to a tester
-4. **Extra processing (includes extra processes), relearning, reinvention, duplication**---forced conformance to centralized process checklists of ‘quality’ tasks, recreating a component another developer has made
-5. **Partially done work, work in progress (WIP)**
-  * requirements or design documents
-  * code written by not tested or integrated
-6. **Task switching, motion between tasks; interrupt-based multitasking**
-  * interruption to handle hot defects
-  * multitasking on 3 projects
-  * partial allocation of a person to many projects
-7. **Defects, testing/review/inspection and correction *after* creation of something**
-  * testing and correction to find and remove defects from code, after the code has been created
-  * code reviews after the code has been created
-  * document reviews/inspections after the document has been created
-8. **Under-realizing people’s potential and varied skill, insight, ideas, suggestions**---are people only working to a single-speciality job title? Do people have the chance to change what they see is wasteful?
-9. **Knowledge and information scatter or loss**
-  * from information in separate documents
-  * from information handed off between single-function groups or people
-  * from learning that was not shared or spread
-  * from communication barriers such as walls between people, or people in multiple locations
-10. **Wishful thinking (for example, that plans, estimates, and specifications are ‘correct’)**---“The estimate cannot increase; the effort estimate is what we want it to be, not what it is now proposed.” “We’re behind schedule, but we’ll make it up later.”
-11. **Blaming**
+1. **Перепроизводтство функций, или элементов в преддверии следующего шага; дублирование**
+  * функции, которые на самом деле не нужны клиентам
+  * функции, которые созданы и готовы к поставке, но не поставлены
+  * дублирование данных или кода
+2. **Ожидания, задержки**---ожидания прояснений, документации, подтверждения; других компонентов или другой группы, которая должна что-то закончить
+3. **Передача, транспортировка, перемещение**---передача спецификации от аналитика к разработчика; передача кода от разработчика к тестировщику
+4. **Дополнительная обработка (включая дополнительные процессы), повторное обучение, переизобретение, дублирование**---принудительное следование централизованным контрольным спискам по ‘качеству’; переделывание компонента, созданного другим разработчиком
+5. **Частично сделанная работа, незавершенная работа (НЗР)**
+  * документация с требованиями или дизайном
+  * написанный код, который ещё не протестирован или не интегрирован
+6. **Изменение задач, переключение между задачами; многозадачность, основанная на прерывании**
+  * прерывание для устранения горящих дефектов
+  * мультизадачность на 3 проектах
+  * частичное распределение сотрудника по нескольким проектам
+7. **Дефекты, тестирование/проверка/инспекция и исправление *после* создания чего-либо**
+  * тестирование и исправление, чтобы найти и устранить дефекты в коде, после того, как код был создан
+  * пересмотр кода после того, как код был создан
+  * пересмотр/инспекция документации после того как документы были созданы
+8. **Недореализация человеческого потенциала и дополнительных навыков, ценных сведений, идей, рекомендаций**---люди работают только по одной специальности? Есть ли у них шанс и возможность менять то, что по их мнению является потерями?
+9. **Рассеивание или утеря знаний и информации**
+  * из-за информации распределённой по разным документам
+  * из-за информации передаваемой только между членам группы или людьми, выполняющими одну и ту же функцию
+  * из-за обучения, результатами которого не поделились и они не были распространены
+  * из-за коммуникационных барьеров, такими как стены между людьми или люди в нескольких различных локациях
+10. **Принятие желаемого за действительное, самообман (например, эти планы, оценки и спецификации являются ‘корректными’)**---“Оценка не может быть увеличена; оценка затрат такова, какой мы хотели бы её видеть, а не такая как фактически предлагается сейчас.” “Мы отстаём от графика, то мы компенсируем это позднее.”
+11. **Обвинение**
 
 
-**Improving through Removing Waste**---The focus on delivering value through waste reduction orients a lean organization toward following the baton rather than the runners. Notice that the improvement strategy is subtractive rather than additive. Rather than (for example), “What can we get the workers to do to increase utilization?”, the question is “What can we remove or stop doing?” In our consulting we have found this to be a mindset change for traditional quality-assurance people in large organizations who focus on conformance to checklists and *adding* activities for ‘improvement.’
+**Улучшение через Устранение Потерь**---Фокус на поставке ценности через уменьшение потерь, ориентирует бережливую организацию на следование за эстафетной палочкой, а не за бегунами. Заметьте, что эта стратегия улучшения является скорее субтрактивной чем аддитивной. Вместо (например), “Что мы можем заставить сделать работников, чтобы увеличить их утилизацию?”, вопрос скорее следующий: “Что мы можем убрать или перестать делать?” В процессе нашего косалтинга мы обнаружили что это является изменением образа мышления для людей, придерживающихся подхода обеспечения-качества, в больших организациях, которые сосредоточены на соблюдении контрольных списоков и *добавления* активностей для ‘улучшения.’
 
-**Temporarily Necessary Waste versus Pure Waste**---In lean thinking two types of waste are recognized:
+**Временно Необходимые Потери против Чистых Потерь**---В бережливом мышлении разделяют два типа потерь:
 
-* **Pure waste**---These are non-value adding actions that in principle can and should be eliminated now; there is no law of the land or physics, or hard constraint, that prevents their elimination. For example, if a group is participating in the waste of defects with test-last and correct-last, that can be replaced with acceptance test-driven development; the test-last and correct-last process is *pure waste*.
+* **Чистые Потери**---Это не добавляющие ценности действия которые в принципе могут и должны быть устранены сейчас; не существует какого-либо земного или физического закона или жесткого ограничения, которые препятствуют их устранению. Например, если группа причастна к потерям из-за дефектов с проверкой-в-конце или исправлением-в-конце, что может быть заменено принятием разработки через тестирование, тогда проверка-в-конце и исправления-в-конце процесса являются *чистыми потерями*.
 
-* **Temporarily necessary waste**--These are things we *must* do because of some constraint, but still correctly classify as waste. For example, banks must do "regulatory compliance" activities (mostly, in response to prior failings by the banks). These activities are required by law, but they are not value-adding actions in the eyes of the paying customer. These are called *temporary* wastes because some time in the future it may be possible to change things so they are no longer necessary. Regulatory laws can change for banks.
+* **Временно необходимые потери**--Это вещи которые мы *должны* делать из-за каких-либо ограничений, но в то же время, справедливо продолжая классифицировать их как потери. Например, банки должны выполнять некоторые действия для соблюдения "нормативных требований" (по большей части, как следствие совершенных ранее банками провалов). Эти действия обязательны по закону, но они не являются добавляющими-ценность действиями в глазах платящих клиентов. Это называется *временными* потерями потому что однажды в будущем возможно положение вещей изменится и они уже не будут необходимыми. Нормативное законодательство для банков может быть изменено.
 
-**Is WIP or Inventory Always Pure Waste?**---A common view among those new to lean thinking is that inventory or WIP is always pure waste and should always be eliminated. Inventories of physical things or of intangible WIP—such as requirement specifications—imply investment without profit and hidden defects. That’s not good. However, a common practice in lean improvement is to create **level pull**, removing variability (one of the sources of waste) in a downstream process step by *inserting a small buffer of high-quality “equally sized” WIP/inventory items* before that downstream step.
+**Всегда ли НЗР или Запасы являются Чистыми Потерями?**---Распространённый взгляд среди новичков в бережливом мышлении - запасы или WIP всегда являются чистыми потерями и всегда должны быть устранены. Физические запасы чего-либо или неосязаемой НЗР—такой как технические требования—скрывают в себе инвестиции без прибыли и скрытые дефекты. Это не есть хорошо. Однако, распространённая практика улучшения в бережливом подходе - создавать **вытягиваемый слой**, компенсируя изменчивость (один из источников потерь) на последующем шаге процесса, *добавляя небольшой буфер высококачественных,  “одинакового размера” НЗР/инвентарных запасов* перед этим шагом.
 
-This is a motivation behind the idea of 'ready' items in Scrum---only offer items to teams for implementation that are ready in terms of clearly understood, small, hanging issues resolved, etc. Ready items can be used as a tool for leveling or smoothing the introduction of work to feature teams. A small buffer of high-quality 'ready' WIP items in the Product Backlog created to support level pull is an example of temporarily necessary waste introduced to address another problem...variability.
+Эта же мотивация стоит за идеей 'готовых' элементов бэклога в Скрам---предлагая командам только те элемнты для реализации, которые готовы в плане понятности, достаточно небольшие, не имеющие зависших нерешенных вопросов и т.п. Готовые элементы могут быть использованы в качестве инструмента выравнивая или сглаживания при передаче работы продуктовым командам. Небольшой буфер высококачественных 'готовых' элементов НЗР в Бэклоге Продукта созданных для обеспечения вытягиваемого слоя это пример временных необходимых потерь введённых для того, чтобы решить другую проблему...вариативность.
 
-**Focus on Variability, Overburden, and Non-Value-Adding Actions**---In lean thinking, there are three sources of waste, illustrated and commented with resolution ideas in the following diagram. Continuous improvement involves see and eliminating variability, overburden, and non-value-adding actions.
+**Фокус на Вариативности, Перегрузке и Не-Добавляющих-Ценности Действий**---в бережливом мышлении существуют три источника потерь, изображенных и прокомментированных идеями по разрешению в следующей диаграмме. Непрерывное улучшение включает в себя видение и устранение вариативности, перегрузки, не-добавляющих-ценности действий.
 
 <figure>
   <img class="rounded shadowed" src="/img/lean-thinking/three_sources_of_waste.png" alt="three_sources_of_waste.png">
-  <figcaption>Three sources of waste.</figcaption>
+  <figcaption>Три источника потерь.</figcaption>
 </figure>
 
-Toyota people who observe outside attempts to adopt lean note a common mis-education about waste—the mis-education to only focus on eliminating non-value-adding actions, such as overprocessing or testing to remove defects (rather than building quality in) [[LM06a]](http://www.amazon.com/The-Toyota-Fieldbook-Jeffrey-Liker/dp/0071448934/ref=sr_1_1?ie=UTF8&qid=1413999358&sr=8-1&keywords=The+Toyota+Way+Fieldbook). Within Toyota, all three weaknesses are given importance, and in fact variability and overburden are viewed as frequent root causes that give rise to non-value-adding actions. For example, overburdened programmers create more defects.
+Люди Toyota, которые наблюдают внешние попытки внедрить бережливый подход, замечают распространённое неверное учение относительно потерь—оно заключается в том, чтобы фокусироваться только на устранении не-добавляющих-ценности действий, таких как повторная обработка или тестирование, чтобы устранить ошибки (вместо того чтобы улучшать качество в процессе выполнения) [[LM06a]](http://www.amazon.com/The-Toyota-Fieldbook-Jeffrey-Liker/dp/0071448934/ref=sr_1_1?ie=UTF8&qid=1413999358&sr=8-1&keywords=The+Toyota+Way+Fieldbook). Внутри Toyota, важность придаётся всем этим трём слабостям, и на самом деле вариативность и перегрузка видится как частая коренная причина в результате которой рождаются не-добавляющие-ценности действия. Например, перегруженные программисты допускают больше ошибок.
 
 
 ## Perfection Challenge

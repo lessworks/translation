@@ -44,6 +44,7 @@ Multi-site - распределённый
 Multi-site teams - распределённые команды
 Multi-team - Многокомандный
 Multi-team Product Backlog Refinement - Многокомандное Уточнение Бэклога Продукта
+NVA - НДЦ (не-добавляющее-ценности)
 One-piece flow - поток в одну задачу (изделие)
 Overall Retrospective - Общая Ретроспектива
 Overall Product Backlog Refinement - Общее Уточнение Бэклога Продукта 
