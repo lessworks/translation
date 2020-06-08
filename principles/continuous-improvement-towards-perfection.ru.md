@@ -210,13 +210,13 @@ order: ??
 
 
 
-## Work Toward Flow
+## Работа в Направлении Потока
 
-**Flow** suggests making value flow without delay to the customer. As a counter example, a customer request waits in a queue waiting to be approved, analyzed, implemented, reworked, or tested. That is *not* flow. Rather, as value is created---in products, software, information, decisions, service---it flows immediately to the customer. It is related to the *follow the baton* metaphor and to the goal of faster “concept to cash.” Flow is a *perfection challenge*; zero waste in the system and immediate continuous flowing delivery of value are profound challenges, probably never achieved. The journey is usually *moving toward* flow.
+Принцип **Потока** рекомендует формировать поток создания ценности без задержек для заказчика. В качестве контр-примера, запрос заказчика ожидает в очереди, чтобы быть утверждённым, проанализированным,   customer request waits in a queue waiting to be approved, analyzed, выполенным, доделанным или протестированным. Это *не* поток. Наоборот, как только ценность создана---в продуктах, программном обеспечении, информации, решении, сервисе---она течёт непосредственно к самому клиенту. Это перекликается с метафорой *следовать за экстафетной палочкой*  и с целью более быстрой “концепции в прибыль.” Поток это *вызов совершенства*; нулевые потери в системе и немедленная непрерывно текущая поставка ценности - серьёзные вызовы, возможно, не достижимые никогда. Правильный путь - это *движение в направлении* потока.
 
-In lean thinking, flow is included in both the [14 principles](./lean-thinking.html#14Principles) and in the key elements of continuous improvement. Why? Because to move toward flow it is necessary to reduce batch size, cycle time, delay, WIP, and other wastes. And this has the beneficial side effect of revealing more weaknesses and waste, providing new opportunities for continuous improvement. *This is an important but subtle point*, expanded in the [Indirect Benefits of Reducing Batch Size and Cycle Time](./queueing_theory.html#IndirectBenefitsofReducingBatchSizeandCycleTime).
+В бережливом мышлении, поток включен как в  [14 принципов](./lean-thinking.html#14Principles) так и является ключевым элементом непрерывного улучшения. Почему? Потому что, чтобы двигаться в напавлении потока, необходимо уменьшать размер партии, время цикла, задержки, НЗР и другие потери. И это имеет положительный побочный эффект - выявление большего количества слабостей и потерь, обеспечивая новые возможности для непрерывного улучшения. *Это важный, но тонкий момент*, раскрытый в главе "[Косвенные Преимущества Уменьшения Объёмов Партии и Продолжительности Цикла](./queueing_theory.html#IndirectBenefitsofReducingBatchSizeandCycleTime)".
 
-Moving toward flow is associated with applied queueing theory, pull systems, and more. By understanding these, people can move the system toward flow by smaller work package sizes, smaller queue sizes, and reduction in variability. This is explored in  [Queueing Theory](./queueing_theory.html).
+Движение в направлении потока связано прикладной теорией массового обслуживания, вытягивающими системам и многим другим. Поняв это, люди могу двигать систему в направлении протока с помощью партий работ меньших объёмов, меньших размеров очередей и сокращения вариативности. Это раскрывается в главе [Теория Массового Обслуживания](./queueing_theory.html).
 
 #### Pull Systems
 
@@ -224,7 +224,6 @@ Moving toward flow is associated with applied queueing theory, pull systems, and
   <img class="rounded shadowed" src="/img/lean-thinking/waiter.jpg" alt="waiter.jpg">
   <figcaption>Push or pull?</figcaption>
 </figure>
-
 **Pull versus push**---Consider a process for manufacturing and storing laptop computers. In a pure [pull system](https://www.youtube.com/watch?v=_aeAtSiRpF0) no laptop is built or stored in inventory until there is a customer order. *Zero inventory* and *zero WIP* is a goal, and work is done only in response to a ‘pull’ signal from the customer. That is the key meaning of pull: Build in response to a signal from the ‘customer,’ and otherwise rest or improve. Pull examples? Printing just the twenty-book order or preparing just one restaurant dish.
 
 *But a pull system goes deeper than that*---the ‘customer’ is not just the final customer. Rather, in a multi-stage process with an upstream team doing partial work before a downstream team, *a downstream team is the customer to their upstream team* . In a pure pull system the upstream team does not create anything unless pulled from downstream request.
