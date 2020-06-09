@@ -218,32 +218,34 @@ order: ??
 
 Движение в направлении потока связано прикладной теорией массового обслуживания, вытягивающими системам и многим другим. Поняв это, люди могу двигать систему в направлении протока с помощью партий работ меньших объёмов, меньших размеров очередей и сокращения вариативности. Это раскрывается в главе [Теория Массового Обслуживания](./queueing_theory.html).
 
-#### Pull Systems
+#### Вытягивающие Системы
 
 <figure>
   <img class="rounded shadowed" src="/img/lean-thinking/waiter.jpg" alt="waiter.jpg">
-  <figcaption>Push or pull?</figcaption>
+  <figcaption>Вытолкнуть или вытянуть?</figcaption>
 </figure>
-**Pull versus push**---Consider a process for manufacturing and storing laptop computers. In a pure [pull system](https://www.youtube.com/watch?v=_aeAtSiRpF0) no laptop is built or stored in inventory until there is a customer order. *Zero inventory* and *zero WIP* is a goal, and work is done only in response to a ‘pull’ signal from the customer. That is the key meaning of pull: Build in response to a signal from the ‘customer,’ and otherwise rest or improve. Pull examples? Printing just the twenty-book order or preparing just one restaurant dish.
 
-*But a pull system goes deeper than that*---the ‘customer’ is not just the final customer. Rather, in a multi-stage process with an upstream team doing partial work before a downstream team, *a downstream team is the customer to their upstream team* . In a pure pull system the upstream team does not create anything unless pulled from downstream request.
+**Вытягивание против выталкивания**---Рассмотрим некий процесс производства и продажи ноутбуков. В чистой [вытягивающей системе](https://www.youtube.com/watch?v=_aeAtSiRpF0) не будет производиться или храниться в запасе ни один ноутбук пока не не будет получен заказ от клиента. *Нулевые запасы* и *нулевая НЗР* - это цель и работа выполняется только в ответ на ‘вытягивающий’ сигнал от заказчика. Это ключевое значение вытягивания: Производство в ответ на сигнал от  ‘заказчика’, а иначе ожидать или улучшаться. Примеры вытягиваний? Печать только заказа на двадцать книг только или приготовление только одного блюда в ресторане.
 
-On the other hand, in a **push system** , one speculatively builds and stores laptops in the hope of orders, and then tries to push them to customers. In a multi-stage process, upstream teams create an inventory of partially done work for downstream teams. Any kind of speculative inventory---pizzas, big detailed plans, books, specifications for many features whose value is uncertain---are related to push systems.
+*Но вытягивающая система гораздо глубже этого*---под ‘клиентом’ подразумевается не только конечный клиент. Напротив, в много-этапном процессе когда одна команда на предшествующем этапе выполняет часть работы перед командой на последующем этапе , *команда на последующем этапе является клиентом для команды на предшествующем этапе* . В чистой вытягивающей системе команда на предшествующем этапе не производит ничего пока последующая команда не сделает запрос на вытягивание.
+
+В **выталкивающей системе**, наоборот, заранее производят и хранят ноутбуки в надежде на заказы, а затем пытаются продать (вытолкнуть) их заказчикам. В многоэтапном процессе предшествующие команды создают запасы частично сделанной работы для последующих команд. Любой вид накопленных запасов---пиццы, большие детализированные планы, книги, спецификации на множество функций, ценность которых сомнительна---связаны с выталкивающими системами.
 
 <figure>
   <img class="rounded shadowed" src="/img/lean-thinking/pizzas.jpg" alt="pizzas.jpg">
-  <figcaption>Pushing pizzas that may not get eaten.</figcaption>
+  <figcaption>Выталкивание пицц, которые могут быть не съедены.</figcaption>
 </figure>
 
-Resource management strategies that focus on high utilization of workers---a focus on *watch the runners* rather than*watch the baton*---create an environment in which people will create a large inventory of things (requirements, designs, code) in a push model.
 
-**Expose defects**---If you only create *one* thing in response to *pull* from a ‘customer’ request (in this context, your customer is anyone downstream) and the customer consumes it quickly, any *defects* in that one thing---created either by accident or design--are quickly discovered. That can lead to further systemic improvement if people have “stop and fix” mindset. On the other hand, in push systems, defects are hidden in an unconsumed inventory (of requirements, code, ...). For example, pushing a large batch of requirements will delay the discovery of misunderstandings or problems, because it is a long time before they are implemented and evaluated (as running software) by a customer.
+Стратегии управления ресурсами которые фокусируются на высокой утилизации рабочих---фокус на *наблюдении за бегунами* вместо *наблюдения за эстафетной палочкой*---создаёт среду в которой люди будут создавать большие запасы различных вещей (требования, дизайн систем, код) в соответствии с выталкивающей моделью.
 
-**Decide as late as possible**---In pull systems, you do not decide early, quite the opposite---you **“decide as late as possible”** and **“commit at the last responsible moment”**. In this way, you have the most information to make an informed decisions. You do not waste resources making unnecessary inventory or early decisions that will have to---or at least should---change in response to discovery.
+**Выявление ошибок**---Если вы создаёте только *одну* вещь в ответ на *вытягивающий* запрос от ‘заказчика’ (в данном контексте, ваш заказчик это кто угодно на последующих этапах вплоть до конечного клиента) и клиент потребляет её быстро, любые *ошибки* в этой одной вещи---допущенные либо по случайности либо на этапе проектирования--быстро обнаруживаются. Это может привести к дальнейшему системному улучшению если люди имеют образ мышления “остановись и исправь”. В выталкивающей системе, наоборот, дефекты скрываются в неизрасходованных запасах (требований, кода, ...). Например, выталкивание большой партии требований задержит обнаружение недоразумений или проблем, потому что потребуется много времени прежде чем они будут реализованы и оценены (в качестве работающего ПО) клиентом.
 
-**Small batches can lead to radical improvement**---A pull system implies smaller batches in frequent short cycles. Using the old large-batch push-based processes (based on economies-of-scale thinking that avoided change), more short cycles may increase overall overhead or *transaction cost* , and hence be viewed as inefficient. The way out of that conundrum is an out-of-the-box radical improvement in processes that can embrace change and small batches efficiently. This is a secret behind Toyota’s efficiency---pull systems with small batches combined with kaizen drive new ways of working that lower the transaction cost of a process cycle. This improvement dynamic is explored in the [Indirect Benefits of Reducing Batch Size and Cycle Time](./queueing_theory.html#IndirectBenefitsofReducingBatchSizeandCycleTime).
+**Принимайте решения как можно позднее**---В вытягивающих системах, вы не принимаете решения рано, как раз наоборот---вы **“решаете как можно позднее”** и **“завершаете изменения в самый последний ответственный момент”**. При таком подходе, вы располагаете максимально бóльшей информацией для принятия обоснованного решения. Вы не теряете ресурсы на ненужные запасы или на преждевременные решения и это обязательно, или как минимум должно, отразиться на вашей реакции при обнаружении новых вводных.
 
-Thus, in several ways, pull systems support moving towards flow.
+**Небольшие объёмы партий могут привести к радикальным улучшениям**---Вытягивающие системы предполагают меньшие объёмы партий в частых, коротких циклах. При использовании старых процессов, основанных на выталкивании, с большими объёмами партий (базирующихся на идее экономии за счёт масштаба, которая нисколько не изменилась), более короткие циклы могут увеличить общие накладные расходы или *операционные расходы* и, следовательно, будут сочтены неэффективными. Выходом из этой головоломки является нестандартное, радикальное улучшение процессов, чтобы они могли эффективно принять изменения и небольшие объёмы партий. Это секрет стоящий за эффективностью Toyota---вытягивающие системы с небольшими размерами партий комбинированные с кайдзен открывают новые способы работы, которые снижают операционные расходы производственного цикла. Эта динамика улучшения раскрывается в главе [Косвенные Преимущества Уменьшения Объёмов Партии и Продолжительности Цикла](./queueing_theory.html#IndirectBenefitsofReducingBatchSizeandCycleTime).
+
+Таким образом, вытягивающие системы различными способами поддерживают движение в направлении потока.
 
 
 
