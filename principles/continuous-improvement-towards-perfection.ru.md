@@ -253,18 +253,20 @@ order: ??
 
 
 
-## Respect for People
+## Уважение к Людям
 
-*Respect for people* sounds nebulous, but includes concrete actions and culture within Toyota. They broadly reflect respect for and sensitivity to morale, not making people do wasteful work, real *teamwork* , mentoring to develop skillful people, humanizing the work and environment, safe and clean environment (inside *and outside* of Toyota), and philosophical integrity among the management team.
+*Уважение к людям* звучит расплывчато, но подразумевает конкретные действия и конкретную культуру внутри Toyota. Они в широком смысле отражают уважение и внимательность к моральному духу, отсутствию принуждения выполнять связанную с потерями работу, настоящей *командной работе*, наставничеству для создания у людей развитых навыков, гуманизации работы и окружающей среды, безопасной и чистой окружающей среде (как внутри *так и за пределами* Toyota) и философской целостности среди управленческой команды.
 
-In terms of continuous improvement, it includes *not eliminating jobs because of improvement*. *Job safety* is an important principle at Toyota. If people feel that improvement will lead to the end of their employment, what do you think will happen? However, job safety is not the same as *role safety* or *position safety*. Improvement may mean the elimination of overhead or single-function roles, but in a lean culture, new roles are then found for employees.
+Со стороны непрерывного улучшения, это означает также *не сокращать рабочие места, из-за улучшений*. *Надёжность, безопасность в работе* является важным принципом в Toyota. Если люди будут чувствовать, что улучшения в конце концов приведут к окончанию их работы на текущем месте, как вы думаете, что произойдёт? Однако, надёжность в работе - это не то же самое, что и *надёжность должности* или *надёжность позиции*. Улучшение может означать устранение накладных расходов или одно-функциональных ролей, но в культуре бережливого подхода, для работников затем находятся новые роли.
 
-Respect for people also includes fostering a work culture and morale consistent with [research](http://www.amazon.com/Drive-Surprising-Truth-About-Motivates-ebook/dp/B004P1JDJO/ref=sr_1_1?ie=UTF8&qid=1414082374&sr=8-1&keywords=drive) into workplace satisfaction and increased motivation---which will support continuouus improvement. This includes self-directed work, opportunities for challenge and mastery, and a sense of purpose. In LeSS there is a focus on self-organizing teams (self-directed work teams), becoming multi-skilled within a cross-functional team, and connecting directly with real customers and being closer to the business. This is consistent with the research in greater potential for motivation.
+Уважение к людям также включает формирование рабочей культуры и воспитания морального духа совместно с [исследованиями](http://www.amazon.com/Drive-Surprising-Truth-About-Motivates-ebook/dp/B004P1JDJO/ref=sr_1_1?ie=UTF8&qid=1414082374&sr=8-1&keywords=drive) удовлетворённостью рабочим местом и повышением мотивации---что поддерживает непрерывное улучшение. 
+Это включает самостоятельную работу, возможность подвергать сомнению и улучшать и ощущение цели. В LeSS есть фокус на самоорганизующихся командах (самоуправляемые рабочие команды), развитии разноплановых навыков в рамках кросс-функциональной команды и на взаимодействии непосредственно с конечными потребителями, чтобы быть ближе к бизнесу. Всё это согласуется с соответствующими исследованиями для достижения большего потенциала в мотивации.
 
 <figure>
   <img src="/img/lean-thinking/respect_for_people.png" alt="respect_for_people.png">
-  <figcaption>Some implications of respect for people in lean thinking.</figcaption>
+  <figcaption>Некоторые последствия уважения к людям в бережливом мышлении.</figcaption>
 </figure>
 
 
 
+Перевод статьи осуществлён [Романом Лапаевым](https://www.linkedin.com/in/romanlapaev) и
