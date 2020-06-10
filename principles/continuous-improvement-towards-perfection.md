@@ -1,6 +1,6 @@
 ---
 title: Continuous Improvement Towards Perfection
-order: ??
+order: 70
 ---
 
 
@@ -238,7 +238,7 @@ On the other hand, in a **push system** , one speculatively builds and stores la
 
 Resource management strategies that focus on high utilization of workers---a focus on *watch the runners* rather than*watch the baton*---create an environment in which people will create a large inventory of things (requirements, designs, code) in a push model.
 
-**Expose defects**---If you only create *one* thing in response to *pull* from a ‘customer’ request (in this context, your customer is anyone downstream) and the customer consumes it quickly, any *defects* in that one thing---created either by accident or design--are quickly discovered. That can lead to further systemic improvement if people have “stop and fix” mindset. On the other hand, in push systems, defects are hidden in an unconsumed inventory (of requirements, code, ...). For example, pushing a large batch of requirements will delay the discovery of misunderstandings or problems, because it is a long time before they are implemented and evaluated (as running software) by a customer.
+**Expose defects**---If you only create *one* thing in response to *pull* from a ‘customer’ request (in this context, your customer is anyone downstream) and the customer consumes it quickly, any *defects* in that one thing---created either by accident or design---are quickly discovered. That can lead to further systemic improvement if people have “stop and fix” mindset. On the other hand, in push systems, defects are hidden in an unconsumed inventory (of requirements, code, ...). For example, pushing a large batch of requirements will delay the discovery of misunderstandings or problems, because it is a long time before they are implemented and evaluated (as running software) by a customer.
 
 **Decide as late as possible**---In pull systems, you do not decide early, quite the opposite---you **“decide as late as possible”** and **“commit at the last responsible moment”**. In this way, you have the most information to make an informed decisions. You do not waste resources making unnecessary inventory or early decisions that will have to---or at least should---change in response to discovery.
 
