@@ -2,8 +2,6 @@
 title: Continuous Improvement Towards Perfection
 order: 70
 ---
-
-
 <div class="chapter_quote"><p>
 A constitution should be short and obscure.
 <br/>
