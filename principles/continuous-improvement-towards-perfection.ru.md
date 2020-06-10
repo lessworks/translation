@@ -267,4 +267,4 @@ order: 70
 
 
 
-Перевод статьи осуществлён [Романом Лапаевым](https://www.linkedin.com/in/romanlapaev) и
+Перевод статьи осуществлён [Романом Лапаевым](https://www.linkedin.com/in/romanlapaev) и [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov).
