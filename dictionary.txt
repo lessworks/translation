@@ -27,6 +27,7 @@ Flow diagrams - диаграммы потока
 Framework - каркас, фреймворк
 Guides - Руководства
 Gemba - гемба
+Go See - Пойди и Посмотри
 Initial Product Backlog Refinement - Первичное Уточнение Бэклога Продукта
 Inspect and Adapt - Инспекция и Адаптация
 Kaizen - кайдзен
