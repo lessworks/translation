@@ -48,10 +48,13 @@ Multi-team - Многокомандный
 Multi-team Product Backlog Refinement - Многокомандное Уточнение Бэклога Продукта
 NVA - НДЦ (не-добавляющее-ценности)
 One-piece flow - поток в одну задачу (изделие)
+Оne-team Scrum - однокомандный Скрам
 Overall Retrospective - Общая Ретроспектива
 Overall Product Backlog Refinement - Общее Уточнение Бэклога Продукта 
 Queueing Theory - Теория массового обслуживания
 Perfection goal - Цель совершенства
+Potentially Shippable Product Increment - Потенциально Готовый к Поставке Инкремент Продукта
+Potentially Shippable Product - Потенциально Готовый к Поставке Продукт
 Product Backlog - Бэклог Продукта
 Product Backlog item - Элемент Бэклога Продукта
 Product Backlog Refinement - Уточнение Бэклога Продукта
