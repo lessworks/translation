@@ -2,6 +2,7 @@
 Area Feature Team - Команда Области Продукта
 Area Product Owner - Владелец Области Продукта
 Area Product Backlog - Бэклог Области Продукта
+Acceptance test-driven development, A-TDD - Разработка через приёмочное тестирование
 Backlog - Бэклог
 Cadence - Каденция
 Causal loop diagrams - Диаграммы причинного цикла
@@ -67,11 +68,13 @@ Scrum - Скрам
 Scrum Master - Скрам-мастер
 Scrum of Scrums - Скрам над Скрамом
 Scrum Team - Скрам-команда
+Specification by Example - Требования на Примерах
 Sprint Planning One - Первая Часть Планирования Спринта
 Sprint Planning Two - Вторая Часть Планирования Спринта
 System dynamics - системная динамика
 Systems thinking - системное мышление
 Team-level Product Backlog Refinement - Командное Уточнение Бэклога продукта
+Test-driven development, TDD - Разработка через тестирование
 Value - ценность
 WIP - НЗР (Незавершенная Работа)
 Wokrshop - сессия совместной работы
