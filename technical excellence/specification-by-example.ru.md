@@ -228,4 +228,4 @@ A-TDD легко понять, но трудно следовать. Он тре
 * [*Robot Framework User Guide*](https://code.google.com/p/robotframework/wiki/UserGuide). Не покрывает тему A-TDD, но позволяет отлично познакомиться с инструментом Robot Framework.
 * [*Test-Driven .NET Development with FitNesse*](http://www.amazon.com/Test-Driven-NET-Development-FitNesse/dp/0955683602) Гойко Аджича. В этой книге меньше внимания уделяется A-TDD, а больше - FitNesse. Но это хорошо работает для описания данного инструмента.
 
-Перевод статьи осуществлён [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov).
+Перевод статьи осуществлён [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov) и [Романом Лапаевым](https://www.linkedin.com/in/romanlapaev).
