@@ -9,58 +9,60 @@ order: 70 ???
 
 Как же построить гибкую и адаптивную организацию? *Упростив ее!*
 
-Complicated organizations with many roles, processes, departments, and artifacts are slow to adapt to changes. Simple organizations have the potential to adapt quickly. In the LeSS community we refer to this as **descaling** organizational complexity. It is the essence of one of the LeSS principles, the *More with LeSS* principle.
+Сложные организации с множеством ролей, процессов, отделов и артефактов медленно приспосабливаются к изменениям. Простые организации готовы изменяться быстрее. В LeSS-сообществе мы называем этот процесс **де-масштабированием** организационной сложности. В этом заключается суть одного из принципов LeSS: *Больше с помощью меньшего (More with LeSS)*.
 
-How can we design simpler, agile organizations? We use the following organizational design principles to descale into LeSS organizations:
+Как создавать более простые и гибкие организации? Мы используем следующие принципы организационного дизайна, чтобы де-масштабировать организации и приводить их в соответствие с LeSS:
 
-1. From *Specialist Roles* to *Teams*
-2. From *Resource-Thinking* to *People-Thinking*
-3. From *Organizing around Technology* to *Organizing around Customer Value*
-4. From *Independent Teams* to *Continuous Cross-team Cooperation*
-5. From *Coordinate to Integrate* to *Coordination through Integration*
-6. From *Projects* to *Products*
-7. From *Many Small Products* to *a Few Broad Products*
+1. От *Специальных ролей* к *Командам*
+2. От *Ресурсного Мышления* к *Человеко-ориентированному Мышлению*
+3. От *Организации вокруг Технологий* к *Организации вокруг Ценности*
+4. От *Независимых Команд* к *Непрерывному Взаимодействию между Командами*
+5. От *Координирования для Интеграции* к *Координированию через Интеграцию*
+6. От *Проектов* к *Продуктам*
+7. От *Множества Мелких Продуктов* к *Нескольким Большим Продуктам*
 
-### 1. From *Specialist Roles* to *Teams*
+### 1. От *Специальных ролей* к *Командам*
 
-Traditional organizations have single-specialized roles and elaborate processes on how these roles ought to interact. Individuals are responsible for their individual specialization. They are hired for that and might spend their entire life in that area of specialization. When all individuals perform their defined role, the organizational performance is maximized, in theory. Adaptiveness is likely to be low.
+Традиционные организации опираются на узких специалистов, а процессы строятся в зависимости от того, как эти специалисты взаимодействуют между собой. Каждый ограничен своей специализацией и может всю жизнь заниматься одной и той же работой. Теоретически эффективность организации достигает максимума, когда каждый ее участник выполняет конкретную роль. Однако адаптивность в этом случае, скорее всего, будет низкой.
 
-LeSS organizations have teams that have a shared responsibility for achieving a customer-centric goal, by self-managing—they themselves decide how they work and who does what. Team members are not stuck in the false dichotomy of being a generalist or a *single*-specialist. People naturally have preferences, yet they are not limited to a single specialization. Many specialist roles, such as tester or interaction designer or business analyst, cease to exist as these responsibilities become team responsibilities. Broad responsibility and self-management increase adaptiveness.
+В LeSS-организациях ответственность за достижение общей цели, ориентированной на клиента, разделена между командами. В командах действует самоуправление: они сами решают, как им работать, и что делать тому или иному участнику команды. Люди не обязаны постоянно решать ложную дилемму: быть универсальным или *уникальным* специалистом. Естественно, у них есть те или иные предпочтения, но они не ограничены одной специализацией. Многие выделенные роли (такие, как тестировщик, интерактивный дизайнер или бизнес-аналитик) прекращают свое существование, так как обязанности этих ролей становятся общекомандными. Широкая сфера ответственности и самоуправление повышают адаптивность.
 
-### 2. From *Resource-Thinking* to *People-Thinking*
+### 2. От *Ресурсного Мышления* к *Человеко-ориентированному Мышлению*
 
-Traditional organizations manage people as resources, assuming the skills of individuals are relatively fixed. They are structured to maximize the utilization of these resources against the goal of increasing individual productivity. This requires significant management effort to resolve these complicated resource allocations.
+В традиционных организациях принято управлять людьми как ресурсами, предполагая, что люди обладают более или менее фиксированными навыками. Структура таких организаций нацелена на то, чтобы извлекать из этих ресурсов максимум пользы и повышать их персональную эффективность. Чтобы решить проблему сложного распределения ресурсов в этом случае от руководителей требуются значительные усилия.
 
-LeSS organizations manage people as people and assume that the greatest skills of individuals are *acquiring and developing skills*. LeSS organizations are structured to purposely cause a mismatch between existing skills and knowledge and those needed, for the benefit of increasing adaptiveness. This requires people to *learn*, which causes both joy and discomfort... but all the complicated resource management disappears.
+В LeSS-организациях принято управлять людьми как людьми и считается, что главные навыки — это *навыки обучения и развития*. Эти организации устроены так, чтобы целенаправленно создавать разрыв между существующими и необходимыми знаниями и навыками участников, так как преодоление этого разрыва повышает их адаптивность. Люди вынуждены *учиться*, и это может доставлять им как радость, так и дискомфорт… но проблема сложного управления ресурсами при этом исчезает
 
-### 3. From *Organizing around Technology* to *Organizing around Customer Value*
+### 3. От *Организации вокруг Технологий* к *Организации вокруг Ценности*
 
-Traditional organizations structure their organization around their technology. Many people identify themselves with their technology specialization and organizing around this seems to maximize their individual productivity. Delivering customer value often requires more than one technology and that causes additional coordination effort and reduced adaptiveness.
+Традиционные организации строятся вокруг своих технологий. Многие люди отождествляют себя с технологиями, в которых они специализируются. И может показаться, что подобные организации позволяют им достичь максимальной эффективности. Доставка ценности клиентам часто требует использования более одной технологии, а это требует дополнительных усилий по координированию и снижает адаптивность.
 
-LeSS organizations structure their organizations around customer value. Deep understanding of customers is essential for solving *their* problems using technology. Bringing teams close to customers by organizing them around customer value increases this understanding and leads to greater adaptiveness and more customer value.
+LeSS-организации создаются вокруг ценности для клиентов. Глубокое понимание потребностей клиентов необходимо, чтобы решать с помощью технологий именно *их* проблемы. При организации вокруг ценности для клиентов команды становятся ближе к клиентам. Это позволяет командам лучше понимать их нужды и в итоге становиться более адаптивными, создавая более высокую ценность.
 
-### 4. From *Independent Teams* to *Continuous Cross-team Cooperation*
+### 4. От *Независимых Команд* к *Непрерывному Взаимодействию между Командами*
 
-Traditional organizations prefer independent teams that can focus on their part of the product. These teams avoid continuous interruptions by specifying well-defined interfaces to which other teams must adhere to. Change, review, and approval processes avoid frequent changes to these interfaces. Often independence is achieved by hiding and delaying genuine dependencies. This isolation of  teams reduces organizational flexibility.
+В традиционных организациях команды независимы и каждая из них фокусируется на своей части продукта. Таким командам удается избегать постоянных задержек благодаря четко определенным правилам, которых должны придерживаться другие команды при взаимодействии с ними. Процессы изменения, проверки и подтверждения позволяют избежать частых изменений в этих правилах. Независимость зачастую достигается путем сокрытия и откладывания настоящей зависимости. Подобная изоляция команд снижает организационную гибкость.
 
-LeSS organizations prefer multiple teams with shared work. These teams continuously cooperate to contribute to one consistent product. They function like one larger team, even though each team has their goal and own identity. Change, review, and approval can be greatly simplified or even disappear.
+Для LeSS-организаций характерно разделение работы между несколькими командами. Такие команды постоянно сотрудничают, внося вклад в создание единого продукта. Они работают совместно как одна большая команда, хотя у каждой отдельной команды при этом есть своя цель и свое назначение. Процессы изменения, проверки и подтверждения при этом значительно упрощаются или даже исчезают.
 
-### 5. From *Coordinate to Integrate* to *Coordination through Integration*
+### 5. От *Координирования для Интеграции* к *Координированию через Интеграцию*
 
-Traditional organizations coordinate to integrate the output of many teams. Because the teams deliver their outputs *asynchronously*, the coordination responsibility is external to the team, leading to coordination roles (such as project and release managers) and coordination events. Coordination conflicts are common, leading to re-evaluating and shifting priorities.
+В традиционных организациях команды координируются для интеграции результатов своей работы. Поскольку команды доставляют свои результаты *асинхронно*, ответственность за координирование лежит за пределами команды и приводит к появлению координационных ролей (таких, как менеджер проекта и менеджер релиза) и координационных мероприятий. При этом нередко возникают конфликты, которые приводят к переоценке и смене приоритетов.
 
-LeSS organizations have teams that continuously integrate their work. *Through* continuous integration the teams discover opportunities for cross-team collaboration—a surprising and powerful idea. Because of the *synchronous* nature of cross-team integration—the teams have shared work right now at the same time—the coordination responsibility can be integrated into the team. External-to-team coordination roles disappear.
+В LeSS-организациях команды непрерывно интегрируют результаты своей работы. *Через* непрерывную интеграцию команды открывают для себя возможности межкомандного взаимодействия — это идея неожиданна, но важна. Благодаря *синхронной* природе межкомандной интеграции (команды объединяют результаты своей работы одновременно и прямо сейчас) ответственность за координирование может быть возложена на сами команды. Внешние координирующие роли при этом исчезают.
 
-### 6. From *Projects* to *Products*
+### 6. От *Проектов* к *Продуктам*
 
-Traditional organizations manage development as projects or *programs*—big projects. Projects have clear start and end dates, clear scope. People are allocated to them for a predetermined amount of time. Budgets are decided by the expected value of the predetermined scope. This leaves little room for responding to changes. Myriad and varying projects cause complicated project portfolio management to synchronize the re-allocation of resources to projects.
+Традиционные организации управляют разработкой на основе проектов или *программ* — больших проектов. У каждого проекта есть четкие даты начала и окончания, а также конкретный объем работ. Людей направляют для участия в проектах на определенный период времени. Бюджеты утверждаются в зависимости от ожидаемого объема работ. При этом возможностей для изменений остается совсем немного. Поскольку проектов очень много и все они разные, управление портфелем проектов усложняется из-за необходимости синхронизировать перераспределение ресурсов.
 
-LeSS organizations manage development as products. Products have a clear purpose but no fixed end or scope. People are allocated to them for an undetermined amount of time. Budgets are decided by potential value without tying it directly to a specific scope. This leaves lots of room for responding to change. A product is continuously developed and therefore a regular rhythm of re-allocating the people to products will suffice. Complicated project portfolio management disappears.
+LeSS-организации управляют разработкой на основе продуктов. Продукты имеют четкую цель, но не имеют фиксированной даты окончания или объема работ. Люди направляются для их создания на неопределенный период времени. Бюджеты утверждаются исходя из потенциальной ценности продукта, а не привязываются к конкретному объему работ. При этом реагировать на изменения становится гораздо проще. Продукт непрерывно развивается, и люди перераспределяются по проектам достаточно регулярно. Сложное управление портфелем проектов исчезает.
 
-### 7. From *Many Small Products* to *a Few Broad Products*
+### 7. От *Множества Мелких Продуктов* к *Нескольким Большим Продуктам*
 
-Traditional organizations prefer managing small technology-based products such as services, components, applications, or platforms. But no such small product is an island and they need to interact and be integrated together to deliver customer benefits. This leads to complicated cross-product management structures for coordinating, prioritizing, and budgeting.
+В традиционных организациях предпочтение отдается управлению небольшими продуктами на основе определенных технологий, например, служб, компонентов, приложений и платформ. Однако эти мелкие продукты не изолированы друг от друга. Каждый из них должен взаимодействовать и интегрироваться с другими продуктами, чтобы клиент мог воспользоваться его преимуществами. Это приводит к возникновению сложных межпродуктовых управленческих структур для координирования, расстановки приоритетов и планирования расходов.
 
-LeSS organizations prefer managing broad customer-centric products. The services, components, applications, and platforms belong to one product with one Product Backlog and one Product Owner. Teams create customer-centric features and work across these components. Complicated portfolio management disappears, and complicated cross-product management structures disappear or become significantly simpler.
+LeSS-организации управляют созданием больших клиентоориентированных продуктов. Службы, компоненты, приложения и платформы принадлежат единому продукту с общим Бэклогом Продукта и одним Владельцем Продукта. Команды создают фичи, ориентированные на клиента и работают со всеми перечисленными частями продукта. Сложное управление портфелем продуктов исчезает. Сложные межпродуктовые управленческие структуры также исчезают или значительно упрощаются.
 
-**Each organizational design choice requires a significant shift in organizational thinking and they have a large impact on people, teams, organization structure, and management. These changes aren’t always easy but they lead to simpler, adaptable, purposeful, and more fun organizations that deliver higher value.**
+**Любое изменение организационного дизайна требует значительных изменений организационного мышления. Такие изменения оказывают большое влияние на людей, команды, организационную структуру и управление. Эти изменения не всегда даются легко, но они позволяют организациям стать более простыми, адаптивными, целенаправленными и позитивными, а также доставлять клиентам более высокую ценность.**
+
+Перевод осуществлён командой [AgiliX](http://agilix.ru/).
