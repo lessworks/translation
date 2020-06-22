@@ -43,6 +43,7 @@ Level pull - сбалансированное вытягивание
 Mental model - ментальная модель
 Measurement dysfunction - дисфункция измерения
 Morale - боевой дух
+More with LeSS - Больше с помощью меньшего
 Multi-site - распределённый
 Multi-site teams - распределённые команды
 Multi-team - Многокомандный
