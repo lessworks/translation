@@ -1,7 +1,7 @@
 ---
 title: Getting Started
-order: ??
-___
+order: 20
+---
 
 The three adoption principles include that it’s best to start with one product adoption. How can you increase the likelihood of its success?
 

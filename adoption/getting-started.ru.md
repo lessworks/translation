@@ -1,6 +1,6 @@
 ---
 title: C Чего Начать?
-order: ??
+order: 20
 ___
 
 The three adoption principles include that it’s best to start with one product adoption. How can you increase the likelihood of its success?
