@@ -1,6 +1,6 @@
 ---
 title: Три Принципа
-order: ??
+order: 10
 ---
 
 These principles are crucial to an organizational LeSS adoption:

@@ -1,6 +1,6 @@
 ---
-title: These principles
-order: ??
+title: Three Principles
+order: 10
 ---
 
 These principles are crucial to an organizational LeSS adoption:
