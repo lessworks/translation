@@ -1,6 +1,6 @@
 ---
 title: 7 Organizational Design Principles
-order: 70 ???
+order: 70
 ---
 
 ## More with LeSS: Simplifying Organizations with 7 Design Principles
