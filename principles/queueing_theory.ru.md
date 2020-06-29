@@ -90,27 +90,27 @@ order: 100
 
 ### Очереди Являются Проблемой
 
-Во-первых, если не существует очередей---и нет многозадачности, которая искуственно создаёт видимость, что очередь устранена---тогда система двигается в направлении потока, принцип бережливого подхода и стремления к совершенству в том, что ценность поставляется без каких-либо задержек. Каждая очередь создаёт задержку, которая является препятствием для потока поставки ценности. Более конкретно, почему очереди являются проблемой?
+Во-первых, если не существует очередей---и нет многозадачности, которая искуственно создаёт видимость, что очередь устранена---тогда система двигается в направлении потока, принцип бережливого подхода и стремления к совершенству в том, что ценность поставляется без каких-либо задержек. Каждая очередь создаёт задержку, которая является препятствием для потока поставки ценности. Если говорить более конкретно, почему очереди являются проблемой?
 
-#### WIP Queues
+#### Очереди НЗР
 
-WIP queues in product development are seldom seen as queues for several reasons; perhaps chief among these is that they tend to be *invisible* ---bits on a computer disk. But they are there---and more importantly they create problems. Why?
+Очереди НЗР в разработке продуктов  редко рассматриваются как таковые по нескольким причинам; возможно главная среди них в том, что они как правило *незаметны* ---набор битов на диске компьютера. Но они действительно существуют---и что более важно, они создают проблемы. Почему?
 
-WIP queues (as most queues) *increase average cycle time* and reduce value delivery, and thus may lower lifetime profit.
+Очереди НЗР (как и большинство очередей) *увеличивают среднее время цикла* и уменьшают поставку ценности и тем самым могут снизить общую прибыль.
 
-In lean thinking, WIP queues are identified as *waste* ---and hence to be removed or reduced---because:
+В бережливом мышлении, очереди НЗР классифицируются как *потери* ---и, следовательно, должны быть устранены или сокращены---потому, что:
 
-* WIP queues have the aforementioned impact on cycle time.
-* WIP queues are *partially-done inventory* (of specifications, code, documentation, ...) with an investment of time and money for which there has been no return on investment.
-* As with all inventory, WIP queues hide---and allow replication of---defects because the pile of inventory has not been consumed or tested by a downstream process to reveal hidden problems; for example, a pile of un-integrated code.
-* A story: We saw a traditional product group that spent about one year working on a “deal breaker” feature. Then product management decided to remove it because it threatened the overall release and the market had changed. Replanning took many weeks. In general, WIP queues *affect the cost and ability to respond to change* (deletions and additions) because (1) time and money were spent on unfinished deleted work that will not be realized, or (2) the WIP of the deleted item may be tangled up with other features, or (3) a feature to add can experience a delayed start due to current high WIP levels.
+* Очереди НЗР имеют вышеупомянутое воздействие на время цикла.
+* Очереди НЗР являются *частично-готовыми запасами* (спецификаций, кода, документации, ...) с вложением времени и денег, для которых ещё не произошло возврата инвестиций.
+* Так же как и все запасы, очереди НЗР скрывают ошибки---и способствуют их распространению---поскольку груда запасов  ещё не была использована или проверена на следующем шаге процесса, чтобы проявить скрытые проблемы; например, большое количество ещё не-интегрированного кода.
+* Одна история: Мы видели продуктовую группу, использующую традиционные подходы к разработке,  которая потратила около года, работая над функциональностью “завершение сделки”. Затем управление продуктом решило удалить её, потому что она поставила под угрозу весь релиз и рыночные условия изменились. Перепланирование заняло много недель. В целом, очереди НЗР *влияют на стоимость и способность реагировать на изменения* (удаления и добавления) потому, что: (1) время и деньги были потрачены на незавершенную удалённую работу которая не будет в конечном итоге реализована, или  (2) НЗР, связанная с удалёнными элементами, может быть тесно переплетена с другой функциональностью, или (3) новая функциональность, ожидающая добавления, может испытать отложенный запуск из-за высокого уровня текущей НЗР.
 <br>
 
-As will be explored, there is a subtle but potentially powerful systems-improvement side effect that can occur through the process of eliminating WIP queues.
+Как будет рассмотрено далее, существует тонкий, но потенциально очень мощный побочный эффект улучшения-систем, который может возникнуть в процессе устранения очередей НЗР.
 
-#### Shared-Resource Queues
+#### Очереди Разделяемых-Ресурсов
 
-In contrast to WIP queues (which are not seen for what they are), shared-resource queues are more often **seen as queues**---and seen as a problem. They clearly and painfully slow people down, delay feedback, and stretch out cycle times. *“We need to test our new code on that target printer in the test lab. When will it be free?”*
+В противоположность очередям НЗР (которые на первый взгляд не кажутся тем, чем являются), очереди разделяемых-ресурсов чаще всего **видятся как очереди**---и видятся как проблема. Они действительно заметно и болезненно замедляют людей, задерживают обратную связь и растягивают время цикла. *“Нам нужно протестировать свой новый код на том целевом принтере в тестовой лаборатории. Когда он будет свободен?”*
 
 #### Plan A: Eliminate (rather than manage) Queues
 
