@@ -112,22 +112,22 @@ order: 100
 
 В противоположность очередям НЗР (которые на первый взгляд не кажутся тем, чем являются), очереди разделяемых-ресурсов чаще всего **видятся как очереди**---и видятся как проблема. Они действительно заметно и болезненно замедляют людей, задерживают обратную связь и растягивают время цикла. *“Нам нужно протестировать свой новый код на том целевом принтере в тестовой лаборатории. Когда он будет свободен?”*
 
-#### Plan A: Eliminate (rather than manage) Queues
+#### План А: Ликвидация (а не управление) Очередями
 
-The bottom line is that (usually) *queues are a problem* . Given that, you may jump to the conclusion that the first line of defense against this problem is to *reduce the batch and queue size* , because these are classic queue-management strategies. Yet, there is a [Gordian Knot](https://en.wikipedia.org/wiki/Gordian_Knot) solution that should be considered first...
+В итоге суть такова, что (как правило) *очереди являются проблемой*. Исходя из этого, вы можете сделать поспешный вывод, что первая линия обороны против этой проблемы - *уменьшить объёмы партий и размер очереди* , потому, что таковы классические стратегии управления-очередью. Однако, существует решение, позволяющее "разрубить" [Гордиев Узел](https://en.wikipedia.org/wiki/Gordian_Knot), которое следует рассмотреть первым...
 
-The remainder of this chapter will indeed explore reducing cycle time through batch- and queue-size management. But that entire management strategy should be *Plan B*. Rather, start with *Plan A*:
+В оставшейся части этой главы мы, несомненно, рассмотрим уменьшение времени цикла путём управления размерами партий-и очередей-. Но вся эта стратегия управления должна быть *Планом Б*. Скорее, начать следует с *Плана А*:
 
-**Plan A in fixing the queue problem is to completely eradicate the queue, forever, by changing the system: the system of the organization, the system of development, tools, processes, practices, policies, etc.**
+**План А в исправлении проблемы очереди заключается в полном искоренении этой очереди, навсегда, изменив саму систему: организационную систему, систему разработки, инструменты, процессы, практики, политики, и т.п.**
 {: .box_top_bottom }
 
-Think outside the current box and shorten cycle times by changing the *system* so that queues no longer exist---by removing bottlenecks and other forces that create the queues. These constraints and the queues they spawn may be created or eradicated by the very nature of a development system and its tools.
+Превзойдите границы мышления и сократите время цикла, изменив саму *систему* так, чтобы очереди больше не существовало---устраняя узкие места (bottleneck) и другие препятствия, являющиеся причинами очередей. Эти ограничения и очереди, которые они порождают, могут быть как созданы так и уничтожены самой природой системы разработки и её инструментами.
 
-Suppose the existing system is based on sequential development with single-specialist/function workers or groups. There will be WIP queues: The analyst group hands off specification work packages to the programming group that hands off code work packages to the testing group that hands off code to a deployment group. An *inside-the-box* response to improving with queue management is to reduce WIP limits and queue sizes. But that approach is merely dealing with the secondary symptoms of the existing system.
+Предположим существующая система основывается на последовательной разработке с рабочими или группами одной-специализации/функции. В такой системе будут существовать очереди НЗР: Группа аналитиков передаёт пакеты рабочих спецификаций группе разработчиков, которая передаёт пакеты рабочего кода группе тестирования, которая передаёт код группе внедрения и эксплуатации.  Мерами, лежащими в *пределах-границ-мышления*. по улучшению с помощью управления очередями, является уменьшение лимитов НЗР и размеров очередей. Но такой подход имеет дело всего лишь со вторичными симптомами существующей системы.
 
-There is a deeper alternative that will more dramatically improve cycle time: Discard that system and the bottlenecks and WIP queues it spawns. If you adopt **cross-functional feature teams that do complete feature**s (analysis, programming, and testing) without handing off work to other groups, and that apply automated **acceptance test-driven development** and **automated continuous deployment**, the above WIP queues *vanish* by moving from serial to parallel development.
+Существует более фундаментальная альтернатива, которая может радикально улучшить время цикла: Откажитесь от существующей системы, от её узких мест и от очередей НЗР, которые они порождают. Если вы внедрите **кросс-функциональные продуктовые команды, которые поставляют полностью готовую функциональность** (включая аналитику, программирование и тестирование), без передачи работы другим группам и которые применяют автоматизированную **разработку через приёмочное тестирование** и **автоматизированную непрерывную поставку**, то вышеупомянутые очереди НЗР *исчезнут* благодаря переходу от последовательной к параллельной разработке.
 
-This approach reflects the fix-the-root-causes vision of LeSS: Change the organizational design to address the core problems.
+Этот подход отражает видение, основанное на исправлении-корневых-причин в LeSS: Измените организационную структуру для решения ключевых проблем.
 
 
 #### Fake Queue Elimination
