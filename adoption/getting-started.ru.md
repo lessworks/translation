@@ -3,64 +3,66 @@ title: C Чего Начать?
 order: 20
 ___
 
-The three adoption principles include that it’s best to start with one product adoption. How can you increase the likelihood of its success?
+Три принципа внедрения LeSS говорят, что лучше всего начать с одного продукта. Как вы можете увеличить вероятность успеха этого внедрения?
 
-0. educate everyone
-1. define 'product'
-2. define ‘done’
-3. have appropriately-structured teams
-4. only the Product Owner gives work to the teams
-5. keep project managers away from the teams
+0. Обучите всех
+1. Определите 'Продукт'
+2. Определите ‘Готово’
+3. Организуйте команды правильно
+4. Придерживайтесь правила: Владелец Продукта - единственный источник работы для команд
+5. Держите руководителей проектов подальше от команд
 
-## 0. Educate Everyone
+## 0. Обучите Всех
 
-The best LeSS adoptions we have seen had everyone participate in several days of Scrum and LeSS training. This was followed up with team, organizational and technical coaching.
+В лучших LeSS кейсах, которые мы видели, каждый член продуктовой группы принимал участие в обучении Скраму и Масштабируемому Скраму в течение нескольких дней. За этим следовало командное, организационное и техническое обучение.
 
-Teach why—Besides educating on the what’s and how’s of adopting LeSS, it’s even more important to help everyone understand why. There is too much blind adherence to processes without understanding why.
+Учите отвечать на вопрос ”Почему?” - Помимо обучения тому, что и как следует делать во время LeSS внедрения, еще важнее помочь всем понять, почему именно так. Слишком много слепой приверженности процессам без понимания причин.
 
-A great trainer and a great [coach](coaching.html) will make a world of difference in your LeSS adoption. How to chose them? [You can find some guidelines here.](/coaching/guidelines-for-selecting-coach.html)
+Великий тренер и великий [коуч](coaching.html) будут иметь огромное значение в вашем LeSS кейсе. Как их выбрать? [Вы можете найти руководство по их выбору тут.](/coaching/guidelines-for-selecting-coach.html)
 
-## 1. Define ‘Product’
+## 1. Определите ‘Продукт’
 
-Your definition of Product will define the scope of your LeSS adoption. Prefer broader product definitions because they cause the following benefits:
+Ваше определение продукта будет определять сферу вашего LeSS внедрения. Выбирайте более широкое определение продукта, потому что оно даёт следующие преимущества:
 
-1. Better overview of the whole product
-2. Finer grained granularization
-3. Dealing with dependencies via feature teams
-4. Better focus on the problem users try to solve than on the solution they propose
-5. Allows for de-scaling the organization
+1. Более широкий обзор всего продукта
+2. Более качественная декомпозиция 
+3. Работа с зависимостями внутри команд продукта
+4. Фокус на проблеме, которую пользователи пытаются решить, чем на предложенном ими решении.
+5. Позволяет уменьшить организационную сложность
 
-## 2. Define ‘Done’
+## 2. Определите ‘Готово’
 
-A better and stronger [Definition of Done](../framework/definition-of-done.html) (DoD or ‘done’) requires a broader skill-set within the teams. For example, when performance testing is included in the DoD then the teams need to acquire these skills. This can be acquired by learning but often it is acquired by moving a person with performance-testing skill from his specialized performance testing group into the team. On the other hand, when performance testing is excluded from the DoD then the separate performance-testing group will stay and operate the same way as before, until the DoD is expanded.
+Сильные и глубокие [Критерии Готовности](../framework/definition-of-done.html) (‘Готово’, англ. Definition of Done, DoD) требуют от команд большей широты навыков. Например, когда нагрузочное тестирование включено в DoD, то командам необходимо получать данные навыки. Они могут быть получены через обучение, но обычно достаются команде путём присоединения к ней специалиста, владеющего ими и ранее работавшего в функциональной группе специалистов по нагрузочному тестированию. С другой стороны, когда нагрузочное тестирование не входит в ‘Готово’, то отдельная команда нагрузочного тестирования продолжает работать, как работала раньше, до того момента, как DoD будет расширен.
 
-A better and stronger Definition of Done results in more organizational change than a poorer and weaker one.
+Сильные и глубокие Критерии Готовности приводят к бОльшим организационным изменениям, чем слабые и поверхностные их аналоги.
 
-And a weaker DoD causes additional risk and delay!
+Также слабый DoD влечёт за собой дополнительные риски и задержки!
 
-The effect on the amount of organizational change makes the DoD a critical management tool for LeSS adoption.
+То количество организационных изменений, на которые влияет ‘Готово’, делает его важным инструментом управления при внедрении LeSS. 
 
-## 3. Have Appropriately Structured Teams
+## 3. Организуйте Команды Правильно
 
-Each Team has a shared responsibility for achieving their shared goal. To support their success, ensure each is an [appropriately structured team.](../structure/teams.html)
+Каждая команда имеет общую ответственность за достижения их общей цели. Чтобы помочь им в этом, убедитесь, что каждая из них [организована правильно.](../structure/teams.html)
 
-This new structure implies people move from their functional groups to new cross-functional teams. Should people maintain a reporting relationship with their old functional manager? No. It causes conflicting loyalties that destroy the team’s shared responsibility and cohesion.
+Такая новая структура усиливает людей переходить из функциональных групп в кросс-функциональные команды. Должны ли они продолжать подчиняться их старым функциональным менеджерам? Нет. Это вызывает противоречивые чувства, которые разрушают общую ответственность и сплоченность команды.
 
 
-## 4. Only the Product Owner Gives Work to Teams
+## 4. Придерживайтесь Правила: Владелец Продукта - Единственный Источник Работы для Команд
 
-Focus is important. How do they lose it? Well-intended perfectly-reasonable interruptions and requests for extra work from their line manager, Sales, the CEO, HR, etc. Don’t let that happen!
+Фокус важен. Как команды его теряют? Запросы, часто обоснованные и имеющие благие намерения, становятся для команд дополнительной работой, поступая от их руководителей, отдела продаж, отдела кадров, генерального директора и т.д. Не допускайте этого!
 
-Prevent this by ensuring that the Product Owner is the only person who can give work to the teams. Not only does this support focus, it reduces stress caused from trying to manage competing voices all saying, “Me first! Me first!” Prioritization is the Product Owner’s problem, not the team’s.
+Предотвратите это, убедившись, что Владелец Продукта является единственным источником работы для команды. Это не только поддерживает фокус, это уменьшает давление менеджеров, соревнующихся между собой и кричащих "Я первый! Я первый!". Управление приоритетами - это проблема Владельца Продукта, а не команды.
 
-One voice to especially focus on banishing is to…
+Один голос Владельца Продукта является для команды важным, поэтому...
 
-## 5. Keep Project Managers Away from the Teams
+## 5. Держите Руководителей Проектов Подальше от Команд
 
-The role of project manager ceases to exist in experienced LeSS organizations. The role is not needed anymore as the project management responsibilities are shared between Product Owner and Teams.
+Роль руководителя проекта прекращает своё существование в опытных LeSS организациях. Это роль больше не нужна, так как её полномочия распределены между Владельцем Продукта и Командами.
 
-Most LeSS adoptions can immediately eliminate the project manager role. In some adoptions the role is temporarily still needed. That’s usually when there’s a weak imperfect Definition of Done (hence, Undone work) or cross-product-boundary coordination. In those cases, organizations do not necessarily immediately forgo their project managers.
+В большинстве LeSS внедрений можно незамедлительно убрать данную роль. Но в некоторых случаях на временной основе она всё-таки нужна. Обычно, когда слабое несовершенное определение ‘Готово’ ("заборы", "неготовая работа") или координация между продуктами. В этих случаях организации не должны сразу забывать своих руководителей проектов.
 
-So sometimes project managers will still be around for awhile. What’s the problem? It’s likely they would regularly interrupt people and introducing conflicting priorities.
+Так что иногда руководители проектов все еще будут рядом. В чем проблема? Вероятно, они будут регулярно отвлекать людей и ставить противоречивые приоритеты.
 
-In essence, this recommendation is the same as “only Product Owner gives work” but more specific, and—we’ve discovered—important to make explicit.
+По сути, эта рекомендация такая же, как и “Владелец Продукта - единственный источник работы для команд“, но более конкретна, и как мы обнаружили ранее, важно сделать её явной.
+
+Перевод статьи осуществлён [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov).
