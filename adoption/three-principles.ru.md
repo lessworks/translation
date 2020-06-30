@@ -21,15 +21,15 @@ These principles are crucial to an organizational LeSS adoption:
 
 Поддержка исключительно сверху --- Подход классического менеджмента “ты должен делать LeSS“ вызывает сопротивление и настраивает организацию на провал. Принуждение команд к самоуправлению является противоречием. Внедрение LeSS требует глубокого понимания, которое приходит не от директивы, а от обсуждения. Только благодаря пониманию, выбору и чувству личной безопасности люди возьмут на себя дополнительную ответственность, чтобы начать рефлексировать и проводить улучшения.
 
-Поддержка исключительно снизу --- These LeSS adoptions aren’t sustainable. They create a delightful burst of energy from people who want to do the Right Thing. This leads to an open mind, accelerated learning, and deeper understanding. Really wonderful! Then these energized people energetically hit the organizational walls. Bam! Without top-level support to change structures and policies, they lose energy, and become frustrated by obstacles and rigidity.
+Поддержка исключительно снизу --- Такое внедрение LeSS не являются устойчивыми. Оно создаёт восхитительный прилив энергии от людей, которые делать Правильные Вещи. Это приводит к непредвзятости, ускоренному обучению и более глубокому пониманию. Действительно замечательно! Затем эти энергичные люди энергично врезаются в организационные стены. Бам! Без поддержки на высшем уровне в изменении организационной структуры и политики они теряют энергию и начинают унывать из-за препятствий и жесткости.
 
 Поддержка сверху или снизу --- Успешное внедрение LeSS требует как энергии людей, которые делают Правильные Вещи, так и поддержки людей с организационной властью, чтобы помочь им делать Правильные Вещи. Внимание менеджеров должно быть на поддержке, а не на контроле.
 
 ### Какой тип поддержки менеджмента вам нужен?
 
-Management support from the person(s) who has the organizational authority to make structural changes in your group—usually the head of your product group. This support must be… supporting.
+Поддержка менеджмента нужна от человека (или нескольких), который имеет организационные полномочия для внесения организационных изменений в вашу группу - обычно это глава вашей продуктовой группы. Эта поддержка должна быть... поддержкой.
 
-Authentic support start with self-education. All managers in the product group need to take time to start learning about LeSS. This includes several days in an introductory training and several books to read. Next to education, they also need to provide clear communication and action about (1) the intention to adopt LeSS, (2) the promise to make the needed structural changes, and (3) providing education and coaching.
+Подлинная поддержка начинается с самообразования. Всем менеджерам в продуктовой группе нужно время, чтобы начать изучать LeSS. Это включает в себя несколько дней начального обучения и несколько книг для чтения. Наряду с образованием им также необходимо обеспечить четкую коммуникацию и действия в отношении (1) намерения внедрить LeSS, (2) обещания внести необходимые структурные изменения и (3) обеспечения образования и коучинга.
 
 ## Волонтёры
 
@@ -37,14 +37,16 @@ Authentic support start with self-education. All managers in the product group n
   {% figure "img/adoption/use-volunteering", "LeSS Volunteers",class:"half-sized-figure pull-right" %}
 </div>
 
-How to form new teams? Who will be in a community of practice? How are you going to answer these questions, and many more?
+Как сформировать новые команды? Кто будет участвовать в сообществах практиков? Как вы собираетесь отвечать на эти и многие другие вопросы?
 
-Use volunteers! True volunteering is a powerful way of engaging peoples’ minds and hearts. It’s underused, probably due to the feeling of loss of control by managers. But for people in teams it feels empowering.
+Волонтёры! Истинное волонтёрство - это мощный способ вовлечь умы и сердца людей. Он недостаточно используется, вероятно, из-за чувства потери контроля со стороны менеджеров. Но для людей в командах это дает ощущение полномочий.
 
-Volunteering starts with education. First, provide enough education and discussion so people understand what they are volunteering for.
+Волонтёрство начинается с образования. В первую очередь предоставьте людям возможность учиться и обсуждать, чтобы они поняли, добровольцами чего они могут стать.
 
-Here are some examples of volunteering:
+Вот несколько примеров волонтёрства:
 
-* Initial-product volunteering
-* Initial-teams volunteering
-* Team-formation volunteering
+* Волонтёрство при подготовке к запуску продукта
+* Волонтёрство при подготовке к запуску команд
+* Волонтёрство при формировании команд
+
+Перевод статьи осуществлён [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov).
