@@ -5,17 +5,17 @@ order: 10
 
 These principles are crucial to an organizational LeSS adoption:
 
-* deep and narrow over broad and shallow
-* top-down and bottom-up
-* use volunteering
+* глубоко и узко важнее, чем широко и поверхностно
+* сверху вниз и снизу вверх
+* используйте волонтёрство
 
-## Deep and Narrow over Broad and Shallow
+## Глубоко и Узко важнее, чем Широко и Поверхностно
 
 Prefer applying LeSS in one product really well over applying LeSS in many groups poorly.
 
 Focus LeSS adoption effort on one product group, give them all the support they need, and ensure they work really well. This minimizes risk and if you fail it triggers a focused learning opportunity. And when you succeed it creates a positive “word on the floor” that’s vital nourishment for further adoption.
 
-## Top-down and Bottom-up
+## Сверху Вниз и Снизу Вверх
 
 Top-down or bottom-up? That’s a false dichotomy. Either one or the other by itself is likely to fail. Do both.
 
@@ -25,13 +25,13 @@ Purely bottom-up---These LeSS adoptions aren’t sustainable. They create a deli
 
 Top-down and Bottom-up---A successful LeSS adoption needs both the energy of people doing the Right Thing and the support of people with organizational power to help them do the Right Thing. The managers’ frame of mind must be support, not control.
 
-### What kind of management support do you need?
+### Какой тип поддержки менеджмента вам нужен?
 
 Management support from the person(s) who has the organizational authority to make structural changes in your group—usually the head of your product group. This support must be… supporting.
 
 Authentic support start with self-education. All managers in the product group need to take time to start learning about LeSS. This includes several days in an introductory training and several books to read. Next to education, they also need to provide clear communication and action about (1) the intention to adopt LeSS, (2) the promise to make the needed structural changes, and (3) providing education and coaching.
 
-## Use Volunteering
+## Используйте Волонтёрство
 
 <div>
   {% figure "img/adoption/use-volunteering", "LeSS Volunteers",class:"half-sized-figure pull-right" %}
