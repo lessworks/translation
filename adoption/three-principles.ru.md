@@ -11,7 +11,7 @@ These principles are crucial to an organizational LeSS adoption:
 
 ## Глубоко и Узко важнее, чем Широко и Поверхностно
 
-Prefer applying LeSS in one product really well over applying LeSS in many groups poorly.
+Предпочтите действительно хорошее внедрение LeSS в одном продукте перед плохим в нескольких.
 
 Focus LeSS adoption effort on one product group, give them all the support they need, and ensure they work really well. This minimizes risk and if you fail it triggers a focused learning opportunity. And when you succeed it creates a positive “word on the floor” that’s vital nourishment for further adoption.
 
