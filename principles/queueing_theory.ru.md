@@ -169,52 +169,52 @@ order: 100
 
 Это могло бы потребовать тяжелой работы или какого-то нового подхода, но не нужно много теории для того, чтобы "управлять очередями” путём их *ликвидации*. С другой стороны, когда они должны существовать ни смотря ни на что, полезно знать как иметь с ними дело с помощью инструмента мышления теории массового обслуживания.
 
-### A Formal Model for Evaluating Processes
+### Формальная Модель для Оценки Процессов
 
-You may accept at face value that queues with smaller feature-batches of equal size improve average cycle time. Or not. In any event, it is useful to know that this suggestion is not based on opinion but is grounded in a formal mathematical model that can be demonstrated. It *is* possible to reason about some aspects of a development process, using a formal model. For example:
+Вы можете принять за чистую монету, что очереди с меньшими партиями-функциональностей, одинакового размера улучшают среднее время цикла. Или нет. В любом случае, полезно знать, что эта рекомендация не основывается на чьём-либо мнении, а опирается на формальную математическую модель, которая может быть подтверждена. Некоторые аспекты процесса разработки *действительно* возможно аргументировать с помощью формальной модели. Например:
 
-* *Hypothesis* : It is fastest to do sequential (‘waterfall’ or V-model) development with large-batch transfers between groups.
-* *Hypothesis* : It is fastest for people or groups to have high utilization rates and multitask on many projects at the same time.
+* *Гипотеза* : Наиболее верный способ - последовательная (‘водопадная’ или V-модель) разработка с передачей больших объёмов партий между специализированными функциональными группами.
+* *Гипотеза* : Наиболее правильно для людей или групп - иметь высокие показатели утилизации и многозадачности на многих проектах в одно и то же время.
 <br>
 
-An understanding of queueing theory, independent of opinion, can reveal if these hypotheses help reduce average cycle time.
+Понимание теории массового обслуживания, свободной от чьих-либо мнений, поможет выявить действительно ли эти гипотезы помогают уменьшить среднее время цикла.
 
-The topic is relatively simple; a scenario captures key elements...
+Данная тема относительно проста; пример сценария, охватывающего ключевые аспекты ...
 
-### Qualities of a Stochastic System with Queues
+### Качества Стохастической Системы с Очередями
 
 <figure>
   <img class="rounded shadowed" src="/img/queueing_theory/queueing-1.jpg" alt="queueing-1.jpg">
-  <figcaption>This system has non-linear dynamics!</figcaption>
+  <figcaption>Эта система имеет нелинейную динамику!</figcaption>
 </figure>
 
-Consider Los Angeles or Bengaluru at rush hour. By some miracle there are no accidents and all lanes are open. Traffic is tight and slow, but moving. Over a short period of time, there are accidents on three different major four-lane highways (twelve lanes), and three lanes are closed---only nine lanes are still open. Boom! Before you can say, “Why didn’t I buy a helicopter?” much of the city does a *phase shift* into *gridlock* . When the accidents are finally cleared (ranging from thirty to sixty minutes later), the massive queue buildup takes *forever* to clear. Observations:
+Рассмотрим Лос-Анджелес или Бангалор в час пик. Пока каким-то чудом здесь нет аварий и все полосы открыты. Поток плотный и медленный, но движется. Затем за короткий промежуток времени, происходят аварии на трёх различных основных четырёхполосных шоссе (всего двенадцать полос) и три линии закрываются---только девять линий остаются по-прежнему открытыми. Буум! Прежде чем вы успеете сказать: “Почему я не купил вертолёт?” на большей части города происходит *сдвиг фазы* в состояние *пробка*. Когда последствия аварий окончательно расчищены (в последующем промежутке от тридцати до шестидесяти минут), проходит *вечность*, прежде чем расчистится огромная накопленная очередь. Наблюдения:
 
-* **Nonlinear**{: style="color: #1997C0"}---When the highway is from zero to fifty percent loaded, it is smooth sailing---virtually no queues or delays. But between fifty and one-hundred percent, slowdown becomes noticeable, queues build up. The relation of utilization to queue size is nonlinear, not a smooth linear increase from zero.
-* **Delay and overload does not start at 99.99% utilization**{: style="color: #1997C0"}---It is *not* the case that everything goes fast and smooth on the highway until just before 100 percent capacity of cars on the road. Rather, things slow down and gridlock happens well before capacity is reached.
-* **Clearing the queue takes longer than making it**{: style="color: #1997C0"}---Forty-five minutes of blockage in Los Angeles at rush hour creates queues that take more than forty-five minutes to clear.
-* **Stochastic, not deterministic**{: style="color: #1997C0"}---There is variation and randomness with probabilities (it is a**stochastic** system): arrival rates of cars, time to remove blocks, exit rate of cars.
+* **Нелинейность**{: style="color: #1997C0"}---Когда шоссе загружено от нуля до пятидесяти процентов, оно плавно плывёт---практически нет задержек или очередей. Но междц пятьюдесятью и ста процентами, замедление становится заметным, начинают выстраиваться очереди. Связь загрузки шоссе с размером очереди не линейное, нет плавного линейного увеличения от нуля.
+* **Задержки и перегрузка не начинается с 99.99% загрузки**{: style="color: #1997C0"}---Это *не* тот случай, когда всё на шоссе двигается быстро и плавно, до тех пор пока не достигнута 100-процентная загрузка машин на дороге. Напротив, всё замедляется и появляются пробки задолго до того как достигнута максимальная загрузка.
+* **Расчистка очереди занимает больше времени чем её создание**{: style="color: #1997C0"}---сорокапятиминутный затор в Лос-Анджелесе в час пик создаёт очереди, расчистка которых занимает более сорока пяти минут.
+* **Стохастичность, не детерминированность**{: style="color: #1997C0"}---Существует вариация и беспорядочность в вероятности (это **стохастическая** система): прибытия машин, времени устранения заторов, скорости выхода автомобилей из пробок.
 
-This is worth spelling out if you wish to grasp how systems behave, because it seems all us humans do *not* have an intuitive sense of the stochastic and nonlinear quality of systems with queues. Gut instinct may be that they are deterministic and behave linearly. This incorrect “common sense” leads to *thinking mistakes* in analyzing problems and managing product development. These observations---and thinking mistakes---apply to WIP queues in traditional product development and to virtually all other queues.
+Это стоит прояснить, если вы хотите разобраться в поведении системы, поскольку, судя по всему, все мы, люди, *не* имеем интуитивного понимания стохастических и нелинейных качеств систем с очередями. Наоборот, внутренний инстинкт говорит, что они детерминированы и ведут себя линейно. Этот ошибочный “здравый смысл” приводит к *ошибочному мышлению* при анализе проблем и управлении разработкой продуктов. Эти наблюдения---как и ошибки мышления---применимы также и к очередям НЗР  в традиционной продуктовой разработке и практически ко всем другим очередям.
 
-One common thinking mistake in product development is that the queues, delay, and the people that serve them behave as in Figure 1---the misunderstanding of “*delay only starts when the highway is 100 percent full.* ” But slowdown starts happening on the highway long before it is 100 percent full. Perhaps at 60 percent capacity, you start to notice slowdown---a longer average cycle time.
+Одна распространённая ошибка мышления в разработке продуктов заключается в том, что очереди, задержки и люди, которые их обслуживают, ведут себя как на Рисунке 1---это заблуждение “*задержки начинаются только тогда, когда шоссе заполнено на 100 процентов.* ” На самом деле задержки  начинают возникать на шоссе задолго до того, как оно заполнится на 100 процентов. Возможно вы начнёте наблюдать задержки при 60-процентной загрузке---а значит, более долгое среднее время цикла.
 
 
 <figure>
   <img class="rounded shadowed" src="/img/queueing_theory/queueing-4.png" alt="queueing-4.png">
-  <figcaption>Fig. 1. A common myth or thinking mistake regarding queues in systems with variability.</figcaption>
+  <figcaption>Рис. 1. Распространённый миф или ошибка мышления по поводу очередей в системах с вариативностью.</figcaption>
 </figure>
 
 
-With the misunderstanding “*delay only starts when the highway is 100 percent full,* ” there is a misguided focus on trying to improve cycle time by *increasing* resource utilization---getting the people in product development to be more busy, usually by more multitasking. *This is the local-optimization thinking mistake.*
+Из-за заблуждения “*задержки начинаются только тогда, когда шоссе заполнено на 100 процентов,* ” возникает неправильный фокус на попытках улучшить время цикла путём *увеличения* утилизации ресурсов---заставляя людей, разрабатывающих продукт, быть более загруженными, как правило, за счёт увеличения многозадачности. *Это ошибка мышления, основанного на локальной-оптимизации.*
 
-What really happens to average cycle time when one increases the utilization level of things or people in a system with variability?
+Что на самом деле происходит, когда кто-то увеличивает уровень утилизации инструментов или людей в системах с вариативностью?
 
-At Xerox they have expensive, large digital print presses in a test lab. There is often a shared-resource queue of testing requests for one of these devices. Without understanding how queues really work (that is, believing they work as in Fig. 1) the management approach would be to encourage that these expensive systems are reserved and utilized close to 100 percent of the time. But the reality is that there is *variability* all over the place---a stochastic system. Tests arrive randomly, some fail quickly, some take forever to complete, sometimes the equipment breaks, and so forth. *This same variability of behavior applies to people and the queues of work that they work on* .
+В Xerox есть дорогие, большие цифровые печатные прессы в тестовой лаборатории. Часто возникает очередь разделяемого-ресурса из запросов на тестирование на одном из этих устройств. Без понимания того, как на самом деле работают очереди (точнее, вера в то, что они работают как на Рис. 1) подход к управлению должен был бы заключаться в том, чтобы способствовать резервированию и утилизации этих дорогостоящих систем, близкой к 100 процентам. Но реальность такова, что повсюду существует *варитивность*---стохастическая система. Тесты поступают случайно, некоторые  быстро завершаются с ошибкой, выполнение некоторых занимает целую вечность, иногда ломается оборудование и тому подобное. *Такая же вариативность существует и в поведении людей и в очередях работы, которую они выполняют* .
 
 <figure>
   <img class="rounded shadowed" src="/img/queueing_theory/queueing-5.JPG" alt="queueing-5.JPG">
-  <figcaption>Test lab at Xerox with shared-resource queues for equipment.</figcaption>
+  <figcaption>Тестовая лаборатория в  Xerox с очередями разделяемых-ресурсов для оборудования.</figcaption>
 </figure>
 
 ### Modeling a Basic Single-Arrival System with Queues
