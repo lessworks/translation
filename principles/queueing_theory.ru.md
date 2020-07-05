@@ -217,7 +217,7 @@ order: 100
   <figcaption>Тестовая лаборатория в  Xerox с очередями разделяемых-ресурсов для оборудования.</figcaption>
 </figure>
 
-### Моделирование Базовой Системы с Очередями с Одним-Входом
+### Моделирование Базовой Системы с Очередями и Единичным-Поступлением  
 
 Как ведут себя эти системы---в дорожном трафике, тестовых лабораториях, или в традиционной разработке, где люди сталкиваются с очередями НЗР? У вас уже сложилось понимание этого из истории о трафике. Математически, это поведение может быть моделировано в виде вариаций систем М/М. М/М означает, что  that the внутренний порядок поступления в очередь является Марковским, а также  порядок обработки элементов очереди тоже *Марковский*. Что такое Марковский: Простая концепция---некий случайный (стохастический) процесс, в котором состояние в будущем не может быть детерминировано на основании его прошлых состояний (см. [Цепь Маркова](https://ru.wikipedia.org/wiki/Цепь_Маркова) прим. переводчика); то есть, похоже на “беспорядочную реальность.”
 
@@ -245,42 +245,42 @@ order: 100
 {: .box_top_bottom .text_centered_bold }
 
 
-### Моделирование Пакетной Системы с Очередями (Традиционная Разработка)
+### Моделирование Пакетной Системы с Очередями  (Традиционная Разработка)
 
-Становится *ещё более* интересно (если вы сможете в это поверить)... Стандартная  система М/М/1/*∞* подразумевает, что элементы (на тестирование, анализ, разработку, ...) прибывают изолированно по *одному* ---что прибывающие элементы никогда не группируются (не объединяются в пакеты). Однако в традиционной разработке продуктов, пакеты работ *в действительности* прибывают большими, массивными партиями, такими как набор требований или задач на тестирование  или большой партии кода, которая должна быть интегрирована. Или ‘единственное’, как предполагается, требование может быть получено в форме: «обработка сделок с деривативами на рынке Бразилии», но что по факту тоже является пакетом суб-требований. Этот последний момент очень важно отметить, поскольку большое требование никогда *не* проходит через систему как один пакет требований, хотя "со стороны" это и может ошибочно казаться одним цельным пакетом требований.
+Становится *ещё более* интересно (если вы сможете в это поверить)...  Базовая система М/М/1/*∞* подразумевает, что элементы (на тестирование, анализ, разработку, ...) прибывают изолированно, по *одному*---что прибывающие элементы никогда не группируются (не объединяются в пакеты). Однако в традиционной разработке продуктов, пакеты работ *в действительности* прибывают большими, объёмными партиями, такими как набор требований или задач на тестирование  или большой партии кода, которая должна быть интегрирована. Или ‘единственное’, как предполагается, требование может быть получено в форме: «обработка сделок с деривативами на рынке Бразилии», но что по факту тоже является пакетом под-требований. Этот последний момент очень важно отметить, поскольку большое требование никогда *не* проходит через систему как один пакет требований, хотя "со стороны" это и может ошибочно казаться одним цельным пакетом требований.
 
 
 “Одно большое требование само по себе является пакетом” - это критически важный момент который будет рассмотрен далее.
 {: .box_top_bottom .text_centered_bold }
 
 
-So, instead of the simpler single-arrival M/M/1/∞ model (a single work item arrives), consider a M[x]/M/1/∞ system (a batch of items arrive). This model is a better analogy to traditional product development.
+Итак, вместо более простой системы с единичным-поступлением по модели М/М/1/∞ (на вход поступают отдельные, атомарные элементы работы), рассмотрим систему М[x]/М/1/∞ (на вход которой поступают пакеты элементов). Эта модель является лучшей аналогией традиционной продуктовой разработке.
 
 <figure>
   <img class="rounded shadowed" src="/img/queueing_theory/queueing-7.png" alt="queueing-7.png">
-  <figcaption>Waiting behavior in a M[x]/M/1/∞ system, somewhat analogous to traditional development with variable batches.</figcaption>
+  <figcaption>Ожидание в  системе М[x]/М/1/∞ - нечто cхожее с традиционной  разработкой с пакетами переменного размера.</figcaption>
 </figure>
 
 
-At first glance, people may not grasp the startling and counterintuitive implication of what just happened to their cycle time.
+С первого раза, люди могут не осознать такого поразительного и кажущегося нелогичным влияния на их время цикла.
 
-A scenario may help: Suppose a person or team is currently 50 percent utilized and you usually give them single small-sized requirements now and then that arrive with some randomness and some variability in size. Assume it will take them *two weeks* of hands-on work to complete a particular requirement-X. And assume it is the simple single-arrival system. As a table, here is an approximation of the average situation:
+Следующая история поможет разобраться: Представим человека или команду, загруженных на текущий момент на 50 процентов, вы обычно даёте им по одному требованию небольшого размера время от времени, которые поступают с некоторой случайностью и могут несколько отличаться в размере. Предположим  что им потребуется *две недели* фактической работы, чтобы выполнить некое требование-X. И предположим, что это простая система с одиночным поступлением. В таблице ниже приведена аппроксимация типовой ситуации:
 
 <table style="width:100%">
   <tr>
-    <th>Arrival</th>
-    <th>Utilization</th>
-    <th>Queue Time</th>
-    <th>Service Time</th>
-    <th>Cycle Time</th>
-    <th>Ratio CT/ST</th>
+    <th>Поступление</th>
+    <th>Утилизация</th>
+    <th>Время в Очереди (Ожидания)</th>
+    <th>Время Обработки (Обслуживания)</th>
+    <th>Время Цикла</th>
+    <th>Коэффициент ВремяЦикла/ВремяОбработки</th>
   </tr>
   <tr>
-    <td>single arrival</td>
+    <td>единичное поступление</td>
     <td>50%</td>
-    <td>2 weeks</td>
-    <td>2 weeks</td>
-    <td>4 weeks</td>
+    <td>2 недели</td>
+    <td>2 недели</td>
+    <td>4 недели</td>
     <td>2</td>
   </tr>
 </table>
@@ -288,69 +288,69 @@ A scenario may help: Suppose a person or team is currently 50 percent utilized a
 <br>
 
 
-Next, instead, suppose that you are typically giving the 50-percent-utilized team significantly bigger *batches* of requirements, or ‘one’ giant requirement that actually encompasses a big batch of sub-requirements; these arrive with some randomness and size differences. Assume it will take *twenty weeks* of hands-on service time to complete some particular batch-X or ‘single’ big requirement.
+Далее, наоборот, предположим что вы обычно даёте на 50 процентов загруженной команде существено бóльшие *пакеты* требований или по ‘одному’ гигантскому требованию, которые фактически включают в себя большой пакет под-требований; такие пакеты поступают с некой случайностью во времени и могут отличаться по размеру. Предположим, что непосредственно на обслуживание некоего пакета-X или одиночного требования уходит *двадцать недель*.
 
-Knowing the prior table, this is what some people will predict for big-batch arrivals:
+Основываясь на предыдущей таблице, вот какие значения некоторые люди прогнозировали бы для ситуации поступлением больших партий:
 
 <table style="width:100%">
   <tr>
-    <th>Arrival</th>
-    <th>Utilization</th>
-    <th>Queue Time</th>
-    <th>Service Time</th>
-    <th>Cycle Time</th>
-    <th>Ratio CT/ST</th>
+    <th>Поступление</th>
+    <th>Утилизация</th>
+    <th>Время в Очереди</th>
+    <th>Время Обработки</th>
+    <th>Время Цикла</th>
+    <th>Коэффициент ВремяЦикла/ВремяОбработки</th>
   </tr>
   <tr>
-    <td>single arrival</td>
+    <td>единичное поступление</td>
     <td>50%</td>
-    <td>2 weeks</td>
-    <td>2 weeks</td>
-    <td>4 weeks</td>
+    <td>2 недели</td>
+    <td>2 недели</td>
+    <td>4 недели</td>
     <td>2</td>
   </tr>
   <tr>
-    <td>if big batch?</td>
+    <td>а если большая партия?</td>
     <td>50%</td>
-    <td>20 weeks</td>
-    <td>20 weeks</td>
-    <td>40 weeks</td>
+    <td>20 недель</td>
+    <td>20 недель</td>
+    <td>40 недель</td>
     <td>2</td>
   </tr>
 </table>
 <br>
 <br>
 
-A gut instinct prediction is a *linear* increase in the cycle-time impact. Ten times as much work on average being pushed through the system, so ten times the cycle time. Four weeks versus 40 weeks.
+Предсказание, основанное на внутреннем ощущении *линейно* увеличивает воздействие на время цикла. В среднем в десять раз возросло количество работы "пропущенной" через систему, значит в десять раз должно возрасти время цикла. Четыре недели вместо сорока недель.
 
-But it does not work that way, because more variability is introduced into the system. So what happens?
+Но так это не работает, потому что в систему введено больше вариативности. Что же в таком случае происходит на самом деле?
 
-At 50 percent utilization, the cycle-to-service-time ratio is ‘5’ in the M[x]/M/1/∞ example. This approximates the contrasting situations:
+При 50-процентной утилизации, коэффициент времени цикла-к-обслуживанию  на самом деле ‘5’ в примере  М[x]/М/1/∞. Это приблизительно соответствует следующей ситуации, сильно отличающейся от предыдущего предположения:
 
 
 <table style="width:100%">
   <tr>
-    <th>Arrival</th>
-    <th>Utilization</th>
-    <th>Queue Time</th>
-    <th>Service Time</th>
-    <th>Cycle Time</th>
-    <th>Ratio CT/ST</th>
+    <th>Поступление</th>
+    <th>Утилизация</th>
+    <th>Время в Очереди</th>
+    <th>Время Обработки</th>
+    <th>Время Цикла</th>
+    <th>Коэффициент ВремяЦикла/ВремяОбработки</th>
   </tr>
   <tr>
-    <td>single arrival</td>
+    <td>единичное поступление</td>
     <td>50%</td>
-    <td>2 weeks</td>
-    <td>2 weeks</td>
-    <td>4 weeks</td>
+    <td>2 недели</td>
+    <td>2 недели</td>
+    <td>4 недели</td>
     <td>2</td>
   </tr>
   <tr>
-    <td>big batch</td>
+    <td>большая партия</td>
     <td>50%</td>
-    <td>80 weeks</td>
-    <td>20 weeks</td>
-    <td>100 weeks</td>
+    <td>80 недель</td>
+    <td>20 недель</td>
+    <td>100 недель</td>
     <td>5</td>
   </tr>
 </table>
@@ -358,23 +358,23 @@ At 50 percent utilization, the cycle-to-service-time ratio is ‘5’ in the M[x
 <br>
 
 
-Things just got a *lot* worse. Of course, these are averages and cannot be assumed for any one real case, and this model is a simplified abstraction of development. But this is why understanding---and acting on the insight---of queueing theory is useful for large-scale development, because large systems are often associated with big requirements, and big work (requirements, testing, integration, ...) in big batches arriving at variable times, with workers that are expected to be 100% utilized (busy) at all times. That can have an astonishing impact on average cycle time.
 
 So pushing for high utilization rates of workers in this situation with big batches of work is a recipe for... sloooow. The reality will be a super-linear increase in cycle time. This impact on delay and queue size defies our instinct because people are not used to analyzing stochastic systems with queues. One might think, “If I make the work package ten times bigger, it will take ten times as long to exit the system.” Do not count on it.
+Всё стало *намного* хуже. Конечно, это некие усреднения и они не могут быть приняты ни для какого реального случая и эта модель является упрощённой абстракцией реальной продуктовой разработки. Но вот почему понимание---и действие в соответствии с этим пониманием---теории массового обслуживания применимо для крупно-масштабной разработки. Потому что большие системы часто связаны с масштабными требованиям, и большим количеством работы (разработка требований, тестирование, интеграция, ...) в больших партиях, прибывающих в случайное время, с работниками, утилизация (загрузка) которых ожидается  около 100%  на протяжении всего времени. Это может оказать невероятное влияние не среднее время цикла.
 
-And these delays are further aggravated in traditional sequential development because there are a *series* of processes with WIP queues in front of them; this compounds the variability and adds more negative impact to the overall average cycle time. The *Law of Variability Placement* [[HS08]](http://www.amazon.com/Factory-Physics-Wallace-J-Hopp/dp/1577667395/ref=sr_1_1?ie=UTF8&qid=1413686585&sr=8-1&keywords=Factory+Physics) reveals that the worst place for variability (in terms of negative cycle-time impact) is at the front end of a multi-stage system with queues. This is what happens in phase-one requirements analysis with large batches of specifications.
+И эти задержки ещё более усугубляются в традиционной последовательной разработке, поскольку  существуют *серии* процессов с очередями НЗР перед ними; это усугубляет вариативность и добавляет больше негативного влияния на общее среднее время цикла. *Закон Распределения Вариативности* [[HS08]](http://www.amazon.com/Factory-Physics-Wallace-J-Hopp/dp/1577667395/ref=sr_1_1?ie=UTF8&qid=1413686585&sr=8-1&keywords=Factory+Physics) показывает, что худшее место для вариативности (в плане негативного воздействия на время цикла) - в самом начале многоступенчатой системы с очередями. Это как раз то, что происходит в традиционной разработке на первой фазе анализа требований с большими порциями спецификаций.
 
-### Conclusion
+### Заключение
 
-So, what has been learned?
+Итак, что мы узнали?
 
-* product development is a stochastic system with queues; it is nonlinear and non-deterministic
-* behavior of a stochastic system with queues defies our instincts
-* batch size, size of requirements, and utilization levels affect queue size and cycle time in nonlinear random ways that are not obvious---throughput can get *slow* if not understood
-* queue size affects cycle time
-* in a variable system, high utilization *increases* cycle time and lowers throughput---it does not help; a traditional resource management approach [[for example, McGrath04]](http://www.amazon.com/Next-Generation-Product-Development-Productivity/dp/0071435123) can make things worse by focusing on the local optimization of worker busyness rather than system throughput
-* a system with variability and a series of processes and WIP queues further aggravates the delay; this situation describes traditional sequential development
-* variability at the front end of multi-step system with queues has the worst impact
+* разработка продуктов  - это стохастическая система с очередями; она нелинейна и не детерминирована
+* поведение стохастической системы с очередями противоречит нашим инстинктивным, внутренним ощущениям
+* размер партии, размеры требования и степень утилизации влияют на размер очереди и время цикла нелинейным, случайным способом, который не является очевидным---другими словами, пропускная способность  может *уменьшаться*
+* размер очереди влияет на время цикла
+* в изменчивой системе, высокая утилизация *увеличивает* время цикла и снижает пропускную способность---традиционный подход к управлению ресурсами здесь не помогает [[например, McGrath04]](http://www.amazon.com/Next-Generation-Product-Development-Productivity/dp/0071435123) и может, наоборот, усугубить ситуацию если сосредоточиться  на локальной оптимизации загрузки рабочих вместо пропускной способности системы
+* система с вариативностью и серией процессов с очередями НЗР еще больше усугубляет задержку; эта ситуация характеризует традиционную последовательную разработку ПО
+* высокая вариативность на входе многоступенчатой системы с очередями имеет наиболее пагубные последствия
 
 
 
