@@ -263,9 +263,6 @@ It is this real-world variability that creates, on average, this increased queue
 {: .box_top_bottom .text_centered_bold }
 
 
-<p>It is this real-world variability that creates, on average, this increased queue size and waiting time in product development. </p>
-
-
 ### Modeling a Batch System with Queues (Traditional Development)
 
 It gets *even more* interesting (if you could believe that)... The basic M/M/1/*∞* system assumes that a *single* item (for testing, analysis, programming, ...) arrives in isolation---that arriving items are never clumped (or batched). Yet in traditional product development, work packages *do* arrive in big clumpy batches, such as sets of requirements or testing work or code to be integrated. Or an apparent ‘single’ requirement is received such as “handle Brazil-market bond derivatives trades” that is in fact itself a batch of sub-requirements. This last point is very important to note, because a big requirement inevitably does *not* flow through the system as one work package, although it is incorrectly viewed as one work package "from a distance."

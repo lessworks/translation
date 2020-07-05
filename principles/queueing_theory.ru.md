@@ -210,50 +210,47 @@ order: 100
 
 Что на самом деле происходит, когда кто-то увеличивает уровень утилизации инструментов или людей в системах с вариативностью?
 
-В Xerox есть дорогие, большие цифровые печатные прессы в тестовой лаборатории. Часто возникает очередь разделяемого-ресурса из запросов на тестирование на одном из этих устройств. Без понимания того, как на самом деле работают очереди (точнее, вера в то, что они работают как на Рис. 1) подход к управлению должен был бы заключаться в том, чтобы способствовать резервированию и утилизации этих дорогостоящих систем, близкой к 100 процентам. Но реальность такова, что повсюду существует *варитивность*---стохастическая система. Тесты поступают случайно, некоторые  быстро завершаются с ошибкой, выполнение некоторых занимает целую вечность, иногда ломается оборудование и тому подобное. *Такая же вариативность существует и в поведении людей и в очередях работы, которую они выполняют* .
+В Xerox есть дорогие большие цифровые печатные прессы в тестовой лаборатории. Часто возникает очередь разделяемого-ресурса из запросов на тестирование на одном из этих устройств. Без понимания того, как на самом деле работают очереди (точнее, вера в то, что они работают как на Рис. 1) подход к управлению должен был бы заключаться в том, чтобы способствовать резервированию и утилизации этих дорогостоящих систем, близкой к 100 процентам. Но реальность такова, что повсюду существует *вариативность*---стохастическая система. Тесты поступают случайно, некоторые  быстро завершаются с ошибкой, выполнение некоторых занимает целую вечность, иногда ломается оборудование и тому подобное. *Такая же вариативность существует и в поведении людей и в очередях работы, которую они выполняют* .
 
 <figure>
   <img class="rounded shadowed" src="/img/queueing_theory/queueing-5.JPG" alt="queueing-5.JPG">
   <figcaption>Тестовая лаборатория в  Xerox с очередями разделяемых-ресурсов для оборудования.</figcaption>
 </figure>
 
-### Modeling a Basic Single-Arrival System with Queues
+### Моделирование Базовой Системы с Очередями с Одним-Входом
 
-How do these systems behave---in traffic, test labs, or traditional development with people working on WIP queues? You have a sense of it from the traffic story. Mathematically, the behavior may be modeled as variations of M/M systems. M/M means that the inter-arrival rate into the queue is Markovian and the service rate is *Markovian*. (Markovian: A simple concept---a random process with probabilities (stochastic) in which the future state cannot be deterministically known from the present state; that is, similar to  “messy reality.”)
+Как ведут себя эти системы---в дорожном трафике, тестовых лабораториях, или в традиционной разработке, где люди сталкиваются с очередями НЗР? У вас уже сложилось понимание этого из истории о трафике. Математически, это поведение может быть моделировано в виде вариаций систем М/М. М/М означает, что  that the внутренний порядок поступления в очередь является Марковским, а также  порядок обработки элементов очереди тоже *Марковский*. Что такое Марковский: Простая концепция---некий случайный (стохастический) процесс, в котором состояние в будущем не может быть детерминировано на основании его прошлых состояний (см. [Цепь Маркова](https://ru.wikipedia.org/wiki/Цепь_Маркова) прим. переводчика); то есть, похоже на “беспорядочную реальность.”
 
-A common, basic queueing model is M/M/1/*∞* ---it has one server (for example, one test printer or team) and an infinite queue. (Development queues are not normally infinite, but this simplification does not impact the basic pattern of how the systems behave.)
+Наиболее распространённую, базовую модель очереди можно обозначить так: М/М/1/*∞* ---она имеет один обработчик (например, один тестовый принтер или команду) и бесконечную очередь. (Очереди в разработке, как правило, не бесконечны, но это упрощение не повлияет на базовый паттерн поведения системы.)
 
-Now it starts to get interesting... In a M/M/1/*∞* system, how does cycle and service time relate to utilization of the server---be it a test printer or people working on WIP queues? See waiting behavior for a basic M/M/1/∞ system. shows the behavior [[Smith07]](http://www.amazon.com/Flexible-Product-Development-Building-Changing/dp/0787995843/ref=sr_1_1?ie=UTF8&qid=1413673423&sr=8-1&keywords=flexible+product+development).
+Теперь становится интереснее ... Как в системе М/М/1/*∞*, соотносится время цикла и время обслуживания с загрузкой обработчика---будь то тестовый принтер или люди, работающие с очередями НЗР? График "Ожидание в базовых системах М/М/1/∞." показывает это [[Smith07]](http://www.amazon.com/Flexible-Product-Development-Building-Changing/dp/0787995843/ref=sr_1_1?ie=UTF8&qid=1413673423&sr=8-1&keywords=flexible+product+development).
 
-These are *averages* in See waiting behavior for a basic M/M/1/∞ system, because elements have random variability, such as:
+На графике "Ожидание в базовых системах М/М/1/∞." показаны *примерные* значения, поскольку факторы имеют случайную вариативность, например:
 
-* requests arrive at different times with different effort
-* tests or programming effort take variable time
-* people work faster or slower, get sick, or work longer or shorter
+* запросы поступают в разное время с разной интенсивностью
+* усилия, необходимые на тесты или программирование, занимают разное время
+* люди могут работать быстрее или медленнее, заболеть, работать дольше или меньше
 
 
 <figure>
   <img class="rounded shadowed" src="/img/queueing_theory/queueing-6.png" alt="queueing-6.png">
-  <figcaption> Waiting behavior for a basic M/M/1/∞ system.</figcaption>
+  <figcaption>Ожидание в базовых системах М/М/1/∞.</figcaption>
 </figure>
 
 
-The essential point to grasp is that an item (such as a requirement request) starts sitting in a queue waiting for service long before people are 100 percent utilized. It is also fascinating to see the impact of increased utilization of people on cycle time: *As utilization goes up in a system with lots of variability, average cycle time gets worse, not better.* This is counterintuitive to an average accountant or management consultant who has been taught to “improve productivity by increasing utilization of resources.” Most have not been exposed to queueing theory---how to understand stochastic systems with queues (people doing work with variability)---and so demonstrate a thinking mistake.
+Существенный момент, который следует осознать, заключается в том, что элемент (например, такой, как запрос нового требования) начнёт попадать в очередь, ожидая обслуживания, задолго до того, как люди будут загружены на 100 процентов. Также удивительно увидеть влияние увеличения загрузки людей на время цикла: *Когда загрузка возрастает, в системе с большой вариативностью, среднее время цикла ухудшается, не улучшается.* Это контринтуитивно для заурядного бухгалтера или консультанта по вопросам управления  который был обучен “улучшать продуктивность путём увеличения утилизации ресурсов.” Большинство из них не были знакомы с теорией массового обслуживания have---как понимать стохастическую систему с очередями (людей, выполняющих работу с вариативностью)---и поэтому демонстрируют распространённую ошибку мышления.
 
 
-It is this real-world variability that creates, on average, this increased queue size and waiting time in product development.
+Именно эта изменчивость реальной жизни, в основном, и увеличивает размер очереди и время ожидания в разработке продуктов.
 {: .box_top_bottom .text_centered_bold }
 
 
-<p>It is this real-world variability that creates, on average, this increased queue size and waiting time in product development. </p>
+### Моделирование Пакетной Системы с Очередями (Традиционная Разработка)
+
+Становится *ещё более* интересно (если вы сможете в это поверить)... Стандартная  система М/М/1/*∞* подразумевает, что элементы (на тестирование, анализ, разработку, ...) прибывают изолированно по *одному* ---что прибывающие элементы никогда не группируются (не объединяются в пакеты). Однако в традиционной разработке продуктов, пакеты работ *в действительности* прибывают большими, массивными партиями, такими как набор требований или задач на тестирование  или большой партии кода, которая должна быть интегрирована. Или ‘единственное’, как предполагается, требование может быть получено в форме: «обработка сделок с деривативами на рынке Бразилии», но что по факту тоже является пакетом суб-требований. Этот последний момент очень важно отметить, поскольку большое требование никогда *не* проходит через систему как один пакет требований, хотя "со стороны" это и может ошибочно казаться одним цельным пакетом требований.
 
 
-### Modeling a Batch System with Queues (Traditional Development)
-
-It gets *even more* interesting (if you could believe that)... The basic M/M/1/*∞* system assumes that a *single* item (for testing, analysis, programming, ...) arrives in isolation---that arriving items are never clumped (or batched). Yet in traditional product development, work packages *do* arrive in big clumpy batches, such as sets of requirements or testing work or code to be integrated. Or an apparent ‘single’ requirement is received such as “handle Brazil-market bond derivatives trades” that is in fact itself a batch of sub-requirements. This last point is very important to note, because a big requirement inevitably does *not* flow through the system as one work package, although it is incorrectly viewed as one work package "from a distance."
-
-
-“One big requirement is itself a batch” is a critical point that will be revisited later.
+“Одно большое требование само по себе является пакетом” - это критически важный момент который будет рассмотрен далее.
 {: .box_top_bottom .text_centered_bold }
 
 
