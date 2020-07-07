@@ -383,15 +383,15 @@ So pushing for high utilization rates of workers in this situation with big batc
 
 
 
-## Hidden Batches: Eyes for Batches
+## Скрытые Партии: Чутьё на Партии
 
-If you bake three cherry pies at the same time, then it is clear that there is a batch of three items. Things are not so clear in product development: What exactly is ‘one’ requirement? At one level, “handle bond derivative trades” is one requirement, but it is also a *composite requirement* or a batch of sub-requirements that can be split. These hidden batches need to be seen.
+Если вы печёте три вишнёвых пирога в одно и то-же время, то очевидно, что это партия из трёх пирогов. Но в разработке продуктов не всё так очевидно: Что в точности из себя представляет ‘одно’ требование? На каком-то уровне, “обработка сделок с облигациями и ценными бумагами” является одним требованием, но на другом уровне это также и *составное требование* или партия (пакет) под-требований которое может быть разделено. Нужно научиться распознавать такие скрытые партии.
 
 ![queueing-8.jpg](/img/queueing_theory/queueing-8.jpg)
 
-As we've seen, a system with queues behaving like a M[x]/M/1/∞ model and high utlization rates means that variable-sized big batches are bad for cycle time. And so-called *single* large items with variability are bad for cycle time, as they are hidden big batch. So, the implication for queue management in LeSS is this:
+Как мы увидели,  в системе с очередями, ведущей себя в соответствии с моделью М[x]/М/1/∞ и с высоким коэффициентом утилизации, большие партии переменного размера пагубно влияют на время цикла. И, так называемые, *одиночные* большие элементы с вариативностью также ухудшают время цикла, поскольку на самом деле за ними скрываются большие партии. Таким образом, выводы об управлении очередями в LeSS заключаются в следующем:
 
-To reduce average cycle time, maintain slack in the system (not "100% busy") and (eventually, incrementally) reduce all apparently ‘single’ big items (requirements) in the Product Backlog to small and roughly equal-sized items.
+Чтобы уменьшить среднее время цикла, поддерживайте некоторое бездействие в системе (не допускайте "100% загрузки") и (со временем, постепенно) сокращайте все якобы ‘одиночные’ большие элементы (требования) в Бэклоге Продукта до небольших и примерно одинаковых по размеру элементов.
 {: .box_top_bottom .text_centered_bold }
 
 
@@ -402,20 +402,20 @@ To reduce average cycle time, maintain slack in the system (not "100% busy") and
 
 
 
-## Hidden Queues: Eyes for Queues
+## Скрытые Очереди: Чутьё на Очереди
 
-When people join Toyota, they learn “Eyes for Waste.” They learn to see things as waste that they had not considered, such as *inventory* ---queues of stuff. Now, queues of *physical* things are easy for people to perceive, and to perceive as a problem... My goodness, there’s a *gigantic* pile of *Stuff* queuing up over there! Making any money from the pile? Are there defects in there? Does it need to be combined with other stuff before we can ship it? Do we need---and will we make money with---*each and every item* in the pile?
+Когда люди приходят в Toyota, их учат иметь “Чутьё ("Нюх") на Потери.” Они учатся находить потери в тех вещах, которые ранее они не считали таковыми, таких как *запасы* ---например, очереди товара или деталей. После такого обучения, людям легко заметить очереди из *физических* вещей, и распознать это как проблему... Боже мой, да там *гигантская* груда всякого *Барахла* стоящего в очереди! Делаются ли какие-то деньги из этой кучи? Кто знает, есть ли там дефекты? Нужно ли объединить это с какими-то другими деталями, для того чтобы мы смогли поставить это? Действительно ли нам нужны ---и мы сможем сделать из этого деньги---*все без исключения* вещи в этой груде?
 
-**Invisible queues**{: style="color: #1997C0"}---In traditional development there are also all kinds of queues, but because they are *invisible* they are not seen as queues or *keenly felt* as problems. If you are a business person who has invested ten million euros to create a gigantic pile of partially done *Stuff* sitting on the floor, not making any money, you walk by it and *see it* and you feel the pain and urgency to get it moving. And you think about no longer making big piles of partially done stuff. But product development people do not really see and feel the pain of their queues.
+**Незаметные очереди**{: style="color: #1997C0"}---В традиционной разработке также существуют все виды очередей, но из-за того что они *незаметные*, они не видятся как очереди или не *остро ощущаются* как проблемы. Если вы бизнесмен, который инвестировал десять миллионов евро для создания гигантской груды частично сделанного *Барахла*, лежащего на полу, не приносящего никаких денег, вы пройдёте мимо него, *ощутите его* и тогда вы почувствуете всю боль и срочность, достаточную для того, чтобы заставить это двигаться. И тогда вы подумаете о том, что больше никогда не будете создавать такие большие груды частично сделанных вещей. Но люди в продуктовой разработке не видят и не ощущают настолько всю боль от их очередей.
 
-Yet, they *are* there. Queues of WIP---information, documents, and bits on a disk. Invisible queues. Product development people need a lesson in “Eyes for Queues” so that they can start to perceive what is going on, and develop a sense of urgency about reducing queue sizes.
+Но всё же,  они  там *есть*. Очереди НЗР---информация, документация и биты на диске. Незаметные очереди. Люди из разработки продуктов нуждаются в хорошем уроке по “Чутью на Очереди”, чтобы они начали ощущать что происходит и вырабатывать ощущение срочности в отношении уменьшения размеров очередей.
 
-**Visual management for tangible queues**{: style="color: #1997C0"}---To develop “eyes for queues” and a sense of attention, one lean practice is *visual management*, making *physical* tokens (not tokens in a computer program) for these queues. For example, a popular technique is to represent all the tasks for a Sprint on paper cards that are placed on the wall and moved around as tasks are completed. Similarly for the high-priority top of the Product Backlog. These *physical tangible* cards make truly visible the invisible queues that are hidden away inside computer. Hiding this information into computers defeats the purpose of lean visual (physical) management and the way *humans*---with countless eons of evolutionary instinct working with concrete things---need to *see and feel tangible queues* .
+**Визуальное управление для  осязаемых (материальных) очередей**{: style="color: #1997C0"}---Чтобы развить“Чутьё на Очереди” и внимательность , существует одна  практика в бережливом подходе *визуальное управление*, создание *физических* жетонов (не в компьютерной программе) для этих очередей. Например, популярная  практика -  представить все задачи в Спринте в виде бумажных карточек, которые располагаются на стене и перемещаются по мере выполнения задач. Аналогично для высокоприоритетных задач в Бэклоге Продукта. Эти *физические, ощутимые* карточки делают по-настоящему видимыми незаметные очереди которые скрыты где-то внутри компьютера. Сокрытие этой информации внутри компьютеров противоречит этому стремлению бережливого подхода визуального (физического) управления and тому как *люди*---с бессчётным количеством эпох эволюции вырабатывающие инстинкт работать с конкретными, ощутимыми вещами---нуждаются в  том чтобы *видеть и чувствовать осязаемые очереди* .
 
 
 <figure>
   <img class="rounded shadowed" src="/img/queueing_theory/queueing-9.JPG" alt="queueing-9.JPG">
-  <figcaption>Visual (physical tokens) management make visible the invisible queues and WIP.</figcaption>
+  <figcaption>Визуальное управление (физические карточки) делает видимым незаметные очереди и НЗР.</figcaption>
 </figure>
 
 
@@ -424,7 +424,7 @@ Yet, they *are* there. Queues of WIP---information, documents, and bits on a dis
 
 
 
-## Indirect Benefits of Reducing Batch Size and Cycle Time
+## Косвенные Преимущества Уменьшения Размеров Партий и Времени Цикла
 
 “Why bother? Our customers don’t want a release every two weeks, nor do they want just a sub-requirement.”
 
