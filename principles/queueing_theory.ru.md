@@ -406,7 +406,7 @@ So pushing for high utilization rates of workers in this situation with big batc
 
 Когда люди приходят в Toyota, их учат иметь “Чутьё ("Нюх") на Потери.” Они учатся находить потери в тех вещах, которые ранее они не считали таковыми, таких как *запасы* ---например, очереди товара или деталей. После такого обучения, людям легко заметить очереди из *физических* вещей, и распознать это как проблему... Боже мой, да там *гигантская* груда всякого *Барахла* стоящего в очереди! Делаются ли какие-то деньги из этой кучи? Кто знает, есть ли там дефекты? Нужно ли объединить это с какими-то другими деталями, для того чтобы мы смогли поставить это? Действительно ли нам нужны ---и мы сможем сделать из этого деньги---*все без исключения* вещи в этой груде?
 
-**Незаметные очереди**{: style="color: #1997C0"}---В традиционной разработке также существуют все виды очередей, но из-за того что они *незаметные*, они не видятся как очереди или не *остро ощущаются* как проблемы. Если вы бизнесмен, который инвестировал десять миллионов евро для создания гигантской груды частично сделанного *Барахла*, лежащего на полу, не приносящего никаких денег, вы пройдёте мимо него, *ощутите его* и тогда вы почувствуете всю боль и срочность, достаточную для того, чтобы заставить это двигаться. И тогда вы подумаете о том, что больше никогда не будете создавать такие большие груды частично сделанных вещей. Но люди в продуктовой разработке не видят и не ощущают настолько всю боль от их очередей.
+**Незаметные очереди**{: style="color: #1997C0"}---В традиционной разработке также существуют все виды очередей, но из-за того что они *незаметные*, они не видятся как очереди или не *ощущаются остро* как проблемы. Если вы бизнесмен, который инвестировал десять миллионов евро для создания гигантской груды частично сделанного *Барахла*, лежащего на полу, не приносящего никаких денег, вы пройдёте мимо него, *ощутите его* и тогда вы почувствуете всю боль и срочность, достаточную для того, чтобы заставить это двигаться. И тогда вы подумаете о том, что больше никогда не будете создавать такие большие груды частично сделанных вещей. Но люди в продуктовой разработке не видят и не ощущают настолько всю боль от их очередей.
 
 Но всё же,  они  там *есть*. Очереди НЗР---информация, документация и биты на диске. Незаметные очереди. Люди из разработки продуктов нуждаются в хорошем уроке по “Чутью на Очереди”, чтобы они начали ощущать что происходит и вырабатывать ощущение срочности в отношении уменьшения размеров очередей.
 
@@ -426,36 +426,36 @@ So pushing for high utilization rates of workers in this situation with big batc
 
 ## Косвенные Преимущества Уменьшения Размеров Партий и Времени Цикла
 
-“Why bother? Our customers don’t want a release every two weeks, nor do they want just a sub-requirement.”
+“К чем беспокоиться? Наши клиенты не хотят обновлений каждые две недели, также как они не хотят получать только результаты под-требований вместо масштабных обновлений.”
 
-We get this question regularly from product groups and business people. They do not yet appreciate the advantages of small batches in short cycles:
+Мы слышим такой вопрос регулярно от продуктовых групп и людей, приближенных к бизнесу. Они еще не оценили преимущества небольших партий в коротких циклах:
 
-* The *overall* larger release-cycle-time reduction that can come by eradicating queues and by applying queue management so that many development cycles are shorter.
-* The elimination of **batch delay** , where one feature is unnecessarily held back because it is moving through the system attached to a larger batch of other requirements. Eliminating this provides another degree of freedom for the business to ship a smaller product earlier with the highest-priority features.
-* And last but not least, there are *indirect* benefits due to the “*lake and rocks* ” effect described next.
+* *Общее* глобальное сокращение времени-релизного-цикла, которое может случиться благодаря ликвидации очередей и применению практик управления очередями, таким образом многие циклы в разработки становятся короче.
+* Устранение **пакетной задержки**, когда одна небольшая новая функциональность неоправданно сдерживается из-за того, что она связанна с большой партией других требований. Устранение этого переводит вас на следующую ступень свободы, что позволяет поставлять меньший продукт раньше с выско-приоритетной функциональностью .
+* Последнее, но при этом не менее важное,  существуют *косвенные* преимущества благодаря эффекту “*камни в озере* ”, описанному ниже.
 
 
-### Indirect Benefits: The Lake and Rocks Metaphor
+### Косвенные Преимущества: Метафора о Камнях в Озере
 
-A metaphor shared in lean education: **the lake and rocks**. The depth of the water may represent the inventory level, batch size, iteration length, or cycle time. When the water is high (large batch or inventory size, or iteration length), many rocks are hidden. These rocks represent weaknesses. For example, consider an eighteen- month sequential release cycle with a massive batch transfer; inefficient testing, integration, and poor collaboration are all hidden below the surface of such a long cycle and such a large batch. But if we work with that group and ask, “Please deliver a small set of small features that is potentially shippable in two weeks, every two weeks,” then suddenly all the ineffective practices become painfully obvious.
+Метафора из бережливого подхода: **камни в озере**. Глубина озера представляется в виде количества запасов, размеров партий, длины итерации, или времени цикла. Когда вода в озере высока (большие объёмы партий, или количество запасов, или длина итерации), многие подводные камни скрыты на дне озера. Эти камни представляют собой недостатки. Например, рассмотрим  восемнадцатимесячный цикл релиза с масштабным пакетом изменений; неэффективное тестирование, интеграция, плохое взаимодействие скрыты под "поверхностью" такого длинного цикла и такого огромного пакета требований. Но если бы мы работали с этой группой и попросили бы их: “Пожалуйста, создавайте готовый к поставке небольшой набор новой функциональности каждые две недели,” то все неэффективные практики неожиданно стали бы болезненно очевидными.
 
 
 <figure>
   <img class="rounded shadowed" src="/img/queueing_theory/queueing-10.jpg" alt="queueing-10.jpg">
-  <figcaption>Reducing batch size (or cycle time) exposes hidden weaknesses.</figcaption>
+  <figcaption>Уменьшение размеров партий (или времени цикла) обнажает скрытые недостатки.</figcaption>
 </figure>
 
 
 
-Said another way, the *transaction cost* (overhead cost) of the old process cycle becomes unacceptable. That pain then becomes a force for improvement, because people cannot stand re-experiencing it each short cycle, and indeed it may simply be impossible to the iteration goals with the old inefficient system of development.
+Говоря другими словами, *операционные затраты* (накладные расходы) из предыдущего цикла процесса становятся неприемлемыми. Эта боль затем станет позывом к улучшению, поскольку люди не смогут вынести повторения этого снова и снова, в каждом коротком цикле, и на самое деле это может быть просто недопустимо для целей итерации: оставаться в рамках старой неэффективной системы разработки.
 
-*Tip*: Not all ‘rocks’ are big or immediately visible. The lean journey---and the journey of Scrum---is to *start with the big rocks* that are most painfully obvious yet movable, and over time work on smaller impediments.
+*Совет*: Не все ‘камни’ достаточно большие, чтобы быть замеченными сразу. Путь бережливого подхода---и путь Скрам---заключается в том, чтобы *начать с больших камней* которые наиболее болезненны однако, по всей видимости, подвержены устранению и со временем уже работать с меньшими препятствиями.
 
-This causal loop diagram (the notation is explained in [Systems Thinking](./systems_thinking.html)) illustrates this lake and rocks effect in terms of a system dynamics model:
+Эта диаграмма причинно-следственной связи (нотация диаграммы объясняется в  ["Системном Мышлении"](./systems_thinking.html)) иллюстрирует эффект камней на дне озера в терминах модели системной динамики:
 
 <figure>
   <img class="rounded shadowed" src="/img/queueing_theory/queueing-11.png" alt="queueing-11.png">
-  <figcaption>Indirect and delayed benefits of reducing batch and cycle size.</figcaption>
+  <figcaption>Косвенные преимущества и последующие отложенные выгоды уменьшения размера партий и времени цикла.</figcaption>
 </figure>
 
 
