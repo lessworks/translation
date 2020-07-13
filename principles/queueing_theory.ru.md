@@ -467,59 +467,59 @@ So pushing for high utilization rates of workers in this situation with big batc
 
 
 
-## Applying Queue Management in LeSS
+## Применение Управления Очередями в LeSS
 
-There are dozens of strategies to manage queues. [Managing the Design Factory](http://www.amazon.com/Managing-Design-Factory-Donald-Reinertsen/dp/0684839911/ref=sr_1_1?ie=UTF8&qid=1413688897&sr=8-1&keywords=managing+the+design+factory) by Don Reinertsen explains many. However, we want to focus on a few key steps in a LeSS context:
+Существуют десятки стратегий для управления Очередями. ["Managing the Design Factory"](http://www.amazon.com/Managing-Design-Factory-Donald-Reinertsen/dp/0684839911/ref=sr_1_1?ie=UTF8&qid=1413688897&sr=8-1&keywords=managing+the+design+factory)  Дональда Рейнертсена рассказывает о многих из них. Однако, в контексте LeSS мы хотели бы сфокусироваться на нескольких ключевых шагах:
 
-1. change the system to utterly eradicate queues
-2. learn to see remaining queues with visual management
-3. reduce variability
-4. limit queue size
+1. измените саму систему чтобы полностью ликвидировать очереди
+2. научитесь обнаруживать оставшиеся очереди с помощью визуального управления
+3. уменьшайте вариативность
+4. ограничивайте размер очереди
 
-*Change the system*{: style="color: #1997C0"}---Must you manage *existing* queues? Step outside the box. For example,  feature teams and acceptance TDD and continuous deployment eliminate many queues in traditional development.
+*Измените систему*{: style="color: #1997C0"}---Должны ли вы управлять *существующими* очередями? Шагните за границы привычного мышления. Например, фича-команды, приёмочное TDD, непрерывная поставка - всё это помогает избавиться от многих очередей в традиционной разработке.
 
-*Reduce variability*{: style="color: #1997C0"}---Some people first try to reduce work queues by increasing utilization or multitasking (with negative results), or by adding more developers. True, adding people---if they are talented---can help (there are exceptions), but it is expensive and takes time. People who have grasped queue management recognize a simpler place to start: Reduce [special-cause variability](https://en.wikipedia.org/wiki/Common_cause_and_special_cause_(statistics)), which includes reduction in batch size.
+*Уменьшайте вариативность*{: style="color: #1997C0"}---Некоторые люди сначала пытаются уменьшить рабочие очереди через увеличение утилизации или многозадачность (с отрицательным результатом), или добавляя больше разработчиков. Действительно, добавление людей---если они талантливы---может помочь (за некоторыми исключениями), но это дорого и требует времени. Люди, которые достаточно понимают управление очередями, осознали более простую отправную точку: Уменьшайте [вариативность особого характера](https://en.wikipedia.org/wiki/Common_cause_and_special_cause_(statistics)), которая включает в себя сокращение размера партии.
 
-It is possible to view the Product Backlog as one big near-infinite priority queue, but we suggest a more fine-grained view. It has distinct subsets. One view is that it contains two subsets: (1) the list for the current release (which ideally is every Sprint), and (2) the “future backlog.” A second perspective is that the Product Backlog contains the following two subsets:
+Можно представить Бэклог Продукта как некую большую почти бесконечную приоритизированную очередь, но мы рекомендуем более детальный взгляд. Он имеет различные подмножества. Согласно одной точке зрения он содержит два подмножества: (1) список элементов, входящих в текущий релиз (который в идеале должен быть каждый Спринт), и (2)  “будущий бэклог”. Другой взгляд заключается в том, что Бэклог Продукта содержит два следующих подмножества:
 
-* the *clear-fine* subset of items that are clearly analyzed, well estimated, and fine grained enough to do in much less than Sprint for one team
-* the *vague-coarse* subset of coarse-grained items needing more analysis, estimation, and splitting before entering the clear-fine subset
+**ясное-очищенное* подмножество из элементов, которые детально проанализированы, хорошо оценены, прекрасно раздроблены и сбалансированы так, чтобы их можно было сделать за гораздо меньшее время, чем длится Спринт для одной команды
+* *нечёткое-грубое* подмножество крупно-дроблёных элементов разного размера нуждающихся в более детальном анализе, оценке и разделении на более мелкие, для того чтобы попасть в "ясное-очищенное" подмножество
 
-The "current release" and "future" subsets may both contain clear-fine and vague-coarse items. At the start of a release cycle, the "current release" typically contains mostly vague-coarse items, and Sprint by Sprint they are refined into clear-fine items, and then implemented.
+Подмножества "текущий релиз" и "будущий бэклог" оба могут содержать ясные-очищенные и нечёткие-грубые элементы. В начале цикла релиза , "текущий релиз" как правило содержит, в основном, нечёткие-грубые элементы, и Спринт за Спринтом они уточняются, пока не станут ясными-очищенными, а затем реализованными.
 
-This leads to some key points:
+Это подводит к некоторым ключевым моментам:
 
-* It is common---and advisable---in LeSS to prioritize only the clear-fine subset of the "current release".
-* In LeSS, this “clear-fine priority queue” is the critical queue of implementation work before the teams.
-* The vague-coarse subset is a *feeding queue* of items into a Product Backlog Refinement process that adds high-quality small items to the clear-fine subset.
+* В LeSS принято---и рекомендуется---приоритизировать только ясное-очищенное подмножество "текущего релиза".
+* В LeSS, такая “ясная-очищенная приоритизированная очередь” является критически важной очередью работы, стоящей перед командами.
+* Нечёткое-грубое подмножество является некой *очередью подачи* элементов в процесс Уточнения Бэклога Продукта, который добавляет высококачественные небольшие элементы в ясное-очищенное подмножество.
 
 <figure>
   <img class="rounded shadowed" src="/img/queueing_theory/queueing-12.png" alt="queueing-12.png">
-  <figcaption>Product Backlog contains several queues.</figcaption>
+  <figcaption>Бэклог Продукта содержит несколько очередей.</figcaption>
 </figure>
 
 
 
-Before getting carried away with the idea of variability reduction...new development is not manufacturing; without variation nothing *new* happens or is discovered. It is both appropriate and inevitable that there is variability in research and development. However, there are indeed varieties of variability than can be diminished---the topic of this section. In the terminology of Edwards Deming, there is **common-cause variation** and **special-cause variation** . The first category is *common noise* variation in the process, and not easy to assign a specific cause. On the other hand, special-cause variation---also known as **assignable variation**---can be identified. For example, *variation in feature-request size* is special-cause variation. And *working on poorly analyzed unclear requirements* is special-cause variation. By reducing identifiable special-cause variation---in Less or work processes---a system with queues has improved average throughput.
+Прежде чем чересчур увлечься идеей уменьшения вариативости...соверменная разработка программного обеспечения не является промышленным производством; без вариаций ничего *нового* не происходит или не открывается. Существование вариативности в исследованиях и разработке как свойственно так и неизбежно. Однако, действительно есть некоторые виды изменчивости которые могут быть снижены---тема текущей главы. В терминологии Эдварда Деминга существует **вариативность общего характера** и **вариативность особого характера** . Первая категория  - это вариация *общего шума* в рамках процесса, которую сложно присвоить какому-либо специфичному случаю. С другой стороны, вариативность особого характера---также известная как **присваиваемая вариативность**---может быть идентифицирована. Например, *вариативность размера запроса на новую функциональность* является вариативностью особого характера. А также *работа с плохо проанализированными, нечёткими требованиями* - это тоже вариативность особого характера. Путём сокращения поддающейся идентификации вариативности особого характера---в LeSS или в рабочих процессах---в системе с очередями улучшается средняя пропускная способность.
 
-*Variability* is one of the three sources of waste in lean thinking (the other two are *overburden* and *non-value-add actions* ). With an understanding of queueing theory, it may be clearer why variability is considered a source of waste.
+*Вариативность* является одним из трёх источников потерь в бережливом мышлении (оставшиеся два - это *перегрузка* и *не-приносящие-ценности действия* ). Понимание теории массового обслуживания помогает прояснить, почему вариативность расценивается как источник потерь.
 
-What are some sources or kinds of variability in LeSS?
+Каковы некоторые источники и качества вариативности в LeSS?
 
-* big batches and big items
-* ambiguity of what items mean
-* ambiguity of how to design/implement items
-* different (estimated) efforts for different items
-* number of items in the "current release" clear-fine priority queue
-* estimate-versus-actual effort variance, which can reflect what/how ambiguity, unskillful estimation, learning, and much more
-* the arrival rate of items into the clear-fine priority queue of the current release
-* team and individual variability
-* overloading or failure of shared resources, such as a testing lab
+* большие партии и большие элементы
+* неоднозначность понимания элементов
+* неоднозначность в том как спроектировать/реализовать элементы
+* различающиеся затраты (оценка) для разных элементов
+* количество элементов в ясной-очищенной приоритизированной очереди "текущий релиз"
+* различие между ожидаемыми и фактическими затратами, которое может быть следствием неоднозначности что/как, неумелой оценки, обучения и прочего
+* скорость поступления элементов в ясную-очищенную приоритизированную очередь текущего релиза
+* вариативность команды и её отдельных членов
+* перегрузка или отказ разделяемых ресурсов, таких как тестовая лаборатория и т.п.
 {: .two_columns .box_top_bottom }
 
-... and more. In queueing-model terminology, they usually boil down to variability in the *service* and *arrival rate* .
+... и тому подобное (список не полон). В терминологии моделирования очередей, все они обычно сводятся к вариативности на уровне *обслуживания* или *скорости поступления*.
 
-In lean thinking, *flow* is a key principle---and flow requires reduction or elimination of variability. That is why *leveling* is also a lean principle; it is an antidote to variability and helps move toward flow.
+В бережливом мышлении, *поток* является ключевым принципом---и поток требует уменьшения или устранения вариативности. Вот почему  *балансировка* (выравнивание) также является и принципом бережливого подхода; это антидот для вариативности и помогает двигаться в направлении потока.
 
 
 
