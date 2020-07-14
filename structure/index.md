@@ -13,14 +13,13 @@ Traditional organizations contain a lot of local optimizations such as a relentl
 
 “Culture follows structure” is the fourth of “Larman’s Laws of Organizational Behavior.” People in organizations are skilled at showing support to the flavor-of-the-month-improvement without doing anything. We have observed this repeatedly. Why does that happen?
 
-Larman’s Laws of Organizational Behavior observes that...
+[Larman’s Laws of Organizational Behavior](https://craiglarman.com/wiki/index.php?title=Larman%27s_Laws_of_Organizational_Behavior) observes that...
 
-1. Organizations are implicitly optimized to avoid changing the status quo middle- and first-level manager and single-specialist positions & power structures.
+1. Organizations are implicitly optimized to avoid changing the status quo middle- and first-level manager and “specialist” positions & power structures.
 2. As a corollary to (1), any change initiative will be reduced to redefining or overloading the new terminology to mean basically the same as status quo.
-3. As a corollary to (1), any change initiative will be derided as “purist”, “theoretical”, and “needing pragmatic customization for local concerns”—which deflects from addressing weaknesses and manager/specialist status quo.
-4. Culture follows structure.
-
-Anticipating your thought, it’s also true that structure follows culture... But the phrase is meant to be poetically pithy, not literal.
+3. As a corollary to (1), any change initiative will be derided as “purist”, “theoretical”, “revolutionary”, "religion", and “needing pragmatic customization for local concerns” — which deflects from addressing weaknesses and manager/specialist status quo.
+4. As a corollary to (1), if after changing the change some managers and single-specialists are still displaced, they become “coaches/trainers” for the change, frequently reinforcing (2) and (3).
+5. Culture follows structure.
 
 What do we mean? As long as the structural elements—groups, roles, hierarchy, and policies, or more broadly the organizational system/design—aren’t changed, the behavior and mindset isn’t going to change. The systems-thinking thought-leader John Seddon explains “culture follows structure” this way:
 
