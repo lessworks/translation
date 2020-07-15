@@ -557,3 +557,5 @@ order: 100
 * [Managing the Design Factory](http://www.amazon.com/Managing-Design-Factory-Donald-Reinertsen/dp/0684839911/ref=sr_1_1?ie=UTF8&qid=1413691933&sr=8-1&keywords=managing+the+design+factory) Дона Рейнертсена, является классическим введением в теорию массового обслуживания и разработку продуктов.
 
 * [Flexible Product Development](http://www.amazon.com/Flexible-Product-Development-Building-Changing/dp/0787995843/ref=sr_1_1?ie=UTF8&qid=1413691975&sr=8-1&keywords=flexible+product+development) Престона Смита, была первой массово-популярной книгой по основам продуктовой разработки, которая представила широкой аудитории концепцию гибкой разработки---включая Скрам и Экстремальное Программирование. Этот текст включает анализ теории массового обслуживания и вариативности, и их взаимосвязи с разработкой.
+
+Перевод статьи осуществлён [Романом Лапаевым](https://www.linkedin.com/in/romanlapaev),  Дмитрием Емельяновым и 
