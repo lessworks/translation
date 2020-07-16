@@ -15,23 +15,22 @@ order: 30
 
 Коучинг не должен быть внешним (вне компании). Это возможно, хотя очень трудно построить сообщество внутренних коучей, которое будут поддерживать внедрение LeSS. Построение такого сообщества часто терпит неудачу, потому что (1) коучинг это часто не та работа, которой хотели бы заниматься потенциальные коучи... они сами хотели бы работать над продуктом,  и потому что (2) коучи часто теряют связь с реальностью продуктовой разработки из-за отсутствия достаточной практики [Пойди и Посмотри](../management/go_see.html).  
 
+Предупреждение: Если вы решили создать группу коучей в вашей организации, убедитесь, что она будет состоять не только из "непристроенных людей", которые в данный момент ничем не заняты. Иначе инициатива провалится
 
-Warning: If you do set up a coaching group in your organization, ensure to not just staff it with the "left-over people" who happened to be available. That will fail.
+Коучинг может быть внутренним, но мы рекомендуем также привлекать не менее одного внешнего коуча, который проведёт с вами продолжительное время. Внешние коучи часто видят вещи, которые внутренние коучи (больше) нет, и приносят опыт и идеи извне. Также, внешние коучи часто 'позволяют' себе сказать вещи, которые были бы для внутренних коучей политически некорректными.
 
-Coaching can be internal, but we do recommend to also involve at least one external coach who is there for the long run. External coaches often see things that internal coaches don't see (anymore) and bring experiences and ideas from outside. Also, external coaches are often 'allowed' to say things that would be politically incorrect for internal coaches.
+## Три уровня коучинг
 
-## Three levels of coaching
+Обычно требуются следующие три уровня коучинга:
 
-The following three levels of coaching are commonly needed:
+* Организационный коучинг
+  Коуч работает с множеством команд и менеджментов, чтобы улучшить организацию и её структуру.
+* Командный коучинг (или LeSS коучинг)
+  Коуч работает с одной или несколькими командам, чтобы улучишь их взаимодействие и LeSS практики. Обычно он берёт на себя роль Скрам Мастера.
+* Коучинг конкретных технических практик
+  Коуч работает с (или в) одной команде с их настоящим кодом, чтобы улучшить технические практики и внедрить гибкие техники разработки, как просто дизайна, рефакторинг, модульное тестирование, разработка через тестирование (TDD) и разработка через приёмочное тестирование (A-TDD).
 
-* Organizational coaching
-  A coach works with multiple teams and the management to improve the organization and its structure
-* Team coaching (or LeSS coaching)
-  A coach works with one or a few teams to improve their team-working and LeSS practices. It is common for a coach to take on the Scrum Master role.
-* Technical practices coaching
-  A coach works with (or on) a team on their actual codebase in order to improve the technical practices and adopt agile development techniques such as simple design, refactoring, unit testing, test-driven development and acceptance test-driven development.
-
-### Organizational coaching
+### Организационный коучинг
 
 A coach typically focuses on:
 
