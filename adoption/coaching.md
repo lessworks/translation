@@ -7,13 +7,14 @@ order: 30
   {% figure "img/adoption/coaching", "Coaching",class:"half-sized-figure pull-right" %}
 </div>
 
-Coaching means that an experienced Coach will work closely together with an organization to improve the organization’s product development. This usually involved shortening feedback loops and focusing on improved quality. This faster feedback cycle leads to benefits such as higher productivity and more flexibility.
+Коучинг означает, что опытный коуч будет тесно работать вместе с организацией, чтобы улучшить её продуктовую разработку. Это обычно означает ускорение циклов обратной связи и фокусирование на улучшении качества. Такой короткий цикл обратной связи приводит к увеличению продуктивности и гибкости.
 
-A LeSS adoption chance of success is dramatically higher when the organization ensures the appropriate level of coaching. Many organizations think that reading a book or a short training is enough while adopting LeSS. While there are certainly cases where that worked, most cases it doesn't and a LeSS adoption needs more active coaching.
+Шанс успеха при внедрении LeSS драматическим образом повышается, когда организация обеспечивает соответствующий уровень коучинга. Многие организации думают, что прочтение книги или посещение короткого тренинга достаточно для внедрения LeSS. Хотя, безусловно, бывают случаи, когда это работает, но в большинстве случаев это не так, и внедрение LeSS требует более активного коучинга.
 
-## Internal vs External coaching
+## Внутренний или Внешний коучинг
 
-Coaching doesn't have to be external (from outside the company). It is possible, though very hard, to set up an internal coaching network which supports the LeSS adoption. Setting up an internal coaching network often fails because (1) being a coach internally is often not a job which the potential coaches want to pick up... as they like working on the product itself, (2) coaches often lose touch with the reality of the product development as they don't practice enough [Go See](../management/go_see.html)
+Коучинг не должен быть внешним (вне компании). Это возможно, хотя очень трудно построить сообщество внутренних коучей, которое будут поддерживать внедрение LeSS. Построение такого сообщества часто терпит неудачу, потому что (1) коучинг это часто не та работа, которой хотели бы заниматься потенциальные коучи... они сами хотели бы работать над продуктом,  и потому что (2) коучи часто теряют связь с реальностью продуктовой разработки из-за отсутствия достаточной практики [Пойди и Посмотри](../management/go_see.html).  
+
 
 Warning: If you do set up a coaching group in your organization, ensure to not just staff it with the "left-over people" who happened to be available. That will fail.
 
