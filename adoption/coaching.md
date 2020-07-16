@@ -27,63 +27,65 @@ order: 30
   Коуч работает с множеством команд и менеджментов, чтобы улучшить организацию и её структуру.
 * Командный коучинг (или LeSS коучинг)
   Коуч работает с одной или несколькими командам, чтобы улучишь их взаимодействие и LeSS практики. Обычно он берёт на себя роль Скрам Мастера.
-* Коучинг конкретных технических практик
+* Технический коучинг
   Коуч работает с (или в) одной команде с их настоящим кодом, чтобы улучшить технические практики и внедрить гибкие техники разработки, как просто дизайна, рефакторинг, модульное тестирование, разработка через тестирование (TDD) и разработка через приёмочное тестирование (A-TDD).
 
 ### Организационный коучинг
 
-A coach typically focuses on:
+Коуч в большинстве случаев фокусируется на следующем:
 
-* Having a clear vision of how an LeSS organization could be
-* Organizational structure and design
+* Чёткое видение того, чем LeSS организация должна стать
+* Организационная структура и дизайне
 * LeSS
-* Role of management
-* Adoption
-* Target setting
-* Managing an organizational improvement backlog
-* Changing management practices from controlling day-to-day work to building capability
-* Managing work: product backlogs and how the organization manages them
-* Dealing with interruptions
-* Human Resource practices such as appraisals and career paths
-* Facilitating organizational release/roadmap planning and retrospectives
+* Роль менеджмента
+* Внедрение
+* Целевое состояние
+* Управление организационным бэклогом улучшений
+* Смещение правктик менеджмета от ежедневного контроля работы к построению возможностей для неё
+* Управление работой: бэклоги продуктов, и как организация работает с ними
+* Работа с прерываниями
+* HR-практики такие, как оценка и карьерное развитие сотрудников
+* Фасилитация ретроспектив и планирования релизов/дорожной карты организации
 
-### Team coaching
+### Командный коучинг
 
-A team coach typically focuses on:
+Командный коуч в большинстве случаев фокусируется на следующем:
 
-* Team responsibilities with self-managing teams
-* Facilitation
-* Improving the team’s decision making and conflict resolution
-* Transparency in the team
-* Making organizational impediments visible
-* Improving the relationship between the Team and the Product Owner
-* Product Ownership (of both the team, the PO, and other stakeholders)
-* Role and contribution of the team’s management
-* Improve Scrum practices (and technical practices)
-* Educate and coach the team’s (future) Scrum Master
+* Командная ответственность в самоорганизованных командах
+* Фасилитация
+* Улучшения механизмов принятия решений в команде и разрешение конфликтов
+* Прозрачность в команде
+* Делать видимыми организационные препятствия
+* Улучшения взаимоотношений между Командой и Владельцем Продукта 
+* Владение Продуктом (в командах, Владельцем Продукта и заинтересованными лицами) 
+* Роль и вклад менеджмента команды
+* Улучшения практик Скрама (и технических практик)
+* Обучение и коучинг Скрам-мастера команды (будущего)
 
-### Technical coaching
+### Технический коучинг
 
-A coach typically focuses on:
+Коуч в большинстве случаев фокусируется на следующем:
 
-* Discovering “code/design smells”. Places where code/design could be improved.
-* Explaining modern, “clean” code that is simple and easier to change and maintain.
-* Refactoring “smells” into clean code.
-* Writing unit tests.
-* Test-driven development.
-* Test Automation
-* Continuous integration and continuous delivery
-* Specification by Example (Acceptance Test-Driven Development)
-* Efficient and effective working practices (IDE, automation)
-* Applying design patterns
+* Нахождение “запахов в коде/дизайне”. Мест, где код/дизайн могли бы быть улучшены.
+* Объяснение практик современного, “чистого” кода, который легко и просто менять и поддерживать.
+* Рефакторинг “запахов” в чистый код.
+* Написание модульных тестов.
+* Разработка через тестирование.
+* Автоматизация тестирования
+* Непрерывная интеграция и поставка
+* Требования на Примерах (Разработка через Приёмочное Тестирование)
+* Эффективные и действенные рабочие практики (в среде разработки, в автоматизации)
+* Применение шаблонов проектирования
 
 
-## How much coaching?
+## Сколько должно быть коучинга?
 
-The most successful LeSS adoptions we've see had the following structure:
+Самый успешные LeSS внедрения, которые мы видели, имели следующую структуру:
 
-* One internal and one external coach
-  This pair provides the overview of the LeSS adoption. They both coach management but are also involved with team and technical coaching.
-* External team coaches who help the teams become better and focus on training the Scrum Masters.
-* External technical coaches who focus on training internal technical coaches
-Have some technical coaches work with the teams, but let them focus on training internal coaches. After that reduce (not eliminate!) the external technical coaching or let the external coach move to a new area.
+* Один внутренний и один внешний коуч
+  Эта пара обеспечивает обзор LeSS внедрения. Они оба проводят коучинг менеджмента, но также вовлечены в командный и технический коучинг.
+* Внешние командные коучи, которые помогают команде стать лучше и тренируют Скрам-мастеров.
+* Внешние технические коучи, которые фокусируются на тренировке внутренних технических коучей.
+Позвольте нескольким техническим коучам работать с командами, но дайте им возможность сфокусироваться на обучении внутренних коучей. После этого сократите (но не полностью!) внешний технический коучинг или позвольте коучу перейти в другую область организации.
+
+Перевод статьи осуществлён [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov).
