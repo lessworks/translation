@@ -222,7 +222,7 @@ A-TDD легко понять, но трудно следовать. Он тре
 ## Рекомендуем к прочтению
 
 * [*Specification by Example*](http://www.amazon.com/Specification-Example-Successful-Deliver-Software/dp/1617290084) Гойко Аджича. Эта книга охватывает несколько тематических исследований о "Требованиях на Примерах". Гойко придумал сам термин, чтобы заменить все предыдущие, такие как A-TDD.
-* [*Bridging the Communication Gap*](http://www.amazon.com/Bridging-Communication-Gap-Specification-Acceptance/dp/0955683610/ref=sr_1_1?ie=UTF8&qid=1415541943&sr=8-1&keywords=bridging+communication+gap) Гойко Аджича. Вышла до "Specification by Example",  фокусируется на прояснении требований и проведении совместных сесиий.
+* [*Bridging the Communication Gap*](http://www.amazon.com/Bridging-Communication-Gap-Specification-Acceptance/dp/0955683610/ref=sr_1_1?ie=UTF8&qid=1415541943&sr=8-1&keywords=bridging+communication+gap) Гойко Аджича. Вышла до "Specification by Example",  фокусируется на прояснении требований и проведении совместных сессий.
 * [*Acceptance Test Driven Development: An Overview*](http://testobsessed.com/2008/12/acceptance-test-driven-development-atdd-an-overview/) Элизабет Хендриксон. Заметка в блоге и соответствующая статья предлагают обзор A-TDD на подробных примерах использования Robot Framework.
 * [*Fit for Developing Software*](http://www.amazon.com/Fit-Developing-Software-Framework-Integrated/dp/0321269349) Рика Магриджа и Уорда Каннингема. В этой книге большое внимание уделяется улучшению информативности требований посредством Fit таблиц.
 * [*Robot Framework User Guide*](https://code.google.com/p/robotframework/wiki/UserGuide). Не покрывает тему A-TDD, но позволяет отлично познакомиться с инструментом Robot Framework.
