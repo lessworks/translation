@@ -53,7 +53,6 @@ One-piece flow - поток в одну задачу (изделие)
 Оne-team Scrum - однокомандный Скрам
 Overall Retrospective - Общая Ретроспектива
 Overall Product Backlog Refinement - Общее Уточнение Бэклога Продукта 
-Queueing Theory - Теория массового обслуживания
 Perfection goal - Цель совершенства
 Potentially Shippable Product Increment - Потенциально Готовый к Поставке Инкремент Продукта
 Potentially Shippable Product - Потенциально Готовый к Поставке Продукт
@@ -63,6 +62,7 @@ Product Backlog Refinement - Уточнение Бэклога Продукта
 Product Owner - Владелец Продукта
 Product Owner Team - Команда Владельца Продукта
 Pull system - вытягивающая система
+Queueing Theory - Теория Массового Обслуживания
 Rate of delivery - стоимость доставки
 Requirement Area - Область Требований
 Scrum - Скрам
