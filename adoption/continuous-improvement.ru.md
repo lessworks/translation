@@ -45,7 +45,9 @@ The perfection vision for LeSS that we sometimes use is:
 
 ## Сосредоточьтесь на проблеме, а не на инструменте.
 
-“We’re starting to do agile. What tool should we buy for agile project management?” This is a question we hear often; our suggestion is always the same—and we mean this even for the very large-scale cases: “Avoid any special agile tools until several years after starting the adoption. Keep it simple. Use the wall or, in the most complex solution, a simple spreadsheet and wiki.” Why?
+“Мы начинаем внедрять Agile. Какой инструмент мы должны купить для управления проектами по Agile?” Мы часто слышим такой вопрос; наше предложение всегда остаётся одним и тем же — и мы его озвучиваем даже для очень масштабных внедрений: “Избегайте любых специализированных Agile-инструментов первые несколько лет после начала внедрения. Будьте проще. Используйте стены или в очень запутанных решениях простые таблицы или вики.” Почему?
+
+Проблемы из-за слабости системы не могут быть решены с помощью процессов или инструментов. Ещё хуже, если пытаясь применить быстрое решение системных проблем с помощью инструментов, то создаётся иллюзия контроля или изменений, но не настоящих улучшений... Директор спрашивает: “Какой прогресс нашей Agile-трансформации?” Менеджер по Agile-изменениям: “Мы установили <Agile инструмент X>, и три проекта его используют. Приходите посмотреть на диаграммы сгорания...”
 
 Problems from system weakness cannot be solved with processes or tools. Worse, attempting to quick fix systemic problems with tools creates an illusion of control or change but no real improvement… Executive: “What is the agile transformation progress?” Agile-change manager: “We have installed <AgileToolX> and three of the projects are using it. Come take a look at the burndown charts…”
 
