@@ -1,6 +1,6 @@
 ---
 title: Feature Team Adoption Map
-order: 40
+order: 50
 ---
 
 A feature team adoption map is a useful tool when adopting feature teams.
