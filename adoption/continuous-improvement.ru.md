@@ -15,22 +15,23 @@ order: 40
 
 И тут нет инициативы, группы или менеджеров по изменениям. В LeSS изменения это статус-кво.
 
-## Задайте точное направление
+## Задайте чёткое направление
 
-Organizations are wonderfully complex systems in which it’s impossible to control everything or to know everything.
+Организации являются запутанными чудесным образом системами, в которых невозможно управлять всем и знать всё.
 
-Everyone makes small decisions and the organizational behavior emerges from these. People make decisions based on their experiences, goals, principles, and values. When decisions are misaligned then well-intended people scurry in different directions, causing an organizational deadlock or gridlock. When these decisions are aligned, energy gets unleashed and things start moving and improving.
+Каждый принимает небольшие решения, из которых складывается организационное поведение. Люди принимают решения, основываясь на их опыте, целях, принципах и ценностях. Когда решения не согласованы между собой, люди, даже имея благие намерения, бегут в разных направлениях, становясь причиной взаимных блокировок и пробок. Когда решения, наоборот, согласованы между собой, высвобождается энергия, и вещи начинаются двигаться и улучшаться.
 
-Clarifying and reaching agreement on a clear direction does wonders in aligning daily decisions. The successful product groups that we have worked with had a perfection vision—an unattainable goal where each step towards the goal is an improvement. How is it used? People discuss and evaluate decisions based on whether it brings them closer to the perfection vision.
+Прояснение и достижение соглашения о чётком направлении творит чудеса в согласованности между собой ежедневных решений. Успешные продуктовые группы, с которыми мы работали, имели видение совершенства - недостижимая цель, где каждый шаг на пути к ней являлся улучшением. Как это можно использовать? Люди обсуждают и оценивают решения на основании приближения к цели.
 
-For example, the classic lean perfection vision is Toyota’s just-in-time system—every time a customer buys one car than exactly one car is produced just in time. This perfection vision lead to the ideal of “one piece flow” in which the production system is set up to handle small batches of work, ideally batches of size one. This ideal will probably never be achieved but it has guided Toyota’s continuous improvement of their production system for decades.
+Для примера, классическое бережливое видение совершенства точно-в-срок в системы Тойоты - в тот момент, когда клиент покупает один автомобиль, в тот же момент производится ещё один автомобиль. Видение совершенства следует за идеалом “потока в один элемент”, в котором производственная система настроена на обработку небольших партий, состоящих в идеальном случае из одного элемента. Этот идеал возможно никогда не будет достигнут, но в Тойоте он является руководством для непрерывного улучшения их производственной системы на протяжении десятилетий.
 
+Мы иногда используем видение совершенства в LeSS для того, чтобы:
 The perfection vision for LeSS that we sometimes use is:
 
-Create the organizational ability to respond to changes by being able to deliver or change direction at any time without additional cost.
+Создать возможность для организации отвечать изменениями, не останавливая поставку, или смены направления в любое время без дополнительных затрат.
 {: .box_top_bottom  .text_centered_bold }
 
-Managers—together with the whole product group—have to establish clear directions that guide decision making. This is usually done by informal discussions and workshops, leading to some guiding vision and principles. Discussing is important work, but words float away. So people also want to write a vision to help get everyone on the same page, literally.
+Менеджеры - вместе со всей продуктовой группой - должны задать чёткое направление, которое станет руководством для принятия решений. Обычно оно создаётся в рамках неформальных обсуждений и семинаров, следуя некоторому видению и принципам. Обсуждение, конечно, является важной работой, но слова часто забываются. Поэтому люди также хотят записать видение, чтобы помочь всем быть на одной волне.
 
 ## Экспериментируйте
 
