@@ -1,6 +1,6 @@
 ---
 title: Three Principles
-order: 50
+order: 60
 ---
 
 During a LeSS and especially a LeSS Huge adoption, the organization needs to be changed. You are involved and probably have no ‘official’ authority to affect the needed changes. This is a good thing! It requires you to convince people to change because they believe it is the Right Thing to do. But influencing change in organizations is far from trivial and frequently, no matter how hard you have tried, it changes in the opposite direction. The question then becomes, how do you survive? Staying alive and sane in organizations requires:
