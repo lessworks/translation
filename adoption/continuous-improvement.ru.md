@@ -3,19 +3,19 @@ title: Непрерывное Улучшение
 order: 40
 ---
 
-“We’ve completed our lean adoption.” “We’ve completed our LeSS adoption.” Does that need explaining? Probably not.
+“Мы закончили внедрение бережливого мышления.” “Мы закончили внедрение LeSS у нас.” Требует ли это объяснения? Кажется, что нет.
 
-So in lean thinking and in LeSS, there’s only continuous improvement towards perfection. That’s a radically different mindset and behavior than the punctuated, big-batch, controlled-change traditional model. How does it feel different? For example:
+В бережливом мышлении и LeSS есть только непрерывное улучшение на пути к совершенству. Но есть принципиально другое мышление и поведение, которое существует в виде больших партий и контроля изменений в традиционной модели. Как можно почувствовать разницу? Например:
 
-* You’ve eliminated the corrosive HR policy of stacked ranking of individuals in semi-annual performance appraisals? Great. Can you abolish performance appraisals next?
-* You’ve eliminated the project/program manager positions in the product group? Great. Can you eliminate the Project Management Office next?
-* You’ve reduced your total build time—including all tests—from nine hours to two? Great. Can you strive for in one second?
+* Вы устранили разъедающую кадровую политику сложного персонального рейтинга конкретных сотрудников в полугодовых оценках эффективности? Отлично. Можете далее отменить эту аттестацию?
+* Вы упразднили должность руководителя проекта/программы в продуктовой группе? Отлично. Можете далее упразднить Проектный офис?
+* Вы сократили ваше общее время сборки — включая все тесты — с двух часов до одного? Отлично. Можете стремиться к сборке за одну секунду?
 
-As these examples show, the boundary of improvement and change experiments is not limited to the Teams. Evolutionary continuous improvement in LeSS expands to the overall system, eroding all the organizational impediments to a perfect value stream, month after month after month.
+Как показывают эти примеры, область улучшений и экспериментов не ограничена только Командами. Непрерывное эволюционное улучшение в LeSS распространяется на всю систему, разъедая все организационные препятствия на пути к идеальному потоку поставки ценности, месяц за месяцем, месяце за месяцем.
 
-And so there’s no change initiative, no change group, no change managers. In LeSS, change is the status quo.
+И тут нет инициативы, группы или менеджеров по изменениям. В LeSS изменения это статус-кво.
 
-## Create a clear direction
+## Задайте точное направление
 
 Organizations are wonderfully complex systems in which it’s impossible to control everything or to know everything.
 
@@ -32,7 +32,7 @@ Create the organizational ability to respond to changes by being able to deliver
 
 Managers—together with the whole product group—have to establish clear directions that guide decision making. This is usually done by informal discussions and workshops, leading to some guiding vision and principles. Discussing is important work, but words float away. So people also want to write a vision to help get everyone on the same page, literally.
 
-## Do experiments
+## Экспериментируйте
 
 The mandate to improve is a lofty goal, and can scare off people from experimenting. What if the improvement...doesn’t? Kaneyoshi Kusunoki, a student of Taiichi Ohno and executive vice-president at Toyota, said about kaizen and management support:
 
@@ -42,7 +42,7 @@ Developing problem-solving skills through many experiments is cen- tral to lean 
 
 *The real measure of success is the number of experiments that can be crowded into 24 hours.*—Thomas Edison
 
-## Focus on problems, not tools.
+## Сосредоточьтесь на проблеме, а не на инструменте.
 
 “We’re starting to do agile. What tool should we buy for agile project management?” This is a question we hear often; our suggestion is always the same—and we mean this even for the very large-scale cases: “Avoid any special agile tools until several years after starting the adoption. Keep it simple. Use the wall or, in the most complex solution, a simple spreadsheet and wiki.” Why?
 
@@ -63,3 +63,5 @@ The agile-management tools we have seen emphasize tracking and displaying indivi
 Computerized management-reporting tools can also take people away from gemba and the practice of Go See. Lean thinking emphasizes—to understand what is really happening—go with your feet and see with your eyes at the real place of work, help solve problems there, and build relationships with the workers there.
 
 Finally, these tools are optimized for reporting—not for success, improvement, or a better flow of value. What meaningful problem do they solve?
+
+Перевод статьи осуществлён [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov).
