@@ -49,17 +49,16 @@ The perfection vision for LeSS that we sometimes use is:
 
 Проблемы из-за слабости системы не могут быть решены с помощью процессов или инструментов. Ещё хуже, если пытаясь применить быстрое решение системных проблем с помощью инструментов, то создаётся иллюзия контроля или изменений, но не настоящих улучшений... Директор спрашивает: “Какой прогресс нашей Agile-трансформации?” Менеджер по Agile-изменениям: “Мы установили <Agile инструмент X>, и три проекта его используют. Приходите посмотреть на диаграммы сгорания...”
 
-Problems from system weakness cannot be solved with processes or tools. Worse, attempting to quick fix systemic problems with tools creates an illusion of control or change but no real improvement… Executive: “What is the agile transformation progress?” Agile-change manager: “We have installed <AgileToolX> and three of the projects are using it. Come take a look at the burndown charts…”
+Избегайте привлечение “инструментов Agile-менеджмента” первые несколько лет после начала внедрения гибкой или бережливой разработки, чтобы фокус людей был на том, на чём должен: на системе. Убрав все костыли и быстро исправив иллюзорные решения, люди могут - просто возможно - быть побужденным прямо столкнуться с важными, но трудными проблемами: компетенциями сотрудников, взаимоотношениями, организационным дизайном, иллюзией командования и контроля, и так далее. 
 
-Avoid the lure of “tools to do agile management” for at least several years after starting to adopt agile or lean development, so that people’s focus can be where it belongs: on the system. By removing all crutches and quick-fix illusory solutions, people may—just possibly—be prompted to squarely face the important but hard issues: competent individuals, interactions, organizational design, the illusion of command-and-control, and so on.
+*Если вы автоматизируете беспорядок, то вы получите автоматизированный беспорядок.* — неизвестный автор
 
-*If you automate a mess, you will get an automated mess.*—anon
+Мы не утверждаем, что инструменты для Agile-менеджмента плохие или хорошие. Мы говорим первую очередь о фокусе на важных вещах и предотвращении дисфункций, которые сопровождают инструменты управленческой отчётности.
 
-We are not suggesting agile-management tools are poor—or good. This is about focusing on important things first and avoiding the dysfunctions that accompany management-reporting tools.
+Через <N> лет? Предпочтите свободные инструменты, чтобы снизить стоимость экспериментов и количество барьеров при отказе от них.
+ Мы несколько раз слышали следующее: “Мы не можем перестать использовать (или процесс) X, потому что мы слишком много в него вложили.”
 
-After <N> years? Prefer free tools so that the cost of experimenting is low and there are fewer barriers to discarding tools. We have heard the following several times: “We can’t stop using tool (or process) X because we have invested so much in it.”
-
-We have seen thousand-person multisite development groups successfully apply large-scale Scrum with some Excel spreadsheets for their Product Backlog and Release Burndown chart. Indeed, they are almost certainly better off for doing so; it keeps their attention more on fixing the system.
+Мы видели успешное внедрение масштабируемого Скрама в распределённой продуктовой группе из тысячи человек с несколькими Excel-таблицами для их Бэклога Продукта и диаграммой Сгорания Релиза. Действительно, они почти наверняка лучше для этого; это держит их внимание больше на улучшении системы.
 
 The agile-management tools we have seen emphasize tracking and displaying individual and team tasks and Sprint Backlogs to managers—almost the antithesis of these principles. In Scrum, the team’s tasks (the Sprint Backlog) are created by the team to help them self- manage, not to report their status to others. As the well-known team researcher, Richard Hackman, explains, *“In self-managing teams, the responsibility of tracking the progress is delegated towards the team”* [[Hackman02]](http://www.amazon.com/Leading-Teams-Setting-Stage-Performances/dp/1578513332). Since the team is self-managing, they are not to be tracked or monitored; such tools are a slippery slope that may reinforce a traditional command-and-control culture rather than a culture of self-management.
 
