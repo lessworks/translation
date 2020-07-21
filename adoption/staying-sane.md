@@ -1,5 +1,5 @@
 ---
-title: Three Principles
+title: Staying Sane
 order: 60
 ---
 

@@ -1,19 +1,21 @@
 ---
-title: Three Principles
+title: Оставаться в Здравом Уме
 order: 60
 ---
 
-During a LeSS and especially a LeSS Huge adoption, the organization needs to be changed. You are involved and probably have no ‘official’ authority to affect the needed changes. This is a good thing! It requires you to convince people to change because they believe it is the Right Thing to do. But influencing change in organizations is far from trivial and frequently, no matter how hard you have tried, it changes in the opposite direction. The question then becomes, how do you survive? Staying alive and sane in organizations requires:
+Во время внедрения LeSS, и особенно LeSS Huge, организации требуются изменения. Вы вовлечены, но возможно не имеете ‘официальной’ власти, что провести необходимые изменения. Это хорошая новость! Это требует от вас убеждать людей делать Правильные Веши, в которые они верят. Но влиять на изменения в организациях далеко не тривиально, и часто, как бы вы ни старались, она меняется в противоположном направлении. Тогда возникает вопрос, как же выжить? Чтобы в организациях оставаться в уме и здравии, требуется:
 
-* **Patience and low expectations**
-  Most organizations change slowly. You'd better set your expectations low (not your goal!) and remind yourself that you will be working on this for years. But *do* celebrate small changes.
-* **Persistence**
-  Don’t expect your change suggestions to be adopted immediately but do expect to explain them a gazillion times (often to the same people).
-* **Courage**
-  Nothing will change without courage. Don’t be afraid to speak up to higher management or make proposals that are way out of your comfort zone.
-* **Sense of humor**
-  You’ve worked for a year to convince people to change something. They did… and they made it worse. What do you do? Take it seriously and don’t take it seriously. Laugh. It is the only way to survive.
-* **Open and humble**
-  You must courageously, persistently, and patiently propose change. Laugh it off when stupid decisions ruin your work. And all of this must be done in an open and humble way as otherwise there is no new learning for you. Maybe you are wrong and they were right?
+* **Терпение и низкие ожидания**
+  Большинство организаций меняются медленно. Вам будет лучше держать ваши ожидания низкими (а не ваши цели!) и помните, что вы будете работать над этим в течение нескольких лет. Но *проводите* празднования по поводу небольших изменений.
+* **Упорство**
+  Не ожидайте, что ваши предложения изменений будут приняты немедленно, но будьте готовы объяснить их миллион раз (часто тем же людям).
+* **Смелость**
+  Ничто не происходит без смелости. Не бойтесь говорить с топ-менеджментом или делать предположения, которые выводят вас из зоны комфорта.
+* **Чувство юмора**
+  Вы работали в течение года, чтобы убедить людей что-то изменить. Они пытались... и сделали это хуже. Что ты делаешь? Принимайте это как всерьез, так и нет. Смех. Это единственный способ выжить.
+* **Открытость и скромность**
+  Вы должны смело, настойчиво и терпеливо предлагать изменения. Смейтесь, когда глупые решения разрушают вашу работу. И все это должно быть сделано открыто и скромно, так как иначе для вас не будет нового обучения. Может быть, вы не правы, и они были правы?
 
-Did we mention *patience*?
+Мы упомянули *терпение*?
+
+Перевод статьи осуществлён [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov).
