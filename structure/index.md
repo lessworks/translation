@@ -11,7 +11,7 @@ order: 3
 
 Traditional organizations contain a lot of local optimizations such as a relentless pursuit to optimize individual output. How can we structure our organization with more focus on the whole product?
 
-“Culture follows structure” is the fourth of “Larman’s Laws of Organizational Behavior.” People in organizations are skilled at showing support to the flavor-of-the-month-improvement without doing anything. We have observed this repeatedly. Why does that happen?
+“Culture follows structure” is the fifth of “Larman’s Laws of Organizational Behavior.” People in organizations are skilled at showing support to the flavor-of-the-month-improvement without doing anything. We have observed this repeatedly. Why does that happen?
 
 [Larman’s Laws of Organizational Behavior](https://craiglarman.com/wiki/index.php?title=Larman%27s_Laws_of_Organizational_Behavior) observes that...
 
