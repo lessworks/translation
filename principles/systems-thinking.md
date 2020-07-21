@@ -1,5 +1,4 @@
 ---
-layout: mechanics 
 title: Systems Thinking
 order: 40
 ---
@@ -21,13 +20,13 @@ These reflect the impact of our **mental models** on the system, a subject that 
 
 Problems stemming from mental models and assumptions are one issue. Another is that large-scale adoption of Scrum, lean thinking, and agile principles is not isolated to the development group. It bumps into product management, budgeting, beta-testing, launch, and governance and HR policies. Accordingly, in large-scale agile adoption it is useful to be able to get together with colleagues and *effectively reason* about the mental models, causal relations, feedback loops, and control mechanisms (or illusions of control) in a big system that is about to be seriously *perturbed.* Systems thinking is one of those reasoning tools.
 
-In 1958, the *Harvard Business Review* published [“Industrial Dynamics: A Major Breakthrough for Decision Makers,”](http://www.lottepiil.dk/kandidat/Industrial%20Dynamics%20(Forrester%201958).pdf) a landmark paper by Jay Forrester, MIT Sloan School professor. This paper spurred the movement of systems thinking in business education, and the MIT Sloan School of Management became known for educating people in **system dynamics** . System dynamics is sometimes treated as a synonym for **systems thinking** , though the latter is a more general term.
+In 1958, the *Harvard Business Review* published [“Industrial Dynamics: A Major Breakthrough for Decision Makers,”](https://kupdf.com/download/industrial-dynamics-a-major-breakthrough-for-decision-makers_5902479bdc0d603940959ed5_pdf) a landmark paper by Jay Forrester, MIT Sloan School professor. This paper spurred the movement of systems thinking in business education, and the MIT Sloan School of Management became known for educating people in **system dynamics**. System dynamics is sometimes treated as a synonym for **systems thinking** , though the latter is a more general term.
 
 MIT also attracted other system-dynamics-oriented researchers such as Peter Senge.<sup>[1](#footnote-1)</sup>
 
-Consistent with *Weinberg-Brook’s Law* , Forrester’s research showed that decision makers who were given dynamic models of a business system and asked to improve their output performance, *usually made them run worse* [[SKRRS94]](http://www.amazon.com/The-Fifth-Discipline-Fieldbook-Organization/dp/0385472560/ref=sr_1_fkmr0_3?ie=UTF8&qid=1413528034&sr=8-3-fkmr0&keywords=The+Fifth+Discipline+%EF%BF%BCFieldbook). The observation was that most people have weak judgement on how to fundamentally improve systems, usually applying incorrect “common sense” and quick-fix ‘solutions’ that do not create long-lasting systemic improvement.
+Consistent with *Weinberg-Brook’s Law*, Forrester’s research showed that decision makers who were given dynamic models of a business system and asked to improve their output performance, *usually made them run worse* [[SKRRS94]](http://www.amazon.com/The-Fifth-Discipline-Fieldbook-Organization/dp/0385472560/ref=sr_1_fkmr0_3?ie=UTF8&qid=1413528034&sr=8-3-fkmr0&keywords=The+Fifth+Discipline+%EF%BF%BCFieldbook). The observation was that most people have weak judgement on how to fundamentally improve systems, usually applying incorrect “common sense” and quick-fix ‘solutions’ that do not create long-lasting systemic improvement.
 
-Why is the behavior of a large development group (a system) not understood or guided skillfully? The answer lies, in part, in the behavior of stochastic systems with queues and variability, as explored in the [Queueing Theory](./queueing_theory.html) LeSS principle. And the same answer lies in *control theory* : Most systems of interest---such as a product development group---have complex positive and negative feedback loops and nonlinear behavior. The behavior of these systems defies our gut instinct. And then there is the minor issue of *people* .
+Why is the behavior of a large development group (a system) not understood or guided skillfully? The answer lies, in part, in the behavior of stochastic systems with queues and variability, as explored in the [Queueing Theory](./queueing_theory.html) LeSS principle. And the same answer lies in *control theory*: Most systems of interest---such as a product development group---have complex positive and negative feedback loops and nonlinear behavior. The behavior of these systems defies our gut instinct. And then there is the minor issue of *people*.
 
 In summary, reasons for not being skillful in fathoming or guiding a big system include (but are not limited to):
 
@@ -92,7 +91,7 @@ When a group gets together to sketch a causal loop diagram on a whiteboard (See 
 
 
 <figure>
-  <img class="rounded shadowed" src="/img/systems_thinking/group%20cld%20modeling.jpg" alt="group%20cld%20modeling.jpg">
+  <img class="rounded shadowed" src="/img/systems-thinking/group%20cld%20modeling.jpg" alt="group%20cld%20modeling.jpg">
   <figcaption>Doing system thinking. Sketching a causal loop diagram together—modeling to have a conversation.</figcaption>
 </figure>
 
@@ -128,35 +127,35 @@ Causal loop diagrams contain many elements; the following common useful subset i
 
 **Variables**{: style="color: #1997C0"}---Causal loop diagrams include *variables* (or stocks) such as the *velocity (rate of delivery) of software features* and *number of defects* . Variables have a measurable quantity.
 
-![systems thinking-4.png](/img/systems_thinking/systems%20thinking-4.png)
+![systems thinking-4.png](/img/systems-thinking/systems%20thinking-4.png)
 
 **Causal links**{: style="color: #1997C0"}---An element can have an effect on another, such as if feature velocity increases, then the number of defects increase; that is, more new code, more defects.
 
-![systems thinking-5.png](/img/systems_thinking/systems%20thinking-5.png)
+![systems thinking-5.png](/img/systems-thinking/systems%20thinking-5.png)
 
 Now it is time to bump into *Weinberg-Brook’s Law* and the *Causation Fallacy* . It is easy to sketch a diagram; it is something else to model with insight. For example, consider the relationship between the *number of developers* and *feature velocity.*
 
 The nature of any cause-effect relationship is actually not obvious, though it is common for people to jump to conclusions such as more developers means better velocity. Adding people late in development may *reduce* velocity (a sub-element of “Brooks’ Law” [Brooks95]). Or, *more* bad programmers could really slow you down. An argument can be made that *removing* terrible developers can *improve* velocity.
 
-![systems thinking-6.png](/img/systems_thinking/systems%20thinking-6.png)
+![systems thinking-6.png](/img/systems-thinking/systems%20thinking-6.png)
 
 **Opposite effects**{: style="color: #1997C0"}---A causal link effect may be the same or opposite direction; if A goes up then B goes up, or vice versa. Opposite effect is shown with an ‘O’ on the line. Suppose defects going up puts a drag on the system, lowering the velocity of new features because people spend more time fixing or working around bugs.
 
-![systems thinking-7.png](/img/systems_thinking/systems%20thinking-7.png)
+![systems thinking-7.png](/img/systems-thinking/systems%20thinking-7.png)
 
 **Constraints**{: style="color: #1997C0"}---Unless you can find people to work for free, there is a constraint on the number of developers, based upon cash supply.
 
 Constraints are *not* causal links. As cash supply goes up, it is not the case that the number of developers goes up.
 
-![systems thinking-8.png](/img/systems_thinking/systems%20thinking-8.png)
+![systems thinking-8.png](/img/systems-thinking/systems%20thinking-8.png)
 
 **Goals and Reactions**{: style="color: #1997C0"}--People, departments, and systems have goals, such as *higher feature velocity* . Goals often generate pressure for people to react (or act), with the intent of achieving the goal. But since there is *Causation Fallacy* and *Weinberg-Brooks’ Law* to contend with, people should be cautious about assuming what actions will help. Now a goal and pressure for reaction is shown:
 
-![systems thinking-9.png](/img/systems_thinking/systems%20thinking-9.png)
+![systems thinking-9.png](/img/systems-thinking/systems%20thinking-9.png)
 
 Not only does a goal with a *reward* create pressure to act, but also it creates pressure to *appear* to be acting and achieving, due to the **measurement dysfunction** generated by rewards. And the measurement dysfunction can be proportional to the perceived value of the reward because people are being motivated to get a reward, not to improve the system [[Austin96]](http://www.amazon.com/Measuring-Managing-Performance-Organizations-Dorset-ebook/dp/B00DY3KQX6/ref=sr_1_1?ie=UTF8&qid=1413596674&sr=8-1&keywords=measuring+and+managing+performance+in+organizations). Notice how rewards can actually degrade system performance. Visually, the system dynamics may be...
 
-![systems thinking-10.png](/img/systems_thinking/systems%20thinking-10.png)
+![systems thinking-10.png](/img/systems-thinking/systems%20thinking-10.png)
 
 It is quite interesting that all these dynamics have been added by introduction of reward, and yet there is no necessary connection between the top part of this model and the bottom.
 
@@ -164,23 +163,23 @@ There is no guarantee that feature velocity has improved---or even been worked o
 
 Removing the reward system is a root-cause solution to the dysfunction. Another (lesser) surface countermeasure is the lean-thinking *Go See* (go see physically at the place of real work) principle and management behavior:
 
-![systems thinking-11.png](/img/systems_thinking/systems%20thinking-11.png)
+![systems thinking-11.png](/img/systems-thinking/systems%20thinking-11.png)
 
 **Quick-fix reactions**{: style="color: #1997C0"}---One difficult and slow solution toward the goal of higher velocity is to hire great developers, to increase coaching and education of existing staff, and to remove terrible workers. The alternative is called a *quick fix* , a reaction that is hoped to achieve the goal quickly and with less effort. Sometimes a quick fix works well both in the short and long term, really strengthening the system. Sometimes not...hence, “faster is slower.” For example, people may *believe* that increasing the number of developers increases the feature velocity. And they may thereby hope that hiring more developers will most quickly and easily solve the velocity problem. ‘QF’ indicates the quick fix:
 
-![systems thinking-12.png](/img/systems_thinking/systems%20thinking-12.png)
+![systems thinking-12.png](/img/systems-thinking/systems%20thinking-12.png)
 
 **Interaction effects**{: style="color: #1997C0"}---There is the constraint of cash supply on hiring. One hard and slow solution is to get more cash. A quicker fix is to hire *much* cheaper developers. In this case, the level of cash supply now has an *interaction effect* with other causal links. Low cash tends to strengthen the hire rate of much cheaper developers when there is pressure to increase hire rates.
 
 One could simply draw an (opposite) causal link directly from *cash supply* to *hire rate of very cheap developers* , but that merely says that less cash leads to more hiring of extremely cheap developers. That is not quite what we want to say; rather, we want to show the interaction effect---that effect A influences *effect* B. This is done by showing a causal link entering another causal link. For example, from *cash supply* to the quick-fix line going into *hire rate of very cheap developers* :
 
-![systems thinking-13.png](/img/systems_thinking/systems%20thinking-13.png)
+![systems thinking-13.png](/img/systems-thinking/systems%20thinking-13.png)
 
 **Extreme effects**{: style="color: #1997C0"}---We have worked with some very inexpensive developers with excellent skill and some very expensive developers that are terrible, but on average, you get what you pay for---when you hire from a large pool of very cheap labor, the average skill level is lower. In the model we want to show that the impact of hiring very cheap labor on the *number of low-skilled developers* is a significantly greater effect than average.
 
 To show an *extreme effect* in the model, use a thick line:
 
-![systems thinking-14.png](/img/systems_thinking/systems%20thinking-14.png)
+![systems thinking-14.png](/img/systems-thinking/systems%20thinking-14.png)
 
 **Delays**{: style="color: #1997C0"}---One problem in hiring in software development is the *fallacy of mild programmer variance* ---the mistaken belief that programmer variance (in terms of productivity, code quality, etc.) is relatively small. However, programmer variance studies suggest an average of four times faster in the top versus bottom quartile [[Prechelt00]](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.43.4788). Rather significant. Also, the COCOMO model---based on large and longitudinal studies---shows that the capability of the development personnel is by far the most important factor for productivity [[Boehm00]](http://www.amazon.com/Software-Cost-Estimation-Cocomo-II/dp/0130266922/ref=sr_1_1?ie=UTF8&qid=1413597244&sr=8-1&keywords=Software+Cost+Estimation+with+Cocomo+II). And, on average, very weak programmers create poor-quality code (poor design) and more defects, creating another drag on the system.
 
@@ -188,7 +187,7 @@ But the impacts of these effects are not immediately obvious. For example, it ta
 
 To show these *delayed effects* in the model, use a double-line through the effect line:
 
-![systems thinking-15.png](/img/systems_thinking/systems%20thinking-15.png)
+![systems thinking-15.png](/img/systems-thinking/systems%20thinking-15.png)
 
 Delay has an intriguing influence on the *educational* or corrective power in a system. If an impact or unintended consequence is long delayed, one does not feel the effect (pain or gain) and so does not clearly see how A influenced B, or more subtly how *A influenced B influenced A* .
 
@@ -200,7 +199,7 @@ Now the development group starts to enter a self-reinforcing downward spiral---a
 
 More great programmers---who could craft great code and mentor others---leave. So there is less and less quality code to look at and to learn from. The percentage of weak programmers grows even larger and feature velocity drops further. Code becomes more messy, awkward, and duplication-riddled, so the capacity to swiftly implement features declines. Since feature velocity is dropping further, there is more pressure to hire yet more very cheap programmers. All this leads to multiple positive reinforcement loops in the system, for example:
 
-![systems thinking-16.png](/img/systems_thinking/systems%20thinking-16.png)
+![systems thinking-16.png](/img/systems-thinking/systems%20thinking-16.png)
 
 *Tip* : You can find positive feedback loops by finding cycles with an *even number* of ‘Opposite’ effect relationships. There are several examples in the model above.
 
@@ -221,7 +220,7 @@ A tip to better *see* the mental models (beliefs, chains of inference, ...) play
 Answers are sketched on the whiteboard model, for example:
 
 <figure>
-  <img src="/img/systems_thinking/systems%20thinking-17.png" alt="systems thinking-17.png">
+  <img src="/img/systems-thinking/systems%20thinking-17.png" alt="systems thinking-17.png">
   <figcaption>Visualizing the assumptions in our heads... our mental models.</figcaption>
 </figure>
 
@@ -237,7 +236,7 @@ The story illustrates why *wishful thinking* is identified as one of the wastes 
 
 <a name="figure-1"></a>
 <figure>
-  <img src="/img/systems_thinking/systems%20thinking-18.png" alt="systems thinking-18.png">
+  <img src="/img/systems-thinking/systems%20thinking-18.png" alt="systems thinking-18.png">
   <figcaption>The dynamic of schedule pressure and the secret toolbox.</figcaption>
 </figure>
 
@@ -249,7 +248,7 @@ A closer exploration of the system dynamics shows why things went slower in the 
 
 <a name="figure-2"></a>
 <figure>
-  <img src="/img/systems_thinking/systems%20thinking-19.png" alt="systems thinking-19.png">
+  <img src="/img/systems-thinking/systems%20thinking-19.png" alt="systems thinking-19.png">
   <figcaption>Some deeper dynamics of schedule pressure and the secret toolbox.</figcaption>
 </figure>
 
@@ -291,7 +290,7 @@ In LeSS, the Product Owner is responsible for choosing high-value goals that **c
 In addition to becoming a systems thinker yourself, encourage others to learn more about this topic. We suggest you to try getting together at a whiteboard with colleagues to sketch a causal loop diagram, so that *being* systems thinkers and *doing* systems thinking are connected at the workplace.
 
 <figure>
-  <img class="rounded shadowed" src="/img/systems_thinking/group%20cld%20modeling.jpg" alt="group%20cld%20modeling.jpg">
+  <img class="rounded shadowed" src="/img/systems-thinking/group%20cld%20modeling.jpg" alt="group%20cld%20modeling.jpg">
   <figcaption>Doing system thinking. Sketching a causal loop diagram together—modeling to have a conversation.</figcaption>
 </figure>
 
@@ -302,7 +301,7 @@ In addition to becoming a systems thinker yourself, encourage others to learn mo
 * Weinberg’s *Quality Software Management: Systems Thinking* and *An Introduction to General Systems Thinking* are worthwhile. Written from the perspective of an experienced consultant in systems development.  <br>
 * Senge’s [*The Fifth Discipline*](http://www.amazon.com/Fifth-Discipline-Practice-Learning-Organization-ebook/dp/B000SEIFKK/ref=sr_1_1?ie=UTF8&qid=1413601715&sr=8-1&keywords=the+fifth+discipline) is a classic that advocates the need for leadership to apply systems thinking (it is the *fifth* discipline) and other key disciplines for a great, sustainable enterpise. The others include leaders with (1) personal mastery and (2) reflection on their beliefs and faulty reasoning, the (3) definition and communication of a meaningful shared vision, and (4) the ability of teams to learn. We recommend ignoring---at least during the first few years of practice---the ‘archetypes’ notion presented in the book. It was well meant as a learning aid but has been observed to distract and intimidate people from learning and applying basic system dynamics modeling. The ‘archetypes’ are not part of original system dynamics.  <br>
 * [*The Fifth Discipline Fieldbook*](http://www.amazon.com/Fifth-Discipline-Fieldbook-Strategies-Organization-ebook/dp/B00JTCJEO8/ref=sr_1_1?ie=UTF8&qid=1413601809&sr=8-1&keywords=The+Fifth+Discipline+Fieldbook) is an in-depth resource, written from the viewpoint of many practitioners and consultants.  <br>
-* The organizational-learning writings from Argyris, Putnam, McLain, and Schön. Important concepts include *double-loop learning* and *high-advocacy/high-inquiry dialogue*. Classic works include [*Action Science*](http://www.actiondesign.com/resources/research/action-science) and [*Organizational Learning*](http://www.amazon.com/Organizational-Learning-Addison-Wesley-Organization-Development/dp/0201001748/ref=sr_1_11?ie=UTF8&qid=1413601940&sr=8-11&keywords=organizational+learning).  <br>
+* The organizational-learning writings from Argyris, Putnam, McLain, and Schön. Important concepts include *double-loop learning* and *high-advocacy/high-inquiry dialogue*. Classic works include [*Action Science*](https://actiondesign.com/resources/readings/action-science) and [*Organizational Learning*](http://www.amazon.com/Organizational-Learning-Addison-Wesley-Organization-Development/dp/0201001748/ref=sr_1_11?ie=UTF8&qid=1413601940&sr=8-11&keywords=organizational+learning).  <br>
 * The publications and resources available through the [*Society for Organizational Learning*](https://www.solonline.org).
 
 ---

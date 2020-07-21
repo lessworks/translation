@@ -1,5 +1,4 @@
 ---
-layout: mechanics
 title: Queueing Theory
 order: 100
 ---
@@ -109,7 +108,7 @@ In addition to *WIP queues* , there are **constrained-resource** or **shared-res
 
 ### Queues Are a Problem
 
-First, if there are no queues---and no multitasking that artificially makes it appear a queue has been removed---then the system will move toward flow, the lean principle and perfection challenge that value is delivered without delay. Every queue creates a delay that inhibits flows. More specifically, why are queues a problem?
+First, if there are no queues---and no multitasking that artificially makes it appear a queue has been removed---then the system will move toward flow, the lean principle and perfection challenge that value is delivered without delay. Every queue creates a delay that inhibits flow. More specifically, why are queues a problem?
 
 #### WIP Queues
 
@@ -262,9 +261,6 @@ The essential point to grasp is that an item (such as a requirement request) sta
 
 It is this real-world variability that creates, on average, this increased queue size and waiting time in product development.
 {: .box_top_bottom .text_centered_bold }
-
-
-<p>It is this real-world variability that creates, on average, this increased queue size and waiting time in product development. </p>
 
 
 ### Modeling a Batch System with Queues (Traditional Development)
@@ -473,7 +469,7 @@ Said another way, the *transaction cost* (overhead cost) of the old process cycl
 
 *Tip*: Not all ‘rocks’ are big or immediately visible. The lean journey---and the journey of Scrum---is to *start with the big rocks* that are most painfully obvious yet movable, and over time work on smaller impediments.
 
-This causal loop diagram (the notation is explained in [Systems Thinking](./systems_thinking.html)) illustrates this lake and rocks effect in terms of a system dynamics model:
+This causal loop diagram (the notation is explained in [Systems Thinking](./systems-thinking.html)) illustrates this lake and rocks effect in terms of a system dynamics model:
 
 <figure>
   <img class="rounded shadowed" src="/img/queueing_theory/queueing-11.png" alt="queueing-11.png">

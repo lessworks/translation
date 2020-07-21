@@ -1,39 +1,82 @@
-Agile principles - принципы гибкой разработки
+﻿Agile principles - принципы гибкой разработки
+Area Feature Team - Команда Области Продукта
 Area Product Owner - Владелец Области Продукта
 Area Product Backlog - Бэклог Области Продукта
-Causal loop diagrams - диаграммы причинно-следственных связей
+Acceptance test-driven development, A-TDD - Разработка через приёмочное тестирование
+Backlog - Бэклог
+Cadence - Каденция
+Causal loop diagrams - Диаграммы причинного цикла
 Causal relation - причинно-следственная связь
+Co-located team - Колоцированная команда
+Communities of Practice (CoPs) - Сообщества практик
 Complexity of static [details] - статическая сложность
 Complexity of dynamics - динамическая сложность
+Сontinuous improvement - непрерывное совершенствование (улучшение)
 Control theory - теория управления
 Cross-team - кросскомандная
+Definition of Done - Критерии Готовности
+Development Team - Команда Разработки
+Design Workshop - Сессия по Проектированию Решения
 Diagram of effect - диаграмма воздействия
+Dispersed team - Рассредоточенная команда
 Dynamic system models - динамические модели систем
 Empirical process control - Эмпирический контроль процесса
 Feature-team - продуктовая команда
 Feature velocity - скорость разработки фичи
 Feedback loop - цикл обратной связи
 Flow diagrams - диаграммы потока
-Framework - каркас
+Framework - каркас, фреймворк
 Guides - Руководства
-Framework - каркас
+Gemba - гемба
+Go See - Пойди и Посмотри
+Initial Product Backlog Refinement - Первичное Уточнение Бэклога Продукта
 Inspect and Adapt - Инспекция и Адаптация
-Large-Scale Scrum - Масштабный Скрам
+Kaizen - кайдзен
+Kanban - канбан
+Large-Scale Scrum - Масштабируемый Скрам
 Large-scale adoption of *smth* - внедрение *smth* в больших масштабах
 Large-scale *smth* adoption -внедрение *smth* в больших масштабах
+Lean - бережливый подход
 Lean thinking - бережливое мышление
 LeSS Overall Retrospective - всеобщая ретроспектива LeSS
+Level pull - сбалансированное вытягивание
 Mental model - ментальная модель
 Measurement dysfunction - дисфункция измерения
 Morale - боевой дух
-Multi-team - многокомандный
+More with LeSS - Больше с помощью меньшего
+Multi-site - распределённый
+Multi-site teams - распределённые команды
+Multi-team - Многокомандный
+Multi-team Product Backlog Refinement - Многокомандное Уточнение Бэклога Продукта
+NVA - НДЦ (не-добавляющее-ценности)
+One-piece flow - поток в одну задачу (изделие)
+Оne-team Scrum - однокомандный Скрам
 Overall Retrospective - Общая Ретроспектива
-Queueing Theory - Теория массового обслуживания
+Overall Product Backlog Refinement - Общее Уточнение Бэклога Продукта 
+Perfection goal - Цель совершенства
+Potentially Shippable Product Increment - Потенциально Готовый к Поставке Инкремент Продукта
+Potentially Shippable Product - Потенциально Готовый к Поставке Продукт
+Product Backlog - Бэклог Продукта
+Product Backlog item - Элемент Бэклога Продукта
+Product Backlog Refinement - Уточнение Бэклога Продукта
+Product Owner - Владелец Продукта
+Product Owner Team - Команда Владельца Продукта
+Pull system - вытягивающая система
+Queueing Theory - Теория Массового Обслуживания
 Rate of delivery - стоимость доставки
 Requirement Area - Область Требований
+Scrum - Скрам
+Scrum Master - Скрам-мастер
+Scrum of Scrums - Скрам над Скрамом
+Scrum Team - Скрам-команда
+Specification by Example - Требования на Примерах
 Sprint Planning One - Первая Часть Планирования Спринта
 Sprint Planning Two - Вторая Часть Планирования Спринта
 System dynamics - системная динамика
 Systems thinking - системное мышление
+Team-level Product Backlog Refinement - Командное Уточнение Бэклога продукта
+Test-driven development, TDD - Разработка через тестирование
 Value - ценность
+WIP - НЗР (Незавершенная Работа)
 Wokrshop - сессия совместной работы
+Yokoten - йокотен (принцип горизонтального распространения знаний)
