@@ -5,9 +5,9 @@ order: 10
 
 ## Что такое команда?
 
-Teams are the core building block for large product development—and team structure has a huge impact on productivity and cycle time.
+Команды являются основные строительным блоком в крупномасштабной разработке - и структура команд имеет громадное влияние на продуктивность и время цикла.
 
-Team has:
+Команда имеет:
 
 * a shared work product
 * interdependent work
