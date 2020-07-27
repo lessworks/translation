@@ -8,6 +8,7 @@ Cadence - Каденция
 Causal loop diagrams - Диаграммы причинного цикла
 Causal relation - причинно-следственная связь
 Co-located team - Колоцированная команда
+Command and control - Командуй и контролируй
 Communities of Practice (CoPs) - Сообщества практик
 Complexity of static [details] - статическая сложность
 Complexity of dynamics - динамическая сложность
