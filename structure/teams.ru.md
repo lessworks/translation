@@ -56,44 +56,46 @@ LeSS-организации, основанные на командах, име�
 
 ## Конфликты нужны команде
 
-People working together creates conflict. That is not a bad thing. But conflict needs to be resolved. Unresolved conflict has a negative impact on team performance and creates a dysfunctional team atmosphere [[Lencioni02]](http://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756). Resolved conflict, on the other hand, creates learning and trust, both of which have a positive impact on performance. Conflict is an opportunity for the team to improve their performance, and hence a good thing.
+Совместная работа людей создаёт конфликты. Это не плохо. Но конфликты нужно разрешать. Неразрешённые конфликты негативно влияют на производительность команды и создают дисфункциональную атмосферу [[Lencioni02]](http://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756). Разрешённые конфликты, с другой стороны, создают знания и доверие, которые оказывать позитивное влияние на производительность. Конфликт является возможностью для команды улучшить свою производительность Conflict is an opportunity for the team to improve their performance, и следовательно, это хорошо.
 
 ## “Распределение ресурсов” не требуется 
 
-Scrum is not the waterfall. There are no phases. With its self-managing, cross-functional, long-lived feature teams, it balances the “resource need” over the release. The same people stay on the release from the beginning until the end.
+Скрам не является водопадным процессом. Здесь нет фаз. С самоуправляемыми кросс-функциональными долгоживущими фиче-командами он выравнивает “потребность в ресурсах” во время всего релиза. Одни и те же люди остаются в работе над релизом от начала до конца.
 
 ## Завершение
 
-These different—but proven—team concepts cause major change in organizations.
+Эти разные - но доказанные - концепты команд являются причиной изменений в организации.
 
-* Self-managing teams require a change from command-and-control management to manager-teacher. Instead of focusing on what people do, management should focus on how to create the environment for the teams to succeed.
-* Cross-functional teams require breaking functional boundaries and working together across the whole organization to optimize delivering customer value. Instead of boxing people in functional groups, management should focus on cross-functional learning.
-* Long-lived dedicated teams require giving work to existing teams and letting them decide how to do it. Instead of considering individuals to be the unit of performance, the focus needs to be on complete teams.
+* Самоуправляемые команды требуют перехода от модели "командуй-и-контролируй" к модели менеджеров-учителей. Вместо концентрации на том, что делают люди, менеджмент должен сосредоточиться на том, как создавать среду для успешных команд.
+* Кросс-функциональные команды требуют разрушения функциональных границ и работы всей организации вместе над оптимизацией поставки клиентской ценности. Вместо ограничения людей их функциональной группой менеджмент должен сфокусироваться на кросс-функциональном обучении.
+* Долгоживущие выделенные команды требуют передачи им работы и предоставление возможности решать, как её сделать. Вместо рассмотрения отдельных людей в качестве единиц измерения производительности фокус необходимо держать на целых командах.
 
 ## Рекомендуем к Прочтению
 
-When switching to cross-functional teams, changing management style is difficult. Luckily, a lot of excellent material has been written on this subject.
+Во время перехода к кросс-функциональным командам изменение стиля менеджмента сложное. К счастью, на эту тему было много написано интересного материала.
 
 * [Leading Teams, by Richard Hackman.](http://www.amazon.com/Leading-Teams-Setting-Stage-Performances/dp/1578513332)
-  Harvard professor Richard Hackman is a long-time team researcher. His book is currently our favorite team-related book. It has a strong focus on helping management in their change to team-based work.
+  Профессор Гарварда Ричард Хэкман - давний исследователь команд. Его книга в настоящее время является нашей любимой книгой, связанной с командами. Он уделяет большое внимание оказанию помощи руководству в переходе на командную работу.
 * [Leading Self-Directed Work Teams, by Kimball Fisher.](http://www.amazon.com/Leading-Self-Directed-Teams-Kimball-Fisher/dp/0071349243)
-  This book has a strong focus on the change in role when one becomes a team leader of a self-directed team.
+  В этой книге особое внимание уделяется смене ролей, когда человек становится лидером самостоятельной команды.
 * [The Wisdom of Teams, by Jon Katzenbach and Douglas Smith.](http://www.amazon.com/Wisdom-Teams-High-Performance-Organization-Essentials/dp/0060522003)
-  This is probably the most popular team reference and certainly worth reading.
-* [The Five Dysfunctions of a Team, by Patrick Lencioni.](http://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756)
-  Written like a novel, it covers well the need for conflict in teams.
+  Это, пожалуй, самый популярный справочник команды и, безусловно, который стоит прочитать.
+* [Пять пороков команды Патрика Ленсиони.](http://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756)
+  Написана в жанре романа, хорошо покрывает необходимость конфликта в командах.
 
-Cross-functional teams are described mainly in product development literature. Some good texts:
+Кросс-функциональные команды описаны в основном книгах о продуктовой разработке. Некоторые из них:
 
 * [Fast Cycle Time, by Chris Meyer.](http://www.amazon.com/Fast-Cycle-Time-Strategy-Structure/dp/141657624X)
-  This is a true classic on product development and talks about cross-functional (multifunctional) teams in detail.
+  Это по-настоящему классика продуктовой разработки, которая говорит о кросс-функциональных (многофункциональных) командах в деталях.
 * [Revolutionizing Product Development, by Steven Wheelwright and Kim Clark.](http://www.amazon.com/Revolutionizing-Product-Development-Quantum-Efficiency/dp/0029055156)
-  Another classic in product development literature; has one chapter on cross-functional integration.
+  Другая книга из классики продуктовой разработки; содержит одну главу о кросс-функциональной интеграции.
 
-Some texts related to software development teams:
+Несколько книг о командах разработки:
 
 * [Software for Your Head, by Jim and Michele McCarthy.](http://www.amazon.com/Software-Your-Head-Protocols-Maintaining/dp/0201604566)
-  Jim and Michele spent years in ‘boot camps’ to find the most efficient ways for teams to work. They documented this as a set of protocols in this book.
-* [Peopleware, by Tom DeMarco and Tim Lister.](https://www.amazon.com/Peopleware-Productive-Projects-Teams-3rd/dp/0321934113)
-  This classic on the importance of people in software development also has a couple of chapters focusing on teams.
+  Джим и Мишель потратили годы в ‘учебных лагерях’, чтобы найти самый эффективные пути работы команд. Они описали их, как набор протоколов в этой книге.
+* [Человеческий фактор Тома ДеМарко and Тима Листера.](https://www.amazon.com/Peopleware-Productive-Projects-Teams-3rd/dp/0321934113)
+  Это классика о важности людей в процессе разработки ПО также содержит пару глав о фокусе на командах.
+  
+Перевод статьи осуществлён [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov).
 
