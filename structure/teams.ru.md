@@ -9,30 +9,30 @@ order: 10
 
 Команда имеет:
 
-* a shared work product
-* interdependent work
-* a shared responsibility
-* a set of working agreements
-* responsibility for managing the outside-the-team relationships [[SJS03]](http://www.amazon.com/The-Team-Handbook-Third-Edition/dp/1884731260)
-* distributed leadership [[Katzenbach98]](http://www.amazon.com/Teams-At-Top-Jon-Katzenbach/dp/0875847897)
+* общий рабочий продукт
+* взаимозависимую работу
+* общую ответственность
+* набор рабочих соглашений
+* ответственность за управление внешними зависимостями [[SJS03]](http://www.amazon.com/The-Team-Handbook-Third-Edition/dp/1884731260)
+* распределённое лидерство [[Katzenbach98]](http://www.amazon.com/Teams-At-Top-Jon-Katzenbach/dp/0875847897)
 
 ## Самоуправляемые команды
 
-Self-managing teams are the basis of Scrum and a widespread modern management practice. The team has the authority to design, plan, and execute their task and to monitor and manage their work process and progress [[Hackman02]](http://www.amazon.com/Leading-Teams-Setting-Stage-Performances/dp/1578513332). The team rather than a (project) manager---has the responsibility of deciding how to work.
+Самоуправляемы команды являются основой Скрама и широко распространенными современными практиками менеджмента. Команда имеет все полномочия, чтобы проектировать, планировать и выполнять собственные задачи, отслеживать и управлять их работой и прогрессом [[Hackman02]](http://www.amazon.com/Leading-Teams-Setting-Stage-Performances/dp/1578513332). Скорее команда, а не руководитель (проекта) --- несёт ответственность за то, как ей работать.
 
-Self-managing teams do not just happen, they need the right environment. The organization is responsible for supporting the team development by creating the conditions needed for teams to succeed. Switching to self-managing teams means the job of the traditional manager changes from directing the team to creating these conditions.
+Самоуправляемые команды не просто случаются, им нужно правильное окружение. Ответственность организации в поддержке развития команды в создании условий, необходимых для успеха команд. Переход к самоуправляемым командам означает смену работы традиционных менеджеров от директивного управления к созданию этих условий.
 
 ## Кросс-функциональные команды
 
-Self-managing teams are cross-functional (or multifunctional). A cross-functional team is a "*group of people with a clear purpose representing a variety of functions or disciplines in the organization whose combined efforts are necessary for achieving the team's purpose*" [[Parker02]](http://www.amazon.com/Cross--Functional-Teams-Working-Strangers/dp/0787960853).
+Самоуправляемые команды кросс-функциональны (или многофункциональны). Кросс-функциональные команда это "*группа людей с четкой целью, представляющая различные функции или дисциплины в организации, чьи совместные усилия необходимы для достижения этой цели*" [[Parker02]](http://www.amazon.com/Cross--Functional-Teams-Working-Strangers/dp/0787960853).
 
-By definition, a Scrum team is cross-functional. Its members include at least product marketing (Product Owner), software development, and testing. A cross-functional team implies breaking the organizational barriers between development and testing by putting them in the same team
+По определению Скрам-команды кросс-функциональна. Она включает в себя знания рынка (Владелец Продукта), разработку и тестирование программного обеспечения. Кросс-функциональные команды подразумевают разрушение организационных барьеров между разработкой и тестированием путём их помещения в одну команду.
 
-Cross-functional means that team membership includes all the key functions involved in the project, usually Engineering, Marketing, and manufacturing, at a minimum [[Smith07]](http://www.amazon.com/Flexible-Product-Development-Building-Changing/dp/0787995843).
+Кросс-функциональность означает, что команда включает все ключевые функции, необходимые в проекте, обычно как минимум  Инженерию, Маркетинг, производство [[Smith07]](http://www.amazon.com/Flexible-Product-Development-Building-Changing/dp/0787995843).
 
 ## Организации, основанные на командах
 
-Team-based---LeSS—organization has the following structure:
+LeSS-организации, основанные на командах, имеют следующую структуру:
 
 * **Dedicated teams**---Each team member is dedicated for 100% of his time to one and only one Team. This might feel inflexible, but team members require dedication if you want them to (1) take a shared responsibility for the Team’s goal, and (2) take ownership of how a team works—own their processes.
 * **Cross-functional teams**---Each team contains all functional skills needed to produce a shippable product. Traditional functional specialization might feel the most ‘efficient’ from that function’s perspective, but most effortand problems in product development is “between the functions” and thus teams require to be cross-functional if you want them to focus on the whole working product.
