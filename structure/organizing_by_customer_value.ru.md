@@ -12,16 +12,19 @@ order: 20
 
 ## Фиче-команды
 
-Как и кросс-функциональные команды, фиче-команды концентрируются на клиенте, в этом и есть путь организации вокруг ценности для клиента. Фиче-команды берут элементы, [ориентированные на клиента](../principles/customer-centric.html), и "делают их полностью." Это позволяет командам разговаривать на том же языке, что и заказчики, и убирать препятствия между заказчиками и настоящими пользователями... снижая [потери при передаче](../principles/lean-thinking.html).
+Как и кросс-функциональные команды, фиче-команды концентрируются на клиенте, в этом и есть путь организации вокруг ценности для клиента. Фиче-команды берут элементы, [ориентированные на клиента](../principles/customer-centric.html), и "делают их полностью." Это позволяет командам разговаривать на том же языке, что и клиенты, и убирать препятствия между клиентами и настоящими пользователями... снижая [потери при передаче](../principles/lean-thinking.html).
 
-## Specialize in customer dimension
+## Специализируйтесь на клиентской плоскости
 
-A common misunderstanding of feature teams is that it means abandoning specialization altogether. Part of this misunderstanding comes from the false dichotomy between either specializing in one component or not specializing at all—which we’ve covered extensively in our writing on feature teams. Part of the misunderstanding comes from the belief that specialization is a one-dimensional thing—specializing in a component. But specialization is multi-dimensional.
+Распространённое непонимание концепции фиче-команд в том, что она означает полный от специализации вообще. Часть этого непонимания происходит из ложной дихотомии между либо специализации на одном компоненте, либо её полном отсутствии - о чем мы подробно писали в наших статьях о функциональных командах. Другая часть этого непонимания происходит из убеждения, что специализация является одномерной в рамках компонента. Но специализация многомерна.
 
-LeSS brings users and developers closer together because the user-perspective is almost always lost in traditional large product groups. Feature teams are one way of organizing by customer value but not the only one. The principle of preferring specialization in customer domain also leads to other structuring decisions. For example:
+LeSS собирает вместе пользователей и разработчиков, потому что в традиционных больших продуктовых группах фокус на пользователе обычно теряется. Фиче-команды не являются одним, но не единственным, путём организации по ценности для клиента. Принцип специализации на клиентской области знаний также ведёт к другим изменениям в структуре. Например:
 
-Banks create mobile apps for banking services on mobile devices. The product groups are typically organized by platform: (1) the IOS teams, and (2) the Android teams. These teams are feature teams and they are specialized in the technical dimension—namely, the platform. Alternatively, they can be organized in customer domains such as (1) mobile payments, (2) admin, and (3) reporting. This leads to the teams implementing the same type of features on multiple platforms instead of implementing many types of features on one platform.
+Банки создают мобильные приложения для предоставления своих услуг с помощью мобильных устройств. Продуктовые группы обычно организованы по платформам: (1) команды iOS и (2) команды Android. Это фиче-команды специализированы в технической плоскости - называемой платформой. Но они могут быть организованы по клиентским областям, таким как (1) мобильные платежи, (2) администрирование, (3) отчётность. Это ведёт к командам, которые разрабатывают один те же задачи на нескольких платформах вместо разработки многих типов задач на одной.
 
-Which specialization dimension is better? Traditional organizations tend to specialize in technology dimensions. Why? Perhaps that is perceived as more difficult and hence specializing in that dimension leads to faster development? But in LeSS we prefer specialization in the customer domain to increase collaboration with real users and remove hand-offs.
 
-The assumption in traditional organizations is that specializing around technology is ‘better.’ But is this true especially as the industry matures (and ages) and polyglot programming is common? And is it true from the customer perspective? Scrum and LeSS have a tendency to prefer specialization into the customer dimension.
+Какая плоскость лучше для специализации? Традиционные организации имеют склонность специализации в технической плоскости. Почему? Возможно, это это воспринимается как более сложное и, следовательно, специализация в этой плоскости ведет к более быстрому развитию? Но в LeSS мы предпочитаем специализацию в плоскости клиентов, чтобы расширить сотрудничество с реальными пользователями и убрать потери при передачах.
+
+В традиционных организациях существует убеждение, что специализация вокруг технологий ‘лучше’. Но правда ли это, особенно при взрослении (и возрасте) индустрии, и когда владение несколькими языками становиться нормой? И правда ли это с точки зрения клиента? Скрам и LeSS имеют тенденцию отдавать предпочтение специализации в клиентской плоскости.
+
+Перевод статьи осуществлён [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov).
