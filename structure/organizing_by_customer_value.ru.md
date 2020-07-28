@@ -1,17 +1,18 @@
 ---
-title: Organizing by Customer Value
+title: Организация по Ценности для Клиента
 order: 20
 ---
 
-In a small one-team product, organizing by customer value is trivial. The more teams, the more they become like cogs in the large development machine. Like Charlie Chaplin in Modern Times, their jobs is to turn screws but have no idea how the customer will use the product… or who that customer actually is. How to scale and keep a customer focus?
+В маленьком продукте, состоящем из одной команды, организация по клиентской ценности тривиальна. При большем количестве команд они больше похоже на шестерёнки в большой машине разработки. Как Чарли Чаплин в фильме "Новые Времена", их работа состоит в том, чтобы работать отвертками, не имея представления, как потребитель будет пользоваться их продуктом... или как он пользуется сейчас. Как масштабировать продукт и сохранить фокус на клиенте?
 
-## Cross-functional Teams
+## Кросс-функциональные Команды
 
-Having cross-functional [teams](teams.html) is important for keeping the customer focus. With functional specialized departments, we create process-steps and the previous person in the process becomes "our customer". But these internal customers are not real customers. With cross-functional teams, we change the whole perspective and give an item to the team and let the team as a whole focus on a [customer-centric](../principles/customer-centric.html) feature. The team, being in a short time-period will need to figure out how to parallelize the work done within the Sprint period... and keep their customer focus.
+Наличие кросс-функциональных [команды](teams.html) важно для сохранения фокусе на клиенте. С функциональными отделами специалистов мы создаём шаги процесса, и в нем "нашими клиентами" становятся люди с предыдущего шага. Но эти клиенты не настоящие. С кросс-функциональными командами мы меняем
+точку обзора, даём элемент команде и позволяем ей держать фокус [клиентоориентированных](../principles/customer-centric.html) задачах. Команде, находящейся в рамках коротких временных отрезков, требуется понять, как выполнять работу параллельно, чтобы завершить её в течение Спринта... и сохранить свой фокус на клиенте.
 
-## Feature Teams
+## Фиче-команды
 
-Like with cross-functional teams, feature teams focus on the customer and is a way of organizing around customer value. Feature teams take a [customer-centric](../principles/customer-centric.html) feature and "do it all." It allows the team to speak the same language as the customers and to remove the barriers between customers and actual users... much less [hand-offs](../principles/lean-thinking.html).
+Как и кросс-функциональные команды, фиче-команды концентрируются на клиенте, в этом и есть путь организации вокруг ценности для клиента. Фиче-команды берут элементы, [ориентированные на клиента](../principles/customer-centric.html), и "делают их полностью." Это позволяет командам разговаривать на том же языке, что и заказчики, и убирать препятствия между заказчиками и настоящими пользователями... снижая [потери при передаче](../principles/lean-thinking.html).
 
 ## Specialize in customer dimension
 
