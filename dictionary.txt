@@ -22,7 +22,8 @@ Diagram of effect - диаграмма воздействия
 Dispersed team - Рассредоточенная команда
 Dynamic system models - динамические модели систем
 Empirical process control - Эмпирический контроль процесса
-Feature-team - продуктовая команда
+Feature-team - продуктовая команда, фиче-команда
+Feature team adoption map - карта внедрения фиче-команд
 Feature velocity - скорость разработки фичи
 Feedback loop - цикл обратной связи
 Flow diagrams - диаграммы потока
