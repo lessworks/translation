@@ -1,6 +1,6 @@
 ---
 title: Whole Product Focus
-order: ???
+order: 90
 ---
 
 Customers don't buy a part of the product, but the whole product. This seems obvious but it is important to remember. It leads to a couple of important guidelines:
