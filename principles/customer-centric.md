@@ -1,6 +1,6 @@
 ---
 title: Customer Centric
-order: ???
+order: 80
 ---
 
 In a small single-team product, organizing the team around customer value and being centered on the customer is pretty simple and obvious. But the more teams, the more they become like cogs in the large development machine. Like Charlie Chaplin in Modern Times, their jobs are to turn screws but have no idea how the customer will use the product... or who that customer actually is. In large-scale groups, we see people creating code without really knowing why with respect to the paying customer.
