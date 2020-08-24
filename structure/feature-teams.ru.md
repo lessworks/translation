@@ -15,28 +15,28 @@ order: 30
 * кросс-функциональная и кросс-компонентная
 * колоцированная
 * работает над задачей, описанной клиентским языков, до её завершения, во всех компонентах и дисциплинах (аналитика, программирование, тестирование, …)
-* composed of generalizing specialists
-*  как в Скраме обычно состоит из 7 ± 2 человек
+* состоит из специалистов широкого профиля
+* как и в Скраме обычно состоит из 7 ± 2 человек
 
-Applying modern engineering practices—especially continuous integration—is essential when adopting feature teams. Continuous integration facilitates shared code ownership, which is a necessity when multiple teams work at the same time on the same components.
+Применение современных инженерных практик - особенно непрерывной интеграции - является самым важным при переходе к фиче-командам. Непрерывная интеграция помогает общему владению кодом, которое необходимо, когда несколько команд работают над одними и теми же компонентами в одно и то же время. 
 
-A common misunderstanding: every member of a feature team needs to know the whole system. Not so, because
+Типичное заблуждение: каждый член фиче-команды должен знать всю систему целиком. Но это не так, потому что
 
-* The team as a whole—not each individual member—requires the skills to implement the entire customer-centric feature. These include component knowledge and functional skills such as test, interaction design, or programming. But within the team, people still specialize… preferably in multiple areas.
-* Features are not randomly distributed over the feature teams. The current knowledge and skills of a team are factored into the decision of which team works on which features.
+* Команда целиком - а не каждый член в отдельности - требует всех навыков для выполнения задач, ориентированных на клиента. Они включают в себя знания и функциональные навыки, такие как тестирование, проектирование взаимодействия или программирование. Но внутри команды люди по-прежнему специализируются… желательно в нескольких областях.
+* Задачи Бэклога Продукта не распределяются между командами произвольно. Текущие знания и навыки команды учитываются в принятии решения, какая команда будет работать над какими задачами. 
 
-Within a feature team organization, when specialization becomes a constraint…learning happens.
+В организации, состоящей из фиче-команд, когда специализация становится ограничением… тогда происходит обучение.
 
-*A feature team organization exploits speed benefits from specialization, as long as requirements map to the skills of the teams.
-But when requirements do not map to the skills of the teams, learning is ‘forced,’ breaking the overspecialization constraint.
-Feature teams balance specialization and flexibility.*
+*Организация, состоящая из фиче-команд, использует преимущества в скорости от специализации, если требования покрываются навыкам команд.
+Но когда требования не соответствуют навыкам команд, тогда обучение ’ускоряется’, разрушая ограничения чрезмерной специализации.
+Фиче-команды сочетают в себе специализацию и гибкость.*
 {: .box_top_bottom  .text_centered_bold }
 
-# component vs. feature teams
+# сравнение компонентных и фиче-команд
 
-The table below and Figure 2 show the differences between feature teams and more traditional component teams.
+Таблица ниже и вторая иллюстрация показывают отличия фиче-команд и более традиционных компонентных команд.
 
-| component team                                                                         | feature team                                        |
+| компонентная команда                                                                   | фиче-команда                                        |
 |:--------------------------------------------------------------------------------------:|:---------------------------------------------------:|
 | optimized for delivering the maximum number of lines of code                           | optimized for delivering the maximum customer value |
 | focus on increased individual productivity by implementing ‘easy’ lower-value features | focus on high-value features and system productivity (value throughput) |
