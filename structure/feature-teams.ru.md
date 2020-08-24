@@ -3,7 +3,7 @@ title: Фиче-команды
 order: 30
 ---
 
-Фиче-команда, изображённая на первой иллюстрации, является долгоживущей, кросс-функциональной командой, которая выполняет множество задач, описанных пользовательским языком - одна за одной. 
+Фиче-команда, изображённая на иллюстрации ниже, является долгоживущей, кросс-функциональной командой, которая выполняет множество задач, описанных пользовательским языком - одна за одной. 
 
 <div>
   {% figure "img/structure/feature-team", "Фиче-команда" %}
@@ -34,7 +34,7 @@ order: 30
 
 # сравнение компонентных и фиче-команд
 
-Таблица ниже и вторая иллюстрация показывают отличия фиче-команд и более традиционных компонентных команд.
+Таблица и иллюстрация ниже показывают отличия фиче-команд и более традиционных компонентных команд.
 
 | компонентная команда                                                                           | фиче-команда                                        |
 |:----------------------------------------------------------------------------------------------:|:---------------------------------------------------:|
@@ -69,11 +69,11 @@ order: 30
 | члены команды выделены — на 100% — в команду                 | члены выделены по доле на несколько проектов на основе их специализации |
 {: .grid_table_with_header}
 
-Самые сильные недостатки компонентных описаны в разделе “Feature Teams” книги Scaling Lean & Agile Development, на третьей иллюстрации можно увидеть некоторые из них.
+Самые сильные недостатки компонентных описаны в разделе “Feature Teams” из книги Scaling Lean & Agile Development, на иллюстрации ниже можно увидеть некоторые из них.
 
 <figure>
   <img src="/img/feature-teams/component_teams_waterfall.png" alt="component_teams_waterfall.png">
-  <figcaption>Иллюстрация 3. Некоторые Недостатки Компонентных Команд.</figcaption>
+  <figcaption>Некоторые Недостатки Компонентных Команд.</figcaption>
 </figure>
 
 Иногда этого не видно, но структура компонентных команд усиливает модель последовательной разработки (‘водопад’ или V-модель), с большим количеством очередей с разноразмерными пакетам работы, высоким уровнем НЗР, множественными передачами, усиливает многозадачность и частичное выделение.
@@ -82,25 +82,27 @@ order: 30
 
 Организация, состоящая из фиче-команд, является идеалом с точки зрения доставки ценности и организационной гибкости. Ценность и гибкость, однако, не единственные критерии организационного дизайна, и следовательно, много организация останавливаются на гибриде - особенно в процессе перехода от компонентных к фиче-командам. Внимание: гибридные модели имеют недостатки из обоих миров и могут приносить… боль.
 
-A frequently expressed reason in favor of a hybrid organization is the need to build infrastructure, construct reusable components, or clean up code—work traditionally done within component teams. But these activities can also be done in a pure feature team organization—without establishing permanent component teams. How? By adding infrastructure, reusable components, or cleanup work to the Product Backlog and giving it to an existing feature team—as if it were a customer-centric feature. The feature team temporarily—for as long as the Product Owner wishes—does such work and then returns to building customer-centric features.
+Часто высказываемая причина в пользу гибридной организации - это необходимость создания инфраструктуры, создания повторно используемых компонентов или очистки кода - работа, традиционно выполняемая в компонентных командах. Но эти задачи могут быть сделаны в организации, состоящей только из фиче-команд - без создания постоянных компонентных команд. Как?. Путём добавления задач по инфраструктуре, повторно используемых компонентах или очистке кода в Бэклог Продукта и передачи их существующим фиче-командам - так, как если бы они были бы задачами, ориентированным на клиента. Фиче-команда временно — на столько долго, на сколько Владелец Продукта захочет — выполняет такую работу и затем возвращается к работе над задачами, ориентированными на клиента.
 
 ## Переход к Фиче-командам
 
-Different organizations require different transition strategies when changing from component to feature teams. We have experience with many strategies that worked…and failed in a different context. A safe—but slow—transitioning strategy is to establish one feature team within the existing component team organization. After this team performs well, a second feature team is formed. This continues gradually at the speed the organization is comfortable with. This is shown in Figure 4.
+Разные организации требует разной стратегии по переходу от компонентных к фиче-командам. У нас есть опыт со многими стратегиями, которые работают… и не работают в разных контекстах. Безопасная — но долгая — стратегия перехода состоит в запуске одной фиче-команды среди других компонентных команд. После того, как она будет чувствовать себя хорошо, можно приступать к запуску второй фиче-команды. Это продолжается постепенно со скоростью, которую устраивает организацию. Это изображено на иллюстрации ниже.
 
 <div>
-  {% figure "img/feature-teams/transition-component-teams-slow", "Gradual Slow Transition to Feature Teams" %}
+  {% figure "img/feature-teams/transition-component-teams-slow", "Постепенный Медленный Переход к Фиче-Командам" %}
 </div>
 
 ## Рекомендуем к Прочтению
 
 * Feature Team Primer
-  This article originally appeared as the [Feature Team Primer](http://www.featureteamprimer.com/)
-* Feature Teams chapter of [Scaling Agile & Lean Development](http://www.amazon.com/Scaling-Lean-Agile-Development-Organizational/dp/0321480961)
-  This 60-page analysis of feature and component teams is also [available online](https://res.infoq.com/articles/scaling-lean-agile-feature-teams/en/resources/feature%20teams_%20infoq_%20final.pdf)
-* [Dynamics of Software Development by Jim McCarthy](http://www.amazon.com/Dynamics-Software-Development-Jim-McCarthy/dp/1556158238)
-  Originally published in 1995 but republished in 2008. Jim’s book is a true classic on software development. Already in 1995 it emphasized feature teams. The rest of the book is stuffed with insightful tips related to software development.
-* [“XP and Large Distributed Software Projects” by Karlsson and Andersson.](_http://dl.acm.org/citation.cfm?id=377525_)
-  This early large-scale agile development article is published in Extreme Programming Perspectives. It is a insightful and much under-appreciated article describing the strong relationship between feature teams and continuous integration.
-* [“How Do Committees Invent?” by Mel Conway.](http://www.melconway.com/research/committees.html)
-  This 40-year article is as insightful today as it was 40 years ago. It is available via the authors website at www.melconway.com.
+  Эта статья изначально была опубликована в [Feature Team Primer](http://www.featureteamprimer.com/)
+* Раздел Feature Teams из книге [Scaling Agile & Lean Development](http://www.amazon.com/Scaling-Lean-Agile-Development-Organizational/dp/0321480961)
+  Этот 60-страничный анализ компонентных и фиче-команд также [доступен онлайн](https://res.infoq.com/articles/scaling-lean-agile-feature-teams/en/resources/feature%20teams_%20infoq_%20final.pdf)
+* [Dynamics of Software Development Джима Маккарти.](http://www.amazon.com/Dynamics-Software-Development-Jim-McCarthy/dp/1556158238)
+  Изначально опубликована в 1995 году, переиздана в 2008 году. Книга Джима является настоящей классикой в разработке программного обеспечения. Уже в 1995 году она выделяла фиче-команды. Остальная часть книги наполнена полезными советами, связанными с разработкой программного обеспечения.
+* [“XP and Large Distributed Software Projects” Эвена-Андре Карлссона и Ларса-Йорана Андерссона.](_http://dl.acm.org/citation.cfm?id=377525_)
+  Эта ранняя статья о масштабировании гибкой разработки ПО приводится с точки зрения Экстремального Программирования.Это проницательная и недооцененная статья, описывающая тесную взаимосвязь между фиче-командами и непрерывной интеграцией.
+* [“How Do Committees Invent?” Мелвина Конвея.](http://www.melconway.com/research/committees.html)
+  Эта 40-летняя статья сегодня столь же проницательна, как и 40 лет назад. Она доступна на сайте авторов по адресу www.melconway.com.
+  
+Перевод статьи осуществлён [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov) и [Романом Лапаевым](https://www.linkedin.com/in/romanlapaev).
