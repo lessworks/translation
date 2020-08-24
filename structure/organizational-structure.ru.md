@@ -1,11 +1,11 @@
 ---
-title: Organizational Structure
+title: Организационная Структура
 order: 50
 ---
 
 How does this all fit together in an organizational structure? Of course, each organization is different, yet LeSS organizations tend to follow a surprisingly simple structure. The first difference between LeSS organizations and most traditional ones is that the structure is stable as (1) work is organized around teams, and (2) mismatch of skills triggers learning and coordination within existing teams.
 
-## LeSS Organizational Structure
+## Организационная Структура в LeSS
 
 A typical LeSS organizational chart looks like this:
 
@@ -30,3 +30,5 @@ An important point in this organizational structure is that the Teams and the Pr
   A common alternative structure is when the Product Owner belongs to a different organization. This is OK though it does often require additional effort to ensure the Product Owner has a close relationship with the Teams.
 * **Undone department**---This department, ideally, does not exist.
 But unfortunately sometimes the teams are not yet able to create a true shippable increment every Sprint. This is reflected by their [“Definition of Done”](https://less.works/less/framework/definition-of-done.html) not being equal to “Potentially Shippable.” Undone departments such as test, QA, architecture, or business analysis groups should never exist in the smaller LeSS framework groups as they should be integrated into the teams from the start. On the other hand, we unfortunately frequently still see an operations or production undone department in LeSS adoptions, as they often cross organizational boundaries.
+
+Перевод статьи осуществлён [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov) и [Романом Лапаевым](https://www.linkedin.com/in/romanlapaev).
