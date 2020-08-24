@@ -1,11 +1,11 @@
 ---
-title: Communities
+title: Сообщества
 order: 50
 ---
 
-*Communities of Practice are groups of people who share a concern, a set of problems, or a passion about a topic, and who deepen their knowledge and expertise in this area by interacting on an ongoing basis [[WMS02]](http://www.amazon.com/Cultivating-Communities-Practice-Etienne-Wenger/dp/1578513308).*
+*Сообщества практик это группы людей, разделяющих общую озабоченность, набор проблем или страсть к определенной теме, и углубляющих свои знания и опыт в этой области, постоянно взаимодействуя [[WMS02]](http://www.amazon.com/Cultivating-Communities-Practice-Etienne-Wenger/dp/1578513308).*
 
-Communities of Practice (CoP) are rooted in self-organization. They do not appear on an organization chart. Participation is voluntary—people engage because they have a passion to learn or contribute.
+Сообщества практик (Communities of Practice, CoP) являются основой самоорганизации. Они не отражаются в диаграмме организационной структуры. Участие на волонтёрской основе — люди вовлечены, потому что у них есть желание учиться или вносить свой вклад.
 
 Organizations cannot form or put together CoPs like they can form departments or projects. But organizations can promote them and provide support—facilitators, IT infrastructure, budget.
 
@@ -22,3 +22,5 @@ The learning culture of Toyota is to “spread knowledge laterally.” This prac
 Is a CoP not a matrix organization in new clothes? No, there are clear conceptual differences between them.
 
 *Communities of practice provide a fundamental different approach toward the same goal. The matrix structure only focuses on the distribution of authority and the coordination of resources by multiplying reporting relationships. It does not create different structures for different purposes. Whereas a matrix has reporting relationships on both arms, communities of practice provide a different kind of structure for focusing on knowledge. They are based on collegial relationships, not reporting relationships. Even community leaders [CoP coordinators] are not your bosses; they are your peers. This combination of formal and informal structures is fundamentally different from a matrix.* [[WMS02]](http://www.amazon.com/Cultivating-Communities-Practice-Etienne-Wenger/dp/1578513308)
+
+Перевод статьи осуществлён [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov) и [Романом Лапаевым](https://www.linkedin.com/in/romanlapaev).
