@@ -5,15 +5,15 @@ order: 50
 
 *Сообщества практик это группы людей, разделяющих общую озабоченность, набор проблем или страсть к определенной теме, и углубляющих свои знания и опыт в этой области, постоянно взаимодействуя [[WMS02]](http://www.amazon.com/Cultivating-Communities-Practice-Etienne-Wenger/dp/1578513308).*
 
-Сообщества практик (Communities of Practice, CoP) являются основой самоорганизации. Они не отражаются в диаграмме организационной структуры. Участие на волонтёрской основе — люди вовлечены, потому что у них есть желание учиться или вносить свой вклад.
+Сообщества практик (Communities of Practice, CoPs) являются основой самоорганизации. Они не отражаются в диаграмме организационной структуры. Участие на волонтёрской основе — люди вовлечены, потому что у них есть желание учиться или вносить свой вклад.
 
-Organizations cannot form or put together CoPs like they can form departments or projects. But organizations can promote them and provide support—facilitators, IT infrastructure, budget.
+Организации не могут формировать или размещать вместе CoPs так, как они это делают с отделами и проектами. Но организации могут продвигать их и оказывать поддержку - фасилитаторы, ИТ-инфраструктура, бюджет.
 
-CoPs and LeSS work well together; both embrace volunteering and self-organization. A CoP needs an informal leader, called a CoP coordinator, who emerges from the group because of a passion for the subject. A part of cultivating CoPs is to support the CoP coordinators. Sometimes coordinating activities becomes a full-time role, and the coordinator may then move to the Support unit. However, be wary of full-time CoP coordinators; ironically, they can lose touch with their practice by no longer…practicing.
+Сообщества и LeSS хорошо работают вместе; оба поддерживают волонтёрство и самоорганизацию. CoP необходим неформальный лидер, называемый координатором CoP, который выходит из группы из-за страсти к предмету. Часть культивации культуры CoP состоит в поддержке CoP координаторов. Иногда координационные активности становятся полноценной ролью, и тогда координатор может присоединиться к отделу Поддержки. Однако опасайтесь постоянных координаторов сообществ практик; по иронии судьбы, они могут потерять связь со своей практикой, если больше не будут… практиковаться.
 
-We worked with a multinational organization that had a Scrum Master CoP that was cultivated by the centralized support organization. It consisted of hundreds of Scrum Masters discussing Scrum-related issues on their mailing list. Every year, they organized an internal Scrum Gathering, which was held as an OpenSpace conference.
+Мы работали в многонациональной организации, которая имела сообщество практик Скрам-мастеров, централизованно культивируемое организацией. Оно состояло из сотен Скрам-мастеров, обсуждающих темы, связанные со Скрамом, в их листе рассылки. Каждый год они организовывали конференцию Scrum Gathering, которая проходила в формате открытого пространства.
 
-## Use CoPs for functional learning
+## Используйте Сообщества для обучения функциям
 
 Many organizations come to awareness of CoPs through the transition to cross-functional teams and the elimination of the matrix. We were coaching at Lockheed-Martin some years ago during their early days of agile adoption. Project or product groups had previously (usually) been organized into functional teams (analysts, testers, and so on). Lockheed-Martin people realized that when they transitioned to an agile approach, abolished matrix management, and adopted long-lived cross-functional teams, there could be a problem in learning or knowledge sharing related to one function. For example, they asked, “How will all the specialist testers learn—as a group—about a new testing practice, when they are distributed to different cross-functional teams?” Because of this question, they discovered CoPs and put in place a support system to cultivate their growth.
 
