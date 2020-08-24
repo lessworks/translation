@@ -69,18 +69,18 @@ order: 30
 | члены команды выделены — на 100% — в команду                 | члены выделены по доле на несколько проектов на основе их специализации |
 {: .grid_table_with_header}
 
-Most drawbacks of component teams are explored in the “Feature Teams” chapter of Scaling Lean & Agile Development, Figure 3 summarizes some of these.
+Самые сильные недостатки компонентных описаны в разделе “Feature Teams” книги Scaling Lean & Agile Development, на третьей иллюстрации можно увидеть некоторые из них.
 
 <figure>
   <img src="/img/feature-teams/component_teams_waterfall.png" alt="component_teams_waterfall.png">
-  <figcaption>Figure 3. Some Drawbacks of Component Teams.</figcaption>
+  <figcaption>Иллюстрация 3. Некоторые Недостатки Компонентных Команд.</figcaption>
 </figure>
 
-What is sometimes not seen is that a component team structure reinforces sequential development (a ‘waterfall’ or V-model), with many queues with varying-sized work packages, high levels of WIP, many handoffs, and increased multitasking and partial allocation.
+Иногда этого не видно, но структура компонентных команд усиливает модель последовательной разработки (‘водопад’ или V-модель), с большим количеством очередей с разноразмерными пакетам работы, высоким уровнем НЗР, множественными передачами, усиливает многозадачность и частичное выделение.
 
 ## Что выбрать: Компонентные Команды или Фиче-команды?
 
-A pure feature team organization is ideal from the value-delivery and organizational-flexibility perspective. Value and flexibility, however, are not the only criterion for organizational design, and many organizations therefore end up with a hybrid—especially during a transition from component to feature teams. Caution: hybrid models have the drawbacks from both worlds and can be…painful.
+Организация, состоящая из фиче-команд, является идеалом с точки зрения доставки ценности и организационной гибкости. Ценность и гибкость, однако, не единственные критерии организационного дизайна, и следовательно, много организация останавливаются на гибриде - особенно в процессе перехода от компонентных к фиче-командам. Внимание: гибридные модели имеют недостатки из обоих миров и могут приносить… боль.
 
 A frequently expressed reason in favor of a hybrid organization is the need to build infrastructure, construct reusable components, or clean up code—work traditionally done within component teams. But these activities can also be done in a pure feature team organization—without establishing permanent component teams. How? By adding infrastructure, reusable components, or cleanup work to the Product Backlog and giving it to an existing feature team—as if it were a customer-centric feature. The feature team temporarily—for as long as the Product Owner wishes—does such work and then returns to building customer-centric features.
 
