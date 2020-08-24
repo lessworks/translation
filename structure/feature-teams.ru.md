@@ -60,13 +60,13 @@ order: 30
 
 Таблица ниже подводит итоги в сравнении фиче-команд и обычных проектных или специализированных групп.
 
-| feature team                                                          | feature group or feature project |
-|:---------------------------------------------------------------------:|:--------------------------------:|
-| stable team that stays together for years and works on many features  | temporary group of people created for one feature or project |
-| shared team responsibility for all the work	                          | individual responsibility for ‘their’ part based on specialization |
-| self-managing team                                                    | controlled by a project manager |
-| results in a simple single-line organization (no matrix!)             | results in a matrix organization with resource pools |
-| team members are dedicated—100% allocated—to the team                 | members are part-time on many projects because of specialization |
+| фиче-команда                                                 | группа для работы над задачей или проектом |
+|:------------------------------------------------------------:|:------------------------------------------:|
+| постоянный состав в течение многих лет и многих фич          | временная группа людей для работы над одной задачей или проектом |
+| общая ответственность за всю работу                          | индивидуальная ответственность за ‘их’ часть работы, основанной на их специализации |
+| самоуправляемая команда                                      | контролируется руководителем проекта |
+| является частью простой плоской организации (без матриц!)    | является частью матричной организации с ресурсным пулами |
+| члены команды выделены — на 100% — в команду                 | члены выделены по доле на несколько проектов на основе их специализации |
 {: .grid_table_with_header}
 
 Most drawbacks of component teams are explored in the “Feature Teams” chapter of Scaling Lean & Agile Development, Figure 3 summarizes some of these.
