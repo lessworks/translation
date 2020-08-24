@@ -3,32 +3,32 @@ title: Организационная Структура
 order: 50
 ---
 
-How does this all fit together in an organizational structure? Of course, each organization is different, yet LeSS organizations tend to follow a surprisingly simple structure. The first difference between LeSS organizations and most traditional ones is that the structure is stable as (1) work is organized around teams, and (2) mismatch of skills triggers learning and coordination within existing teams.
+Как все это сочетается в организационной структуре? Конечно, каждая организация индивидуальна, но LeSS организации, как правило, придерживаются удивительно простой структуры. Первое различие между LeSS организацией и большинством традиционных организаций в том, что структура устойчива, поскольку (1) работа организована вокруг команд, и (2) несоответствие навыков запускает обучение и координацию в рамках существующих команд.
 
 ## Организационная Структура в LeSS
 
-A typical LeSS organizational chart looks like this:
+Обычно диаграмма организационной структуры в LeSS похожа на:
 
 <div>
   {% figure "img/structure/typical-less-organizational-chart", "Typical Organizational Structure" %}
 </div>
 
-Notice what isn’t here:
+Заметьте, чего здесь нет:
 
-* No project/program organization or project/program management office (PMO).
-  These traditional control organizations cease to exist in a LeSS organization as their responsibilities are distributed between the feature teams and the Product Owner. Insisting on keeping such organizations will cause confusion and conflicts of responsibilities.
-* No support groups such as configuration management, continuous integration support, or “quality and process”.
-  LeSS organizations prefer to expand the existing teams responsibility to include this work over creating more complex organization with specialized groups. Specialized support groups tend to ‘own’ their area which leads to them becoming a bottleneck.
+* Нет организации проектов/программ или отдела управления проектами/программами (project management  office, PMO).
+  Эти традиционные структуры управления перестают существовать в LeSS организации, поскольку их обязанности распределяются между фиче-командами и Владельцем Продукта. Настаивание на сохранении таких структур вызовет путаницу и конфликт ответственности.
+* Нет группы поддержки, такой как группа конфигурации, группа поддержки непрерывной интеграции или  группа “качество и процессы”.
+  LeSS организации предпочитают расширять ответственность существующих команд, чтобы включить эту работу вместо создания более сложной организации со специализированными группами. Специализированные группы поддержки, как правило, ‘владеют’ своей территорией, что приводит к тому, что они становятся узким местом.
 
-Let’s examine a LeSS organization…
+Давайте изучим LeSS организацию…
 
-* **Head of the Product Group**---Most LeSS organizations still have managers including a “head of product group.” They support the teams by Go See and help them remove obstacles and improve. LeSS organizations don’t have matrix structures and there are no “dotted-line” managers.
-  “Head of Product Group” is called differently in different organization, here we mean the hierarchical manager of all the teams.
-* **Feature teams**---This is where the development work is done. Each team is cross-functional, self-managing feature team with a Scrum Master. They are permanent units that stay together for the duration of a product (and sometimes longer). Avoid lots of hierarchical layers as much as possible.
-* **Product Owner (Team)**---This is also commonly called “Product Management.” It can be one person but in a larger LeSS organization the [Product Owner](../framework/product-owner.html) might be supported by other product managers.
-An important point in this organizational structure is that the Teams and the Product Owner are peers. This important to keep the power balanced between the roles. The Teams and Product Owner should have a cooperative peer relationship.
+* **Руководитель Продуктовой Группы** --- Большинство LeSS организаций все ещё имеют менеджеров, включая “руководителя продуктовой группы.” Они поддерживают команды через механизм Пойди и Посмотри, помогают им убирать препятствия и улучшаться. LeSS организации не имеют матричной структуры и “перпендикулярных” менеджеров.
+  “Руководитель Продуктовой Группы” называются по-разному в разных организациях, тут мы имеем в виду руководителя всех команд.
+* **Фиче-команды** --- Это то, где происходит работа по разработке. Каждая фиче-команда кросс-функциональна, самоуправляема, имеет своего Скрам-Мастера. Это постоянные единицы, которые остаются вместе на протяжении всего продукта (а иногда и дольше). По возможности избегайте большого количества иерархических слоев.
+* **Владелец Продукта (Команда)** --- Обычно называется “Руководителем Продукта” (менеджером продукта, product manager). Это должен быть один человек, но в крупных LeSS организациях [Владелец Продукта](../framework/product-owner.html) может опираться на помощь других продуктовых менеджеров.
+Важным моментом в этой организационной структуре является то, что Команды и Владелец Продукта являются партнерами. Это важно для сохранения баланса сил между ролями. Команды и Владелец Продукта должны иметь равноправные отношения сотрудничества.
   A common alternative structure is when the Product Owner belongs to a different organization. This is OK though it does often require additional effort to ensure the Product Owner has a close relationship with the Teams.
-* **Undone department**---This department, ideally, does not exist.
+* **Отдел незавершённой работы** --- В идеальном случае такой отдел не должен существовать.
 But unfortunately sometimes the teams are not yet able to create a true shippable increment every Sprint. This is reflected by their [“Definition of Done”](https://less.works/less/framework/definition-of-done.html) not being equal to “Potentially Shippable.” Undone departments such as test, QA, architecture, or business analysis groups should never exist in the smaller LeSS framework groups as they should be integrated into the teams from the start. On the other hand, we unfortunately frequently still see an operations or production undone department in LeSS adoptions, as they often cross organizational boundaries.
 
 Перевод статьи осуществлён [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov) и [Романом Лапаевым](https://www.linkedin.com/in/romanlapaev).
