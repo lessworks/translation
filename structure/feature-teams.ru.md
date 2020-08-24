@@ -1,22 +1,22 @@
 ---
-title: Feature Teams
+title: Фиче-команды
 order: 30
 ---
 
-A feature team, shown in Figure 1, is a long-lived, cross-functional, cross-component team that completes many end-to-end customer features—one by one.
+Фиче-команда, изображённая на первой иллюстрации, является долгоживущей, кросс-функциональной командой, которая выполняет множество задач, описанных пользовательским языком - одна за одной. 
 
 <div>
-  {% figure "img/structure/feature-team", "Feature Team" %}
+  {% figure "img/structure/feature-team", "Фиче-команда" %}
 </div>
 
-The characteristics of a feature team are listed below:
+Свойства фиче-команды показаны ниже:
 
-* long-lived—the team stays together so that they can ‘jell’ for higher performance; they take on new features over time
-* cross-functional and cross-component
-* co-located
-* work on a complete customer-centric feature, across all components and disciplines (analysis, programming, testing, …)
+* долгоживущая - команда остаётся вместе, поэтому они могут ‘застыть’ для достижения высокой производительности; со временем они приобретают новые свойства
+* кросс-функциональная и кросс-компонентная
+* колоцированная
+* работает над задачей, описанной клиентским языков, до её завершения, во всех компонентах и дисциплинах (аналитика, программирование, тестирование, …)
 * composed of generalizing specialists
-* in Scrum, typically 7 ± 2 people
+*  как в Скраме обычно состоит из 7 ± 2 человек
 
 Applying modern engineering practices—especially continuous integration—is essential when adopting feature teams. Continuous integration facilitates shared code ownership, which is a necessity when multiple teams work at the same time on the same components.
 
