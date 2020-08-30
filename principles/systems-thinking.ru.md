@@ -323,4 +323,4 @@ order: 40
 <a name="footnote-5"></a>5. *Петли обратной связи* иногда используются в этой статье в обычном разговорном смысле обратной связи, а не в смысле системной динамики.
 
 
-Перевод статьи осуществлен [Сергеем Господчиковым](https://less.works/ru/profiles/sergey-gospodchikov), [Антоном Бевзюком](http://www.tadviser.ru/index.php/Персона:Бевзюк_Антон_Анатольевич), [Романом Лапаевым](https://www.linkedin.com/in/romanlapaev) и [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov).
+Перевод статьи осуществлен [Сергеем Господчиковым](https://less.works/ru/profiles/sergey-gospodchikov), [Антоном Бевзюком](https://www.facebook.com/anton.bevzuk), [Романом Лапаевым](https://www.linkedin.com/in/romanlapaev) и [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov).
