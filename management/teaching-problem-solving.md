@@ -1,6 +1,6 @@
 ---
 title: Teaching Problem Solving
-order: 30
+order: 20
 ---
 
 > “I want you actively to train your people on how to think for themselves” --- Eiji Toyoda [[Hino06]](http://www.amazon.com/Inside-Mind-Toyota-Management-Principles/dp/1563273004).
