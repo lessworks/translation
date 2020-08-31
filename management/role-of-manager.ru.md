@@ -3,19 +3,19 @@ title: Роль Менеджера
 order: 10
 ---
 
-The role of the manager changes significantly for most organizations that are adopting Scrum. Traditionally managers are often involved in deciding what the actual work is and involved in deciding how to do it.
+Роль менеджера значительно изменяется в большинстве организаций, внедряющих Скрам. Менеджеры часто традиционно вовлечены в принятие решений, что и как делать.
 
 ## Что делать -> Владелец Продукта
 
-The decision of what the team is working on is not anymore within the control of the manager but instead is decided by the Product Owner. She has the overview of the product and what is most valuable for the customers and she prioritizes the work that the team will pick up.
+Решение о том, над чем работает команде больше не под контролем менеджеров, а решается Владельцем Продукта. Он(а) знает весь продукт и что самое ценное для клиентов, поэтому приоритизирует работу, которую команда затягивает себе.
 
-The manager has no role to play in this and should resist doing so.
+Менеджер не играет в этом процессе никакой роли и должен сопротивляться делать это.
 
-## Как работать -> Команда
+## Как делать -> Команда
 
-The decision on how the team should work is delegated to the team. The team is a [self-managing team](self_managing_teams.html) and together needs to reflect on what is to be done and decide how they are going to do that and how they are going to improve.
+Решение о том, как работать команде делегировано команде. Команда [самоуправляема](self_managing_teams.html) и должна вместе подумать что нужно сделать, и решить, как они собираются это делать и как они собираются это улучшить.
 
-The below diagram shows these responsibilities:
+Диаграмма ниже показывает это обязанности:
 
 <div>
   {% figure "img/management/less-role-responsibilities", "Responsibilities of the LeSS roles" %}
@@ -23,13 +23,13 @@ The below diagram shows these responsibilities:
 
 ## Менеджеры, как создатели возможностей
 
-So, considering the above, what **is** the role of managers?
+Итак, учитывая вышесказанное, **какова** роль менеджеров?
 
-The role of middle management is to [see the whole](../principles/systems-thinking.html) and build the capability of the organization to build great products. He should help team and Scrum Master with [removing obstacles and making improvements](improvement_service.html). He should teach the team [how to improve and solve problems](teaching_problem_solving.html). He should [Go See](go_see.html) to understand what is really going on in the place of work and see how he can best help the team improve their work.
+Роль менеджеров среднего звена в том, чтобы [видеть целое](../principles/systems-thinking.html) и создавать возможности в организации разрабатывать великие продукты. Он должен помогать команде и Скрам-мастеру с [устранением препятствий и созданием улучшением](improvement_service.html). Он должен учить команду, [как улучшаться и решать проблемы](teaching_problem_solving.html). Он должен пользоваться подходом [Пойди и посмотри](go_see.html), чтобы понимать, что на самом деле происходит в месте, где происходит работа, и понимать, как он может оказать наилучшую помощь команде в их улучшении.
 
-The role of senior management is perhaps changed less as they are still involved with strategic decisions related to the company and its products. That said, also senior management's role is teaching people---his subordinates---how to teach people. He also needs to help his subordinates in [problem solving](teaching_problem_solving.html) and getting better at improving development.
+Роль менеджеров высшего звено меняется, возможно, меньше, они также продолжают быть вовлечены в стратегические решения компании и её продуктов. Тем не менее, роль высшего руководства также заключается в обучении людей --- свои подчинённых --- тому, как учить людей. Они также должны помогать своим подчинённым в [решение проблем](teaching_problem_solving.html) и движении вперёд по пути их развития.
 
-Another way of looking at this is the value flows 'horizontally' through the organization---directly to the team without interference of managers, whereas the capability in built 'vertically' (see Figure 1).
+Еще один способ взглянуть на это через поток ценностей, текущий через организацию 'горизонтально' --- прямо к командам, без вмешательства менеджеров, тогда как возможности построены 'вертикально' (см. иллюстрацию ниже).
 
 <div>
   {% figure "img/management/less-organization", "LeSS Organization Overview" %}
@@ -37,17 +37,17 @@ Another way of looking at this is the value flows 'horizontally' through the org
 
 ## Рекомендуем к Прочтению
 
-* [Fifth Discipline---Peter Senge](http://www.amazon.com/The-Fifth-Discipline-Practice-Organization/dp/0385517254)
-  The classic on creating learning organizations and on systems thinking. An absolute must for managers to learn [systems thinking](../principles/systems-thinking.html)
-* [Lean Manager](http://www.amazon.com/The-Lean-Manager-Novel-Transformation/dp/1934109258) and [Lead with Respect](http://www.amazon.com/Lead-With-Respect-Novel-Practice/dp/1934109479) --- Michael and Freddy Balle
-  Both these books are in business novel form and follow a student of lean management (Andy) who needs to make the jump from traditional management to lean management.
+* [Пятая дисциплина](http://www.amazon.com/The-Fifth-Discipline-Practice-Organization/dp/0385517254) --- Питер Сенге.
+  Классика о создании обучающей организации и системном мышлении. Без сомнения необходима менеджерам, чтобы изучать [системное мышление](../principles/systems-thinking.html)
+* [Lean Manager](http://www.amazon.com/The-Lean-Manager-Novel-Transformation/dp/1934109258) и [Lead with Respect](http://www.amazon.com/Lead-With-Respect-Novel-Practice/dp/1934109479) --- Майкл and Фредди Балле.
+  Обе эти книги написаны, как бизнес-роман, и следуют за студентом (Анди), изучающему бережливые менеджмент, и которому нужно совершить прыжок от традиционного менеджмента к бережливому.
 * [Workplace Management](http://www.amazon.com/Taiichi-Ohnos-Workplace-Management-Birthday/dp/0071808019)
-  Taiichi Ohno is the original creator of the Toyota Production System and his Workplace Management a classic in lean thinking and lean management.
-* [Future of Management](http://www.amazon.com/Future-Management-Gary-Hamel/dp/1422102505) --- Gary Hamel
-  Do we need managers at all? Gary Hamel does think so, but the management style of the future is definitively going to change.
-* [Reinventing Organizations](http://www.amazon.com/Reinventing-Organizations-Frederic-Laloux/dp/2960133501) --- Frederic Laloux
-  Do we really need managers? Frederic Laloux explores existing companies that operator on completely different principles. They take the ideas of self-management and base the whole company on it. You don't have to take it as far as the researched organization, but it definitively shows what is possible.
+  Тайити Оно стоял у истоков производственной системы Toyota, и его книга Workplace Management является классикой в области бережливого мышления и менеджмента.
+* [Future of Management](http://www.amazon.com/Future-Management-Gary-Hamel/dp/1422102505) --- с
+  Нужны ли вообще нам менеджеры? Гэри Хэмел думает, что да, но стиль менеджмента в будущем окончательно изменится.
+* [Открывая организации будущего](http://www.amazon.com/Reinventing-Organizations-Frederic-Laloux/dp/2960133501) --- Фредерик Лалу
+  Нам действительно нужны менеджеры? Фредерик Лалу описывает существующие компании, которые существуют на совершенно других принципах. Они берут идеи самоуправления и основывают на них всю компанию. Вам необязательно доходить до уровня исследуемых организаций, но книга однозначно показывает, что такое возможно.
 
- As a manager, we'd recommend to also check the recommened readings for [Scrum Master](../structure/scrummaster.html)
+ Также менеджерам мы рекомендовали бы также ознакомиться с разделом "Рекомендуем к Прочтению" для [Скрам-Мастеров](../structure/scrummaster.html).
  
  Перевод статьи осуществлён [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov) и [Романом Лапаевым](https://www.linkedin.com/in/romanlapaev).
