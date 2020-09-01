@@ -7,9 +7,9 @@ order: 20
 
 ## Понимание
 
-Go See is about actually understanding what is happening in the organization. The realization that decisions based on indirect information such as reports and presentations are likely not to be the best decisions you made. But decisions based on actually going and seeing and **understanding** the real situation at hand are likely to be much more informed.
+Пойди и Посмотри это понимание, что на самом деле происходит в организации. Понимание того, что решения, основанные на косвенной информации, такой как отчеты и презентации, скорее всего, не будут лучшими решениями, которые вы приняли. Но решения, основанные на фактическом посещении и **понимании** реальной ситуации, вероятно, будут гораздо более информированными.
 
-Go See Understand is about better decisions and understanding the actual work and figuring out how to teach and help the people doing the work. It is strongly related to [teaching problem solving](teaching_problem_solving.html)
+Понимание Пойди и Посмотри о лучших решения, понимании настоящей работы и прояснении, как учить и помогать людям в их работе. Это сильно связано с [обучением методам решения проблем](teaching_problem_solving.html)
 
 ## Истоки Пойди и Посмотри - Toyota
 
