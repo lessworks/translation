@@ -5,6 +5,7 @@ Area Product Backlog - Бэклог Области Продукта
 Acceptance test-driven development, A-TDD - Разработка через приёмочное тестирование
 Backlog - Бэклог
 Cadence - Каденция
+Cause-effect diagram - Диаграмма причинно-следственных связей
 Causal loop diagrams - Диаграммы причинного цикла
 Causal relation - причинно-следственная связь
 Co-located team - Колоцированная команда
