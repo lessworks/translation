@@ -1,6 +1,6 @@
 ---
-title: Overview
-order: 10
+title: Scrum Overview
+order: 100
 ---
 
 ## Beyond Traditional Development

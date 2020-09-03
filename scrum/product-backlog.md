@@ -1,6 +1,6 @@
 ---
 title: Product Backlog
-order: 30
+order: 300
 ---
 
 When a group is planning to transition to Scrum, before the first Sprint can begin, they need a **Product Backlog**, a prioritized (ordered 1, 2, 3, …) list of customer-centric features.
