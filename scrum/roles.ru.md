@@ -27,6 +27,6 @@ order: 200
 * они помогают убирать препятствия, которые Команда и Владелец Продукта обнаружили
 * они делают доступной их опыт и экспертизу
 
-In Scrum, these individuals replace the time they previously spent playing the role of “nanny” (assigning tasks, getting status reports, and other forms of micromanagement) with time as “guru” and “servant” of the Team (mentoring, coaching, helping remove obstacles, helping problem-solve, providing creative input, and guiding the skills development of Team members). In this shift, managers may need to change their management style; for example, using Socratic questioning to help the Team discover the solution to a problem, rather than simply deciding a solution and assigning it to the Team.
+В Скраме люди, которые раньше тратили время, играя роль “няни” (раздача задач, подготовка статусных отчётов и другие формы миркоменеджмента), могут посвятить его, чтобы стать “гуру” или “служителями” (servant) для Команды (наставничество, коучинг, помощь в устранении препятствий, помощь в решении проблем). При такой перестановке менеджерам необходимо изменить их стиль руководства; например, использовать Сократовские вопросы, чтобы помочь Команде найти решение проблемы, а не решить, что делать, и передать Команде на исполнение.
 
 Перевод статьи осуществлён [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov) и [Романом Лапаевым](https://www.linkedin.com/in/romanlapaev).
