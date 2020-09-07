@@ -11,7 +11,7 @@ order: 300
     <tr>
       <th style="text-align: center">Приоритет</th>
       <th style="text-align: center">Элемент</th>
-      <th style="text-align: center">Делали (ссылка на Wiki)</th>
+      <th style="text-align: center">Детали (ссылка на Wiki)</th>
       <th style="text-align: center">Первоначальная оценка</th>
       <th colspan="6" style="text-align: center">Обновлённая Оценка в Спринте</th>
     </tr>
