@@ -1,5 +1,5 @@
 ---
-title: Management
+title: Управление
 order: 10
 ---
 
