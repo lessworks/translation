@@ -89,7 +89,7 @@ order: 300
 {: .table-figure-caption}
 
 <div>
-  {% figure "img/scrum/product-backlog-visual-management", "Иллюстрация 3. Визуальное Управление: Элементы Бэклог Продукта на стене", caption: true,  class:"half-sized-figure pull-right" %}
+  {% figure "img/scrum/product-backlog-visual-management", "Иллюстрация 3. Визуальное Управление: Элементы Бэклога Продукта на стене", caption: true,  class:"half-sized-figure pull-right" %}
 </div>
 
 
