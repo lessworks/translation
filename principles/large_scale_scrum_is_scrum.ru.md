@@ -33,4 +33,4 @@ LeSS (точно так же как Скрам) - это простой фрей
 * [Scrum Primer---Deemer, Benefield, Larman, Vodde](http://www.scrumprimer.org)
 * [Scrum Guide---Sutherland, Schwaber](http://www.scrumguides.org)
 
-Перевод статьи осуществлен Антоном Бевзюком и Алексеем Ворониным 
+Перевод статьи осуществлен Антоном Бевзюком и Алексеем Ворониным
