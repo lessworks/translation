@@ -18,5 +18,3 @@ order: 40
 Больше о командах можно узнать на [странице 'Команды' в разделе 'Структура'](../structure/teams.html)
 
 Перевод статьи осуществлен [Сергеем Господчиковым](https://less.works/ru/profiles/sergey-gospodchikov) и [Алексеем Ворониным](https://facebook.com/agileinjection)
-
-
