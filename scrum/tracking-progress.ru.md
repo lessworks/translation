@@ -30,7 +30,7 @@ order: 700
     <tr>
       <td>Как покупатель, Я хочу положить книгу в корзину</td>
       <td>Изменить БД</td>
-      <td>Санжей</td>
+      <td>Санджей</td>
       <td style="text-align: center">5</td>
       <td style="text-align: center">4</td>
       <td style="text-align: center">3</td>
@@ -53,7 +53,7 @@ order: 700
     </tr>
     <tr>
       <td></td>
-      <td>Создать страницу (javascript)</td>
+      <td>Создать страницу (JavaScript)</td>
       <td>Трейси и Сэм</td>
       <td style="text-align: center">2</td>
       <td style="text-align: center">2</td>
@@ -65,7 +65,7 @@ order: 700
     </tr>
     <tr>
       <td></td>
-      <td>write automated acceptance tests</td>
+      <td>Написать автоматические приёмочные тесты</td>
       <td>Sarah</td>
       <td style="text-align: center">5</td>
       <td style="text-align: center">5</td>
@@ -77,8 +77,8 @@ order: 700
     </tr>
     <tr>
       <td></td>
-      <td>update buyer help webpage</td>
-      <td>Sanjay and Jing</td>
+      <td>Обновить раздел помощи для покупателей</td>
+      <td>Санджей and Джинг</td>
       <td style="text-align: center">3</td>
       <td style="text-align: center">3</td>
       <td style="text-align: center">3</td>
@@ -93,8 +93,8 @@ order: 700
       <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
     </tr>
     <tr>
-      <td>Improve transaction processing performance</td>
-      <td>merge DCP code and complete layer-level tests</td>
+      <td>Улучшить производительность обработки транзакций</td>
+      <td>Объединить DCP код и законченные тесты слоёв</td>
       <td></td>
       <td style="text-align: center">5</td>
       <td style="text-align: center">5</td>
@@ -106,7 +106,7 @@ order: 700
     </tr>
     <tr>
       <td></td>
-      <td>complete machine order for pRank</td>
+      <td>Закончить машинный заказ для pRank</td>
       <td></td>
       <td style="text-align: center">3</td>
       <td style="text-align: center">3</td>
@@ -118,7 +118,7 @@ order: 700
     </tr>
     <tr>
       <td></td>
-      <td>change DCP and reader to use pRank http API</td>
+      <td>Изменить DCP и читателя для использования pRank в  HTTP API</td>
       <td></td>
       <td style="text-align: center">5</td>
       <td style="text-align: center">5</td>
@@ -131,16 +131,16 @@ order: 700
   </tbody>
 </table>
 
-**Figure 6.** Daily Updates of Work Remaining on the Sprint Backlog
+**Иллюстрация 6.** Ежедневное Обновление Оставшейся Работы в Бэклоге Спринта
 {: .table-figure-caption}
 
 
 <div>
-  {% figure "img/scrum/sprint-burndown", "Figure 7. Sprint Burndown Chart", class:"two-third-sized-figure", caption: true %}
+  {% figure "img/scrum/sprint-burndown", "Иллюстрация 7. Диаграмма Сгорания Спринта", class:"two-third-sized-figure", caption: true %}
 </div>
 
 <div>
-  {% figure "img/scrum/hand-drawn-sprint-burndown", "Figure 8. Visual Management: Hand-drawn Sprint Burndown Chart", class:"two-third-sized-figure", caption: true %}
+  {% figure "img/scrum/hand-drawn-sprint-burndown", "Иллюстрация 8. Визуальное Управления: Нарисованная от руки Диаграмма Сгорания Спринта", class:"two-third-sized-figure", caption: true %}
 </div>
 
 Перевод статьи осуществлён [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov) и [Романом Лапаевым](https://www.linkedin.com/in/romanlapaev).
