@@ -17,20 +17,20 @@ order: 500
 
 **Вторая Часть Планирования Спринта** (Sprint Planning Part Two) focuses on *how* to implement the items that the Team decides to take on. The Team forecasts the amount of items they can complete by the end of the Sprint, starting at the top of the Product Backlog (in others words, starting with the items that are the highest priority for the Product Owner) and working down the list in order. **This is a key practice in Scrum: The Team decides how much work it will complete, rather than having it assigned to them by the Product Owner**. This makes for a more reliable forecast because the Team is making it based on its own analysis and planning. While the Product Owner does not have control over how much the Team signs up for, he or she knows that the items are drawn from the top of the Product Backlog – in other words, the items that he or she has rated as most important. The Team has the ability to lobby for items from further down the list; this usually happens when the Team and Product Owner realize that something of lower priority fits easily and appropriately with the high priority items.
 
-The Sprint Planning Meeting will often last several hours, but no more than four hours for a two-week Sprint – the Team is making a serious forecast to complete the work, and this requires careful thought to be successful. Part One and Part Two are of equal timeboxed lengths; for a two-week Sprint each part is two hours maximum.
+Планирование Спринта часто длится несколько часов, но не более четырех часов для двухнедельного спринта – Команда делает основательный прогноз, чтобы завершить работу, и это требует тщательной проработки, чтобы достичь для успеха. Первая и вторая части имеют одинаковую продолжительность; для двухнедельного спринта каждая часть длится максимум два часа.
 
-Scrum does not define how to exactly do Sprint Planning Part Two.  Some teams use their velocity from the previous Sprints to guide how much to aim for.  Other teams will use a more fine-grained approach of first calculating their capacity.
+Скрам не определяет, как именно проводить вторую часть планирования спринта. Некоторые команды используют скорость, полученную в предыдущих спринтах, чтобы определить, к какому результату нужно стремиться. Другие команды будут использовать более детальный подход, сначала рассчитывая свои возможности.
 
 When using the capacity approach, the Team, in Sprint Planning Part Two, calculates how much time each team member has for Sprint-related work. Most teams assume that the team members can only focus on Sprint-related work for 4-6 hours per day – the rest of the time goes to email, lunch breaks, facebook, meetings, and drinking coffee . Once the capacity is determined, the Team needs to figure out how many Product Backlog items they can complete in that time, and how they will go about completing them.  This often starts with a design discussion at a whiteboard.  Once the overall design is understood, the Team decomposes the Product Backlog items into fine-grained work.  Before taking the Product Backlog items, the Team may focus on generating tasks for an improvement goal created in the previous Sprint’s Retrospective. Then, the Team selects the first item on the Product Backlog – the Product Owner’s highest priority item  – and work their way down until they are ‘full’. For each item they create a list of work which consists of either decomposed Product Backlog items into tasks or, when the Product Backlog item are so small they would only take a couple hours to implement, simply the Product Backlog item. This list of work to be done during the Sprint is called the **Sprint Backlog** (Figure 4 and Figure 5).
 
 <table class="grid_table_with_header">
   <thead>
     <tr>
-      <th style="text-align: center">Product Backlog Item</th>
-      <th style="text-align: center">Task</th>
-      <th style="text-align: center">Volunteer</th>
-      <th style="text-align: center">Initial Estimate of Effort</th>
-      <th colspan="6" style="text-align: center">New Estimates of Effort remaining at end of day...</th>
+      <th style="text-align: center">Элемент Бэклога Продукта</th>
+      <th style="text-align: center">Задача</th>
+      <th style="text-align: center">Волонтёр</th>
+      <th style="text-align: center">Первоначальная оценка</th>
+      <th colspan="6" style="text-align: center">Новая оценка оставшейся работы на конец дня...</th>
     </tr>
     <tr>
       <th></th><th></th><th></th><th></th>
@@ -44,7 +44,7 @@ When using the capacity approach, the Team, in Sprint Planning Part Two, calcula
   </thead>
   <tbody>
     <tr>
-      <td>As a buyer, I want to place a book in a shopping cart</td>
+      <td>Как покупатель, Я хочу положить книгу в корзину</td>
       <td>modify database</td>
       <td></td>
       <td style="text-align: center">5</td>
@@ -52,28 +52,28 @@ When using the capacity approach, the Team, in Sprint Planning Part Two, calcula
     </tr>
     <tr>
       <td></td>
-      <td>create webpage (UI)</td>
+      <td>Создать страницу (UI)</td>
       <td></td>
       <td style="text-align: center">8</td>
       <td></td><td></td><td></td><td></td><td></td><td></td>
     </tr>
     <tr>
       <td></td>
-      <td>create webpage (javascript logic)</td>
+      <td>Создать страницу (JavaScript)</td>
       <td></td>
       <td style="text-align: center">13</td>
       <td></td><td></td><td></td><td></td><td></td><td></td>
     </tr>
     <tr>
       <td></td>
-      <td>write automated acceptance tests</td>
+      <td>Написать автоматические приёмочные тесты/td>
       <td></td>
       <td style="text-align: center">13</td>
       <td></td><td></td><td></td><td></td><td></td><td></td>
     </tr>
     <tr>
       <td></td>
-      <td>update buyer help webpage</td>
+      <td>Обновить раздел помощи для покупателей</td>
       <td></td>
       <td style="text-align: center">13</td>
       <td></td><td></td><td></td><td></td><td></td><td></td>
@@ -84,22 +84,22 @@ When using the capacity approach, the Team, in Sprint Planning Part Two, calcula
       <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
     </tr>
     <tr>
-      <td>Improve transaction processing performance</td>
-      <td>merge DCP code and complete layer-level tests</td>
+      <td>Улучшить производительность обработки транзакций</td>
+      <td>Объединить DCP код и законченные тесты слоёв</td>
       <td></td>
       <td style="text-align: center">5</td>
       <td></td><td></td><td></td><td></td><td></td><td></td>
     </tr>
     <tr>
       <td></td>
-      <td>complete machine order for pRank</td>
+      <td>Закончить машинный заказ для pRank</td>
       <td></td>
       <td style="text-align: center">8</td>
       <td></td><td></td><td></td><td></td><td></td><td></td>
     </tr>
     <tr>
       <td></td>
-      <td>change DCP and reader to use pRank http API</td>
+      <td>Изменить DCP и читателя для использования pRank в  HTTP API</td>
       <td></td>
       <td style="text-align: center">13</td>
       <td></td><td></td><td></td><td></td><td></td><td></td>
@@ -107,7 +107,7 @@ When using the capacity approach, the Team, in Sprint Planning Part Two, calcula
   </tbody>
 </table>
 
-**Figure 4.** Example of one way to create a Sprint Backlog
+**Иллюстрация 4.** Создания Бэклога Спринта на примере одного из многих вариантов
 {: .table-figure-caption}
 
 At the end of the Sprint Planning Meeting, the Team sets a realistic target for what they believe they can deliver by the end of the Sprint. Traditionally, this was called a Sprint Commitment – the team commits to doing the best they can to reach their target. Unfortunately, this was sometimes misinterpreted as a written-in-blood promise rather than the team seriously “going for it.” To avoid this confusion, the sprint-target is now called a ‘forecast” which is communicated to the Product Owner.
