@@ -129,7 +129,7 @@ Toyota далека от совершенства, и в мире существ
 ### Обзор Бережливого Подхода: Дом Бережливого Мышления
 
 <figure>
-  <img class="rounded shadowed" src="/img/lean-thinking/toyota_house.png" alt="The Lean-Thinking House">
+  <img class="rounded shadowed" src="/img/lean-thinking/toyota_house.ru.png" alt="The Lean-Thinking House">
   <figcaption>Дом Бережливого Мышления.</figcaption>
 </figure>
 
@@ -154,7 +154,7 @@ Toyota далека от совершенства, и в мире существ
 <table >
 <tr >
 <td>
-<img style="max-width:50%; height:auto; margin-top:0; padding-top:0;" src="/img/lean-thinking/small_house.png">
+<img style="max-width:50%; height:auto; margin-top:0; padding-top:0;" src="/img/lean-thinking/small_house.ru.png">
 </td>
 <td style="vertical-align:middle;">
 <p style="margin-top:0em; padding-top:0em;">
@@ -200,7 +200,7 @@ Toyota (и её подразделения Lexus и Scion) не только п�
 <table >
 <tr >
 <td>
-<img style="max-width:50%; height:auto; margin-top:0; padding-top:0;" src="/img/lean-thinking/small_house_2.png">
+<img style="max-width:50%; height:auto; margin-top:0; padding-top:0;" src="/img/lean-thinking/small_house_2.ru.png">
 </td>
 <td style="vertical-align:middle;">
 <p style="margin-top:0em; padding-top:0em;">
@@ -259,7 +259,7 @@ Toyota (и её подразделения Lexus и Scion) не только п�
 <table >
 <tr >
 <td>
-<img style="max-width:50%; height:auto; margin-top:0; padding-top:0;" src="/img/lean-thinking/small_house_3.png">
+<img style="max-width:50%; height:auto; margin-top:0; padding-top:0;" src="/img/lean-thinking/small_house_3.ru.png">
 </td>
 <td style="vertical-align:middle;">
 <p style="margin-top:0em; padding-top:0em;">
@@ -283,7 +283,7 @@ Toyota (и её подразделения Lexus и Scion) не только п�
 <table >
 <tr >
 <td>
-<img style="max-width:50%; height:auto; margin-top:0; padding-top:0;" src="/img/lean-thinking/small_house_4.png">
+<img style="max-width:50%; height:auto; margin-top:0; padding-top:0;" src="/img/lean-thinking/small_house_4.ru.png">
 </td>
 <td style="vertical-align:middle;">
 <p style="margin-top:0em; padding-top:0em;">
@@ -308,7 +308,7 @@ Toyota (и её подразделения Lexus и Scion) не только п�
 <table >
 <tr >
 <td>
-<img style="max-width:50%; height:auto; margin-top:0; padding-top:0;" src="/img/lean-thinking/small_house_5.png">
+<img style="max-width:50%; height:auto; margin-top:0; padding-top:0;" src="/img/lean-thinking/small_house_5.ru.png">
 </td>
 <td style="vertical-align:middle;">
 <p style="margin-top:0em; padding-top:0em;">
@@ -595,7 +595,7 @@ Toyota (и её подразделения Lexus и Scion) не только п�
 <table >
 <tr >
 <td>
-<img style="max-width:50%; height:auto; margin-top:0; padding-top:0;" src="/img/lean-thinking/small_house_6.png">
+<img style="max-width:50%; height:auto; margin-top:0; padding-top:0;" src="/img/lean-thinking/small_house_6.ru.png">
 </td>
 <td style="vertical-align:middle;">
 <p style="margin-top:0em; padding-top:0em;">
@@ -628,7 +628,7 @@ Toyota (и её подразделения Lexus и Scion) не только п�
 Не все новые знания или информация являются ценными; идеал заключается в получении экономически эффективной новой информации [[Reinertsen97]](http://www.amazon.com/Managing-Design-Factory-Donald-Reinertsen/dp/0684839911/ref=sr_1_1?ie=UTF8&qid=1414352607&sr=8-1&keywords=managing+the+design+factory). Это довольно сложно, потому что это исследовательский процесс: иногда вы где-то выигрываете, иногда где-то проигрываете. Основная стратегия бережливого подхода базируется на простом принципе из теории информации: *увеличивайте ценность создаваемой информации* и *уменьшайте стоимость создания знаний*.
 
 <figure>
-  <img class="rounded shadowed" src="/img/lean-thinking/outlearn_competition.png" alt="outlearn_competition.png">
+  <img class="rounded shadowed" src="/img/lean-thinking/outlearn_competition.ru.png" alt="outlearn_competition.png">
   <figcaption>Как превзойти конкурентов в обучении.</figcaption>
 </figure>
 
@@ -657,7 +657,7 @@ Toyota (и её подразделения Lexus и Scion) не только п�
 
 
 <figure>
-  <img class="rounded shadowed" src="/img/lean-thinking/lpd_practices.png" alt="lpd_practices.png">
+  <img class="rounded shadowed" src="/img/lean-thinking/lpd_practices.ru.png" alt="lpd_practices.png">
   <figcaption>Практики бережливой разработки продуктов.</figcaption>
 </figure>
 
