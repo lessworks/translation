@@ -3,17 +3,17 @@ title: Отслеживание Прогресса в Спринте
 order: 700
 ---
 
-The Team in Scrum is self-managing, and in order to do this successfully, it must know how it is doing.  Every day, the Team members update their estimate of the effort remaining to complete their current work in the **Sprint Backlog** (Figure 6). It is also common for  someone to add up the effort remaining for the Team as a whole, and plot it on the **Sprint Burndown Chart** (Figure 7 and Figure 8). This graph shows, each day, a new estimate of how much work remains until the Team is finished. Ideally, this is a *downward* sloping graph that is on a trajectory to reach “zero effort remaining” by the last day of the Sprint. Hence it is called a *burndown* chart. And while sometimes it looks good, often it does not; this is the reality of product development. The important thing is that it shows the Team their *progress* towards their goal, not in terms of how much time was spent in the past (an irrelevant fact in terms of progress), but in terms of how much work *remains in the future* – what separates the Team from their goal. If the burndown line is not tracking downwards towards completion near the end of the Sprint, then the Team needs to adjust, such as to reduce the scope of the work or to find a way to work more effectively while still maintaining a sustainable pace.
+Команда в Scrum самоуправляема, и для того, чтобы делать это успешно, она должна знать, как это происходит. Каждый день члены Команды обновляют свою оценку оставшейся до завершения работы в **Бэклоге Спринта** (Иллюстрация 6). Обычно также кто-то суммирует всю оставшуюся работу для Команды в целом, и отмечает её **Диаграмму Сгорания Спринта** (Sprint Burndown Chart) (Иллюстрации 7 и 8). На этом графике каждый день отображается новая оценка того, сколько Команде осталось работы в этом Спринте. В идеале, это наклонный *нисходящий* график, который находится на траектории достижения “нулевого остатка работы” к последнему дню Спринта. И хотя иногда это выглядит хорошо, часто это не так; это реальность продуктовой разработки. Важно то, что он показывает Команде их *прогресс* в достижении цели не с точки зрения того, сколько времени было потрачено в прошлом (несущественный факт с точки зрения прогресса), а с точки зрения того, сколько работы *осталось в будущем* - то, что отделяет Команду от её цели. Если линия на Диаграмме Сгорания не стремится вниз ближе к завершению Спринта, тогда Команде необходимо адаптироваться, например, чтобы уменьшить объём работы или найти способ работать более эффективно, сохраняя при этом устойчивый темп.
 
-While the Sprint Burndown chart can be created and displayed using a spreadsheet, many Teams find it is more effective to show it on paper on a wall in their workspace, with updates in pen; this “low-tech/high-touch” solution is fast, simple, and often more visible than a computer chart.
+Хотя Диаграмму Сгорания Спринта можно создать и отобразить с помощью электронных таблиц, многие команды считают более эффективным отображать её на бумаге, на стене своей рабочей комнаты, обновляя её шариковой ручкой; это “низко технологичное/высоко ощущаемое” (low-tech/high-touch) решение работает быстро, просто и часто более наглядно, чем компьютерная диаграмма.
 
 <table class="grid_table_with_header">
   <thead>
     <tr>
-      <th style="text-align: center">Product Backlog Item</th>
-      <th style="text-align: center">Task</th>
-      <th style="text-align: center">Volunteer</th>
-      <th style="text-align: center">Initial Estimate of Effort</th>
+      <th style="text-align: center">Элемент Бэклога Продукта</th>
+      <th style="text-align: center">Задача</th>
+      <th style="text-align: center">Волонтёр</th>
+      <th style="text-align: center">Первоначальная оценка</th>
       <th colspan="6" style="text-align: center">New Estimates of Effort remaining at end of day...</th>
     </tr>
     <tr>
