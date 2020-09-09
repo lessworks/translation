@@ -28,9 +28,9 @@ order: 700
   </thead>
   <tbody>
     <tr>
-      <td>As a buyer, I want to place a book in a shopping cart</td>
-      <td>modify database</td>
-      <td>Sanjay</td>
+      <td>Как покупатель, Я хочу положить книгу в корзину</td>
+      <td>Изменить БД</td>
+      <td>Санжей</td>
       <td style="text-align: center">5</td>
       <td style="text-align: center">4</td>
       <td style="text-align: center">3</td>
@@ -41,8 +41,8 @@ order: 700
     </tr>
     <tr>
       <td></td>
-      <td>create webpage (UI)</td>
-      <td>Jing</td>
+      <td>Создать страницу (UI)</td>
+      <td>Джинг</td>
       <td style="text-align: center">3</td>
       <td style="text-align: center">3</td>
       <td style="text-align: center">3</td>
@@ -53,8 +53,8 @@ order: 700
     </tr>
     <tr>
       <td></td>
-      <td>create webpage (javascript logic)</td>
-      <td>Tracy and Sam</td>
+      <td>Создать страницу (javascript)</td>
+      <td>Трейси и Сэм</td>
       <td style="text-align: center">2</td>
       <td style="text-align: center">2</td>
       <td style="text-align: center">2</td>
