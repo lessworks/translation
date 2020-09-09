@@ -1,6 +1,7 @@
 ---
 title: Менеджмент
-order: 10
+order: 4
+layout: static_content_less
 ---
 
 <div>
