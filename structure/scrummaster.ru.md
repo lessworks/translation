@@ -74,7 +74,7 @@ order: 60
 Мы ожидаем, что Скрам-мастер будет экспертом в Скраме и LeSS. Но овладел ли он мастерством Скрама? Мастерство предполагает, что уже почти все изучено. Но мы много раз принимали участие во внедрении LeSS, и мы все еще учимся и узнаем многое о Скраме и LeSS. Скрам-мастера должны постоянно развиваться. Чтение - это один из способов развития, и мы рекомендуем прочитать:
 
 * [Leading Teams — Richard Hackman](http://www.amazon.com/Leading-Teams-Setting-Stage-Performances/dp/1578513332)
-  Leading Teams Хэкмена суммируют 30-летнее исследование команд и, возможно, является лучшей книгой по созданию самоуправляемых команд.
+  Leading Teams Хэкмана суммируют 30-летнее исследование команд и, возможно, является лучшей книгой по созданию самоуправляемых команд.
 * [The Skilled Facilitator — Roger Schwartz](http://www.amazon.com/The-Skilled-Facilitator-Comprehensive-Facilitators/dp/0787947237)
   Существует много способов фасилитации, и эта книга является отличным текстом для улучшении ваших фасилитационных навыков.
 * [Co-active Coaching — Kimsey-House et. al.](http://www.amazon.com/Co-Active-Coaching-Changing-Business-Transforming/dp/1857885678)
