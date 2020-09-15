@@ -1,6 +1,6 @@
 ---
 title: Area Product Owner
-order: ???
+order: 40
 ---
 
 An Area Product Owner (APO) specializes in a customer-centric area and acts as [Product Owner](../framework/product-owner.html) in relation to the teams for that area (see Figure 1). An Area Product Owner does the same work as a Product Owner but with a more limited, yet still [customer-centric](../principles/customer-centric.html), perspective.

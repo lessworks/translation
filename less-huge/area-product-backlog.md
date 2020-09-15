@@ -1,6 +1,6 @@
 ---
 title: Area Product Backlog
-order: ???
+order: 30
 ---
 
 [Requirement areas](requirement-areas.html) are customer-centric categories of PBIs. Example requirement areas: for a digital press printer, color workflow and transaction printing; for an internet portal area, ads and news; for a telecom system, protocols, performance, and network management (see Figure 1). Discovering the requirement areas is surprisingly easy. For example, in Berlin we once simply wrote PBIs on cards, spread them on the floor, and asked the PO and others to group them—affinity clustering into the requirement areas.

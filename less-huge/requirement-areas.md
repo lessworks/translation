@@ -1,6 +1,6 @@
 ---
 title: Requirement Areas
-order: ???
+order: 20
 ---
 
 Feature teams scale nicely, but when their number goes above eight teams additional structure is needed. Requirement areas provide this structure and complement the concepts behind feature teams. A requirement area is a categorization of the requirements leading to different views of the Product Backlog.
