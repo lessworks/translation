@@ -1,6 +1,6 @@
 ---
 title: Huge Adoption
-order: ???
+order: 15
 ---
 
 LeSS Huge adoptions tend to take a long time and involve a lot of changes within the organization. An all-at-once LeSS Huge adoption should be avoided, especially when there are more than three areas involved. We've experienced several all-at-once LeSS Huge adoptions and the amount of change to the organization is too large and it causes pain and suffering.

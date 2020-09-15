@@ -1,6 +1,6 @@
 ---
 title: Organizational Structure for LeSS Huge
-order: ???
+order: 50
 ---
 
 Scale is often accompanied with additional organizational structure. Before we explore the typical additional structure, we’d like to stress that scale doesn’t have to mean additional structure. Additional structure usually causes narrower responsibilities which paves the way for loads of organizational dysfunction and politics. Keep organizational design simple.
