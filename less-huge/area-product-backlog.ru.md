@@ -19,8 +19,6 @@ order: 30
   <figcaption>Рисунок 2. Бэклог Области Продукта.</figcaption>
 </figure>
 
-The Area Backlog Items are handled independently in each requirement area. This involves a separate person—an [Area Product Owner](area-product-owner.html) (APO), and the teams in that area. The Area Product Owner specializes in a customer-centric area and acts as PO in relation to the teams for that area.
-
 Элементы Бэклога Области реализуются независимо в каждой Области Требований. В этом участвует отдельный человек - [Владелец Области Продукта](area-product-owner.html) и команды в этой области. Владелец Области Продукта специализируется в ориентированной на клиента области и действует в качестве Владельца Продукта по отношению к командам в этой области.
 
 Перевод статьи осуществлён [Юрием Панкратьевым](https://www.linkedin.com/in/yuriypankratyev).
