@@ -1,5 +1,5 @@
 ---
-title: Sprint Review
+title: Sprint Retrospective
 order: 1000
 ---
 
