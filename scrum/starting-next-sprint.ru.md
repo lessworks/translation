@@ -8,11 +8,11 @@ order: 1100
 <table class="grid_table_with_header">
   <thead>
     <tr>
-      <th style="text-align: center">Priority</th>
-      <th style="text-align: center">Item</th>
-      <th style="text-align: center">Details (wiki URL)</th>
-      <th style="text-align: center">Initial Size Estimate</th>
-      <th colspan="6" style="text-align: center">New Estimates At Sprint</th>
+      <th style="text-align: center">Приоритет</th>
+      <th style="text-align: center">Элемент</th>
+      <th style="text-align: center">Детали (ссылка на Wiki)</th>
+      <th style="text-align: center">Первоначальная оценка</th>
+      <th colspan="6" style="text-align: center">Обновлённая Оценка в Спринте</th>
     </tr>
     <tr>
       <th></th><th></th><th></th><th></th>
@@ -26,7 +26,7 @@ order: 1100
   <tbody>
     <tr>
       <td style="text-align: center">1</td>
-      <td>As a buyer, I want to place a book in a shopping cart (see UI sketches on wiki page)</td>
+      <td>Как покупатель, Я хочу положить книгу в корзину (см. наброски UI в wiki)</td>
       <td style="text-align: center">…</td>
       <td style="text-align: center">5</td>
       <td style="text-align: center">0</td>
@@ -36,7 +36,7 @@ order: 1100
     </tr>
     <tr>
       <td style="text-align: center">2</td>
-      <td>As a buyer, I want to remove a book in a shopping cart</td>
+      <td>Как покупатель, Я хочу удалять книги из корзины</td>
       <td style="text-align: center">…</td>
       <td style="text-align: center">2</td>
       <td style="text-align: center">0</td>
@@ -46,7 +46,7 @@ order: 1100
     </tr>
     <tr>
       <td style="text-align: center">3</td>
-      <td>Improve transaction processing performance (see target performance metrics on wiki)</td>
+      <td>Улучшить производительность обработки транзакций (см. целевые метрики производительности в wiki)</td>
       <td style="text-align: center">…</td>
       <td style="text-align: center">13</td>
       <td style="text-align: center">13</td>
@@ -56,7 +56,7 @@ order: 1100
     </tr>
     <tr>
       <td style="text-align: center">4</td>
-      <td>Investigate solutions for speeding up credit card validation (see target performance metrics on wiki)</td>
+      <td>Исследовать решение для ускорения проверки кредитной карты (см. целевые метрики производительности в wiki)</td>
       <td style="text-align: center">…</td>
       <td style="text-align: center">20</td>
       <td style="text-align: center">20</td>
@@ -66,7 +66,7 @@ order: 1100
     </tr>
     <tr>
       <td style="text-align: center">5</td>
-      <td>Upgrade all servers to Apache 2.2.3</td>
+      <td>Обновить версию Apache до 2.2.3 на всех серверах</td>
       <td style="text-align: center">…</td>
       <td style="text-align: center">13</td>
       <td style="text-align: center">13</td>
@@ -76,7 +76,7 @@ order: 1100
     </tr>
     <tr>
       <td style="text-align: center">6</td>
-      <td>Diagnose and fix the order processing script errors (bugzilla ID 14823)</td>
+      <td>Диагностировать и исправить ошибки в порядке исполнения скриптов (bugzilla ID 14823)</td>
       <td style="text-align: center">…</td>
       <td style="text-align: center">3</td>
       <td style="text-align: center">3</td>
@@ -86,7 +86,7 @@ order: 1100
     </tr>
     <tr>
       <td style="text-align: center">7</td>
-      <td>As a shopper, I want to create and save a wish list</td>
+      <td>Как покупатель, Я хочу создавать и сохранять список желаний</td>
       <td style="text-align: center">…</td>
       <td style="text-align: center">40</td>
       <td style="text-align: center">40</td>
@@ -96,7 +96,7 @@ order: 1100
     </tr>
     <tr>
       <td style="text-align: center">8</td>
-      <td>As a shopper, I want to to add or delete items on my wish list</td>
+      <td>Как покупатель, Я хочу добавлять и удалять элементы в мой список желаний</td>
       <td style="text-align: center">…</td>
       <td style="text-align: center">20</td>
       <td style="text-align: center">20</td>
