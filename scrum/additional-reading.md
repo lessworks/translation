@@ -1,6 +1,6 @@
 ---
 title: Appendix A: Additional Reading
-order: 1500
+order: 1400
 ---
 
 There is a lot of material published about Scrum. In this reference section, we would like to point out some additional online material and a couple of books.
