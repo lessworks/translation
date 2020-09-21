@@ -1,6 +1,6 @@
 ---
 title: Common Challenges
-order: 1400
+order: 1300
 ---
 
 Scrum is not only a concrete set of practices – rather, and more importantly, it is a framework that provides transparency, and a mechanism that allows “inspect and adapt”.  Scrum works by making visible the dysfunction and impediments that are impacting the Product Owner and the Team’s effectiveness, so that they can be addressed.  For example, the Product Owner may not really know the market, the features, or how to estimate their relative business value. Or the Team may be unskillful in effort estimation or development work.

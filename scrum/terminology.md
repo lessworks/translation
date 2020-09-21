@@ -1,6 +1,6 @@
 ---
 title: Appendix B: Terminology
-order: 1600
+order: 1500
 ---
 
 **Burn Down**
