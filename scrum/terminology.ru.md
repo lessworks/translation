@@ -4,66 +4,66 @@ order: 1500
 ---
 
 **Бэклог Продукта (Product Backlog)**
-A prioritized list of requirements with estimated times to turn them into completed product functionality. Estimates are more precise the higher an item is in the Product Backlog priority.. The list emerges, changing as business conditions or technology changes.
+Приоритизированный список требований, оценённых во времени, в течение которого они будут превращены в готовый функционал продукта. Оценки тем точнее, чем выше приоритет элемента в Бэклоге Продукта. Список меняется по мере возникновения или изменения условий ведения бизнеса или технологий.
 
 **Бэклог Спринта (Sprint Backlog)**
-A list of the Team’s work for a Sprint. This is often decomposed into a set of more detailed tasks.  The list emerges during Sprint Planning and may be updated by the team during the Sprint with items being removed or new tasks being added as needed. Each Sprint Backlog task will be tracked during the Sprint and will show the estimated effort remaining.
+Список работ Команды в Спринте. Он часто разбивается на набор более подробных задач. Список появляется во время Планирования Спринта и может быть обновлен Командой во время Спринта путём удаления элементов или добавления новых задач по мере необходимости. Каждая задача Бэклога Спринта будет отслеживаться во время Спринта и будет показывать предполагаемый оставшийся объём работ.
 
 **Владелец Продукта (Product Owner)**
-The person responsible for managing the Product Backlog so as to maximize the value of the product. The Product Owner is responsible for representing the interests of everyone with a stake in the project and its resulting product.
+Лицо, ответственное за управление Бэклогом Продукта, чтобы максимизировать ценность продукта. Владелец Продукта несёт ответственность за представление интересов всех, кто заинтересован в проекте и его конечном продукте.
 
 **Ежедневный Скрам (Daily Scrum)**
-A short meeting held daily by each Team during which the Team members inspect their work, synchronize their work and progress and report and impediments to the Scrum Master for removal. Follow-on meetings to adapt upcoming work to optimize the Sprint may occur after the Daily Scrum meetings.
+Короткое событие, проводимое каждой Командой ежедневно, во время которого члены Команды инспектируют и синхронизируют свою работу и прогресс, сообщают Скрам-мастеру о препятствиях для их устранения. Последующие встречи для адаптации предстоящей работы и оптимизации Спринта могут проводиться после Ежедневного Скрама.
 
 **Готово (Done)**
-Complete as mutually agreed to by all parties and that conforms to an organization’s standards, conventions, and guidelines. When something is reported as “done” at the Sprint Review meeting, it must conform to this agreed definition.
+Выполняется по взаимному согласию всех сторон и соответствует стандартам, конвенциям и руководствам организации. Когда на Обзоре Спринте что-то сообщается как “сделано”, это должно соответствовать этому согласованному определению.
 
 **Диаграмма Сгорания (Burn Down)**
 Показывает отношение оставшейся работы к оставшемуся времени в Спринте, Релизе или Продукте. Источником необработанных данных являются Бэклог Спринта и Бэклог Продукта, при этом оставшаяся работа отслеживается по вертикальной оси, а периоды времени (дни Спринта(ов)) - по горизонтальной оси.
 
 **Задача Бэклог Спринта (Sprint Backlog Task)**
-One of the tasks that the Team or a Team member defines as required to turn committed Product Backlog items into system functionality.
+Одна из задач, которую команда или её члены создают по мере необходимости, чтобы превратить прогнозируемые Элементы Бэклога продукта в функциональность системы.
 
 **Заинтересованное лицо (Stakeholder)**
-Someone with an interest in the outcome of a project, either because they have funded it, will use it, or will be affected by it.
+Заинтересованное в результате проекта лицо, потому что он(а) его финансирует, пользуется им или испытает его влияние.
 
 **Инкремент (Increment)**
-Product functionality that is developed by the Team during each Sprint that is potentially shippable or of use to the Product Owner’s stakeholders.
+Функциональность продукта, разрабатываемая Командой во время каждого Спринта, потенциально может быть поставлена или использована заинтересованными сторонами от Владельца Продукта.
 
 **Инкремент Потенциально Готового к Поставке Продукта (Increment of Potentially Shippable Product)**
-Functionality. A complete slice of the overall product or system that could be used by the Product Owner or stakeholders if they chose to implement it.
+Функциональность. Готовый фрагмент продукта или системы в целом, который может быть использован Владельцем Продукта или заинтересованными лицами, если они захотят этого.
 
 **Команда (Team)**
-A cross-functional group of people that is responsible for managing themselves to develop an increment of product every Sprint.
+Самоуправляемая кросс-функциональная группа людей, которая разрабатывает новый инкремент продукт каждый Спринт.
 
 **Команда Разработки (Development Team)**
-Another name for the Team role.
+Другое название Команды.
 
 **Оценённая оставшаяся работа(элементы Бэклога Спринта) (Estimated Work Remaining (Sprint Backlog items))**
-The number of hours that a Team member estimates remain to be worked on any task. This estimate is updated at the end of every day when the Sprint Backlog task is worked on. The estimate is the total estimated effort remaining, regardless of the number of people that perform the work.
+Количество часов по оценке члена команды, которое требуется для работы над любой задачей. Эта оценка обновляется в конце каждого дня, когда выполняется задача Бэклога Спринта. Оценка - это общие оставшиеся усилия, независимо от количества людей, выполняющих работу.
 
 **Спринт (Sprint)**
-An iteration, or one repeating cycle of similar work, that produces increment of product or system. No longer than one month and usually more than one week. The duration is fixed throughout the overall work and all teams working on the same system or product use the same length cycle.
+Итерация (или один повторяющийся цикл аналогичной работы), производящая новый инкремент продукта или системы. Обычно не менее недели, но строго не более одного месяца. Длительность фиксирована на протяжении всей работы, и все Команды, работающие над одной и той же системой или продуктом, используют цикл одинаковой длины.
 
 **Обзор Спринта (Sprint Review meeting)**
-A time-boxed two hour meeting (for a two week Sprint) at the end of every Sprint where the Team collaborates with the Product Owner and stakeholders and they inspect the output from the Sprint. This usually starts with a review of completed Product Backlog items, a discussion of opportunities, constraints and risks, and a discussion of what might be the best things to do next (potentially resulting in Product Backlog changes). Only completed product functionality can be demonstrated.
+Событие (не более двух часов для двухнедельного Спринта) в конце каждого спринта, на котором Команда сотрудничает с Владельцем Продукта и заинтересованными сторонами и проверяет результаты Спринта. Обычно оно начинается с обзора завершённых элементов Бэклога Продукта, продолжается обсуждением возможностей, ограничений и рисков и заканчивается дискуссией того, что лучше всего стоит делать дальше (что может привести к изменениям в Бэклоге Продукта). Только готовую функциональность продукта можно демонстрировать.
 
-**Отрезок временим (Time box)**
-A period of time that cannot be exceeded and within which an event or meeting occurs. For example, a Daily Scrum meeting is time boxed at fifteen minutes and terminates at the end of fifteen minutes, regardless. For meetings, it might last shorter. For Sprints, it lasts exactly that length.
+**Ограниченный по времени (Time box)**
+Период времени события или встречи, который не может быть превышен. Например, Ежедневный Скрам ограничен по времени пятнадцатью минутами и завершается в любом случае по их истечении. Встреча может закончиться раньше истечения отведённого для нёё отрезка времени. Для Спринтов он длится равно столько, сколько было под него заложено.
 
 **Планирование Спринта (Sprint Planning meeting)**
-A meeting time boxed to four hours (for a two week Sprint) that initiates every Sprint. The meeting is divided into two two-hour segments, each also time boxed. During the first part the Product Owner presents the highest priority Product Backlog to the team. The Team and Product Owner collaborate to help the Team determine how much Product Backlog it can turn into functionality during the upcoming Sprint. During the second part, the Team plans how it will achieve this by designing and decomposing the work so they understand how they will meet the Sprint Goal.
+Первое событие (не более четырёх часов для двухнедельного Спринта) каждого Спринта. Событие разделено на два двухчасовых части, каждая из которых также ограничена по времени. В первой части Владелец Продукта представляет команде элементы Бэклога Продукта с наивысшим приоритетом. Команда сотрудничает с Владельцем Продукта, чтобы определить, какой объем Бэклога Продукта она может превратить в готовую функциональность во время предстоящего Спринта. Во второй части Команда планирует, как этого добиться через проектирование и декомпозицию работы, чтобы они понимали, как они будут достигать Цели Спринта.
 
 **Ретроспектива Спринта (Sprint Retrospective meeting)**
-A meeting facilitated by the Scrum Master at which the complete Team discusses the just-concluded Sprint and determines what could be changed that might make the next Sprint more enjoyable or productive.
+Встреча, на которой вся команда обсуждает только что завершившийся Спринт и определяет, что можно изменить, чтобы сделать следующий Спринт более приятным или продуктивным. Обычно Скрам-мастер выступает в роли фасилитатора.
 
 **Скрам (Scrum)**
-Not an acronym, but mechanisms in the game of rugby for getting an out-of-play ball back into play.
+Означает механику при игре в регби, позволяющие вернуть вышедший из игры мяч в обратно, не является аббревиатурой.
 
 **Скрам-мастер (Scrum Master)**
-The person responsible for the Scrum process, its correct implementation, and the maximization of its benefits.
+Лицо, ответственное за Скрам-процесс, его правильную реализацию и максимизацию его преимуществ.
 
 **Элемент Бэклога Продукта (Product Backlog Item)**
-Functional requirements, non-functional requirements, and issues, prioritized in order of importance to the business and dependencies, and estimated. The precision of the estimate depends on the priority and granularity of the Product Backlog item, with the highest priority items that may be selected in the next Sprint being very granular and precise.
+Функциональные, нефункциональные требования и проблемы, оцененные, упорядоченные по степени важности для бизнеса и наличию зависимостей. Точность оценки зависит от приоритета и детализации элемента Бэклога Продукта, причем элементы с наивысшим приоритетом, которые могут быть выбраны в следующем Спринте, являются очень детальными и точными.
 
 Перевод статьи осуществлён [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov) и [Романом Лапаевым](https://www.linkedin.com/in/romanlapaev).
