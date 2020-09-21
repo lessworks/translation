@@ -96,7 +96,7 @@ order: 1100
     </tr>
     <tr>
       <td style="text-align: center">8</td>
-      <td>Как покупатель, Я хочу добавлять и удалять элементы в мой список желаний</td>
+      <td>Как покупатель, Я хочу добавлять и удалять элементы в моём списке желаний</td>
       <td style="text-align: center">…</td>
       <td style="text-align: center">20</td>
       <td style="text-align: center">20</td>
