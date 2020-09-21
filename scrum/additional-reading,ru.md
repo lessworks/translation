@@ -3,18 +3,18 @@ title: Приложение А: Дополнительные материалы
 order: 1400
 ---
 
-There is a lot of material published about Scrum. In this reference section, we would like to point out some additional online material and a couple of books.
+Про Скрам опубликовано много материалов. В этом справочном разделе мы хотели бы указать на некоторые дополнительные онлайн-материалы и несколько книг.
 
-**Online material:**
+**Онлайн-материалы:**
 
-* [The Lean Primer - An introduction to Lean Thinking, an important influence to Scrum.](http://www.leanprimer.com)
-* [The Distributed Scrum Primer - Additional tips for teams who aren’t co-located.](http://www.goodagile.com/distributedscrumprimer/)
-* [The Scrum Master Checklist - A list of question that good Scrum Masters use.](http://www.scrummasterchecklist.org/)
-* [Feature Team Primer - Scaling Scrum with Feature Teams](http://www.featureteams.org)
-* [Scrum Guide - The official description of Scrum.](http://www.scrumguides.org/)
-* [Agile Contracts Primer - How to make Scrum-friendly contracts.](http://www.agilecontracts.org/)
+* [The Lean Primer - Введение в Бережливое Мышление, оказавшее сильное влияние на Скрам.](http://www.leanprimer.com)
+* [The Distributed Scrum Primer - Дополнительные советы для не сидящих вместе команд.](http://www.goodagile.com/distributedscrumprimer/)
+* [The Scrum Master Checklist - Список вопросов, которыми пользуются хорошие Скрам-мастера.](http://www.scrummasterchecklist.org/)
+* [Feature Team Primer - Масштабирование Скрам с помощью Фиче-команд](http://www.featureteams.org)
+* [Руководство по Скраму (Scrum Guide) - Официальное описание Скрама.](http://www.scrumguides.org/)
+* [Agile Contracts Primer - Как составлять дружественные Скраму контракты.](http://www.agilecontracts.org/)
 
-**Books:**
+**Книги:**
 
 * [Leading Teams - Richard Hackman](http://www.amazon.com/Leading-Teams-Setting-Stage-Performances/dp/1578513332)
 * [Scaling Lean & Agile Development: Thinking and Organizational Tools for Large-Scale Scrum - Craig Larman, Bas Vodde](http://www.amazon.com/Scaling-Lean-Agile-Development-Organizational/dp/0321480961)
