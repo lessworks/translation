@@ -42,7 +42,7 @@ order: 300
     </tr>
     <tr>
       <td style="text-align: center">3</td>
-      <td>Улучшить производительность обработки транзакции (см. целевые метрики производительности в wiki)</td>
+      <td>Улучшить производительность обработки транзакций (см. целевые метрики производительности в wiki)</td>
       <td style="text-align: center">…</td>
       <td style="text-align: center">13</td>
       <td></td><td></td><td></td><td></td><td></td><td></td>
