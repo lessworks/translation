@@ -66,7 +66,7 @@ order: 700
     <tr>
       <td></td>
       <td>Написать автоматические приёмочные тесты</td>
-      <td>Sarah</td>
+      <td>Сара</td>
       <td style="text-align: center">5</td>
       <td style="text-align: center">5</td>
       <td style="text-align: center">5</td>
@@ -78,7 +78,7 @@ order: 700
     <tr>
       <td></td>
       <td>Обновить раздел помощи для покупателей</td>
-      <td>Санджей and Джинг</td>
+      <td>Санджей и Джинг</td>
       <td style="text-align: center">3</td>
       <td style="text-align: center">3</td>
       <td style="text-align: center">3</td>
@@ -140,7 +140,7 @@ order: 700
 </div>
 
 <div>
-  {% figure "img/scrum/hand-drawn-sprint-burndown", "Иллюстрация 8. Визуальное Управления: Нарисованная от руки Диаграмма Сгорания Спринта", class:"two-third-sized-figure", caption: true %}
+  {% figure "img/scrum/hand-drawn-sprint-burndown", "Иллюстрация 8. Визуальное Управление: Нарисованная от руки Диаграмма Сгорания Спринта", class:"two-third-sized-figure", caption: true %}
 </div>
 
 Перевод статьи осуществлён [Кротовым Артёмом](https://www.facebook.com/artem.v.krotov) и [Романом Лапаевым](https://www.linkedin.com/in/romanlapaev).
