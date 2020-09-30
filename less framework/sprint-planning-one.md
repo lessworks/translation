@@ -10,9 +10,9 @@ Sprint Planning consists of two parts that boil down to what and how. Sprint Pla
 
 In LeSS, Sprint Planning One is a meeting for all of the Teams together where they decide which team will work on which items. Sprint Planning Two is a separate meeting per team where each team creates the plan for getting the items to 'done' during the Sprint.
 
-<figure>
-  <img src="/img/framework/sprint-planning.png" alt="sprint-planning.png">
-</figure>
+<div>
+  {% figure "img/framework/sprint-planning", "Sprint Planning" %}
+</div>
 
 ## Tips for Sprint Planning One
 
