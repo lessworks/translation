@@ -10,7 +10,7 @@ order: 1400
 * [The Lean Primer - Введение в Бережливое Мышление, оказавшее сильное влияние на Скрам.](http://www.leanprimer.com)
 * [The Distributed Scrum Primer - Дополнительные советы для не сидящих вместе команд.](http://www.goodagile.com/distributedscrumprimer/)
 * [The Scrum Master Checklist - Контрольный список, которыми пользуются хорошие Скрам-мастера.](http://www.scrummasterchecklist.org/)
-* [Feature Team Primer - Масштабирование Скрам с помощью Фиче-команд](http://www.featureteams.org)
+* [Feature Team Primer - Масштабирование Скрама с помощью Фиче-команд.](http://www.featureteams.org)
 * [Руководство по Скраму (Scrum Guide) - Официальное описание Скрама.](http://www.scrumguides.org/)
 * [Agile Contracts Primer - Как составлять Скрам-совместимые контракты.](http://www.agilecontracts.org/)
 
