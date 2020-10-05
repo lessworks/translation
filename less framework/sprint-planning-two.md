@@ -10,9 +10,9 @@ Sprint Planning Two is mostly the same as in one-team Scrum... the team creates 
 
 In LeSS, Sprint Planning One is a meeting of all of the Teams together. At the meeting, the teams collectively decide which items each team will work on. Each team conducts its own Sprint Planning Two meeting where the team creates its plan for getting the items to 'done' during the Sprint.
 
-<figure>
-  <img src="/img/framework/sprint-planning.png" alt="sprint-planning.png">
-</figure>
+<div>
+  {% figure "img/framework/sprint-planning", "Sprint Planning" %}
+</div>
 
 ## Multi-team Sprint Planning Two
 
