@@ -4,8 +4,8 @@ order: 8
 layout: static_content_less
 ---
 
-<small>([what changed since previous version](/less/rules/rules-changes.html))</small>
-The LeSS Rules are the definition of the LeSS Framework. They are things we consider a must. Why? This is explained in the [Why LeSS?](../framework/why-less.html) section.
+<small>([what changed since previous version](/less/rules/rules-changes))</small>
+The LeSS Rules are the definition of the LeSS Framework. They are things we consider a must. Why? This is explained in the [Why LeSS?](../framework/why-less) section.
 {: .no_printing}
 
 ## LeSS Framework Rules
@@ -31,7 +31,7 @@ The LeSS framework applies to products with 2-“8” teams.
 * The Product Owner shouldn’t work alone on Product Backlog refinement; she is supported by the multiple Teams working directly with customers/users and other stakeholders.
 * All prioritization goes through the Product Owner, but clarification is as much as possible directly between the Teams and customer/users and other stakeholders.
 * The definition of product should be as broad and end-user/customer centric as is practical. Over time, the definition of product might expand. Broader definitions are preferred.
-* One Definition of Done for the whole product common for all teams.
+* One Definition of Done for the whole product, common for all teams.
 * Each team can have their own stronger Definition of Done by expanding the common one.
 * The perfection goal is to improve the Definition of Done so that it results in a shippable product each Sprint (or even more frequently).
 
