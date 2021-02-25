@@ -1,11 +1,11 @@
 ---
-title: Правила LeSS (Февраль 2020)
+title: Правила LeSS (Декабрь 2020)
 order: 8
 layout: static_content_less
 ---
 
-<small>([что изменилось по сравнению с предыдущей версией](/less/rules/rules-changes.html))</small>
-Правила LeSS определяют LeSS фреймворк. Это то, что обязательно к выполнению. Почему? Ответ вы можете узнать здесь [Почему LeSS?](../framework/why-less.html) section.
+<small>([что изменилось по сравнению с предыдущей версией](/less/rules/rules-changes))</small>
+Правила LeSS определяют LeSS фреймворк. Это то, что обязательно к выполнению. Почему? Ответ вы можете узнать здесь [Почему LeSS?](../framework/why-less) section.
 {: .no_printing}
 
 ## Правила LeSS
